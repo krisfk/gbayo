@@ -222,6 +222,11 @@ h2.subtitle {
   margin: 0 -12px !important;
 }
 
+.slick-arrow {
+  position: absolute;
+  opacity: 0;
+}
+
 /* .slick-track {
   display: flex;
   gap: 1rem;
