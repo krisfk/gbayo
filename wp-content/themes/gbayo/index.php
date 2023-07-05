@@ -140,31 +140,35 @@ get_header(); ?>
 
     <h2 class="subtitle  text-center mt-5">Training Camp</h2>
 
+    <div class="camp-slick-wrapper position-relative">
+        <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-left"></a>
+        <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-right"></a>
 
-    <div class="camp-slick mt-4">
+        <div class="camp-slick mt-4">
 
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-        </div>
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            </div>
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+
+            </div>
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            </div>
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+
+            </div>
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            </div>
+            <div class="camp">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+
+            </div>
 
         </div>
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-        </div>
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
-
-        </div>
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-        </div>
-        <div class="camp">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
-
-        </div>
-
     </div>
 
 </div>

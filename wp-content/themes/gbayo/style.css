@@ -231,3 +231,22 @@ h2.subtitle {
   display: flex;
   gap: 1rem;
 } */
+
+.home-slick-arrow {
+  display: block;
+  width: 15px;
+  height: 21px;
+  position: absolute;
+}
+
+.home-slick-arrow.home-slick-arrow-left {
+  top: 0;
+  background: #000;
+  left: 0;
+}
+
+.home-slick-arrow.home-slick-arrow-right {
+  top: 0;
+  background: #000;
+  right: 0;
+}
