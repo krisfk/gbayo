@@ -33,7 +33,7 @@ get_header(); ?>
             <div class="col-9 text-end">
 
 
-                <table>
+                <table class="inline-table">
                     <tr>
                         <td class="align-top">Presented by</td>
                         <td> <a href="javascript:void(0);" class="top-presenter-logos-a">
