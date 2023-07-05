@@ -36,7 +36,9 @@
     <script type="text/javascript">
     $(function() {
         $('.more-btn').mouseenter(function() {
-            alert(54);
+
+
+
         });
 
     })
