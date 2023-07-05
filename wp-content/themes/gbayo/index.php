@@ -81,11 +81,28 @@ get_header(); ?>
 
 <div class="container mt-5">
 
-    Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire Group as
-    Founding Patron, the Greater Bay Area Youth Orchestra (GBAYO) aspires to be one of the finest youth orchestras in
-    the world.  It aims to provide a platform for the highest standard of classical orchestral performance in the
-    Greater Bay Area (GBA) by offering professional training and coaching by world-class musicians to talented young
-    musicians across the region.
+    <div>
+        Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
+        Group as
+        Founding Patron, the Greater Bay Area Youth Orchestra (GBAYO) aspires to be one of the finest youth orchestras
+        in
+        the world. It aims to provide a platform for the highest standard of classical orchestral performance in the
+        Greater Bay Area (GBA) by offering professional training and coaching by world-class musicians to talented young
+        musicians across the region.
+    </div>
+    <div>
+
+        <a href="javascript:void(0);" class="more-btn">
+            <span>more</span>
+            <div class="five-lines-grid">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                <div class="line line-4"></div>
+                <div class="line line-5"></div>
+            </div>
+        </a>
+    </div>
 
 </div>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->

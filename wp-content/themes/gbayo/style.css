@@ -98,6 +98,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* Variables */
 
+body {
+  font-size: 36px;
+}
+
 .logo-a img {
   height: 50px;
 }
@@ -125,4 +129,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   width: 100%;
   background: url(./assets/images/5-lines-sep.png);
   height: 50px;
+}
+
+.more-btn {
+  font-size: 26px;
+  color: #f47421;
 }
