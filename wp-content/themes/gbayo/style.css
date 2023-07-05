@@ -210,6 +210,18 @@ h2.subtitle {
   /* margin: 0 1rem; */
 }
 
+/* the slides */
+
+.slick-slide {
+  margin: 0 27px;
+}
+
+/* the parent */
+
+.slick-list {
+  margin: 0 -27px;
+}
+
 /* .slick-track {
   display: flex;
   gap: 1rem;
