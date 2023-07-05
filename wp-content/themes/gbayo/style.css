@@ -164,6 +164,7 @@ body {
   animation: hover-more-btn 2s;
   /* other keywords like "infinite alternate" can be useful here */
   /* transition: 1s all; */
+  animation-fill-mode: forwards;
 }
 
 @keyframes hover-more-btn {
