@@ -161,7 +161,7 @@ body {
 .more-btn:hover .five-lines-grid .line {
   /* width: 0%; */
   /* background: #000; */
-  animation: hover-more-btn 2s;
+  animation: hover-more-btn 0.5s;
   /* other keywords like "infinite alternate" can be useful here */
   /* transition: 1s all; */
   animation-fill-mode: forwards;
