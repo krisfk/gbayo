@@ -121,6 +121,27 @@ get_header(); ?>
 <div class="video-div mt-5">
     <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fake-video-scaled.jpg" alt="">
 </div>
+
+
+<div class="container">
+
+    <h2 class="subtitle">Concert</h2>
+
+    <div class="row">
+        <div class="col-6">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
+                alt="">
+        </div>
+        <div class="col-6">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
+                alt="">
+        </div>
+    </div>
+
+    <h2 class="subtitle">Training Camp</h2>
+
+
+</div>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
