@@ -189,6 +189,14 @@ $(function() {
         // }]
     });
 
+    $('.home-slick-arrow.home-slick-arrow-left').click(function() {
+        $('.slick-prev.slick-arrow').click();
+    });
+    $('.home-slick-arrow.home-slick-arrow-right').click(function() {
+        $('.slick-next.slick-arrow').click();
+
+    });
+
 })
 </script>
 
