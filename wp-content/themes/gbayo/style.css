@@ -136,6 +136,11 @@ body {
   font-size: 26px;
   color: #f47421;
   text-decoration: none;
+  transition: 0.2s all;
+}
+
+.more-btn:hover {
+  color: #000;
 }
 
 .more-btn .five-lines-grid {
