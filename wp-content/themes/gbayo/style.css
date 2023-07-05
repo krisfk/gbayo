@@ -119,3 +119,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   position: relative;
   top: -11px;
 }
+
+.five-lines-sep {
+  display: block;
+  width: 100%;
+  background: url(./assets/images/5-lines-sep.png);
+}
