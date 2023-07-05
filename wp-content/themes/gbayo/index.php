@@ -94,20 +94,14 @@ get_header(); ?>
 
         <a href="javascript:void(0);" class="more-btn">
 
-            <table>
-                <tr>
-                    <td> <span>more</span>
-                        <div class="five-lines-grid">
-                            <div class="line line-1"></div>
-                            <div class="line line-2"></div>
-                            <div class="line line-3"></div>
-                            <div class="line line-4"></div>
-                            <div class="line line-5"></div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
+            <span>more</span>
+            <div class="five-lines-grid">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                <div class="line line-4"></div>
+                <div class="line line-5"></div>
+            </div>
         </a>
     </div>
 
