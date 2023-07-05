@@ -99,7 +99,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 /* Variables */
 
 body {
-  font-size: 36px;
+  font-size: 36px !important;
 }
 
 .logo-a img {
