@@ -100,7 +100,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 body {
   font-size: 36px !important;
-  font-family: 'Futura';
+  font-family: 'Futura' !important;
 }
 
 .logo-a img {
