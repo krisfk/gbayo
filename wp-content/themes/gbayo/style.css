@@ -170,9 +170,11 @@ body {
   /* You could think of as "step 1" */
   0% {
     background: #000;
+    width: 0%;
   }
   /* You could think of as "step 2" */
   100% {
-    background: #f47421;
+    background: #000;
+    width: 100%;
   }
 }
