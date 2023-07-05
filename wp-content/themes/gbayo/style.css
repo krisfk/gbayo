@@ -254,7 +254,7 @@ h2.subtitle {
   background: url(./assets/images/arrow-right.png) no-repeat;
   background-size: 100% 100%;
   right: -2rem;
-  background: #000;
+  /* background: #000; */
   /* left: -2rem; */
   top: 50%;
   transform: translate(0, -50%);
