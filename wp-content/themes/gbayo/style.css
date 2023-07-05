@@ -234,8 +234,8 @@ h2.subtitle {
 
 .home-slick-arrow {
   display: block;
-  width: 15px;
-  height: 21px;
+  width: 14px;
+  height: 25px;
   position: absolute;
   z-index: 100;
 }
