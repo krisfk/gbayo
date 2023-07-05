@@ -207,5 +207,10 @@ h2.subtitle {
 }
 
 .camp.slick-slide {
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
+}
+
+.slick-track {
+  display: flex;
+  gap: 1rem;
 }
