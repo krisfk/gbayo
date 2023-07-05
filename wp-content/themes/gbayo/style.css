@@ -157,3 +157,8 @@ body {
   margin: 0 auto;
   background: #f47421;
 }
+
+.more-btn:hover .five-lines-grid .line {
+  width: 0%;
+  transition: 0.2s all;
+}
