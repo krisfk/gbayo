@@ -205,3 +205,7 @@ h2.subtitle {
   font-size: 40px;
   font-weight: bold;
 }
+
+.camp.slick-slide {
+  margin: 0 1rem;
+}
