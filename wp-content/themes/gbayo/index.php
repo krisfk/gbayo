@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 
-<div>fdsf</div>
+<div class="container">fdsf</div>
 
 <?php
 
