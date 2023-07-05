@@ -76,6 +76,11 @@ get_header(); ?>
         alt="">
 </div>
 
+
+<img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt="">
+
+
+
 <?php
 
 get_footer();
