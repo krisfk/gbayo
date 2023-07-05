@@ -116,4 +116,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .gbayo-big-txt {
   height: 250px;
+  position: relative;
+  top: -11px;
 }
