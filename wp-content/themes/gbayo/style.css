@@ -132,8 +132,7 @@ body {
   height: 50px;
 }
 
-.more-btn,
-.more-btn:hover {
+.more-btn {
   font-size: 26px;
   color: #f47421;
   text-decoration: none;
