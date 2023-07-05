@@ -169,8 +169,12 @@ body {
 @keyframes hover-more-btn {
   /* You could think of as "step 1" */
   0% {
-    background: #000;
+    width: 100%;
+    background: #f47421;
+  }
+  50% {
     width: 0%;
+    background: #000;
   }
   /* You could think of as "step 2" */
   100% {
