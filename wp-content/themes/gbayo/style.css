@@ -159,7 +159,20 @@ body {
 }
 
 .more-btn:hover .five-lines-grid .line {
-  width: 0%;
-  background: #000;
-  transition: 1s all;
+  /* width: 0%; */
+  /* background: #000; */
+  animation: hover-more-btn 2s;
+  /* other keywords like "infinite alternate" can be useful here */
+  /* transition: 1s all; */
+}
+
+@keyframes hover-more-btn {
+  /* You could think of as "step 1" */
+  0% {
+    background: #000;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: #f47421;
+  }
 }
