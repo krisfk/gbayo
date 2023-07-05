@@ -200,3 +200,8 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+h2.sutitle {
+  font-size: 40px;
+  font-weight: bold;
+}
