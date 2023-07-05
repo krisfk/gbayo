@@ -144,6 +144,8 @@ body {
   display: inline-block;
   text-align: center;
   margin: 0 0 0 0.5rem;
+  position: relative;
+  top: 2px;
 }
 
 .more-btn .five-lines-grid .line-wrapper {
