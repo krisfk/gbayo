@@ -237,16 +237,23 @@ h2.subtitle {
   width: 15px;
   height: 21px;
   position: absolute;
+  z-index: 100;
 }
 
 .home-slick-arrow.home-slick-arrow-left {
   top: 0;
   background: #000;
-  left: 0;
+  left: -2rem;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .home-slick-arrow.home-slick-arrow-right {
   top: 0;
   background: #000;
-  right: 0;
+  right: -2rem;
+  background: #000;
+  /* left: -2rem; */
+  top: 50%;
+  transform: translate(0, -50%);
 }
