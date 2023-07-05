@@ -38,9 +38,9 @@
         $('.more-btn').mouseenter(function() {
 
 
-            $('.more-btn .five-lines-grid .line').animate({
-                'width': '0%'
-            }, 1000);
+            // $('.more-btn .five-lines-grid .line').animate({
+            //     'width': '0%'
+            // }, 1000);
 
         });
 
