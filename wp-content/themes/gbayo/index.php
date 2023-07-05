@@ -31,17 +31,17 @@ get_header(); ?>
             </div>
             <div class="col-9">
 
-                <a href="javascript:void(0);">
+                <a href="javascript:void(0);" class="top-presenter-logos-a">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-4@2x.png" alt="">
+                    <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
                 </a>
-                <a href="javascript:void(0);">
+                <a href="javascript:void(0);" class="top-presenter-logos-a">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
                 </a>
-                <a href="javascript:void(0);">
+                <a href="javascript:void(0);" class="top-presenter-logos-a">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-2@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
                 </a>
 
 
