@@ -141,6 +141,7 @@ body {
 .more-btn .five-lines-grid {
   width: 25px;
   height: 25px;
+  display: inline-block;
 }
 
 .more-btn .five-lines-grid .line {
