@@ -160,5 +160,5 @@ body {
 
 .more-btn:hover .five-lines-grid .line {
   width: 0%;
-  transition: 0.2s all;
+  transition: 1s all;
 }
