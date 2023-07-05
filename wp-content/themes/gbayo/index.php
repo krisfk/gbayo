@@ -35,7 +35,7 @@ get_header(); ?>
 
                 <table>
                     <tr>
-                        <td>Presented by</td>
+                        <td class="align-top">Presented by</td>
                         <td> <a href="javascript:void(0);" class="top-presenter-logos-a">
 
                                 <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
