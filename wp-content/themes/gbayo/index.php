@@ -144,24 +144,24 @@ get_header(); ?>
     <div class="camp-slick">
 
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
         </div>
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
 
         </div>
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
         </div>
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
 
         </div>
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
         </div>
         <div class="camp">
-            <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
 
         </div>
 
