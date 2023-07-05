@@ -117,6 +117,10 @@ get_header(); ?>
     </div>
 
 </div>
+
+<div class="video-div mt-4">
+    <img class src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fake-video-scaled.jpg" alt="">
+</div>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
