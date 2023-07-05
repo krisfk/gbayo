@@ -124,4 +124,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   display: block;
   width: 100%;
   background: url(./assets/images/5-lines-sep.png);
+  height: 50px;
 }
