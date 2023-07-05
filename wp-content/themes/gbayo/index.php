@@ -90,7 +90,7 @@ get_header(); ?>
         Greater Bay Area (GBA) by offering professional training and coaching by world-class musicians to talented young
         musicians across the region.
     </div>
-    <div>
+    <div class="text-end">
 
         <a href="javascript:void(0);" class="more-btn">
             <span>more</span>
