@@ -141,7 +141,7 @@ get_header(); ?>
     <h2 class="subtitle  text-center mt-5">Training Camp</h2>
 
 
-    <div class="camp-slick">
+    <div class="camp-slick mt-4">
 
         <div class="camp">
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
