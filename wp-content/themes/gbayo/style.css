@@ -137,3 +137,15 @@ body {
   color: #f47421;
   text-decoration: none;
 }
+
+.more-btn .five-lines-grid {
+  width: 25px;
+  height: 25px;
+}
+
+.more-btn .five-lines-grid .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #f47421;
+}
