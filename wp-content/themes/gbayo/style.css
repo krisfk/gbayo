@@ -338,3 +338,7 @@ h2.subtitle {
   vertical-align: middle;
   padding: 0 0 0 0.5rem;
 }
+
+.fix-social-elements {
+  position: fixed;
+}
