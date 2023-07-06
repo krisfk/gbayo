@@ -58,7 +58,7 @@
     <?php wp_body_open(); ?>
 
 
-    <div class="menu-layer">
+    <div class="menu-layer pt-5 pb-5">
 
         <a href="javascript:void(0);" class="close-btn"></a>
 
