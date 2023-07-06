@@ -25,9 +25,8 @@
         <div class="row">
             <div class="col-9">
 
-                <div class="footer-logos-subtitle">fds</div>
+                <div class="footer-logos-subtitle">Presented by</div>
                 <table class="d-inline-block">
-
                     <tr>
                         <td> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
 
