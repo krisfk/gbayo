@@ -415,3 +415,13 @@ h2.subtitle {
   color: #fff;
   font-size: 20px;
 }
+
+.menu-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-ul li {
+  list-style-type: none;
+  display: block;
+}

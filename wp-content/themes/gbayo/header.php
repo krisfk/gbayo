@@ -71,6 +71,7 @@
 
         </div>
 
+
         <div class="lang-div pt-3 pb-3">
 
             <div class="mx-5">EN | 繁 | 簡</div>
@@ -79,7 +80,7 @@
         </div>
         <div>
 
-            <ul>
+            <ul class="menu-ul">
                 <li></li>
                 <li></li>
                 <li></li>
