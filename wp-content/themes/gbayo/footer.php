@@ -78,13 +78,20 @@
                     </table>
                 </div>
                 <div class="d-inline-block">
-                    <div class="footer-logos-subtitle">Founding Patron</div>
+                    <div class="footer-logos-subtitle">Sponsored by</div>
                     <table class="d-inline-block">
                         <tr>
                             <td> <a href="javascript:void(0);" class="top-presenter-logos-a me-4">
 
                                     <img class=""
                                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
+                                        alt="">
+                                </a></td>
+
+                            <td> <a href="javascript:void(0);" class="top-presenter-logos-a me-4">
+
+                                    <img class=""
+                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
                                         alt="">
                                 </a></td>
                         </tr>
