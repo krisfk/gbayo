@@ -24,9 +24,11 @@
 
         <div class="row">
             <div class="col-9">
+
+                <div>fds</div>
                 <table class="d-inline-block">
+
                     <tr>
-                        <td class="align-top">Presented by</td>
                         <td> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
 
                                 <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
