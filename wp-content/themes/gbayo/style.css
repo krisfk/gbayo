@@ -364,7 +364,12 @@ h2.subtitle {
   z-index: 100;
   transform: rotate(-90deg);
   top: 50%;
+  text-decoration: none;
   left: -4.4vh;
+}
+
+.fix-back-to-top:hover {
+  text-decoration: none;
 }
 
 .fix-back-to-top span {
