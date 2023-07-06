@@ -126,7 +126,7 @@
                                     <td> <a href="javascript:void(0);" class="other-logos-a me-4">
 
                                             <img class=""
-                                                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png"
+                                                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png"
                                                 alt="">
                                         </a></td>
                                 </tr>
