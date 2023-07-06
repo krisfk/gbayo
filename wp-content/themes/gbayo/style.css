@@ -326,4 +326,5 @@ h2.subtitle {
 
 .fix-social-elements ul li {
   list-style-type: none;
+  display: inline-block;
 }
