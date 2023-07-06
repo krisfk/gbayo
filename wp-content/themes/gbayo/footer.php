@@ -45,7 +45,10 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-3"></div>
+            <div class="col-3">
+
+                <div class="reserve-txt">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
+            </div>
         </div>
 
     </div>
