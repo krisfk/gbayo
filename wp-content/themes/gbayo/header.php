@@ -58,11 +58,11 @@
     <?php wp_body_open(); ?>
 
 
-    <div class="menu-layer pt-3 pb-3">
+    <div class="menu-layer">
 
         <a href="javascript:void(0);" class="close-btn"></a>
 
-        <div class="menu-top-div">
+        <div class="menu-top-div pt-3 pb-3">
 
             <div class="mx-5">
                 <img class="gbayo-logo-white"
