@@ -327,6 +327,10 @@ h2.subtitle {
   color: #f47421;
 }
 
+.fix-social-elements ul li:first-child {
+  padding: 0;
+}
+
 .fix-social-elements ul li {
   list-style-type: none;
   display: inline-block;
