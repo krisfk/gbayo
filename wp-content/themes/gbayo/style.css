@@ -341,4 +341,8 @@ h2.subtitle {
 
 .fix-social-elements {
   position: fixed;
+  transform: rotate(-90deg);
+  z-index: 100;
+  right: -4.4vh;
+  top: 50%;
 }
