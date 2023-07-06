@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-4">
 
             <div class="col-6">
                 <div class="d-inline-block">
