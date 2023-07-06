@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-9">
 
-                <div>fds</div>
+                <div class="footer-logos-subtitle">fds</div>
                 <table class="d-inline-block">
 
                     <tr>

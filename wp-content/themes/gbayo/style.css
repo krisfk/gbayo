@@ -259,3 +259,8 @@ h2.subtitle {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+.footer-logos-subtitle {
+  display: block;
+  font-size: 10px;
+}
