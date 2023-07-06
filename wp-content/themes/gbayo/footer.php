@@ -103,7 +103,7 @@
 
                 <table class="d-inline-block">
                     <tr>
-                        <td>
+                        <td class="ps-4">
                             <div class="footer-logos-subtitle text-start">Co-organiser <br>
                                 for the Macau Concert</div>
                             <table class="d-inline-block">
@@ -118,7 +118,7 @@
                             </table>
                         </td>
 
-                        <td>
+                        <td class="ps-4">
                             <div class="footer-logos-subtitle text-start">Shenzhen Concert <br>
                                 Supporting Unit</div>
                             <table class="d-inline-block">
@@ -132,7 +132,7 @@
                                 </tr>
                             </table>
                         </td>
-                        <td>
+                        <td class="ps-4">
                             <div class="footer-logos-subtitle text-start">Guangzhou Concert <br>
                                 Supporting Unit</div>
                             <table class="d-inline-block">
