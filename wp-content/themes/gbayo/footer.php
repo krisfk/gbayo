@@ -52,9 +52,9 @@
                 <div class="text-end mt-2">
                     <table class="d-inline-block">
                         <tr>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-3"></a></td>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-3"></a></td>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-3"></a></td>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-2"></a></td>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-2"></a></td>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-2"></a></td>
                         </tr>
                     </table>
                 </div>
