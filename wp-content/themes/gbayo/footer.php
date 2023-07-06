@@ -146,12 +146,12 @@
                                 </tr>
                             </table>
                         </td>
-                        <td>
+                        <td class="ps-4">
                             <div class="footer-logos-subtitle text-start">Macau Venue <br>
                                 Sponsor</div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td class="ps-4"> <a href="javascript:void(0);" class="other-logos-a">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png"
