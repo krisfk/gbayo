@@ -49,7 +49,7 @@
 
                 <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
 
-                <div class="text-end mt-4">
+                <div class="text-end mt-3">
                     <table class="d-inline-block">
                         <tr>
                             <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1"></a></td>
