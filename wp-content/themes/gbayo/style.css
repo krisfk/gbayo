@@ -358,4 +358,9 @@ h2.subtitle {
 
 .fix-back-to-top {
   font-size: 22px;
+  display: table;
+}
+
+.fix-back-to-top span {
+  display: table-cell;
 }
