@@ -376,3 +376,20 @@ h2.subtitle {
 .fix-back-to-top span {
   display: table-cell;
 }
+
+.hamburger-menu-btn {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 23px;
+}
+
+.hamburger-menu-btn .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #f47421;
+  margin: 1px 0 0 0;
+}

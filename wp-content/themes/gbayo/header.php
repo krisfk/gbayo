@@ -57,6 +57,13 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
+    <a href="javascript:void(0);" class="hamburger-menu-btn">
+
+
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </a>
 
     <div class="fix-social-elements">
         <ul class="">
