@@ -380,8 +380,8 @@ h2.subtitle {
 .hamburger-menu-btn {
   display: block;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 2rem;
+  right: 2rem;
   width: 28px;
   height: 23px;
 }
@@ -391,5 +391,5 @@ h2.subtitle {
   width: 100%;
   height: 1px;
   background: #f47421;
-  margin: 1px 0 0 0;
+  margin: 7px 0 0 0;
 }
