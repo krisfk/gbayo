@@ -72,7 +72,7 @@
 
     <div class="fix-back-to-top">
 
-        <span>Back to Top</span>
+        <span class="pe-3">Back to Top</span>
         <span class="back-to-top-arrow"></span>
     </div>
 
