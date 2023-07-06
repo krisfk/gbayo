@@ -61,7 +61,7 @@
     <div class="fix-social-elements">
         <ul class="">
             <li class="follow-us">Follow Us</li>
-            <li class="dash"> - </li>
+            <li class="dash"> ー </li>
             <li> <a target="_blank" href="javascript:void(0);" class="facebook fix-icon-a  fix-icon-a-1"> </a>
             </li>
             <li> <a target="_blank" href="javascript:void(0);" class="instagram fix-icon-a fix-icon-a-2"> </a>
