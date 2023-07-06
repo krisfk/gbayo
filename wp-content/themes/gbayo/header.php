@@ -63,8 +63,10 @@
         <a href="javascript:void(0);" class="close-btn"></a>
 
         <div class="menu-top-div">
-            <img class="gbayo-logo-white"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt="">
+
+            <div class="container"> <img class="gbayo-logo-white"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt=""></div>
+
         </div>
         <div class="lang-div">
 
