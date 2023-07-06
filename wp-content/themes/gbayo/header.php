@@ -58,7 +58,7 @@
     <?php wp_body_open(); ?>
 
 
-    <div class="social-elements">
+    <div class="fix-social-elements">
         <ul class="">
             <li class="follow-us">Follow Us</li>
             <li class="dash">-</li>
