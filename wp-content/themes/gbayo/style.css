@@ -111,6 +111,14 @@ body {
   display: inline-block;
 }
 
+.other-logos-a {
+  display: inline-block;
+}
+
+.other-logos-a img {
+  height: 60px;
+}
+
 .top-presenter-logos-a img {
   height: 70px;
 }
