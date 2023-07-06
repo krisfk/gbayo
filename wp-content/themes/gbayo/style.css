@@ -393,3 +393,9 @@ h2.subtitle {
   background: #f47421;
   margin: 7px 0 0 0;
 }
+
+.menu-layer {
+  display: block;
+  width: 600px;
+  position: fixed;
+}

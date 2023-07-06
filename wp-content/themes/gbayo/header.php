@@ -57,6 +57,32 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
+
+    <div class="menu-layer">
+
+        <a href="javascript:void(0);" class="close-btn"></a>
+
+        <div class="menu-top-div"></div>
+        <div class="lang-div">
+
+            EN | 繁 | 簡
+
+        </div>
+        <div>
+
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+
+
     <a href="javascript:void(0);" class="hamburger-menu-btn">
 
 
