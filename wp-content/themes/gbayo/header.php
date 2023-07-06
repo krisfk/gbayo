@@ -56,6 +56,20 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
+
+
+    <div class="social-elements">
+        <ul class="">
+            <li class="follow-us">Follow Us</li>
+            <li class="dash">-</li>
+            <li> <a target="_blank" href="javascript:void(0);" class="facebook fix-icon-a  fix-icon-a-1"> </a>
+            </li>
+            <li> <a target="_blank" href="javascript:void(0);" class="instagram fix-icon-a fix-icon-a-2"> </a>
+            </li>
+            <li> <a target="_blank" href="javascript:void(0);" class="youtube fix-icon-a fix-icon-a-3"> </a></li>
+        </ul>
+    </div>
+
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">
             <?php

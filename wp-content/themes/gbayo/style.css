@@ -297,3 +297,21 @@ h2.subtitle {
   background: url(./assets/images/sns-icon-3.png) no-repeat;
   background-size: 100% 100%;
 }
+
+.fix-icon-a {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.fix-icon-a.fix-icon-a-1 {
+  background: url(./assets/images/fix-icon-1.png) no-repeat;
+}
+
+.fix-icon-a.fix-icon-a-2 {
+  background: url(./assets/images/fix-icon-2.png) no-repeat;
+}
+
+.fix-icon-a.fix-icon-a-3 {
+  background: url(./assets/images/fix-icon-3.png) no-repeat;
+}
