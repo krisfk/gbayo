@@ -302,6 +302,7 @@ h2.subtitle {
   display: block;
   width: 25px;
   height: 25px;
+  transform: rotate(90deg);
 }
 
 .fix-icon-a.fix-icon-a-1 {
