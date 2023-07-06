@@ -108,7 +108,7 @@
                                 for the Macau Concert</div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td> <a href="javascript:void(0);" class="other-logos-a me-4">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a ms-4">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png"
@@ -123,7 +123,7 @@
                                 Supporting Unit</div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td> <a href="javascript:void(0);" class="other-logos-a me-4">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a ms-4">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png"
@@ -137,7 +137,7 @@
                                 Supporting Unit</div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td> <a href="javascript:void(0);" class="other-logos-a me-4">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a ms-4">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png"
@@ -151,7 +151,7 @@
                                 Sponsor</div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td> <a href="javascript:void(0);" class="other-logos-a me-4">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a ms-4">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png"
