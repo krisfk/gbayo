@@ -99,12 +99,12 @@
                 </div>
 
             </div>
-            <div class="col-6">
+            <div class="col-6 text-end">
 
-                <table>
+                <table class="d-block">
                     <tr>
                         <td>
-                            <div class="footer-logos-subtitle">Co-organiser <br>
+                            <div class="footer-logos-subtitle text-start">Co-organiser <br>
                                 for the Macau Concert</div>
                             <table class="d-inline-block">
                                 <tr>
@@ -119,7 +119,7 @@
                         </td>
 
                         <td>
-                            <div class="footer-logos-subtitle">Shenzhen Concert <br>
+                            <div class="footer-logos-subtitle text-start">Shenzhen Concert <br>
                                 Supporting Unit</div>
                             <table class="d-inline-block">
                                 <tr>
@@ -133,7 +133,7 @@
                             </table>
                         </td>
                         <td>
-                            <div class="footer-logos-subtitle">Guangzhou Concert <br>
+                            <div class="footer-logos-subtitle text-start">Guangzhou Concert <br>
                                 Supporting Unit</div>
                             <table class="d-inline-block">
                                 <tr>
@@ -147,7 +147,7 @@
                             </table>
                         </td>
                         <td>
-                            <div class="footer-logos-subtitle">Macau Venue <br>
+                            <div class="footer-logos-subtitle text-start">Macau Venue <br>
                                 Sponsor</div>
                             <table class="d-inline-block">
                                 <tr>
