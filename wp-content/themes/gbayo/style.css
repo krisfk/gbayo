@@ -409,3 +409,8 @@ h2.subtitle {
 .gbayo-logo-white {
   height: 50px;
 }
+
+.menu-layer .lang-div {
+  background: #f47421;
+  color: #fff;
+}
