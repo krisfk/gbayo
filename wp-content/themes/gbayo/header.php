@@ -70,11 +70,11 @@
         </ul>
     </div>
 
-    <div class="fix-back-to-top">
+    <a class="fix-back-to-top" href="javascript:void(0);">
 
         <span class="pe-3">Back to Top</span>
         <span class="back-to-top-arrow"></span>
-    </div>
+    </a>
 
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">
