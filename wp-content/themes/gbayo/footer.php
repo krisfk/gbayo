@@ -73,7 +73,7 @@
                                     <img class=""
                                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
                                         alt="">
-                                </a>
+                                </a></td>
                         </tr>
                     </table>
                 </div>
@@ -84,9 +84,9 @@
                             <td> <a href="javascript:void(0);" class="top-presenter-logos-a me-4">
 
                                     <img class=""
-                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
+                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
                                         alt="">
-                                </a>
+                                </a></td>
                         </tr>
                     </table>
                 </div>
