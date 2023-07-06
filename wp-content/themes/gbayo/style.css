@@ -360,6 +360,11 @@ h2.subtitle {
   font-size: 22px;
   display: table;
   color: #f47421;
+  position: fixed;
+  z-index: 100;
+  transform: rotate(-90deg);
+  top: 50%;
+  left: -4.4vh;
 }
 
 .fix-back-to-top span {
