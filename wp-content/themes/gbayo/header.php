@@ -70,6 +70,12 @@
         </ul>
     </div>
 
+    <div class="fix-back-to-top">
+
+        <span>Back to Top</span>
+        <span class="back-to-top-arrow"></span>
+    </div>
+
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">
             <?php

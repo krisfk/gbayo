@@ -347,3 +347,11 @@ h2.subtitle {
   right: -4.4vh;
   top: 50%;
 }
+
+.back-to-top-arrow {
+  display: block;
+  width: 110px;
+  height: 30px;
+  background: url(./assets/images/btt-arrow.png) no-repeat;
+  background-size: 100% 100%;
+}
