@@ -322,6 +322,7 @@ h2.subtitle {
 .fix-social-elements ul {
   padding: 0;
   margin: 0;
+  font-size: 22px;
 }
 
 .fix-social-elements ul li {
