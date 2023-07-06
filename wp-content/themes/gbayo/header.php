@@ -64,13 +64,17 @@
 
         <div class="menu-top-div">
 
-            <div class="menu-middle"> <img class="gbayo-logo-white"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt=""></div>
+            <div class="mx-5">
+                <img class="gbayo-logo-white"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt="">
+            </div>
 
         </div>
+
         <div class="lang-div">
 
-            EN | 繁 | 簡
+            <div class="mx-5">EN | 繁 | 簡</div>
+
 
         </div>
         <div>
