@@ -384,6 +384,7 @@ h2.subtitle {
   right: 2rem;
   width: 28px;
   height: 23px;
+  z-index: 100;
 }
 
 .hamburger-menu-btn .line {
