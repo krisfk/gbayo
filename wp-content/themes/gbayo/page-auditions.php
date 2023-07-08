@@ -34,10 +34,15 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container mt-5">
+<div class="container mt-5 content-fsize">
 
 
     <h2 class="bold">2023 Auditions</h2>
+
+    <h3 class="bold orange">Training Camp & Concert Tour Period
+    </h3>
+    <div>Jul 31 – Aug 16, 2023
+    </div>
 
 
 </div>
