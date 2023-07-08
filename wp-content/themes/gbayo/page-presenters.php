@@ -36,15 +36,17 @@ get_header(); ?>
 
 <div class="container">
 
-    <div class="row">
-        <div class="col-4"><a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+    <div class="row mt-5">
+        <div class="col-4 ">
+
+            <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
 
                 <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
             </a>
 
-            <h3 class="orange bold">The Hong Kong Academy for Performing Arts</h3>
+            <h3 class="orange bold mt-4">The Hong Kong Academy for Performing Arts</h3>
 
-            <div class="content-fsize">
+            <div class="content-fsize mt-4">
 
                 The Hong Kong Academy for Performing Arts (HKAPA), established by The Hong Kong Academy for Performing
                 Arts Ordinance in 1984, is a leading tertiary institution in the performing arts in Asia. It provides
