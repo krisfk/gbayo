@@ -41,7 +41,7 @@ get_header(); ?>
 
 
         <div class="col-6">
-            <div class="mb-4">
+            <div class="mb-4 name-list-div">
 
                 <div class="bold mb-2">Violins
                 </div>
@@ -153,30 +153,78 @@ get_header(); ?>
 
             </div>
 
+            <div class="mb-4 name-list-div">
+
+                <div class="bold mb-2">Violas
+                </div>
+
+
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">TBC</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">TBC</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Tam Hio Lam</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Chao Man Cheng</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">蔣哲</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">張宸榮</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">李梓筠</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">管昊</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">李書杪</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">古遠深</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="col-6">
+
+
+
+
+
+
+
+
+
+
         </div>
 
 
 
-
-
-
     </div>
-    <div class="col-6">
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-</div>
 </div>
 
 
