@@ -18,50 +18,6 @@ get_header(); ?>
 
 
 
-
-<div class="container mt-3">
-
-    <div class="top-div">
-
-
-        <div class="row align-items-center">
-            <div class="col-3"> <a href="javascript:void(0);" class="logo-a"><img
-                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-5@2x.png" alt=""></a>
-
-            </div>
-            <!--  -->
-            <div class="col-9 text-end">
-
-
-                <table class="d-inline-block">
-                    <tr>
-                        <td class="align-top">Presented by</td>
-                        <td> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
-
-                                <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
-                                    alt="">
-                            </a>
-                            <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
-
-                                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
-                            </a>
-                            <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
-
-                                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
 <div class="full-width-img-div position-relative mt-3">
 
     <div class="position-absolute top left w-100 z-1">
