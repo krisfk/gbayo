@@ -42,7 +42,7 @@ get_header(); ?>
 
             <h2 class="orange bold">GBAYO 2023 Faculty</h2>
 
-            <h2 class="bold mt-4">Strings
+            <h2 class="bold mt-4 mb-4">Strings
             </h2>
 
 
