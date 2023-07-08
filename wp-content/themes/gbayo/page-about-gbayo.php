@@ -83,7 +83,14 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-4"></div>
+        <div class="col-4 content-fsize">
+
+            <h3 class="orange">Project Director</h3>
+            <div class="bold">Dr. Iñaki Sandoval</div>
+
+            Dean of the School of Music,Hong Kong Academy for Performing Arts
+
+        </div>
         <div class="col-4"></div>
         <div class="col-4"></div>
     </div>
