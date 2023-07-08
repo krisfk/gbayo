@@ -47,7 +47,7 @@ get_header(); ?>
 
 
 
-            <div class="">
+            <div class="mb-4">
 
 
                 <div class="bold mb-2">Violin
@@ -60,7 +60,7 @@ get_header(); ?>
                 </div>
 
             </div>
-            <div class="">
+            <div class="mb-4">
 
                 <div class="bold mb-2">Violin
                 </div>
