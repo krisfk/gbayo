@@ -55,6 +55,11 @@
             }
         })
 
+        $('.menu-layer .close-btn').click(function() {
+
+            $('.menu-layer').fadeOut(200)
+        })
+
 
     })
     </script>
