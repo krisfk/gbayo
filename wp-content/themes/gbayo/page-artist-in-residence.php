@@ -93,7 +93,7 @@ get_header(); ?>
                     </div>
 
 
-                    <h3 class="orange bold">Mr. Gian Paolo Peloso
+                    <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
                     </h3>
 
                     <div class="five-lines-grid">
