@@ -568,3 +568,12 @@ h2.subtitle {
 .faculty-group {
   margin: 0 0 5rem 0;
 }
+
+.name-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.name-ul li {
+  list-style-type: none;
+}

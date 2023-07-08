@@ -46,14 +46,16 @@ get_header(); ?>
                 <div class="bold mb-2">Violins
                 </div>
 
-                <div class="">
 
-                    <h3 class="orange bold  d-inline-block">Lau Sin Yiu Danielle </h3>
-                    <span class="ms-1">HK</span>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold  d-inline-block">Lau Sin Yiu Danielle </h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                </ul>
 
 
 
-                </div>
 
 
 
