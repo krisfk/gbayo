@@ -57,7 +57,7 @@
 
         $('.menu-layer .close-btn').click(function() {
 
-            $('.menu-layer').fadeOut(200)
+            $('.menu-layer').fadeOut(200);
         })
 
 
