@@ -508,6 +508,10 @@ h2.subtitle {
   color: #f47422;
 }
 
+.menu-layer {
+  display: none;
+}
+
 .menu-layer .close-btn {
   display: block;
   width: 20px;
