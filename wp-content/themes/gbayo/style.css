@@ -593,6 +593,7 @@ h3 {
 
 .download-pdf-list li {
   list-style-type: none;
+  margin: 0 0 0.3rem 0;
 }
 
 .download-pdf-list li a {
