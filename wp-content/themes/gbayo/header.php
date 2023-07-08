@@ -141,7 +141,7 @@ if(count($menu_item['children']))
 }
 else
 {
-echo '<li><a class="level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
+echo '<li><a class=" px-5 level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
 
 }
 echo'</li>';
