@@ -96,25 +96,27 @@ get_header(); ?>
                     <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
                     </h3>
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
+                    <a href="javascript:void(0);" class="more-btn">
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
 
-                    </div>
-
+                    </a>
 
                     <div>Senior Lecturer (Strings), <br>
                         Hong Kong Academy For Performing Arts
@@ -133,24 +135,27 @@ get_header(); ?>
 
                     </h3>
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
+                    <a href="javascript:void(0);" class="more-btn">
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
 
-                    </div>
+                    </a>
 
 
                     <div>Head of Strings Department, <br>
@@ -172,24 +177,27 @@ get_header(); ?>
 
                     </h3>
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
+                    <a href="javascript:void(0);" class="more-btn">
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
 
-                    </div>
+                    </a>
 
 
                     <div>Head of Strings and Head of Junior Music Department, <br>
@@ -212,24 +220,28 @@ get_header(); ?>
 
                     </h3>
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
+                    <a href="javascript:void(0);" class="more-btn">
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
 
-                    </div>
+                    </a>
+
 
 
                     <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家 <br>
