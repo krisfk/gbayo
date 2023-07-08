@@ -40,7 +40,7 @@ get_header(); ?>
 
 
 
-        <div class="col-6">
+        <div class="col-4">
             <div class="mb-4 name-list-div">
 
                 <div class="bold mb-2">Violins
@@ -209,7 +209,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-6">
+        <div class="col-4">
 
 
             <div class="mb-4 name-list-div">
@@ -377,6 +377,9 @@ get_header(); ?>
 
         </div>
 
+        <div class="col-4">
+
+        </div>
 
 
     </div>
