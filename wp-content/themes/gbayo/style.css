@@ -531,3 +531,8 @@ h2.subtitle {
   background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
   background-size: 100% 100%;
 }
+
+.page-main-heading {
+  font-size: 60px;
+  font-weight: bold;
+}

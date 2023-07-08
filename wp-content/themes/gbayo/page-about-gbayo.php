@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="position-absolute top left w-100 z-1">
 
         <div class="container">
-            fdsf
+            <h1 class="page-main-heading">About GBAYO</h1>
         </div>
 
     </div>
