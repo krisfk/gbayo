@@ -449,7 +449,7 @@ h2.subtitle {
 }
 
 .mobile-menu-submenu {
-  display: block;
+  display: none;
 }
 
 .mobile-menu-submenu li {
