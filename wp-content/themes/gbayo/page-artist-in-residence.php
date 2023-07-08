@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="container">
 
-    <div class="row mt-5">
+    <div class="row mt-5 content-fsize">
 
         <div class="col-6">
 
@@ -44,6 +44,20 @@ get_header(); ?>
 
             <h2 class="bold">Strings
             </h2>
+
+            <div>
+
+                <div class="bold">Violin
+                </div>
+
+
+                <h3 class="orange bold">Professor Michael MA</h3>
+
+                <div>Professor of Music (Strings), <br>
+                    Hong Kong Academy For Performing Arts
+                </div>
+
+            </div>
 
         </div>
         <div class="col-6"></div>
