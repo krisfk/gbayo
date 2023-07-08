@@ -585,3 +585,17 @@ h2.subtitle {
 h3 {
   font-size: 26px !important;
 }
+
+.download-pdf-list {
+  margin: 0;
+  padding: 0;
+}
+
+.download-pdf-list li {
+  list-style-type: none;
+}
+
+.download-pdf-list li a {
+  text-decoration: underline;
+  color: #776b62;
+}
