@@ -443,6 +443,10 @@ h2.subtitle {
   color: #fff;
 }
 
+.top-menu-ul li:last-child {
+  border: none;
+}
+
 .mobile-menu-submenu li a {
   color: #fff;
   padding: 0 1rem;
