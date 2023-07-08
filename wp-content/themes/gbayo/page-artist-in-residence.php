@@ -46,12 +46,12 @@ get_header(); ?>
             </h2>
 
 
-            <div class="bold">Violin
-            </div>
 
             <div class="mb-4">
 
 
+                <div class="bold">Violin
+                </div>
 
                 <h3 class="orange bold">Professor Michael MA</h3>
 
@@ -61,6 +61,9 @@ get_header(); ?>
 
             </div>
             <div class="mb-4">
+
+                <div class="bold">Violin
+                </div>
 
 
                 <h3 class="orange bold">Professor Michael MA</h3>
