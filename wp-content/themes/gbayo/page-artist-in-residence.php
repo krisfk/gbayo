@@ -88,10 +88,32 @@ get_header(); ?>
                 </div>
 
 
-                <h3 class="orange bold">Professor Michael MA</h3>
+                <h3 class="orange bold">Mr. Gian Paolo Peloso
+                </h3>
 
-                <div>Professor of Music (Strings), <br>
+                <div class="five-lines-grid">
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-1"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-4"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-5"></div>
+                    </div>
+
+                </div>
+
+
+                <div>Senior Lecturer (Strings), <br>
                     Hong Kong Academy For Performing Arts
+
                 </div>
 
             </div>
