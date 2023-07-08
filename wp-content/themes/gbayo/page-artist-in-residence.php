@@ -40,7 +40,7 @@ get_header(); ?>
 
         <div class="col-6">
 
-            <h2 class="orange">GBAYO 2023 Faculty</h2>
+            <h2 class="orange bold">GBAYO 2023 Faculty</h2>
 
         </div>
         <div class="col-6"></div>
