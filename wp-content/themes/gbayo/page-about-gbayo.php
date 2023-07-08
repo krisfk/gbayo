@@ -101,21 +101,10 @@ get_header(); ?>
             Head of Woodwind, Brass and Percussion, <br> Hong Kong Academy For Performing Arts
 
         </div>
-
-
-
-
-
-
-
-
         <div class="col-4 content-fsize">
+            <h3 class="orange bold m-0 p-0">Programme Manager</h3>
+            <div class="bold">Samantha Li</div>
 
-            <h3 class="orange bold m-0 p-0">Project Director</h3>
-            <div class="bold">Dr. Iñaki Sandoval</div>
-
-            Dean of the School of Music, <br>
-            Hong Kong Academy for Performing Arts
 
         </div>
     </div>
