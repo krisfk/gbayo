@@ -38,12 +38,50 @@ get_header(); ?>
 
     <div class="row mt-5 content-fsize">
 
-        <div class="col-12">
-            <h2 class="orange bold">Players</h2>
 
 
-        </div>
         <div class="col-6">
+            <div class="mb-4">
+
+                <div class="bold mb-2">Cello
+                </div>
+
+                <a href="javascript:void(0);" class="more-btn">
+
+                    <h3 class="orange bold  d-inline-block">Professor Ray Wang
+
+                    </h3>
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <div>Head of Strings and Head of Junior Music Department, <br>
+                    Hong Kong Academy For Performing Arts
+
+
+
+                </div>
+
+            </div>
 
 
 
