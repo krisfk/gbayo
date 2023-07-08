@@ -46,8 +46,7 @@
         $('.top-menu-ul li a.menu-arrow').click(function() {
             // alert(3);
             $('.top-menu-ul li').removeClass('active');
-            $(this).closest('li').find('ul').fadeOut(0);
-
+            $('.mobile-menu-submenu').fadeOut(0);
             $(this).closest('li').toggleClass('active');
 
             if ($(this).closest('li').hasClass('active')) {
