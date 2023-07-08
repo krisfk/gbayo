@@ -72,58 +72,14 @@ get_header(); ?>
 
 </div>
 
-<div class="video-div mt-5">
+<div class="mt-5">
     <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg" alt="">
 </div>
 
 
 <div class="container ">
 
-    <h2 class="subtitle text-center mt-5">Concert</h2>
-
-    <div class="row mt-4">
-        <div class="col-6">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
-                alt="">
-        </div>
-        <div class="col-6">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
-                alt="">
-        </div>
-    </div>
-
-    <h2 class="subtitle  text-center mt-5">Training Camp</h2>
-
-    <div class="camp-slick-wrapper position-relative">
-        <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-left"></a>
-        <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-right"></a>
-
-        <div class="camp-slick mt-4">
-
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-            </div>
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
-
-            </div>
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-            </div>
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
-
-            </div>
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-            </div>
-            <div class="camp">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg" alt="">
-
-            </div>
-
-        </div>
-    </div>
+    <h2 class="subtitle text-start mt-5">Management team</h2>
 
 </div>
 
