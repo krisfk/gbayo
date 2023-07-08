@@ -44,7 +44,7 @@ get_header(); ?>
         musicians to talented young musicians across the region.
 
     </div>
-    <div class="text-end mt-3">
+    <!-- <div class="text-end mt-3">
 
         <a href="javascript:void(0);" class="more-btn">
 
@@ -68,7 +68,7 @@ get_header(); ?>
 
             </div>
         </a>
-    </div>
+    </div> -->
 
 </div>
 
