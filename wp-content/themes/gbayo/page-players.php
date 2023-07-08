@@ -49,7 +49,7 @@ get_header(); ?>
                 <div class="">
 
                     <h3 class="orange bold  d-inline-block">Lau Sin Yiu Danielle </h3>
-                    <span class="ms-2">HK</span>
+                    <span class="ms-1">HK</span>
 
 
 
