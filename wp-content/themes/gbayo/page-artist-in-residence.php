@@ -38,11 +38,11 @@ get_header(); ?>
 
     <div class="row mt-5 content-fsize">
 
-        <div class="col-6 mt-4">
+        <div class="col-6">
 
             <h2 class="orange bold">GBAYO 2023 Faculty</h2>
 
-            <h2 class="bold mb-4">Strings
+            <h2 class="bold mb-5">Strings
             </h2>
 
 
