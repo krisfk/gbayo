@@ -111,7 +111,7 @@ $slug=str_replace('/','',$slug);
 if(count($menu_item['children']))
 {
   
-    echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title;
+    echo '<li><a class=" px-5 level-1 parent '.$class.'" href="'.$url.'">'.$title;
     ?>
                     <img class="arrow"
                         src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png" alt="">
@@ -134,7 +134,7 @@ if(count($menu_item['children']))
         $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
         $sub_slug=str_replace('/cn/','',$sub_slug);
         $sub_slug=str_replace('/','',$sub_slug);
-        echo'<li class="px-5"><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+        echo'<li class=""><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
     }
     echo '</ul>';
 
