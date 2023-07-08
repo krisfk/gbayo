@@ -499,3 +499,19 @@ h2.subtitle {
 .top-menu-ul li.active a.level-1 {
   color: #f47422;
 }
+
+.menu-layer .close-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(./assets/images/close-cross-btn.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.menu-layer .close-btn:hover {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
+  background-size: 100% 100%;
+}
