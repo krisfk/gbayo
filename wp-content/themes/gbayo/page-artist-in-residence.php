@@ -92,11 +92,11 @@ get_header(); ?>
                     <div class="bold mb-2">Violin
                     </div>
 
-
-                    <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
-                    </h3>
-
                     <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
+                        </h3>
+
                         <div class="five-lines-grid">
                             <div class="text-center d-block line-wrapper">
                                 <div class="line line-1"></div>
@@ -129,13 +129,13 @@ get_header(); ?>
 
                     <div class="bold mb-2">Viola
                     </div>
-
-
-                    <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
-
-                    </h3>
-
                     <a href="javascript:void(0);" class="more-btn">
+
+
+                        <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
+
+                        </h3>
+
                         <div class="five-lines-grid">
                             <div class="text-center d-block line-wrapper">
                                 <div class="line line-1"></div>
@@ -172,12 +172,12 @@ get_header(); ?>
                     <div class="bold mb-2">Cello
                     </div>
 
-
-                    <h3 class="orange bold  d-inline-block">Professor Ray Wang
-
-                    </h3>
-
                     <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold  d-inline-block">Professor Ray Wang
+
+                        </h3>
+
                         <div class="five-lines-grid">
                             <div class="text-center d-block line-wrapper">
                                 <div class="line line-1"></div>
@@ -215,12 +215,12 @@ get_header(); ?>
 
                     </div>
 
-
-                    <h3 class="orange bold  d-inline-block">Mr. 谷欣
-
-                    </h3>
-
                     <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold  d-inline-block">Mr. 谷欣
+
+                        </h3>
+
                         <div class="five-lines-grid">
                             <div class="text-center d-block line-wrapper">
                                 <div class="line line-1"></div>
@@ -271,10 +271,11 @@ get_header(); ?>
 
 
                     <div class="bold mb-2">Flute
-                    </div>
+                    </div> <a href="javascript:void(0);" class="more-btn">
 
-                    <h3 class="orange bold d-inline-block">Professor Yan Qi
-                    </h3> <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold d-inline-block">Professor Yan Qi
+                        </h3>
 
 
                         <div class="five-lines-grid">
@@ -310,10 +311,12 @@ get_header(); ?>
                     <div class="bold mb-2">Clarinet
 
                     </div>
+                    <a href="javascript:void(0);" class="more-btn">
 
-                    <h3 class="orange bold d-inline-block">Professor XXX
 
-                    </h3> <a href="javascript:void(0);" class="more-btn">
+                        <h3 class="orange bold d-inline-block">Professor XXX
+
+                        </h3>
 
 
                         <div class="five-lines-grid">
