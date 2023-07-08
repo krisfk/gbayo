@@ -67,6 +67,25 @@ get_header(); ?>
     </div>
 
 
+    <div class="mb-4 audition-content">
+        <span class="bold">First Round</span> – Interested and eligible musicians should send the application form by
+        email to below
+        designated
+        institutes or organisation in your region by below deadlines:<br><br>
+
+        <span class="bold"> Hong Kong – 17 Mar 2023</span> <br>
+        Hong Kong Academy for Performing Arts: GBAYO@hkapa.edu<br><br>
+
+        <span class="bold">Guangdong – 10 Feb 2023</span><br>
+        Xinghai Conservatory of Music: gbayo@xhcom.edu.cn<br><br>
+
+        <span class="bold">Macau – 10 Feb 2023</span><br>
+        Macao Youth Symphony Orchestra: mysoa@macau.ctm.net
+
+
+    </div>
+
+
 
 </div>
 
