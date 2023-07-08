@@ -41,14 +41,12 @@
 
     <script type="text/javascript">
     $(function() {
-        $('.more-btn').mouseenter(function() {
 
 
-            // $('.more-btn .five-lines-grid .line').animate({
-            //     'width': '0%'
-            // }, 1000);
+        $('.top-menu-ul li a.menu-arrow').click(functiuon() {
+            $(this).closest('li').toggleClass('active');
+        })
 
-        });
 
     })
     </script>
