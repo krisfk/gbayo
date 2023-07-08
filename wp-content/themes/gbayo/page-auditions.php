@@ -37,7 +37,7 @@ get_header(); ?>
 <div class="container mt-5 content-fsize">
 
 
-    <h2 class="bold">2023 Auditions</h2>
+    <h2 class="bold mb-4">2023 Auditions</h2>
 
 
     <div class="mb-4 audition-content">
