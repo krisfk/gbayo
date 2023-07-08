@@ -131,7 +131,7 @@ get_header(); ?>
                     </div>
 
 
-                    <h3 class="orange bold">Mr. Hou Donglei 侯東蕾
+                    <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
 
                     </h3>
 
@@ -173,7 +173,7 @@ get_header(); ?>
                     </div>
 
 
-                    <h3 class="orange bold">Professor Ray Wang
+                    <h3 class="orange bold  d-inline-block">Professor Ray Wang
 
                     </h3>
 
@@ -216,7 +216,7 @@ get_header(); ?>
                     </div>
 
 
-                    <h3 class="orange bold">Mr. 谷欣
+                    <h3 class="orange bold  d-inline-block">Mr. 谷欣
 
                     </h3>
 
