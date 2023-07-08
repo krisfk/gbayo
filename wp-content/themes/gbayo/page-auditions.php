@@ -95,8 +95,24 @@ get_header(); ?>
         </h3>
         <ul class="download-pdf-list">
             <li>
-                <a href="javascript:void(0);"> Application Form (doc) / Application Form (pdf)
-                </a>
+                <a href="javascript:void(0);"> Application Form (doc) / Application Form (pdf)</a>
+            </li>
+            <li>
+                <a href="#">Audition Requirements</a>
+                <ul>
+                    <li>
+                        <a href="#">Orchestra excerpts - sheet music - Strings</a>
+                    </li>
+                    <li>
+                        <a href="#">Orchestra excerpts - sheet music - Woodwind</a>
+                    </li>
+                    <li>
+                        <a href="#">Orchestra excerpts - sheet music - Brass</a>
+                    </li>
+                    <li>
+                        <a href="#">Orchestra excerpts - sheet music - Percussion</a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>
