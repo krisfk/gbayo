@@ -156,43 +156,10 @@ echo'</li>';
 }
 
 
-// $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
-
-
-$user_id= get_current_user_id();
-$member = pms_get_member($user_id);
-$status = $member->subscriptions[0]['status'];
-$expired=false;
-// echo 111;
-if($status=='expired')
-{
-    $expired=true;
-
-    //   wp_redirect(get_site_url().'/account');
-    //   exit;
-}
-
-if( pms_is_member_of_plan( array( 178 ) )  || $expired) 
-{
-    ?>
-                    <li>
-                        <a class="level-1" href="<?php echo get_site_url();?>/account">我的帳號</a>
-                    </li>
-                    <li>
-                        <a class="level-1" href="<?php echo wp_logout_url(get_site_url()) ?>">登出</a>
-                    </li>
-                    <?php    // wp_redirect(get_site_url().'/ascension-temple-login');
-    // exit;
-}
-
 ?>
 
 
-                    <li>
-                        <a href="<?php echo get_site_url()?>/cart" class="cart-a"> <img
-                                src="<?php echo get_template_directory_uri();?>/assets/images/cart.png" alt=""></a>
 
-                    </li>
                 </ul>
             </div>
 
