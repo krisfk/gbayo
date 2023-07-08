@@ -45,21 +45,56 @@ get_header(); ?>
         </div>
         <div class="col-6">
 
+            <div class="faculty-group">
 
-            <h2 class="bold mt-5 mb-4">Strings
-            </h2>
-
-
-
-            <div class="mb-4">
+                <h2 class="bold mt-5 mb-4">Strings
+                </h2>
 
 
-                <div class="bold mb-2">Violin
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Violin
+                    </div>
+
+                    <h3 class="orange bold d-inline-block">Professor Michael MA</h3> <a href="javascript:void(0);"
+                        class="more-btn">
+
+
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <div>Professor of Music (Strings), <br>
+                        Hong Kong Academy For Performing Arts
+                    </div>
+
                 </div>
+                <div class="mb-4">
 
-                <h3 class="orange bold d-inline-block">Professor Michael MA</h3> <a href="javascript:void(0);"
-                    class="more-btn">
+                    <div class="bold mb-2">Violin
+                    </div>
 
+
+                    <h3 class="orange bold">Mr. Gian Paolo Peloso
+                    </h3>
 
                     <div class="five-lines-grid">
                         <div class="text-center d-block line-wrapper">
@@ -79,164 +114,131 @@ get_header(); ?>
                         </div>
 
                     </div>
-                </a>
-
-                <div>Professor of Music (Strings), <br>
-                    Hong Kong Academy For Performing Arts
-                </div>
-
-            </div>
-            <div class="mb-4">
-
-                <div class="bold mb-2">Violin
-                </div>
 
 
-                <h3 class="orange bold">Mr. Gian Paolo Peloso
-                </h3>
+                    <div>Senior Lecturer (Strings), <br>
+                        Hong Kong Academy For Performing Arts
 
-                <div class="five-lines-grid">
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-1"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-2"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-3"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-4"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-5"></div>
                     </div>
 
                 </div>
 
+                <div class="mb-4">
 
-                <div>Senior Lecturer (Strings), <br>
-                    Hong Kong Academy For Performing Arts
-
-                </div>
-
-            </div>
-
-            <div class="mb-4">
-
-                <div class="bold mb-2">Viola
-                </div>
-
-
-                <h3 class="orange bold">Mr. Hou Donglei 侯東蕾
-
-                </h3>
-
-                <div class="five-lines-grid">
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-1"></div>
+                    <div class="bold mb-2">Viola
                     </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-2"></div>
+
+
+                    <h3 class="orange bold">Mr. Hou Donglei 侯東蕾
+
+                    </h3>
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
                     </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-3"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-4"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-5"></div>
+
+
+                    <div>Head of Strings Department, <br>
+                        The Music School Attached to Xinghai Conservatory of Music
+
+
                     </div>
 
                 </div>
 
 
-                <div>Head of Strings Department, <br>
-                    The Music School Attached to Xinghai Conservatory of Music
+                <div class="mb-4">
 
-
-                </div>
-
-            </div>
-
-
-            <div class="mb-4">
-
-                <div class="bold mb-2">Cello
-                </div>
-
-
-                <h3 class="orange bold">Professor Ray Wang
-
-                </h3>
-
-                <div class="five-lines-grid">
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-1"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-2"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-3"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-4"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-5"></div>
+                    <div class="bold mb-2">Cello
                     </div>
 
-                </div>
 
+                    <h3 class="orange bold">Professor Ray Wang
 
-                <div>Head of Strings and Head of Junior Music Department, <br>
-                    Hong Kong Academy For Performing Arts
+                    </h3>
 
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
 
-
-                </div>
-
-            </div>
-
-            <div class="mb-4">
-
-                <div class="bold mb-2">Double Bass
-
-                </div>
-
-
-                <h3 class="orange bold">Mr. 谷欣
-
-                </h3>
-
-                <div class="five-lines-grid">
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-1"></div>
                     </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-2"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-3"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-4"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-5"></div>
+
+
+                    <div>Head of Strings and Head of Junior Music Department, <br>
+                        Hong Kong Academy For Performing Arts
+
+
+
                     </div>
 
                 </div>
 
+                <div class="mb-4">
 
-                <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家 <br>
-                    The Music School Attached to Xinghai Conservatory of Music
+                    <div class="bold mb-2">Double Bass
 
+                    </div>
+
+
+                    <h3 class="orange bold">Mr. 谷欣
+
+                    </h3>
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家 <br>
+                        The Music School Attached to Xinghai Conservatory of Music
+
+
+                    </div>
 
                 </div>
-
             </div>
 
 
@@ -245,402 +247,362 @@ get_header(); ?>
         </div>
         <div class="col-6">
 
-            <h2 class="bold mt-5 mb-4">Woodwind
-            </h2>
+            <div class="faculty-group">
+
+
+                <h2 class="bold mt-5 mb-4">Woodwind
+                </h2>
 
 
 
-            <div class="mb-4">
+                <div class="mb-4">
 
 
-                <div class="bold mb-2">Flute
-                </div>
+                    <div class="bold mb-2">Flute
+                    </div>
 
-                <h3 class="orange bold d-inline-block">Professor Yan Qi
-                </h3> <a href="javascript:void(0);" class="more-btn">
+                    <h3 class="orange bold d-inline-block">Professor Yan Qi
+                    </h3> <a href="javascript:void(0);" class="more-btn">
 
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                    </a>
+
+                    <div>Orchestral Music Department Party Branch Secretary Professor (Flute), <br>
+                        Xinghai Conservatory of Music
 
                     </div>
-                </a>
-
-                <div>Orchestral Music Department Party Branch Secretary Professor (Flute), <br>
-                    Xinghai Conservatory of Music
 
                 </div>
 
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Clarinet
+
+                    </div>
+
+                    <h3 class="orange bold d-inline-block">Professor XXX
+
+                    </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <div>Xinghai XXXXXXXXXXXXXXXX XXXXXXXX
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Oboe
+
+
+                    </div>
+
+                    <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
+
+
+                    </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <div>
+
+
+                        Head of Woodwind, Brass and Percussion, <br>
+                        Hong Kong Academy For Performing Arts
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Bassoon
+
+
+
+                    </div>
+
+                    <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
+
+
+
+                    </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <div>
+
+                        Hong Kong Philharmonic Orchestra
+
+                    </div>
+
+                </div>
             </div>
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Clarinet
-
-                </div>
-
-                <h3 class="orange bold d-inline-block">Professor XXX
-
-                </h3> <a href="javascript:void(0);" class="more-btn">
+            <div class="faculty-group">
 
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                <h2 class="bold mt-5 mb-4">Brass
+
+                </h2>
+
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Horn
+
+
+
 
                     </div>
-                </a>
 
-                <div>Xinghai XXXXXXXXXXXXXXXX XXXXXXXX
-
-                </div>
-
-            </div>
+                    <h3 class="orange bold d-inline-block">Mr. Wu Tianxia
 
 
 
 
+                    </h3> <a href="javascript:void(0);" class="more-btn">
 
 
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
 
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Oboe
-
-
-                </div>
-
-                <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
-
-
-                </h3> <a href="javascript:void(0);" class="more-btn">
-
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
                         </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                    </a>
+
+                    <div>
+
+                        Principal Horn, Macao Orchestra, Tutor, <br>
+                        Macao Youth Symphony Orchestra
 
                     </div>
-                </a>
-
-                <div>
-
-
-                    Head of Woodwind, Brass and Percussion, <br>
-                    Hong Kong Academy For Performing Arts
 
                 </div>
 
-            </div>
+
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Trumpet
 
 
 
-
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Bassoon
-
-
-
-                </div>
-
-                <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
-
-
-
-                </h3> <a href="javascript:void(0);" class="more-btn">
-
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
 
                     </div>
-                </a>
 
-                <div>
-
-                    Hong Kong Philharmonic Orchestra
-
-                </div>
-
-            </div>
-
-
-            <h2 class="bold mt-5 mb-4">Brass
-
-            </h2>
-
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Horn
+                    <h3 class="orange bold d-inline-block">Mr. Christopher Moyse
 
 
 
 
-                </div>
 
-                <h3 class="orange bold d-inline-block">Mr. Wu Tianxia
-
+                    </h3> <a href="javascript:void(0);" class="more-btn">
 
 
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
 
-                </h3> <a href="javascript:void(0);" class="more-btn">
-
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
                         </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                    </a>
+
+                    <div>
+
+                        Co-Principal Trumpet, <br>
+                        Hong Kong Philharmonic Orchestra
 
                     </div>
-                </a>
-
-                <div>
-
-                    Principal Horn, Macao Orchestra, Tutor, <br>
-                    Macao Youth Symphony Orchestra
 
                 </div>
 
-            </div>
-
-
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Trumpet
 
 
 
 
-                </div>
-
-                <h3 class="orange bold d-inline-block">Mr. Christopher Moyse
+                <div class="mb-4">
 
 
+                    <div class="bold mb-2">Trombone
 
 
 
-                </h3> <a href="javascript:void(0);" class="more-btn">
 
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
 
                     </div>
-                </a>
 
-                <div>
-
-                    Co-Principal Trumpet, <br>
-                    Hong Kong Philharmonic Orchestra
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Trombone
-
-
-
-
-
-                </div>
-
-                <h3 class="orange bold d-inline-block">Mr. Zachary Wyatt Bond
+                    <h3 class="orange bold d-inline-block">Mr. Zachary Wyatt Bond
 
 
 
 
 
 
-                </h3> <a href="javascript:void(0);" class="more-btn">
+                    </h3> <a href="javascript:void(0);" class="more-btn">
 
 
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
                         </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                    </a>
+
+                    <div>
+
+                        Lecturer (Brass), <br>
+                        Hong Kong Academy For Performing Arts
 
                     </div>
-                </a>
-
-                <div>
-
-                    Lecturer (Brass), <br>
-                    Hong Kong Academy For Performing Arts
 
                 </div>
 
-            </div>
 
 
 
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Bass Trombone
+                <div class="mb-4">
 
 
-
-
-
-
-                </div>
-
-                <h3 class="orange bold d-inline-block">Mr. Guo Zheng 郭錚
+                    <div class="bold mb-2">Bass Trombone
 
 
 
 
 
-
-
-                </h3> <a href="javascript:void(0);" class="more-btn">
-
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
 
                     </div>
-                </a>
 
-                <div>
-                    Associated Professor (Low Brass), <br>
-                    Xinghai Conservatory of Music
-
-
-                </div>
-
-            </div>
-
-
-
-            <div class="mb-4">
-
-
-                <div class="bold mb-2">Percussion
+                    <h3 class="orange bold d-inline-block">Mr. Guo Zheng 郭錚
 
 
 
@@ -648,46 +610,92 @@ get_header(); ?>
 
 
 
-                </div>
-
-                <h3 class="orange bold d-inline-block">Mr. Wang Xiaojing 王曉菁
+                    </h3> <a href="javascript:void(0);" class="more-btn">
 
 
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
 
-
-
-
-
-
-                </h3> <a href="javascript:void(0);" class="more-btn">
-
-
-                    <div class="five-lines-grid">
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-1"></div>
                         </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-2"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-3"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-4"></div>
-                        </div>
-                        <div class="text-center d-block line-wrapper">
-                            <div class="line line-5"></div>
-                        </div>
+                    </a>
+
+                    <div>
+                        Associated Professor (Low Brass), <br>
+                        Xinghai Conservatory of Music
+
 
                     </div>
-                </a>
-
-                <div>
-                    Associated Professor (Percussion), <br>
-                    Xinghai Conservatory of Music
 
                 </div>
 
+
+
+                <div class="mb-4">
+
+
+                    <div class="bold mb-2">Percussion
+
+
+
+
+
+
+
+                    </div>
+
+                    <h3 class="orange bold d-inline-block">Mr. Wang Xiaojing 王曉菁
+
+
+
+
+
+
+
+
+                    </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                        <div class="five-lines-grid">
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-1"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-2"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-3"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-4"></div>
+                            </div>
+                            <div class="text-center d-block line-wrapper">
+                                <div class="line line-5"></div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <div>
+                        Associated Professor (Percussion), <br>
+                        Xinghai Conservatory of Music
+
+                    </div>
+
+                </div>
             </div>
 
 
