@@ -564,3 +564,7 @@ h2.subtitle {
 .content-fsize {
   font-size: 20px;
 }
+
+.faculty-group {
+  margin: 0 0 3rem 0;
+}
