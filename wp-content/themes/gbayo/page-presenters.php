@@ -105,7 +105,38 @@ get_header(); ?>
         <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
 
                 <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
-            </a></div>
+            </a>
+
+            <h3 class="orange bold mt-4">Macao Youth Symphony Orchestra
+
+            </h3>
+
+
+            <div class="content-fsize mt-4">
+                <div class="bold">
+                    People-oriented
+                    Nurturing Talents
+                    Making friends with Music
+                    Promoting Macao</div>
+                <br><br>
+
+                At the early stage when the Macao Youth Symphony Orchestra was established, a group of musicians
+                including Michael Ma, Ray Wang, Yiu Songlam and Leung Kin-fung regularly visited Macao to offer music
+                training. The Orchestra has collaborated with such renowned musicians as Boris Kuschnir, Stanley Dodds,
+                Yu Feng, Lin Daye. Over the 12 tours at home and abroad, the Orchestra visited over 20 cities in Europe,
+                the United States, Asia and the Pacific Ocean, and appeared in major European music festivals like the
+                Young Euro Classic, the Musikverein Wien, the Kennedy Center and the National Centre for the Performing
+                Arts, presenting Macao’s music culture and the artistic talent of youngsters to the international stage.
+                Macao Youth Symphony Orchestra has built up signature series such as “Macao New Year’s Concert”, “Macao
+                New Generation Musicians Concert”, “Macao YSO Music Festival”, “Performing with Masters”, and “Music
+                Seeding Concert.” More than 80 members pursued their professional path, studying at prestigious music
+                institutions including The Hong Kong Academy for Performing Arts, Curtis Institute of Music, the
+                Juilliard School, the University of Music and Performing Arts Vienna, the Royal Academy of Music, the
+                Central Conservatory of Music, and Shanghai Conservatory of Music. This group of first-generation local
+                musicians, with Lio Kuokman as the role model, laid an invaluable foundation for Macao’s musical
+                culture. Established in 1997, Macao Youth Symphony Orchestra has become Macao’s local cultural brand.
+            </div>
+        </div>
     </div>
 </div>
 
