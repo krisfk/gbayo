@@ -477,6 +477,18 @@ h2.subtitle {
   right: 2rem;
 }
 
+.top-menu-ul li a.menu-arrow:hover {
+  display: block;
+  width: 23px;
+  height: 14px;
+  background: url(./assets/images/orange-down-arrow.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.3rem;
+  /* transform: translate(0, -50%); */
+  right: 2rem;
+}
+
 .top-menu-ul li a.level-1 {
   width: 100% !important;
   display: block;
@@ -502,10 +514,13 @@ h2.subtitle {
 
 .menu-layer .close-btn {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   background: url(./assets/images/close-cross-btn.png) no-repeat;
   background-size: 100% 100%;
+  top: 2rem;
+  right: 2rem;
+  position: absolute;
 }
 
 .menu-layer .close-btn:hover {
