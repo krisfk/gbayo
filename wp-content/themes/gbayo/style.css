@@ -598,4 +598,7 @@ h3 {
 .download-pdf-list li a {
   text-decoration: underline;
   color: #776b62;
+  padding: 0 0 0 2rem;
+  background: url(./assets/images/pdf-icon.png) no-repeat;
+  background-size: auto 100%;
 }
