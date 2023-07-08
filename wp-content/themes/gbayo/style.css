@@ -444,10 +444,11 @@ h2.subtitle {
 
 .mobile-menu-submenu li a {
   color: #fff;
+  padding: 0 1rem;
 }
 
 .mobile-menu-submenu {
-  display: none;
+  display: block;
 }
 
 .mobile-menu-submenu li {
