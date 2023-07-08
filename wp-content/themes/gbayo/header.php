@@ -227,7 +227,7 @@ echo'</li>';
 
 
                             <div class="row align-items-center">
-                                <div class="col-3"> <a href="javascript:void(0);" class="logo-a"><img
+                                <div class="col-3"> <a href="<?php echo get_site_url();?>" class="logo-a"><img
                                             src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-5@2x.png"
                                             alt=""></a>
 
