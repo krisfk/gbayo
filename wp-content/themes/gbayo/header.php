@@ -46,6 +46,11 @@
         $('.top-menu-ul li a.menu-arrow').click(function() {
             // alert(3);
             $(this).closest('li').toggleClass('active');
+
+            if ($(this).closest('li').hasClass('active')) {
+
+                $(this).closest('li').find('ul').slideDown(200);
+            }
         })
 
 
