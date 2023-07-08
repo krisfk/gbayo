@@ -379,6 +379,175 @@ get_header(); ?>
 
         <div class="col-4">
 
+            <div class="mb-4 name-list-div">
+
+
+                <div class="bold mb-2">Bassoons
+                </div>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Lee Wang Chi</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Tsui Ka Ying YoYo</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Lo Yan Tung Nicole</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">TBC</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-4 name-list-div">
+
+
+                <div class="bold mb-2">Horns
+                </div>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Li Ning Cheung</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Lin Han</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Leong Iat Chon</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">任妤非</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">陽秋實</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">黃芷穎</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-4 name-list-div">
+
+
+                <div class="bold mb-2">Trumpets
+                </div>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">To Hau Suet Venus</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Shi Yuankai</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">禹軒</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">劉亮呈</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="mb-4 name-list-div">
+
+
+                <div class="bold mb-2">Trombones
+                </div>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Yiu Dorcas</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Unsam Tam</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">吳俊達</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="mb-4 name-list-div">
+                <div class="bold mb-2">Bass Trombones
+
+                </div>
+
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Wong Chun Hang</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="mb-4 name-list-div">
+                <div class="bold mb-2">Tubas
+
+                </div>
+
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Chan Chak Hong</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">林奕豪</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-4 name-list-div">
+                <div class="bold mb-2">Percussions
+
+
+                </div>
+                <ul class="name-ul">
+                    <li>
+                        <h3 class="orange bold d-inline-block">Fung Lut kwan Rani</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Cheuk Yee Lam</h3>
+                        <span class="ms-1">HK</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">Leong Hou</h3>
+                        <span class="ms-1">MO</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">蘇冠熹</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">倫僖琳</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                    <li>
+                        <h3 class="orange bold d-inline-block">薛瑞</h3>
+                        <span class="ms-1">GZ</span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
 
