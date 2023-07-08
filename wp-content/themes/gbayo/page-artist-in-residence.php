@@ -227,7 +227,7 @@ get_header(); ?>
                 </div>
 
 
-                <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家
+                <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家 <br>
                     The Music School Attached to Xinghai Conservatory of Music
 
 
