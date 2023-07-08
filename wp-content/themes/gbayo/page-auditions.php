@@ -36,6 +36,7 @@ get_header(); ?>
 
 <div class="container">
 
+    <h2 class="bold">2023 Auditions</h2>
 
 
 </div>
