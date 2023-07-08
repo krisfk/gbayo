@@ -73,6 +73,33 @@ get_header(); ?>
 
                 <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
             </a>
+            <h3 class="orange bold mt-4">Xinghai Conservatory of Music
+            </h3>
+
+            <div class="content-fsize mt-4">
+                Located in Guangzhou, the centre of Lingnan Culture, Xinghai Conservatory of Music is the only higher
+                music education institution in South China. Deeply rooted and immersed in Lingnan music and culture, the
+                Conservatory has witnessed the formation of excellent education traditions with the spirit of
+                inclusiveness and open innovation. <br>
+                With music and dance being the main curriculum, the Conservatory also develops other complementary arts
+                disciplines. Music and dance are firstclass disciplines in Guangdong Province. Music Theory, Music
+                Performance and Recording Art are state-level characteristic disciplines. Music Theory, Music
+                Performance, Recording Art, Composition and Composition Studies are provincial-level characteristic
+                disciplines. Piano is a reputable discipline in Guangdong Province. Music Performance is a
+                provincial-level key discipline. The Conservatory’s range of disciplines includes Composition and
+                Composition Studies, Music Theory, Recording Art, Music Performance, and Dance. With a complete spectrum
+                of disciplines, the Conservatory has integrated teaching, creation, performance and research, covering
+                vocational training, undergraduate and postgraduate levels of education. While predominantly offering
+                general education, the Conservatory also offers continuing education.<br>
+                In the new historical period, Xinghai Conservatory of Music responds to the national initiative of “Belt
+                and Road”, the strategy of Guangdong-Hongkong-Macao Greater Bay Area, the construction of cultural
+                Guangdong province, and insists on the connotative development, characteristic development, innovative
+                development as well as the international development with “Chinese pattern, world vision, Lingnan
+                style”. Xinghai Conservatory of Music strives to be the first in China and a world-famous high-ranking
+                music institution with Lingnan style by putting together a team of first-class teaching staff,
+                cultivating the top-notch music and dance talents, launching symbolic results and developing first-rate
+                disciplines.
+            </div>
 
         </div>
         <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
