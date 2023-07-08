@@ -38,9 +38,13 @@ get_header(); ?>
 
     <div class="row mt-5 content-fsize">
 
+        <div class="col-12">
+            <h2 class="orange bold">GBAYO 2023 Faculty</h2>
+
+
+        </div>
         <div class="col-6">
 
-            <h2 class="orange bold">GBAYO 2023 Faculty</h2>
 
             <h2 class="bold mt-4 mb-4">Strings
             </h2>
@@ -239,7 +243,17 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-6"></div>
+        <div class="col-6">
+
+            <h2 class="bold mt-4 mb-4">Woodwind
+
+            </h2>
+
+
+
+            <div class="mb-4">
+            </div>
+        </div>
 
 
 
