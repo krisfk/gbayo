@@ -39,10 +39,33 @@ get_header(); ?>
 
     <h2 class="bold">2023 Auditions</h2>
 
-    <h3 class="bold orange">Training Camp & Concert Tour Period
-    </h3>
-    <div>Jul 31 – Aug 16, 2023
+
+    <div class="mb-4 audition-content">
+        <h3 class="bold orange">Training Camp & Concert Tour Period</h3>
+        <div>Jul 31 - Aug 16, 2023</div>
     </div>
+
+    <div class="mb-4 audition-content">
+        <h3 class="bold orange">Training Camp Location</h3>
+        <div>Hong Kong</div>
+    </div>
+
+    <div class="mb-4 audition-content">
+        <h3 class="bold orange">Concert Tour</h3>
+        <div>Hong Kong, Guangzhou, Shenzhen, &amp; Macau (*Concert locations are subject to change)</div>
+    </div>
+
+    <div class="mb-4 audition-content">
+        <h3 class="bold orange">Fee</h3>
+        <div>Free of Charge (Tuition and accommodation included)</div>
+    </div>
+
+    <div class="mb-4 audition-content">
+        <h3 class="bold orange">Eligibility</h3>
+        <div>16 – 24 year old musicians who were either born/graduated/are living/studying/working in the Guandong, Hong
+            Kong, Macao, Greater Bay Area</div>
+    </div>
+
 
 
 </div>
