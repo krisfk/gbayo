@@ -36,15 +36,7 @@ get_header(); ?>
 
 
 
-<div class="mt-5">
-    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg" alt="">
-</div>
 
-
-
-<div class="mt-5">
-    <div class="five-lines-sep"></div>
-</div>
 
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
