@@ -44,7 +44,8 @@
 
 
         $('.top-menu-ul li a.menu-arrow').click(functiuon() {
-            $(this).closest('li').toggleClass('active');
+            alert(3);
+            // $(this).closest('li').toggleClass('active');
         })
 
 
