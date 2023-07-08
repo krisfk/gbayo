@@ -71,7 +71,7 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-banner-scaled.jpg"
+    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-banner-1-scaled.jpg"
         alt="">
 </div>
 
