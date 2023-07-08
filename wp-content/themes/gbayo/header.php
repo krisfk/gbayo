@@ -113,8 +113,10 @@ if(count($menu_item['children']))
   
     echo '<li><a class=" px-5 level-1 parent '.$class.'" href="'.$url.'">'.$title;
     ?>
-                    <img class="arrow"
-                        src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png" alt="">
+
+                    fds
+                    <!-- <img class="arrow"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png" alt=""> -->
 
                     <?php
     echo'</a>';
