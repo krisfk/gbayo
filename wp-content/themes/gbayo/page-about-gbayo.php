@@ -115,33 +115,7 @@ get_header(); ?>
     <div class="five-lines-sep"></div>
 </div>
 
-<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
-
-<script type="text/javascript">
-$(function() {
-
-    $('.camp-slick').slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        useTransform: false,
-        // responsive: [{
-        //     breakpoint: 991,
-        //     settings: "unslick"
-        // }]
-    });
-
-    $('.home-slick-arrow.home-slick-arrow-left').click(function() {
-        $('.slick-prev.slick-arrow').click();
-    });
-    $('.home-slick-arrow.home-slick-arrow-right').click(function() {
-        $('.slick-next.slick-arrow').click();
-
-    });
-
-})
-</script>
 
 <?php
 
