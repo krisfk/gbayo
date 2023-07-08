@@ -134,7 +134,7 @@ if(count($menu_item['children']))
         $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
         $sub_slug=str_replace('/cn/','',$sub_slug);
         $sub_slug=str_replace('/','',$sub_slug);
-        echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+        echo'<li class="px-5"><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
     }
     echo '</ul>';
 
