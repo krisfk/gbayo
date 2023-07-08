@@ -58,8 +58,8 @@ get_header(); ?>
                     <div class="bold mb-2">Violin
                     </div>
 
-                    <h3 class="orange bold d-inline-block">Professor Michael MA</h3> <a href="javascript:void(0);"
-                        class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn">
+                        <h3 class="orange bold d-inline-block">Professor Michael MA</h3>
 
 
                         <div class="five-lines-grid">
