@@ -246,13 +246,185 @@ get_header(); ?>
         <div class="col-6">
 
             <h2 class="bold mt-4 mb-4">Woodwind
-
             </h2>
 
 
 
             <div class="mb-4">
+
+
+                <div class="bold mb-2">Flute
+                </div>
+
+                <h3 class="orange bold d-inline-block">Professor Yan Qi
+                </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+                <div>Orchestral Music Department Party Branch Secretary Professor (Flute), <br>
+                    Xinghai Conservatory of Music
+
+                </div>
+
             </div>
+
+            <div class="mb-4">
+
+
+                <div class="bold mb-2">Clarinet
+
+                </div>
+
+                <h3 class="orange bold d-inline-block">Professor XXX
+
+                </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+                <div>Xinghai XXXXXXXXXXXXXXXX XXXXXXXX
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="mb-4">
+
+
+                <div class="bold mb-2">Oboe
+
+
+                </div>
+
+                <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
+
+
+                </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+                <div>
+
+
+                    Head of Woodwind, Brass and Percussion, <br>
+                    Hong Kong Academy For Performing Arts
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="mb-4">
+
+
+                <div class="bold mb-2">Bassoon
+
+
+
+                </div>
+
+                <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
+
+
+
+                </h3> <a href="javascript:void(0);" class="more-btn">
+
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+                <div>
+
+                    Hong Kong Philharmonic Orchestra
+
+                </div>
+
+            </div>
+
+
+
         </div>
 
 
