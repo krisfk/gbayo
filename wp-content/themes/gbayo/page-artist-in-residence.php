@@ -45,7 +45,20 @@ get_header(); ?>
             <h2 class="bold mb-4">Strings
             </h2>
 
-            <div>
+            <div class="mb-4">
+
+                <div class="bold">Violin
+                </div>
+
+
+                <h3 class="orange bold">Professor Michael MA</h3>
+
+                <div>Professor of Music (Strings), <br>
+                    Hong Kong Academy For Performing Arts
+                </div>
+
+            </div>
+            <div class="mb-4">
 
                 <div class="bold">Violin
                 </div>
