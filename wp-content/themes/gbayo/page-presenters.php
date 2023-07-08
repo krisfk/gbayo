@@ -44,7 +44,7 @@ get_header(); ?>
 
             <h3 class="orange bold">The Hong Kong Academy for Performing Arts</h3>
 
-            <div>
+            <div class="content-fsize">
 
                 The Hong Kong Academy for Performing Arts (HKAPA), established by The Hong Kong Academy for Performing
                 Arts Ordinance in 1984, is a leading tertiary institution in the performing arts in Asia. It provides
