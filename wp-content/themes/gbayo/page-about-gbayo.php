@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="position-absolute top left w-100 z-1">
 
         <div class="container">
-            <h1 class="page-main-heading">About GBAYO</h1>
+            <h1 class="page-main-heading mt-5">About GBAYO</h1>
         </div>
 
     </div>
