@@ -34,7 +34,8 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container">
+<div class="container mt-5">
+
 
     <h2 class="bold">2023 Auditions</h2>
 
