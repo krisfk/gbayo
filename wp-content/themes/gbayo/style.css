@@ -525,8 +525,8 @@ h2.subtitle {
 
 .menu-layer .close-btn:hover {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
   background-size: 100% 100%;
 }
