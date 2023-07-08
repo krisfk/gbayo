@@ -147,6 +147,11 @@ body {
   transition: 0.2s all;
 }
 
+.more-btn span {
+  position: relative;
+  top: -3px;
+}
+
 .more-btn:hover {
   color: #000;
 }
