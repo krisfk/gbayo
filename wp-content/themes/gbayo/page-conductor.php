@@ -38,6 +38,13 @@ get_header(); ?>
 
     <div class="row mt-5">
 
+        <div class="col-4"></div>
+        <div class="col-8">
+
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/conductor-img.jpg" alt="">
+
+
+        </div>
 
 
     </div>
