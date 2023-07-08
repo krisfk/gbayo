@@ -43,6 +43,11 @@
     $(function() {
 
 
+        $('.hamburger-menu-btn').click(function() {
+
+            $('.menu-layer').fadeIn(200);
+
+        })
         $('.top-menu-ul li a.menu-arrow').click(function() {
             // alert(3);
             $('.top-menu-ul li').removeClass('active');
