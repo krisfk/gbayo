@@ -43,9 +43,9 @@
     $(function() {
 
 
-        $('.top-menu-ul li a.menu-arrow').click(functiuon() {
-            alert(3);
-            // $(this).closest('li').toggleClass('active');
+        $('.top-menu-ul li a.menu-arrow').click(function() {
+            // alert(3);
+            $(this).closest('li').toggleClass('active');
         })
 
 
