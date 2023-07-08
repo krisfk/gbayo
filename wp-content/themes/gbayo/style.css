@@ -434,6 +434,7 @@ h2.subtitle {
 .top-menu-ul li {
   list-style-type: none;
   border-bottom: 1px solid;
+  padding: 0 0 0.5rem 0;
 }
 
 .top-menu-ul li a {
