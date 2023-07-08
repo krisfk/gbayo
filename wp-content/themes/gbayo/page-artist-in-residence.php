@@ -118,6 +118,45 @@ get_header(); ?>
 
             </div>
 
+            <div class="mb-4">
+
+                <div class="bold mb-2">Viola
+                </div>
+
+
+                <h3 class="orange bold">Mr. Hou Donglei 侯東蕾
+
+                </h3>
+
+                <div class="five-lines-grid">
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-1"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-4"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-5"></div>
+                    </div>
+
+                </div>
+
+
+                <div>Head of Strings Department, <br>
+                    The Music School Attached to Xinghai Conservatory of Music
+
+
+                </div>
+
+            </div>
+
+
         </div>
         <div class="col-6"></div>
 
