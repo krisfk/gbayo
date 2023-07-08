@@ -80,14 +80,122 @@
         </div>
         <div>
 
-            <ul class="menu-ul">
+            <!-- <ul class="menu-ul">
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
-            </ul>
+            </ul> -->
+
+            <div class="top-menu-ul-wrapper">
+                <ul class=" top-menu-ul">
+
+                    <li class="mobile-logo-li">
+                        <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
+                                                    alt=""> -->
+                        <a href="<?php echo get_site_url();?>" class="logo-a">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="">
+                        </a>
+
+                    </li>
+                    <?php
+                                    $main_menu = wp_get_menu_array('main menu');
+foreach ($main_menu as $menu_item) {
+
+$url = $menu_item['url'];
+$title = $menu_item['title'];
+$class = $menu_item['class'];
+
+$temp_arr=explode(get_site_url(),$url);
+$slug=str_replace('/en/','',$temp_arr[1]);
+$slug=str_replace('/cn/','',$slug);
+$slug=str_replace('/','',$slug);
+
+
+if(count($menu_item['children']))
+{
+  
+    echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title;
+    ?>
+                    <img class="arrow"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png" alt="">
+
+                    <?php
+    echo'</a>';
+
+ 
+    echo '<ul class="mobile-menu-submenu">';
+?>
+
+                    <?php
+    
+    foreach ($menu_item['children'] as $sub_menu_item) 
+    {
+        $sub_url = $sub_menu_item['url'];
+        $sub_title = $sub_menu_item['title'];
+        
+        $sub_temp_arr=explode(get_site_url(),$sub_url);
+        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+        $sub_slug=str_replace('/cn/','',$sub_slug);
+        $sub_slug=str_replace('/','',$sub_slug);
+        echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+    }
+    echo '</ul>';
+
+}
+else
+{
+echo '<li><a class="level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
+
+}
+echo'</li>';
+
+
+}
+
+
+// $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
+
+
+$user_id= get_current_user_id();
+$member = pms_get_member($user_id);
+$status = $member->subscriptions[0]['status'];
+$expired=false;
+// echo 111;
+if($status=='expired')
+{
+    $expired=true;
+
+    //   wp_redirect(get_site_url().'/account');
+    //   exit;
+}
+
+if( pms_is_member_of_plan( array( 178 ) )  || $expired) 
+{
+    ?>
+                    <li>
+                        <a class="level-1" href="<?php echo get_site_url();?>/account">我的帳號</a>
+                    </li>
+                    <li>
+                        <a class="level-1" href="<?php echo wp_logout_url(get_site_url()) ?>">登出</a>
+                    </li>
+                    <?php    // wp_redirect(get_site_url().'/ascension-temple-login');
+    // exit;
+}
+
+?>
+
+
+                    <li>
+                        <a href="<?php echo get_site_url()?>/cart" class="cart-a"> <img
+                                src="<?php echo get_template_directory_uri();?>/assets/images/cart.png" alt=""></a>
+
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
