@@ -81,6 +81,13 @@ get_header(); ?>
 
     <h2 class="subtitle text-start mt-5">Management team</h2>
 
+    <div class="row">
+
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+    </div>
+
 </div>
 
 <div class="mt-5">

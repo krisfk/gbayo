@@ -547,3 +547,15 @@ h2.subtitle {
   /* font-weight: bold; */
   font-family: 'FuturaBold' !important;
 }
+
+.orange {
+  color: #f47421;
+}
+
+.bold {
+  font-family: 'FuturaBold' !important;
+}
+
+.content-fsize {
+  font-size: 20px;
+}
