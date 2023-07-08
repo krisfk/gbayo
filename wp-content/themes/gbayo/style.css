@@ -220,7 +220,8 @@ body {
 
 h2.subtitle {
   font-size: 40px;
-  font-weight: bold;
+  font-family: 'Futura-Bold';
+  /* font-weight: bold; */
 }
 
 .camp.slick-slide {
