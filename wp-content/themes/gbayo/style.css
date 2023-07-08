@@ -581,3 +581,7 @@ h2.subtitle {
 .name-list-div {
   margin: 0 0 5rem 0;
 }
+
+h3 {
+  font-size: 26px !important;
+}
