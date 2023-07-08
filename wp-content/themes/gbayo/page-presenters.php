@@ -34,6 +34,27 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
+<div class="container">
+
+    <div class="row">
+        <div class="col-4"><a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+
+                <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
+            </a>
+
+        </div>
+        <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+
+                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
+            </a>
+
+        </div>
+        <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+
+                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
+            </a></div>
+    </div>
+</div>
 
 
 
