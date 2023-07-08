@@ -118,7 +118,7 @@ get_header(); ?>
                     Nurturing Talents
                     Making friends with Music
                     Promoting Macao</div>
-                <br><br>
+                <br>
 
                 At the early stage when the Macao Youth Symphony Orchestra was established, a group of musicians
                 including Michael Ma, Ray Wang, Yiu Songlam and Leung Kin-fung regularly visited Macao to offer music
