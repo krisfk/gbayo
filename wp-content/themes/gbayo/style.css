@@ -443,6 +443,8 @@ h2.subtitle {
   font-size: 26px;
   color: #fff;
   width: 100%;
+  width: 10%;
+  width: 100% !important;
 }
 
 .top-menu-ul li:last-child {
@@ -462,7 +464,7 @@ h2.subtitle {
   border: none;
 }
 
-.menu-arrow {
+.top-menu-ul li a.menu-arrow {
   display: block;
   width: 23px !important;
   height: 14px;
