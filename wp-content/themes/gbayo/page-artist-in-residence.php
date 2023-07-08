@@ -157,6 +157,87 @@ get_header(); ?>
             </div>
 
 
+            <div class="mb-4">
+
+                <div class="bold mb-2">Cello
+                </div>
+
+
+                <h3 class="orange bold">Professor Ray Wang
+
+                </h3>
+
+                <div class="five-lines-grid">
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-1"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-4"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-5"></div>
+                    </div>
+
+                </div>
+
+
+                <div>Head of Strings and Head of Junior Music Department, <br>
+                    Hong Kong Academy For Performing Arts
+
+
+
+                </div>
+
+            </div>
+
+            <div class="mb-4">
+
+                <div class="bold mb-2">Double Bass
+
+                </div>
+
+
+                <h3 class="orange bold">Mr. 谷欣
+
+                </h3>
+
+                <div class="five-lines-grid">
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-1"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-4"></div>
+                    </div>
+                    <div class="text-center d-block line-wrapper">
+                        <div class="line line-5"></div>
+                    </div>
+
+                </div>
+
+
+                <div>管弦系中、大、低、豎教研室主任，低音提琴演奏家
+                    The Music School Attached to Xinghai Conservatory of Music
+
+
+                </div>
+
+            </div>
+
+
+
+
         </div>
         <div class="col-6"></div>
 
