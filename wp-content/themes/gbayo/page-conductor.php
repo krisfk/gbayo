@@ -46,7 +46,7 @@ get_header(); ?>
 
             <h2 class="subtitle text-start mt-5">Sharon Andrea Choa</h2>
 
-            <h3 class="orange">Sharon Andrea Choa</h3>
+            <h3 class="orange bold">Sharon Andrea Choa</h3>
 
 
 
