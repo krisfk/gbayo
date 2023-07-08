@@ -68,6 +68,9 @@ get_header(); ?>
 
 
     <div class="mb-4 audition-content">
+        <h3 class="bold orange">Selection Process
+        </h3>
+
         <span class="bold">First Round</span> – Interested and eligible musicians should send the application form by
         email to below
         designated
