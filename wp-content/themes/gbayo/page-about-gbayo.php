@@ -29,7 +29,7 @@ get_header(); ?>
                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-5@2x.png" alt=""></a>
 
             </div>
-
+            <!--  -->
             <div class="col-9 text-end">
 
 
