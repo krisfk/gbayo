@@ -42,7 +42,7 @@ get_header(); ?>
 
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img.jpg" alt="">
 
-            <h2 class="bold orange">GBAYO Debut Concert 2023 (Hong Kong)</h2>
+            <h3 class="bold orange">GBAYO Debut Concert 2023 (Hong Kong)</h3>
         </div>
     </div>
 
