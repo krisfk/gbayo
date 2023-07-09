@@ -50,15 +50,15 @@ get_header(); ?>
                     <td>11 Aug 2023</td>
                 </tr>
                 <tr>
-                    <td class="bold">Time:</td>
+                    <td class="bold pe-3">Time:</td>
                     <td>8pm</td>
                 </tr>
                 <tr>
-                    <td class="bold">Venue:</td>
+                    <td class="bold pe-3">Venue:</td>
                     <td>The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
                 </tr>
                 <tr>
-                    <td class="bold">City:</td>
+                    <td class="bold pe-3">City:</td>
                     <td>Hong Kong</td>
                 </tr>
             </table>
