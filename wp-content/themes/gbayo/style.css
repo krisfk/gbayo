@@ -603,3 +603,7 @@ h3 {
   background: url(./assets/images/pdf-icon.png) no-repeat;
   background-size: auto 100%;
 }
+
+.concert-img {
+  border: 1px solid #000;
+}
