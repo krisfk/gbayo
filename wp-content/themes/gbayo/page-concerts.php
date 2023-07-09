@@ -27,8 +27,7 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/audition-banner-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concerts-banner.png" alt="">
 </div>
 
 
@@ -40,79 +39,9 @@ get_header(); ?>
     <h2 class="bold mb-4">2023 Auditions</h2>
 
 
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Training Camp & Concert Tour Period</h3>
-        <div>Jul 31 - Aug 16, 2023</div>
-    </div>
-
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Training Camp Location</h3>
-        <div>Hong Kong</div>
-    </div>
-
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Concert Tour</h3>
-        <div>Hong Kong, Guangzhou, Shenzhen, &amp; Macau (*Concert locations are subject to change)</div>
-    </div>
-
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Fee</h3>
-        <div>Free of Charge (Tuition and accommodation included)</div>
-    </div>
-
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Eligibility</h3>
-        <div>16 – 24 year old musicians who were either born/graduated/are living/studying/working in the Guandong, Hong
-            Kong, Macao, Greater Bay Area</div>
-    </div>
 
 
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Selection Process
-        </h3>
 
-        <span class="bold">First Round</span> – Interested and eligible musicians should send the application form by
-        email to below
-        designated
-        institutes or organisation in your region by below deadlines:<br><br>
-
-        <span class="bold"> Hong Kong – 17 Mar 2023</span> <br>
-        Hong Kong Academy for Performing Arts: GBAYO@hkapa.edu<br><br>
-
-        <span class="bold">Guangdong – 10 Feb 2023</span><br>
-        Xinghai Conservatory of Music: gbayo@xhcom.edu.cn<br><br>
-
-        <span class="bold">Macau – 10 Feb 2023</span><br>
-        Macao Youth Symphony Orchestra: mysoa@macau.ctm.net
-
-
-    </div>
-
-
-    <div class="mb-4 audition-content">
-        <h3 class="bold orange">Download
-
-        </h3>
-        <ul class="download-pdf-list">
-            <li>
-                <a href="javascript:void(0);"> Application Form (doc) / Application Form (pdf)</a>
-            </li>
-            <li>
-
-            <li>
-                <a href="#">Orchestra excerpts - sheet music - Strings</a>
-            </li>
-            <li>
-                <a href="#">Orchestra excerpts - sheet music - Woodwind</a>
-            </li>
-            <li>
-                <a href="#">Orchestra excerpts - sheet music - Brass</a>
-            </li>
-            <li>
-                <a href="#">Orchestra excerpts - sheet music - Percussion</a>
-            </li>
-        </ul>
-    </div>
 
 
 
