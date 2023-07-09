@@ -36,8 +36,13 @@ get_header(); ?>
 <div class="container mt-5 content-fsize">
 
 
-    <h2 class="bold mb-4">2023 Auditions</h2>
+    <div class="row">
 
+        <div class="col-4">
+
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img.jpg" alt="">
+        </div>
+    </div>
 
 
 
