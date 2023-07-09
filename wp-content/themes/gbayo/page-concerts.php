@@ -43,7 +43,7 @@ get_header(); ?>
             <img class="w-100 concert-img"
                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
 
-            <h3 class="bold orange mt-4">GBAYO Debut Concert 2023 (Hong Kong)</h3>
+            <h3 class="bold orange mt-4">GBAYO Debut Concert 2023 <br> (Hong Kong)</h3>
 
             <table class=" mt-4">
                 <tr>
@@ -72,7 +72,7 @@ get_header(); ?>
             <img class="w-100 concert-img"
                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2.jpg" alt="">
 
-            <h3 class="bold orange mt-4">GBAYO Concert 2023 (Macau)
+            <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Macau)
             </h3>
 
             <table class="mt-4">
@@ -95,6 +95,69 @@ get_header(); ?>
             </table>
 
         </div>
+
+
+        <div class="col-4">
+
+            <img class="w-100 concert-img"
+                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-3.jpg" alt="">
+
+            <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Shenzhen)
+
+            </h3>
+
+            <table class="mt-4">
+                <tr>
+                    <td class="bold pe-3 align-top">Date:</td>
+                    <td class="align-top">14 Aug 2023</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Time:</td>
+                    <td class="align-top">8pm</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Venue:</td>
+                    <td class="align-top">Theater Hall, Shenzhen Grant Theatre</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">City:</td>
+                    <td class="align-top">Shenzhen</td>
+                </tr>
+            </table>
+
+        </div>
+
+
+        <div class="col-4">
+
+            <img class="w-100 concert-img"
+                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-4.jpg" alt="">
+
+            <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Guangzhou)
+
+            </h3>
+
+            <table class="mt-4">
+                <tr>
+                    <td class="bold pe-3 align-top">Date:</td>
+                    <td class="align-top">15 Aug 2023</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Time:</td>
+                    <td class="align-top">8pm</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Venue:</td>
+                    <td class="align-top">Concert Hall, Xinghai Concert Hall</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">City:</td>
+                    <td class="align-top">Guangzhou</td>
+                </tr>
+            </table>
+
+        </div>
+
 
     </div>
 
