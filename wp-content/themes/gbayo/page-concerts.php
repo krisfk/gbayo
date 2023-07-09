@@ -43,6 +43,27 @@ get_header(); ?>
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img.jpg" alt="">
 
             <h3 class="bold orange">GBAYO Debut Concert 2023 (Hong Kong)</h3>
+
+            <table>
+                <tr>
+                    <td class="bold">Date:</td>
+                    <td>11 Aug 2023</td>
+                </tr>
+                <tr>
+                    <td class="bold">Time:</td>
+                    <td>8pm</td>
+                </tr>
+                <tr>
+                    <td class="bold">Venue:</td>
+                    <td>The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
+                </tr>
+                <tr>
+                    <td class="bold">City:</td>
+                    <td>Hong Kong</td>
+                </tr>
+            </table>
+
+
         </div>
     </div>
 
