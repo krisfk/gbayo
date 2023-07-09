@@ -46,19 +46,19 @@ get_header(); ?>
 
             <table>
                 <tr>
-                    <td class="bold pe-3">Date:</td>
+                    <td class="bold pe-3 align-top">Date:</td>
                     <td class="align-top">11 Aug 2023</td>
                 </tr>
                 <tr>
-                    <td class="bold pe-3">Time:</td>
+                    <td class="bold pe-3 align-top">Time:</td>
                     <td class="align-top">8pm</td>
                 </tr>
                 <tr>
-                    <td class="bold pe-3">Venue:</td>
+                    <td class="bold pe-3 align-top">Venue:</td>
                     <td class="align-top">The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
                 </tr>
                 <tr>
-                    <td class="bold pe-3">City:</td>
+                    <td class="bold pe-3 align-top">City:</td>
                     <td class="align-top">Hong Kong</td>
                 </tr>
             </table>
