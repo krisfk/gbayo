@@ -51,15 +51,15 @@ get_header(); ?>
                 </tr>
                 <tr>
                     <td class="bold pe-3">Time:</td>
-                    <td>8pm</td>
+                    <td class="align-top">8pm</td>
                 </tr>
                 <tr>
                     <td class="bold pe-3">Venue:</td>
-                    <td>The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
+                    <td class="align-top">The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
                 </tr>
                 <tr>
                     <td class="bold pe-3">City:</td>
-                    <td>Hong Kong</td>
+                    <td class="align-top">Hong Kong</td>
                 </tr>
             </table>
 
