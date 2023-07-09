@@ -47,7 +47,7 @@ get_header(); ?>
             <table>
                 <tr>
                     <td class="bold pe-3">Date:</td>
-                    <td>11 Aug 2023</td>
+                    <td class="align-top">11 Aug 2023</td>
                 </tr>
                 <tr>
                     <td class="bold pe-3">Time:</td>
