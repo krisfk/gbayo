@@ -643,3 +643,9 @@ h3 {
   background: rgb(0 0 0 / 80%);
   z-index: 2000;
 }
+
+.lightbox-content {
+  display: block;
+  background: #fff;
+  width: 95%;
+}
