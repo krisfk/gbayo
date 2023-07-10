@@ -38,10 +38,12 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-4 mb-5">
+        <div class="col-4 mb-5 text-center">
 
             <img class="w-100 concert-img"
                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2-1.jpg" alt="">
+
+
 
 
 
