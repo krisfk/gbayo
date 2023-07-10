@@ -47,31 +47,33 @@ get_header(); ?>
 
 
 
-            <a href="javascript:void(0);" class="more-btn ticket-here">
+            <div class="mt-5">
+                <a href="javascript:void(0);" class="more-btn ticket-here">
 
 
-                <div class="d-inline-block">Ticket here</div>
+                    <div class="d-inline-block">Ticket here</div>
 
 
-                <div class="five-lines-grid">
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-1"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-2"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-3"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-4"></div>
-                    </div>
-                    <div class="text-center d-block line-wrapper">
-                        <div class="line line-5"></div>
-                    </div>
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
 
-                </div>
-            </a>
+                    </div>
+                </a>
+            </div>
 
 
 
