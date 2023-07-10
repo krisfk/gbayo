@@ -58,6 +58,37 @@ get_header(); ?>
             <h2 class="bold">GBAYO Debut Concert 2023 (Hong Kong)
             </h2>
 
+            <div class="mb-4">
+
+
+                <div class="bold">Programme
+
+                </div>
+
+
+
+
+                <table>
+
+                    <tr>
+                        <td class="bold pe-3 align-top">Beethoven</td>
+                        <td>Triple Concerto</td>
+                    </tr>
+                    <tr>
+                        <td class="bold pe-3 align-top">Dvorak</td>
+                        <td>Symphony No.9 in E minor “From the New World”</td>
+                    </tr>
+                    <tr>
+                        <td class="bold pe-3 align-top">Tan Dun</td>
+                        <td>Internet Symphony "Eroica"</td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+
+
             Programme
             Beethoven: Triple Concerto
             Dvorak: Symphony No.9 in E minor “From the New World”
