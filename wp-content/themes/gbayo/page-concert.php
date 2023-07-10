@@ -198,7 +198,7 @@ get_header(); ?>
                 </div>
 
 
-                <a href="javascript:void(0);" class="more-btn">
+                <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                     <h3 class="bold orange d-inline-block">Li Jinzhu
 
@@ -233,7 +233,7 @@ get_header(); ?>
             <div class="mb-4">
                 <div class="bold ">Piano</div>
 
-                <a href="javascript:void(0);" class="more-btn">
+                <a href="javascript:void(0);" class="more-btn musician-more-btn">
                     <h3 class="bold orange d-inline-block">Cheong Hoi Leong</h3>
                     <span class="ms-2 content-fsize text-dark">Macau</span>
 
@@ -263,7 +263,7 @@ get_header(); ?>
             <div class="mb-4">
                 <div class="bold ">Cello</div>
 
-                <a href="javascript:void(0);" class="more-btn">
+                <a href="javascript:void(0);" class="more-btn musician-more-btn">
                     <h3 class="bold orange d-inline-block">Thomas Hung</h3>
                     <span class="ms-2 content-fsize text-dark">Hong Kong</span>
 
@@ -344,6 +344,16 @@ get_header(); ?>
     <div class="five-lines-sep"></div>
 </div>
 
+
+<script type="text/javascript">
+$(function() {
+
+    $('.musician-more-btn').click(function() {
+
+        $('.lightbox-layer').fadeIn(200);
+    })
+})
+</script>
 <?php
 
 get_footer();
