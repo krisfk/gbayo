@@ -103,7 +103,7 @@ get_header(); ?>
 
                 <h3 class="bold orange d-inline-block">Li Jinzhu
 
-                </h3><span class="ms-1">Guangzhou</span>
+                </h3><span class="ms-2">Guangzhou</span>
             </div>
 
 
