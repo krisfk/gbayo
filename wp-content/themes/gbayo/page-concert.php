@@ -90,7 +90,7 @@ get_header(); ?>
 
 
             <div class="mb-4">
-                <div class="bold mb-2">Conductor
+                <div class="bold">Conductor
                 </div>
 
                 <h3 class="bold orange">Sharon Choa
