@@ -95,12 +95,21 @@ get_header(); ?>
 
                 <h3 class="bold orange">Sharon Choa
                 </h3>
-
-
-
-
-
             </div>
+
+            <div class="mb-4">
+                <div class="bold mb-1">Violin
+                </div>
+
+                <h3 class="bold orange d-inline-block">Li Jinzhu
+
+                </h3><span>Guangzhou</span>
+            </div>
+
+
+
+
+
 
             Programme
             Beethoven: Triple Concerto
