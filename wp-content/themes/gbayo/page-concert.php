@@ -107,7 +107,6 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="more-btn">
 
-                    <span>more</span>
                     <div class="five-lines-grid">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
