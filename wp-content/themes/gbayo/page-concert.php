@@ -101,11 +101,13 @@ get_header(); ?>
                 <div class="bold mb-1">Violin
                 </div>
 
-                <h3 class="bold orange d-inline-block">Li Jinzhu
-
-                </h3><span class="ms-2">Guangzhou</span>
 
                 <a href="javascript:void(0);" class="more-btn">
+
+                    <h3 class="bold orange d-inline-block">Li Jinzhu
+
+                    </h3><span class="ms-2">Guangzhou</span>
+
 
                     <div class="five-lines-grid">
                         <div class="text-center d-block line-wrapper">
