@@ -104,7 +104,33 @@ get_header(); ?>
                 <h3 class="bold orange d-inline-block">Li Jinzhu
 
                 </h3><span class="ms-2">Guangzhou</span>
+
+                <a href="javascript:void(0);" class="more-btn">
+
+                    <span>more</span>
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
             </div>
+
+
 
 
 
