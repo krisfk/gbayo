@@ -48,7 +48,7 @@ get_header(); ?>
             <a href="javascript:void(0);" class="more-btn ticket-here">
 
 
-                <div>Ticket here</div>
+                <div class="d-inline-block">Ticket here</div>
 
 
                 <div class="five-lines-grid">
