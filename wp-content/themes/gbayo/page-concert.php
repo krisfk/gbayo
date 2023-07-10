@@ -209,6 +209,11 @@ get_header(); ?>
             </table>
 
 
+            <h3 class="orange bold">Free
+                Admission
+            </h3>
+
+
 
 
 
