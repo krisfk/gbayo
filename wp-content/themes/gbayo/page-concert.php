@@ -89,6 +89,19 @@ get_header(); ?>
             </div>
 
 
+            <div class="mb-4">
+                <div class="bold mb-2">Conductor
+                </div>
+
+                <h3 class="bold orange">Sharon Choa
+                </h3>
+
+
+
+
+
+            </div>
+
             Programme
             Beethoven: Triple Concerto
             Dvorak: Symphony No.9 in E minor “From the New World”
