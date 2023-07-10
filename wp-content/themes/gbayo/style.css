@@ -147,8 +147,13 @@ body {
   transition: 0.2s all;
 }
 
+.more-btn.ticket-here {
+}
+
 .more-btn.ticket-here .five-lines-grid {
   transform: rotate(90deg);
+  position: relative;
+  top: 1px;
 }
 
 .more-btn span {
