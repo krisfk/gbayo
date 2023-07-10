@@ -21,6 +21,10 @@ get_header(); ?>
 
     <div class="lightbox-content">
 
+        <a href="javascript:void(0);" class="close-btn"></a>
+
+
+
         <div class="container">
             <div class="row">
 
