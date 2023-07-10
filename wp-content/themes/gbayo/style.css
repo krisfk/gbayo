@@ -192,6 +192,16 @@ body {
   animation-fill-mode: forwards;
 }
 
+.more-btn.more-btn.ticket-here:hover .five-lines-grid .line {
+  /* width: 0%; */
+  /* background: #000; */
+  color: #000;
+  animation: none;
+  /* other keywords like "infinite alternate" can be useful here */
+  /* transition: 1s all; */
+  /* animation-fill-mode: forwards; */
+}
+
 @keyframes hover-more-btn {
   /* You could think of as "step 1" */
   0% {
