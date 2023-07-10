@@ -55,6 +55,39 @@ get_header(); ?>
 
 
 
+            <h2 class="bold">GBAYO Debut Concert 2023 (Hong Kong)
+            </h2>
+
+            Programme
+            Beethoven: Triple Concerto
+            Dvorak: Symphony No.9 in E minor “From the New World”
+            Tan Dun: Internet Symphony "Eroica“
+
+            Conductor
+            Sharon Choa
+
+            Violin
+            Li Jinzhu Guangzhou
+
+            Piano
+            Cheong Hoi Leong Macau
+
+            Cello
+            Thomas Hung Hong Kong
+
+            Date: 11 Aug 2023
+            Time: 8pm
+            Venue: The Hong Kong Jockey Club Amphitheatre, HKAPA
+
+            Free
+            Admission
+
+            Greater Bay Area Youth Orchestra reserves the right to change the programme and artists
+
+
+
+
+
         </div>
 
 

@@ -55,7 +55,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Violin
+                    <div class="bold">Violin
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn">
@@ -89,7 +89,7 @@ get_header(); ?>
                 </div>
                 <div class="mb-4">
 
-                    <div class="bold mb-2">Violin
+                    <div class="bold">Violin
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn">
@@ -127,7 +127,7 @@ get_header(); ?>
 
                 <div class="mb-4">
 
-                    <div class="bold mb-2">Viola
+                    <div class="bold">Viola
                     </div>
                     <a href="javascript:void(0);" class="more-btn">
 
@@ -169,7 +169,7 @@ get_header(); ?>
 
                 <div class="mb-4">
 
-                    <div class="bold mb-2">Cello
+                    <div class="bold">Cello
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn">
@@ -211,7 +211,7 @@ get_header(); ?>
 
                 <div class="mb-4">
 
-                    <div class="bold mb-2">Double Bass
+                    <div class="bold">Double Bass
 
                     </div>
 
@@ -270,7 +270,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Flute
+                    <div class="bold">Flute
                     </div> <a href="javascript:void(0);" class="more-btn">
 
 
@@ -308,7 +308,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Clarinet
+                    <div class="bold">Clarinet
 
                     </div>
                     <a href="javascript:void(0);" class="more-btn">
@@ -354,7 +354,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Oboe
+                    <div class="bold">Oboe
 
 
                     </div>
@@ -403,7 +403,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Bassoon
+                    <div class="bold">Bassoon
 
 
 
@@ -456,7 +456,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Horn
+                    <div class="bold">Horn
 
 
 
@@ -507,7 +507,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Trumpet
+                    <div class="bold">Trumpet
 
 
 
@@ -561,7 +561,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Trombone
+                    <div class="bold">Trombone
 
 
 
@@ -617,7 +617,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Bass Trombone
+                    <div class="bold">Bass Trombone
 
 
 
@@ -673,7 +673,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold mb-2">Percussion
+                    <div class="bold">Percussion
 
 
 
