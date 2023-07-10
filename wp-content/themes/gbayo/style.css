@@ -654,3 +654,14 @@ h3 {
   left: 50%;
   padding: 5rem 0 5rem 0;
 }
+
+.lightbox-content .close-btn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
