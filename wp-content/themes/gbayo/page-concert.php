@@ -214,6 +214,12 @@ get_header(); ?>
             </h3>
 
 
+            <div class="concert-right-txt">Greater Bay Area Youth Orchestra reserves the right to change the programme
+                and
+                artists
+            </div>
+
+
 
 
 

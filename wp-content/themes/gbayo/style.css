@@ -607,3 +607,9 @@ h3 {
 .concert-img {
   border: 1px solid #000;
 }
+
+.concert-right-txt {
+  display: block;
+  color: #000;
+  font-size: 12px;
+}
