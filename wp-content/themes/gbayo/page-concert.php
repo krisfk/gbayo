@@ -193,7 +193,7 @@ get_header(); ?>
                 </a>
             </div>
 
-            <table>
+            <table class="mb-4">
                 <tr>
                     <td class="bold pe-3 align-top">Date:</td>
                     <td>11 Aug 2023</td>
