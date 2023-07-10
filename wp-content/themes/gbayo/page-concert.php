@@ -89,6 +89,8 @@ get_header(); ?>
             </div>
 
 
+
+
             <div class="mb-4">
                 <div class="bold ">Conductor
                 </div>
@@ -191,6 +193,24 @@ get_header(); ?>
                 </a>
             </div>
 
+            <table>
+                <tr>
+                    <td class="bold pe-3 align-top">Beethoven</td>
+                    <td>Triple Concerto</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Dvorak</td>
+                    <td>Symphony No.9 in E minor “From the New World”</td>
+                </tr>
+                <tr>
+                    <td class="bold pe-3 align-top">Tan Dun</td>
+                    <td>Internet Symphony "Eroica"</td>
+                </tr>
+            </table>
+
+            <p>Date: 11 Aug 2023</p>
+            <p>Time: 8pm</p>
+            <p>Venue: The Hong Kong Jockey Club Amphitheatre, HKAPA</p>
 
             Programme
             Beethoven: Triple Concerto
