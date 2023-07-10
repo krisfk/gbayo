@@ -164,6 +164,33 @@ get_header(); ?>
 
 
 
+            <div class="mb-4">
+                <div class="bold mb-1">Cello</div>
+
+                <a href="javascript:void(0);" class="more-btn">
+                    <h3 class="bold orange d-inline-block">Thomas Hung</h3>
+                    <span class="ms-2 content-fsize text-dark">Hong Kong</span>
+
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
 
             Programme
             Beethoven: Triple Concerto
