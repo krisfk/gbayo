@@ -55,7 +55,7 @@ get_header(); ?>
 
 
 
-            <h2 class="bold">GBAYO Debut Concert 2023 (Hong Kong)
+            <h2 class="bold mb-4">GBAYO Debut Concert 2023 (Hong Kong)
             </h2>
 
             <div class="mb-4">
