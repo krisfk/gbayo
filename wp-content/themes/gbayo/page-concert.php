@@ -61,9 +61,9 @@ get_header(); ?>
             <div class="mb-4">
 
 
-                <div class="bold">Programme
+                <h3 class="bold orange">Programme
 
-                </div>
+                </h3>
 
 
 
