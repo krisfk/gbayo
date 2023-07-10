@@ -90,7 +90,7 @@ get_header(); ?>
 
 
             <div class="mb-4">
-                <div class="bold mb-1">Conductor
+                <div class="bold ">Conductor
                 </div>
 
                 <h3 class="bold orange">Sharon Choa
@@ -98,7 +98,7 @@ get_header(); ?>
             </div>
 
             <div class="mb-4">
-                <div class="bold mb-1">Violin
+                <div class="bold ">Violin
                 </div>
 
 
@@ -135,7 +135,7 @@ get_header(); ?>
 
 
             <div class="mb-4">
-                <div class="bold mb-1">Piano</div>
+                <div class="bold ">Piano</div>
 
                 <a href="javascript:void(0);" class="more-btn">
                     <h3 class="bold orange d-inline-block">Cheong Hoi Leong</h3>
@@ -165,7 +165,7 @@ get_header(); ?>
 
 
             <div class="mb-4">
-                <div class="bold mb-1">Cello</div>
+                <div class="bold ">Cello</div>
 
                 <a href="javascript:void(0);" class="more-btn">
                     <h3 class="bold orange d-inline-block">Thomas Hung</h3>
