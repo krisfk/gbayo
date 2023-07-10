@@ -195,48 +195,19 @@ get_header(); ?>
 
             <table>
                 <tr>
-                    <td class="bold pe-3 align-top">Beethoven</td>
-                    <td>Triple Concerto</td>
+                    <td class="bold pe-3 align-top">Date:</td>
+                    <td>11 Aug 2023</td>
                 </tr>
                 <tr>
-                    <td class="bold pe-3 align-top">Dvorak</td>
-                    <td>Symphony No.9 in E minor “From the New World”</td>
+                    <td class="bold pe-3 align-top">Time:</td>
+                    <td>8pm</td>
                 </tr>
                 <tr>
-                    <td class="bold pe-3 align-top">Tan Dun</td>
-                    <td>Internet Symphony "Eroica"</td>
+                    <td class="bold pe-3 align-top">Venue:</td>
+                    <td>The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
                 </tr>
             </table>
 
-            <p>Date: 11 Aug 2023</p>
-            <p>Time: 8pm</p>
-            <p>Venue: The Hong Kong Jockey Club Amphitheatre, HKAPA</p>
-
-            Programme
-            Beethoven: Triple Concerto
-            Dvorak: Symphony No.9 in E minor “From the New World”
-            Tan Dun: Internet Symphony "Eroica“
-
-            Conductor
-            Sharon Choa
-
-            Violin
-            Li Jinzhu Guangzhou
-
-            Piano
-            Cheong Hoi Leong Macau
-
-            Cello
-            Thomas Hung Hong Kong
-
-            Date: 11 Aug 2023
-            Time: 8pm
-            Venue: The Hong Kong Jockey Club Amphitheatre, HKAPA
-
-            Free
-            Admission
-
-            Greater Bay Area Youth Orchestra reserves the right to change the programme and artists
 
 
 
