@@ -65,7 +65,7 @@
             $('.menu-layer').fadeOut(200);
         })
 
-        $('.lightbox-content .close-btn').click(function() {
+        $('.lightbox-content .close-btn,.lightbox-layer').click(function() {
 
             $('.lightbox-layer').fadeOut(0);
 

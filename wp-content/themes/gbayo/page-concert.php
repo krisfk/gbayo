@@ -354,9 +354,6 @@ $(function() {
         $('.lightbox-layer').fadeIn(200);
     })
 
-    $('.lightbox-press-area').click(function() {
-        alert(4)
-    })
 })
 </script>
 <?php
