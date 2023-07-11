@@ -40,29 +40,20 @@ get_header(); ?>
 
     <div class="row">
 
-
-        <div class="col-6">
-
-            <a href="javascript:void(0);" class="mb-4 d-block">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg" alt=""></a>
-        </div>
-        <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
-
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-2.jpg" alt=""></a>
-
-        </div>
-        <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
-
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-3.jpg" alt=""></a>
+        <div class="col-4"></div>
+        <div class="col-8 content-fsize">
 
 
-        </div>
-        <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
 
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-4.jpg" alt=""></a>
+            <h2 class="bold">Orchestra</h2>
+
+            <h3 class="orange bold">28 October 2022</h3>
+            <div class="mb-4"><span class="bold">Guest:</span> Andrew Simon | Principal Clarinet, HK Phil
+            </div>
+
+            <div> We are honoured to have Andrew Simon, Principal Clarinet of the Hong Kong Philharmonic Orchestra, to
+                share
+                his orchestral experience and ensemble playing techniques.</div>
 
 
         </div>
