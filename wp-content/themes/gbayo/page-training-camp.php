@@ -44,25 +44,25 @@ get_header(); ?>
         <div class="col-6">
 
             <a href="javascript:void(0);">
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg" alt=""></a>
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg" alt=""></a>
         </div>
         <div class="col-6">
             <a href="javascript:void(0);">
 
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-2.jpg" alt=""></a>
-
-        </div>
-        <div class="col-6">
-            <a href="javascript:void(0);">
-
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-3.jpg" alt=""></a>
-
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-2.jpg" alt=""></a>
 
         </div>
         <div class="col-6">
             <a href="javascript:void(0);">
 
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-4.jpg" alt=""></a>
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-3.jpg" alt=""></a>
+
+
+        </div>
+        <div class="col-6">
+            <a href="javascript:void(0);">
+
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-4.jpg" alt=""></a>
 
 
         </div>
