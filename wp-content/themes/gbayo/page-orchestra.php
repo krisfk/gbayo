@@ -80,7 +80,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4">
+    <div class="row mt-4 reverse-column">
 
         <div class="col-4">
 
