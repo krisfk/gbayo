@@ -349,9 +349,13 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
-    $('.musician-more-btn,.lightbox-press-area').click(function() {
+    $('.musician-more-btn').click(function() {
 
         $('.lightbox-layer').fadeIn(200);
+    })
+
+    $('.lightbox-press-area').click(function() {
+        alert(4)
     })
 })
 </script>
