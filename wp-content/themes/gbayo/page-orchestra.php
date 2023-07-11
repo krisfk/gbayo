@@ -80,20 +80,21 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4 reverse-column">
+    <div class="row mt-4">
 
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
         <div class="col-8">
 
             <a href="javascript:void(0);">
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
             </a>
         </div>
+        <div class="col-4">
+
+            <a href="javascript:void(0);">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
+            </a>
+        </div>
+
     </div>
 
     <div class="row mt-4 ">
@@ -112,18 +113,19 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4 reverse-column">
+    <div class="row mt-4 ">
 
-        <div class="col-4">
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
         <div class="col-8">
 
             <a href="javascript:void(0);">
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-4">
+
+            <a href="javascript:void(0);">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
             </a>
         </div>
     </div>
