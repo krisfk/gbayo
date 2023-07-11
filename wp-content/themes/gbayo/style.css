@@ -666,3 +666,10 @@ h3 {
   top: 2rem;
   right: 2rem;
 }
+
+.lightbox-press-area {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}

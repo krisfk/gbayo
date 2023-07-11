@@ -19,6 +19,7 @@ get_header(); ?>
 
 <div class="lightbox-layer">
 
+    <div class="lightbox-press-area"></div>
     <div class="lightbox-content">
 
         <a href="javascript:void(0);" class="close-btn"></a>
