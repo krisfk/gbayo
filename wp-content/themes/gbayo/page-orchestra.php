@@ -47,7 +47,7 @@ get_header(); ?>
 
             <h2 class="bold mb-4">Orchestra</h2>
 
-            <h3 class="orange bold">28 October 2022</h3>
+            <h3 class="orange bold m-0">28 October 2022</h3>
             <div class="mb-4"><span class="bold">Guest:</span> Andrew Simon | Principal Clarinet, HK Phil
             </div>
 
