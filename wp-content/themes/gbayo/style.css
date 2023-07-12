@@ -530,6 +530,10 @@ h2.subtitle {
   padding: 0.5rem 0 0.5rem 0;
 }
 
+.top-menu-ul li a.level-1:hover {
+  color: #f47421;
+}
+
 .top-menu-ul li.active a.menu-arrow {
   background: url(./assets/images/orange-down-arrow.png) no-repeat;
   display: block;
