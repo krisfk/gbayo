@@ -732,6 +732,12 @@ h3 {
   color: #f47421;
 }
 
+.media-news-data-ul {
+  margin: 0;
+  padding: 0;
+}
+
 .media-news-data-ul li {
   margin: 0 0 1rem 0;
+  list-style-type: none;
 }
