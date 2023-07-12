@@ -702,6 +702,12 @@ h3 {
   color: #fff;
 }
 
+.news-ul {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
 .news-ul li {
   list-style-type: none;
 }
