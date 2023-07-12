@@ -52,26 +52,51 @@ get_header(); ?>
                 <div class="camp-cate-title camp-cate-title-2 bold">Orchestra</div>
             </a>
         </div>
+
+
+
         <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
 
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-2.jpg" alt=""></a>
+            <a href="javascript:void(0);" class="camp-cate mb-4 d-block position-relative"
+                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
+                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
+                    alt="">
 
+                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                <div class="camp-cate-title camp-cate-title-2 bold">Chamber <br>
+                    Music</div>
+            </a>
         </div>
+
+
         <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
 
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-3.jpg" alt=""></a>
+            <a href="javascript:void(0);" class="camp-cate mb-4 d-block position-relative"
+                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
+                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
+                    alt="">
 
-
+                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                <div class="camp-cate-title camp-cate-title-2 bold">Masterclass <br>
+                    & Workshop</div>
+            </a>
         </div>
+
+
         <div class="col-6">
-            <a href="javascript:void(0);" class="mb-4 d-block">
 
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-4.jpg" alt=""></a>
+            <a href="javascript:void(0);" class="camp-cate mb-4 d-block position-relative"
+                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
+                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
+                    alt="">
 
-
+                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
+                    Activities</div>
+            </a>
         </div>
+
+
 
 
 
