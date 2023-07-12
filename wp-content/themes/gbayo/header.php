@@ -246,18 +246,22 @@ echo'</li>';
                                     <table class="d-inline-block">
                                         <tr>
                                             <td class="align-top">Presented by</td>
-                                            <td> <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+                                            <td>
+                                                <a href="javascript:void(0);"
+                                                    class="top-presenter-logos-a ms-lg-4 ms-md-1 ms-sm-1 ms-1 ">
 
                                                     <img class=""
                                                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
                                                         alt="">
                                                 </a>
-                                                <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+                                                <a href="javascript:void(0);"
+                                                    class="top-presenter-logos-a ms-lg-4 ms-md-1 ms-sm-1 ms-1 ">
 
                                                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png"
                                                         alt="">
                                                 </a>
-                                                <a href="javascript:void(0);" class="top-presenter-logos-a ms-4">
+                                                <a href="javascript:void(0);"
+                                                    class="top-presenter-logos-a ms-lg-4 ms-md-1 ms-sm-1 ms-1 ">
 
                                                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png"
                                                         alt="">
