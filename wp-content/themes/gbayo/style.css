@@ -823,6 +823,9 @@ textarea {
     height: 22px;
   }
   .present-by-div table {
+    margin: 0 3rem 0 0;
+    position: relative;
+    top: 4px;
   }
 }
 
