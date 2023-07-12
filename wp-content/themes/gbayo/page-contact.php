@@ -54,10 +54,12 @@ get_header(); ?>
             <input type="text" id="email" class="form-control">
 
         </div>
-        <div class="col-12">
+        <div class="col-12 mt-4">
 
             <label for="message">Message:</label>
             <textarea type="text" id="message" class="form-control">
+
+
 
         </textarea>
 
