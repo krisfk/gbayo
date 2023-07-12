@@ -57,11 +57,7 @@ get_header(); ?>
         <div class="col-12 mt-4">
 
             <label for="message" class="mb-1">Message:</label>
-            <textarea type="text" id="message" class="form-control">
-
-
-
-        </textarea>
+            <textarea type="text" id="message" class="form-control"></textarea>
 
             <div>
                 <a href="javascript:void(0);" class="more-btn">
