@@ -109,6 +109,7 @@ body {
 
 .top-presenter-logos-a {
   display: inline-block;
+  margin: 0 0 0 2rem;
 }
 
 .other-logos-a {
@@ -793,6 +794,7 @@ textarea {
     height: 30px;
   }
   .top-presenter-logos-a {
+    margin: 0 0 0 1rem;
   }
 }
 
@@ -803,6 +805,7 @@ textarea {
 
 @media only screen and (max-width: 768px) {
   .top-presenter-logos-a {
+    margin: 0 0 0 0.5rem;
   }
   .presenter-logos-a img {
     height: 20px;
