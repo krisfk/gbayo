@@ -28,8 +28,8 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100"
-        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/training-camp-banner-scaled.jpg" alt="">
+    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/contact-banner-scaled.jpg"
+        alt="">
 </div>
 
 
