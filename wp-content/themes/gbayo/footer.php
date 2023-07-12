@@ -23,7 +23,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-9">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
                 <div class="footer-logos-subtitle">Presented by</div>
                 <table class="d-inline-block">
@@ -45,7 +45,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
 
                 <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
 
