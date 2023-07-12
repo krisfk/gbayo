@@ -792,12 +792,18 @@ textarea {
   .top-presenter-logos-a img {
     height: 30px;
   }
+  .top-presenter-logos-a {
+  }
 }
 
 @media only screen and (max-width: 991px) {
+  .top-presenter-logos-a {
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .top-presenter-logos-a {
+  }
   .presenter-logos-a img {
     height: 20px;
   }
@@ -810,7 +816,11 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+  .top-presenter-logos-a {
+  }
 }
 
 @media only screen and (max-width: 375px) {
+  .top-presenter-logos-a {
+  }
 }
