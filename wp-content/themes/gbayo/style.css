@@ -798,6 +798,9 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+  presenter-logos-a img {
+    height: 20px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
