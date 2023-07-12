@@ -789,6 +789,9 @@ textarea {
     height: auto;
     width: 65vw;
   }
+  .top-presenter-logos-a img {
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
