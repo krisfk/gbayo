@@ -63,7 +63,7 @@ get_header(); ?>
                 <a href="javascript:void(0);" class="more-btn">
 
 
-                    <span>Submit
+                    <span>submit
 
                     </span>
 
