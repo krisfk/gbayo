@@ -100,72 +100,7 @@ get_header(); ?>
                     <div>16 Feb 2023
                     </div>
                 </li>
-                <li>
 
-                    <a href="javascript:void(0);" class="more-btn">
-
-                        <h3 class="orange bold d-inline-block">TOA Masterclass Throwback
-
-
-                        </h3>
-
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <div>16 Feb 2023
-                    </div>
-                </li>
-                <li>
-
-                    <a href="javascript:void(0);" class="more-btn">
-
-                        <h3 class="orange bold d-inline-block">TOA Mock Audition Revisited
-
-
-                        </h3>
-
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <div>16 Feb 2023
-                    </div>
-                </li>
             </ul>
 
             <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
