@@ -136,9 +136,8 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
-                            Recruitment
-                            Starts
+                        <h3 class="orange bold d-inline-block">TOA Mock Audition Revisited
+
 
                         </h3>
 
