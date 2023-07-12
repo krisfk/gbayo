@@ -58,7 +58,7 @@ get_header(); ?>
         <div class="col-6">
 
             <a href="javascript:void(0);" class="camp-cate mb-4 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
+                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
                 <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
                     alt="">
 
@@ -86,7 +86,7 @@ get_header(); ?>
         <div class="col-6">
 
             <a href="javascript:void(0);" class="camp-cate mb-4 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
+                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
                 <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
                     alt="">
 
