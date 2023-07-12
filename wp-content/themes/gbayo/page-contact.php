@@ -41,6 +41,17 @@ get_header(); ?>
 
     <h2 class="bold">Get in touch!</h2>
 
+    <div class="row">
+
+        <div class="col-6">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-control">
+
+        </div>
+        <div class="col-6">Email:</div>
+        <div class="col-12">Message</div>
+    </div>
+
 
 
 
