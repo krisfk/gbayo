@@ -770,6 +770,12 @@ textarea {
 }
 
 @media only screen and (max-width: 1200px) {
+  .gbayo-big-txt {
+    position: relative;
+    top: -11px;
+    height: auto;
+    width: 65vw;
+  }
 }
 
 @media only screen and (max-width: 991px) {
