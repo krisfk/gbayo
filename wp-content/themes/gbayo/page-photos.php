@@ -68,34 +68,34 @@ get_header(); ?>
 
                 <li>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <!-- <a href="javascript:void(0);" class="more-btn"> -->
 
-                        <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
-                            Recruitment
-                            Starts
+                    <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
+                        Recruitment
+                        Starts
 
-                        </h3>
+                    </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
-
+                    <div class="five-lines-grid">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
                         </div>
 
-                    </a>
+                    </div>
+
+                    <!-- </a> -->
 
                     <div>16 Feb 2023
                     </div>
