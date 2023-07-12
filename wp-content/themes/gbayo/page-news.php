@@ -41,10 +41,10 @@ get_header(); ?>
     <div class="text-center">
         <ul class="news-ul mb-5">
             <li>
-                <a href="javascript:void(0);" class="active">All</a>
+                <a href="javascript:void(0);" class="">All</a>
             </li>
             <li>
-                <a href="javascript:void(0);">News</a>
+                <a href="javascript:void(0);" class="active">News</a>
             </li>
             <li>
                 <a href="javascript:void(0);">Press Releases</a>
