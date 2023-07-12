@@ -39,7 +39,7 @@ get_header(); ?>
 
 
     <div class="text-center">
-        <ul class="news-ul">
+        <ul class="news-ul mb-5">
             <li>
                 <a href="javascript:void(0);" class="active">All</a>
             </li>
