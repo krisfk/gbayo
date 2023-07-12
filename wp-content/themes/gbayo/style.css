@@ -677,3 +677,7 @@ h3 {
 .reverse-column {
   flex-direction: row-reverse;
 }
+
+.opacity-0 {
+  opacity: 0;
+}
