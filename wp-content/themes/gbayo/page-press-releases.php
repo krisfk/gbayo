@@ -44,10 +44,10 @@ get_header(); ?>
                 <a href="javascript:void(0);" class="">All</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="active">News</a>
+                <a href="javascript:void(0);" class="">News</a>
             </li>
             <li>
-                <a href="javascript:void(0);">Press Releases</a>
+                <a href="javascript:void(0);" class="active">Press Releases</a>
             </li>
             <li>
                 <a href="javascript:void(0);">Videos</a>
