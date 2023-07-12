@@ -38,128 +38,14 @@ get_header(); ?>
 <div class="container mt-5 content-fsize">
 
 
-    <div class="text-center">
-        <ul class="news-ul mb-5">
-            <li>
-                <a href="javascript:void(0);" class="">All</a>
-            </li>
-            <li>
-                <a href="javascript:void(0);" class="">News</a>
-            </li>
-            <li>
-                <a href="javascript:void(0);" class="">Press Releases</a>
-            </li>
-            <li>
-                <a href="javascript:void(0);" class="">Videos</a>
-            </li>
-            <li>
-                <a href="javascript:void(0);" class="active">Photos</a>
-            </li>
-        </ul>
-    </div>
 
-    <div class="row mt-5">
-
-
-        <div class="col-12">
-
-
-            <ul class="media-news-data-ul">
-
-                <li>
-
-                    <!-- <a href="javascript:void(0);" class="more-btn"> -->
-
-                    <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
-                        Recruitment
-                        Starts
-
-                    </h3>
-
-
-                    <!-- </a> -->
-
-                    <div>16 Feb 2023
-                    </div>
-                </li>
-
-            </ul>
-
-            <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
-        </div>
+    <h2 class="bold">Get in touch!</h2>
 
 
 
 
 
-    </div>
 
-
-    <div class="row mt-4">
-
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-    </div>
-
-    <div class="row mt-4">
-
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-
-    </div>
-
-    <div class="row mt-4 ">
-
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-    </div>
-
-    <div class="row mt-4 ">
-
-
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-    </div>
 
 
 
