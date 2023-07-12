@@ -840,8 +840,10 @@ textarea {
     top: 4px;
   }
   .fix-back-to-top {
+    left: -8vh;
   }
   .fix-social-elements {
+    right: -8vh;
   }
 }
 
