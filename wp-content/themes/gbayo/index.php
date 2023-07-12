@@ -146,10 +146,11 @@ $(function() {
         slidesToShow: 4,
         slidesToScroll: 4,
         useTransform: false,
-        // responsive: [{
-        //     breakpoint: 991,
-        //     settings: "unslick"
-        // }]
+        responsive: [{
+            breakpoint: 991,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+        }]
     });
 
     $('.home-slick-arrow.home-slick-arrow-left').click(function() {
