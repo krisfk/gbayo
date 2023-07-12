@@ -145,6 +145,8 @@ body {
   color: #f47421;
   text-decoration: none;
   transition: 0.2s all;
+  display: inline-flex;
+  align-items: center;
 }
 
 .more-btn.ticket-here {
