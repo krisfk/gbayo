@@ -57,7 +57,7 @@ get_header(); ?>
         <div class="col-12">
 
             <label for="message">Message:</label>
-            <textarea type="text" id="message" class="form-control">
+            <textarea type="text" id="message" class="form-control"></textarea>
 
         </div>
 
