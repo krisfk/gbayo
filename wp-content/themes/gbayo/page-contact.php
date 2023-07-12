@@ -48,8 +48,19 @@ get_header(); ?>
             <input type="text" id="name" class="form-control">
 
         </div>
-        <div class="col-6">Email:</div>
-        <div class="col-12">Message</div>
+        <div class="col-6">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="form-control">
+
+        </div>
+        <div class="col-12">
+
+            <label for="message">Message:</label>
+            <textarea type="text" id="message" class="form-control">
+
+        </div>
+
     </div>
 
 
