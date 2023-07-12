@@ -781,6 +781,8 @@ textarea {
     height: 23px;
     z-index: 100;
   }
+  .present-by-div table {
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -796,10 +798,14 @@ textarea {
   .top-presenter-logos-a {
     margin: 0 0 0 1rem;
   }
+  .present-by-div table {
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .top-presenter-logos-a {
+  }
+  .present-by-div table {
   }
 }
 
@@ -816,14 +822,20 @@ textarea {
   .top-presenter-logos-a img {
     height: 22px;
   }
+  .present-by-div table {
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .top-presenter-logos-a {
   }
+  .present-by-div table {
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .top-presenter-logos-a {
+  }
+  .present-by-div table {
   }
 }
