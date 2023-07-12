@@ -240,7 +240,7 @@ echo'</li>';
 
                                 </div>
 
-                                <div class="col-9 text-end">
+                                <div class="col-9 text-end pe-lg-0 pe-md-3 pe-sm-3 pe-3 ">
 
 
                                     <table class="d-inline-block">
