@@ -59,7 +59,7 @@ get_header(); ?>
             <label for="message" class="mb-1">Message:</label>
             <textarea type="text" id="message" class="form-control"></textarea>
 
-            <div>
+            <div class="text-end mt-4">
                 <a href="javascript:void(0);" class="more-btn">
 
 
