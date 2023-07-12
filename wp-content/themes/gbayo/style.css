@@ -487,6 +487,10 @@ h2.subtitle {
   padding: 0 1rem;
 }
 
+.mobile-menu-submenu li a:hover {
+  color: #f47421;
+}
+
 .mobile-menu-submenu {
   display: none;
   margin: -0.5rem 0 0.5rem 0;
