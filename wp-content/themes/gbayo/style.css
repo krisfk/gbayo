@@ -468,7 +468,7 @@ h2.subtitle {
 
 .top-menu-ul li {
   list-style-type: none;
-  border-bottom: 1px solid #f47422;
+  border-bottom: 1px solid #f47421;
   /* padding: 0 0 0.5rem 0; */
   position: relative;
 }
@@ -540,7 +540,7 @@ h2.subtitle {
 }
 
 .top-menu-ul li.active a.level-1 {
-  color: #f47422;
+  color: #f47421;
 }
 
 .menu-layer {
@@ -714,4 +714,12 @@ h3 {
 
 .news-ul li {
   display: inline-block;
+}
+
+.news-ul li a {
+  color: #000;
+}
+
+.news-ul li a.active {
+  color: #f47421;
 }

@@ -41,7 +41,7 @@ get_header(); ?>
     <div class="text-center">
         <ul class="news-ul">
             <li>
-                <a href="javascript:void(0);">All</a>
+                <a href="javascript:void(0);" class="active">All</a>
             </li>
             <li>
                 <a href="javascript:void(0);">News</a>
