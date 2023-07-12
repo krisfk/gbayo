@@ -44,19 +44,19 @@ get_header(); ?>
     <div class="row">
 
         <div class="col-6">
-            <label for="name">Name:</label>
+            <label for="name" class="mb-1">Name:</label>
             <input type="text" id="name" class="form-control">
 
         </div>
         <div class="col-6">
 
-            <label for="email">Email:</label>
+            <label for="email" class="mb-1">Email:</label>
             <input type="text" id="email" class="form-control">
 
         </div>
         <div class="col-12 mt-4">
 
-            <label for="message">Message:</label>
+            <label for="message" class="mb-1">Message:</label>
             <textarea type="text" id="message" class="form-control">
 
 
