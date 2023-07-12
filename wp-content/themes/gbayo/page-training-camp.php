@@ -48,8 +48,8 @@ get_header(); ?>
                 <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
                     alt="">
 
-                <div class="camp-cate-title camp-cate-title-1"></div>
-                <div class="camp-cate-title camp-cate-title-2"></div>
+                <div class="camp-cate-title camp-cate-title-1">Coming <br> Soon</div>
+                <div class="camp-cate-title camp-cate-title-2">Orchestra</div>
             </a>
         </div>
         <div class="col-6">

@@ -681,3 +681,12 @@ h3 {
 .opacity-0 {
   opacity: 0;
 }
+
+.camp-cate-title {
+  position: absolute;
+}
+
+.camp-cate-title.camp-cate-title-1 {
+  top: 1rem;
+  left: 1rem;
+}
