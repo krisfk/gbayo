@@ -804,6 +804,9 @@ textarea {
   .logo-a img {
     height: 26px;
   }
+  .top-presenter-logos-a img {
+    height: 22px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
