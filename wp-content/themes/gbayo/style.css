@@ -731,3 +731,7 @@ h3 {
 .news-ul li a.active {
   color: #f47421;
 }
+
+.media-news-data-ul li {
+  margin: 0 0 2rem 0;
+}
