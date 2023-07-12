@@ -687,6 +687,15 @@ h3 {
 }
 
 .camp-cate-title.camp-cate-title-1 {
-  top: 1rem;
-  left: 1rem;
+  top: 2rem;
+  left: 2rem;
+  font-size: 60px;
+  color: #000;
+}
+
+.camp-cate-title.camp-cate-title-2 {
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 40px;
+  color: #fff;
 }
