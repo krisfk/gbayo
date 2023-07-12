@@ -39,7 +39,7 @@ get_header(); ?>
 
 
 
-    <h2 class="bold">Get in touch!</h2>
+    <h2 class="bold mb-5">Get in touch!</h2>
 
     <div class="row">
 
