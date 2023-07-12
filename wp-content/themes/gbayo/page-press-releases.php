@@ -168,7 +168,7 @@ get_header(); ?>
                 </li>
             </ul>
 
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt="">
+            <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
         </div>
 
 
