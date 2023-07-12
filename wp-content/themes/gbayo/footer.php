@@ -99,7 +99,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-end">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-center text-sm-center text-center ">
 
                 <table class="d-inline-block">
                     <tr>
