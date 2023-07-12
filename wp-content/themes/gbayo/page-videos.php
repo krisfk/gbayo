@@ -47,10 +47,10 @@ get_header(); ?>
                 <a href="javascript:void(0);" class="">News</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="active">Press Releases</a>
+                <a href="javascript:void(0);" class="">Press Releases</a>
             </li>
             <li>
-                <a href="javascript:void(0);">Videos</a>
+                <a href="javascript:void(0);" class="active">Videos</a>
             </li>
             <li>
                 <a href="javascript:void(0);">Photos</a>
