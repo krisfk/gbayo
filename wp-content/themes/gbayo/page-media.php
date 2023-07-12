@@ -38,24 +38,25 @@ get_header(); ?>
 <div class="container mt-5 content-fsize">
 
 
-    <!-- All    News    Press Releases    Videos    Photos -->
-    <ul class="news-ul">
-        <li>
-            <a href="javascript:void(0);">All</a>
-        </li>
-        <li>
-            <a href="javascript:void(0);">News</a>
-        </li>
-        <li>
-            <a href="javascript:void(0);">Press Releases</a>
-        </li>
-        <li>
-            <a href="javascript:void(0);">Videos</a>
-        </li>
-        <li>
-            <a href="javascript:void(0);">Photos</a>
-        </li>
-    </ul>
+    <div class="text-center">
+        <ul class="news-ul">
+            <li>
+                <a href="javascript:void(0);">All</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">News</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Press Releases</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Videos</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Photos</a>
+            </li>
+        </ul>
+    </div>
 
     <div class="row">
 
