@@ -63,7 +63,7 @@
 
         <div class="row mt-4">
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
                 <div class="d-inline-block">
                     <div class="footer-logos-subtitle">Founding Patron</div>
                     <table class="d-inline-block">
@@ -99,7 +99,7 @@
                 </div>
 
             </div>
-            <div class="col-6 text-end">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-end">
 
                 <table class="d-inline-block">
                     <tr>
