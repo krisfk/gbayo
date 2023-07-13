@@ -38,8 +38,8 @@ get_header(); ?>
 
     <div class="row mt-5">
 
-        <div class="col-4"></div>
-        <div class="col-8 content-fsize">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 "></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  content-fsize">
 
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/conductor-img.jpg" alt="">
 
