@@ -98,7 +98,7 @@ get_header(); ?>
 <div class="container mt-5 content-fsize">
 
 
-    <div class="row">
+    <div class="row justify-content-center">
 
         <div class="col-lg-4 col-md-8 col-sm-8 col-8  mb-5 text-center">
 
