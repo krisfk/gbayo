@@ -201,7 +201,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
-                    <h3 class="bold orange d-inline-block">Li Jinzhu
+                    <h3 class="bold orange d-inline-block m-0">Li Jinzhu
 
                     </h3><span class="ms-2 content-fsize text-dark">Guangzhou</span>
 
@@ -235,7 +235,7 @@ get_header(); ?>
                 <div class="bold ">Piano</div>
 
                 <a href="javascript:void(0);" class="more-btn musician-more-btn">
-                    <h3 class="bold orange d-inline-block">Cheong Hoi Leong</h3>
+                    <h3 class="bold orange d-inline-block m-0">Cheong Hoi Leong</h3>
                     <span class="ms-2 content-fsize text-dark">Macau</span>
 
                     <div class="five-lines-grid">
@@ -265,7 +265,7 @@ get_header(); ?>
                 <div class="bold ">Cello</div>
 
                 <a href="javascript:void(0);" class="more-btn musician-more-btn">
-                    <h3 class="bold orange d-inline-block">Thomas Hung</h3>
+                    <h3 class="bold orange d-inline-block m-0">Thomas Hung</h3>
                     <span class="ms-2 content-fsize text-dark">Hong Kong</span>
 
                     <div class="five-lines-grid">
