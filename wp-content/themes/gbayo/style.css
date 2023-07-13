@@ -771,6 +771,10 @@ textarea {
   display: block;
 }
 
+.sponsor-footer-table {
+  width: auto;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
@@ -821,6 +825,9 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .sponsor-footer-table {
+    width: 100%;
+  }
   .other-logos-a img {
     height: 40px;
   }
