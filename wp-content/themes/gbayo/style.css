@@ -443,6 +443,7 @@ h2.subtitle {
   z-index: 200;
   background: #000;
   color: #fff;
+  z-index: 300;
 }
 
 .gbayo-logo-white {
