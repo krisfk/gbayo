@@ -169,7 +169,7 @@
             </div>
 
 
-            <div class="col-12 mobile-reserve-txt-div">
+            <div class="col-12 mobile-reserve-txt-div mt-lg-0 mt-md-4 mt-sm-4 mt-4 ">
 
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
 
