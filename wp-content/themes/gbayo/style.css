@@ -764,6 +764,7 @@ textarea {
 
 .mobile-reserve-txt-div {
   display: none;
+  text-align: left;
 }
 
 .reserve-txt-div {

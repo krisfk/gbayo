@@ -170,7 +170,7 @@
 
             <div class="col-12 mobile-reserve-txt-div">
 
-                <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
 
                     <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
 
