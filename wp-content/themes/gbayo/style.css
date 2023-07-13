@@ -381,7 +381,7 @@ h2.subtitle {
 .fix-social-elements {
   position: fixed;
   transform: rotate(-90deg);
-  z-index: 100;
+  z-index: 200;
   right: -4.4vh;
   top: 50%;
 }
@@ -399,7 +399,7 @@ h2.subtitle {
   display: table;
   color: #f47421;
   position: fixed;
-  z-index: 100;
+  z-index: 200;
   transform: rotate(-90deg);
   top: 50%;
   text-decoration: none;
