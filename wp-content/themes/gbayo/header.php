@@ -135,7 +135,7 @@ $slug=str_replace('/','',$slug);
 if(count($menu_item['children']))
 {
   
-    echo '<li><a class=" px-5 level-1 parent '.$class.'" href="'.$url.'">'.$title;
+    echo '<li><a class=" px-lg-5 px-md-4 px-sm-4 px-4  level-1 parent '.$class.'" href="'.$url.'">'.$title;
     ?>
 
                     <a href="javascript:void(0);" class="menu-arrow"></a>
@@ -167,7 +167,7 @@ if(count($menu_item['children']))
 }
 else
 {
-echo '<li><a class=" px-5 level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
+echo '<li><a class=" px-lg-5 px-md-4 px-sm-4 px-4  level-1 '.$slug.' '.$class.'" href="'.$url.'">'.$title.'</a>';
 
 }
 echo'</li>';
