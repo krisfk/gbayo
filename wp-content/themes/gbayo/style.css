@@ -849,6 +849,9 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+  .menu-layer {
+    width: 100%;
+  }
   .top-presenter-logos-a {
     margin: 0 0 0 0.5rem;
   }
