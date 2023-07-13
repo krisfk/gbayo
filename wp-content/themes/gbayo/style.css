@@ -827,6 +827,9 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .faculty-group {
+    margin: 0 0 0rem 0;
+  }
   .back-to-top {
     font-size: 15px;
     display: table;
