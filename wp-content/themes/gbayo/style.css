@@ -968,14 +968,14 @@ textarea {
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
     left: 1rem;
-    font-size: 30px;
+    font-size: 16px;
     color: #000;
     line-height: 1.2;
   }
   .camp-cate-title.camp-cate-title-2 {
     bottom: 1rem;
     left: 1rem;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 1.2;
     color: #fff;
   }
