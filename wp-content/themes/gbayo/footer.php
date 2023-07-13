@@ -101,7 +101,8 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
-                <table class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-100">
+                <table
+                    class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 w-100 ">
                     <tr>
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Co-organiser <br>
