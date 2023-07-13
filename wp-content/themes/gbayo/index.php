@@ -148,9 +148,16 @@ $(function() {
         useTransform: false,
         responsive: [{
             breakpoint: 991,
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
         }]
+
+
+
     });
 
     $('.home-slick-arrow.home-slick-arrow-left').click(function() {
