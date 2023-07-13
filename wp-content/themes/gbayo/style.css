@@ -762,6 +762,14 @@ textarea {
   min-height: 200px !important;
 }
 
+.mobile-reserve-txt-div {
+  display: none;
+}
+
+.reserve-txt-div {
+  display: block;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
@@ -819,6 +827,12 @@ textarea {
   .fix-back-to-top {
   }
   .fix-social-elements {
+  }
+  .mobile-reserve-txt-div {
+    display: block;
+  }
+  .reserve-txt-div {
+    display: none;
   }
 }
 
