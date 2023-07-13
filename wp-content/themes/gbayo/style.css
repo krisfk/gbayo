@@ -287,7 +287,8 @@ h2.subtitle {
 
 .home-slick-arrow.home-slick-arrow-left {
   top: 0;
-  background: url(./assets/images/arrow-left.png) no-repeat;
+  background: url(./assets/images/arrow-left.png) no-repeat
+    rgb(255 255 255 / 90%);
   background-size: 100% 100%;
   left: -2rem;
   top: 50%;
@@ -296,7 +297,7 @@ h2.subtitle {
 
 .home-slick-arrow.home-slick-arrow-right {
   top: 0;
-  background: url(./assets/images/arrow-right.png) no-repeat;
+  background: url(./assets/images/arrow-right.png) no-repeat #fff;
   background-size: 100% 100%;
   right: -2rem;
   /* background: #000; */
@@ -849,8 +850,24 @@ textarea {
 
 @media only screen and (max-width: 568px) {
   .home-slick-arrow.home-slick-arrow-right {
+    right: 0rem;
+    z-index: 100;
+    /* background: #fff; */
+    /* background: url(./assets/images/arrow-left.png) no-repeat; */
+    /* background-size: 100% 100%; */
+    padding: 1rem;
+    background-size: auto 75%;
+    background-position: center;
   }
   .home-slick-arrow.home-slick-arrow-left {
+    left: 0rem;
+    z-index: 100;
+    /* background: #fff; */
+    /* background: url(./assets/images/arrow-left.png) no-repeat; */
+    /* background-size: 100% 100%; */
+    padding: 1rem;
+    background-size: auto 75%;
+    background-position: center;
   }
 }
 
