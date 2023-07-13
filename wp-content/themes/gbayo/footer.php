@@ -101,12 +101,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
-                <table class="d-inline-block">
+                <table class="d-lg-inline-block d-md-inline-block d-sm-table d-table ">
                     <tr>
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Co-organiser <br>
                                 for the Macau Concert</div>
-                            <table class="d-lg-inline-block d-md-inline-block d-sm-table d-inline-table ">
+                            <table class="d-inline-block">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
 
