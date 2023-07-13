@@ -583,6 +583,7 @@ h2.subtitle {
   font-size: 60px;
   /* font-weight: bold; */
   font-family: 'FuturaBold' !important;
+  margin: 3rem 0 0 0;
 }
 
 .orange {
