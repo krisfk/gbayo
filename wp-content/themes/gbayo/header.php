@@ -97,7 +97,8 @@
 
         <div class="lang-div pt-3 pb-3">
 
-            <div class="mx-5">EN | 繁 | 簡</div>
+            <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
+                EN | 繁 | 簡</div>
 
 
         </div>
