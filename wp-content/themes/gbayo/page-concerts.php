@@ -130,9 +130,11 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  mb-5">
 
-            <img class="w-100 concert-img"
-                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-4.jpg" alt="">
 
+            <a href="<?php echo get_site_url();?>/concert">
+                <img class="w-100 concert-img"
+                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-4.jpg" alt="">
+            </a>
             <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Guangzhou)
 
             </h3>
