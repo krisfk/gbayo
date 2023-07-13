@@ -177,11 +177,11 @@
                     <div class=" mt-2">
                         <table class="d-inline-block">
                             <tr>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
+                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 me-2"></a>
                                 </td>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
+                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 me-2"></a>
                                 </td>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
+                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 me-2"></a>
                                 </td>
                             </tr>
                         </table>
