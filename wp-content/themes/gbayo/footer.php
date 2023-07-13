@@ -106,7 +106,7 @@
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Co-organiser <br>
                                 for the Macau Concert</div>
-                            <table class="d-inline-block">
+                            <table class="d-lg-inline-block d-md-inline-block d-sm-table d-inline-table ">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
 
