@@ -40,9 +40,11 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  mb-5">
 
-            <img class="w-100 concert-img"
-                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
+            <a href="<?php echo get_site_url();?>/concert">
 
+                <img class="w-100 concert-img"
+                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
+            </a>
             <h3 class="bold orange mt-4">GBAYO Debut Concert 2023 <br> (Hong Kong)</h3>
 
             <table class=" mt-4">
@@ -68,10 +70,11 @@ get_header(); ?>
 
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  mb-5">
+            <a href="<?php echo get_site_url();?>/concert">
 
-            <img class="w-100 concert-img"
-                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2.jpg" alt="">
-
+                <img class="w-100 concert-img"
+                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2.jpg" alt="">
+            </a>
             <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Macau)
             </h3>
 
@@ -99,9 +102,11 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  mb-5">
 
-            <img class="w-100 concert-img"
-                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-3.jpg" alt="">
+            <a href="<?php echo get_site_url();?>/concert">
 
+                <img class="w-100 concert-img"
+                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-3.jpg" alt="">
+            </a>
             <h3 class="bold orange mt-4">GBAYO Concert 2023 <br> (Shenzhen)
 
             </h3>
