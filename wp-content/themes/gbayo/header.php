@@ -87,7 +87,7 @@
 
         <div class="menu-top-div pt-3 pb-3">
 
-            <div class="mx-5">
+            <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
                 <img class="gbayo-logo-white"
                     src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt="">
             </div>
