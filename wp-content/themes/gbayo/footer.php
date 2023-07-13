@@ -172,9 +172,9 @@
 
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
 
-                    <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
+                    <div class="reserve-txt">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
 
-                    <div class="text-end mt-2">
+                    <div class=" mt-2">
                         <table class="d-inline-block">
                             <tr>
                                 <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
