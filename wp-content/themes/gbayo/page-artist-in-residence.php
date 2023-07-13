@@ -43,7 +43,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
 
             <div class="faculty-group">
 
@@ -257,7 +257,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
 
             <div class="faculty-group">
 
