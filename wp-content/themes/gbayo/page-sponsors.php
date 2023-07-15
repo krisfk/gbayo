@@ -38,7 +38,12 @@ get_header(); ?>
 
     <div class="row mt-5">
 
-        <div class="col-4"></div>
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange">Founding Patron</h3>
+            </div>
+        </div>
         <div class="col-4"></div>
         <div class="col-4"></div>
 
