@@ -38,7 +38,7 @@ get_header(); ?>
 
     <div class="row mt-5">
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Founding Patron</h3>
@@ -51,7 +51,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Sponsored by</h3>
@@ -65,7 +65,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title"></h3>
@@ -78,7 +78,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Co-organiser <br>
@@ -92,7 +92,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Shenzhen Concert <br>
@@ -106,7 +106,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Guangzhou Concert <br>
@@ -121,13 +121,14 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-4">
+        <div class="col-4 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Co-organiser <br>
                     for the Macau Concert</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect">
+
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png" alt="">
                 </a>
