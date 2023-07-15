@@ -41,7 +41,7 @@ get_header(); ?>
         <div class="col-4">
 
             <div>
-                <h3 class="bold orange">Founding Patron</h3>
+                <h3 class="bold orange sponsor-title">Founding Patron</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect">
 
@@ -51,7 +51,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="col-4"></div>
-        <div class="col-4"></div>
+
 
 
     </div>

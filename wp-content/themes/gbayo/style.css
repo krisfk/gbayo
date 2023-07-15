@@ -800,6 +800,11 @@ textarea {
   height: 35%;
 }
 
+.sponsor-title {
+  display: block;
+  height: 32px;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
