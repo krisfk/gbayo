@@ -41,9 +41,9 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Founding Patron</h3>
+                <h3 class="bold orange sponsor-title text-center">Founding Patron</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png" alt="">
                 </a>
@@ -54,9 +54,9 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Sponsored by</h3>
+                <h3 class="bold orange sponsor-title text-center">Sponsored by</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png" alt="">
                 </a>
@@ -68,9 +68,9 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title"></h3>
+                <h3 class="bold orange sponsor-title text-center"></h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png" alt="">
                 </a>
@@ -81,10 +81,10 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Co-organiser <br>
+                <h3 class="bold orange sponsor-title text-center">Co-organiser <br>
                     for the Macau Concert</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png" alt="">
                 </a>
@@ -95,10 +95,10 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Shenzhen Concert <br>
+                <h3 class="bold orange sponsor-title text-center">Shenzhen Concert <br>
                     Supporting Unit</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png" alt="">
                 </a>
@@ -109,10 +109,10 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Guangzhou Concert <br>
+                <h3 class="bold orange sponsor-title text-center">Guangzhou Concert <br>
                     Supporting Unit</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png" alt="">
                 </a>
@@ -124,10 +124,10 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title">Co-organiser <br>
+                <h3 class="bold orange sponsor-title text-center">Co-organiser <br>
                     for the Macau Concert</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect">
+                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
 
                     <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png" alt="">
