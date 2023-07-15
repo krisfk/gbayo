@@ -38,7 +38,7 @@ get_header(); ?>
 
     <div class="row mt-5">
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Founding Patron</h3>
@@ -51,7 +51,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Sponsored by</h3>
@@ -65,7 +65,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title"></h3>
@@ -78,7 +78,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Co-organiser <br>
@@ -92,7 +92,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Shenzhen Concert <br>
@@ -106,7 +106,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Guangzhou Concert <br>
@@ -121,7 +121,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-4 mb-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
                 <h3 class="bold orange sponsor-title">Co-organiser <br>
