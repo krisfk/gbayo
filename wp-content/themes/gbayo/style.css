@@ -856,6 +856,11 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .sponsor-title {
+    display: block;
+    min-height: 32px;
+    margin: 0 0 0 0;
+  }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
     left: 1rem;
