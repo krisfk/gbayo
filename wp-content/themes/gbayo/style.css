@@ -784,6 +784,13 @@ textarea {
   top: 9px;
 }
 
+.sponsor-rect {
+  display: block;
+  width: 395px;
+  height: 230px;
+  border: 1px solid #231f20;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;

@@ -42,6 +42,9 @@ get_header(); ?>
 
             <div>
                 <h3 class="bold orange">Founding Patron</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect"></a>
+
             </div>
         </div>
         <div class="col-4"></div>
