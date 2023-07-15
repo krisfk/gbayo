@@ -777,12 +777,9 @@ textarea {
   width: auto;
 }
 
-.page-press-releases h3 {
-  position: relative;
-  top: 9px;
-}
-
-.page-videos h3 {
+.page-press-releases h3,
+.page-videos h3,
+.page-media h3 {
   position: relative;
   top: 9px;
 }
