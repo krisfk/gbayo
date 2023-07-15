@@ -78,6 +78,67 @@ get_header(); ?>
             </div>
         </div>
 
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange sponsor-title">Co-organiser <br>
+                    for the Macau Concert</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange sponsor-title">Shenzhen Concert <br>
+                    Supporting Unit</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange sponsor-title">Guangzhou Concert <br>
+                    Supporting Unit</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange sponsor-title">Co-organiser <br>
+                    for the Macau Concert</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+
+
+
+
 
 
     </div>
