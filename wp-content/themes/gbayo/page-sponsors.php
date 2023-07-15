@@ -67,8 +67,15 @@ get_header(); ?>
 
         <div class="col-4">
 
+            <div>
+                <h3 class="bold orange sponsor-title"></h3>
 
+                <a href="javascript:void(0);" class="sponsor-rect">
 
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png" alt="">
+                </a>
+
+            </div>
         </div>
 
 
