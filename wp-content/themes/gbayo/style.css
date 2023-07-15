@@ -859,7 +859,7 @@ textarea {
   .sponsor-title {
     display: block;
     min-height: 32px;
-    margin: 0 0 0 0;
+    margin: 0 0 0.5rem 0;
   }
   .sponsor-title.empty {
     display: none;
