@@ -43,12 +43,12 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
             <label for="name" class="mb-1">Name:</label>
             <input type="text" id="name" class="form-control">
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
             <label for="email" class="mb-1">Email:</label>
             <input type="text" id="email" class="form-control">
