@@ -50,7 +50,26 @@ get_header(); ?>
 
             </div>
         </div>
-        <div class="col-4"></div>
+
+        <div class="col-4">
+
+            <div>
+                <h3 class="bold orange sponsor-title">Sponsored by</h3>
+
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png" alt="">
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="col-4">
+
+
+
+        </div>
 
 
 
