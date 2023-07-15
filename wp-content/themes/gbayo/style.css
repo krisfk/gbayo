@@ -861,6 +861,9 @@ textarea {
     min-height: 32px;
     margin: 0 0 0 0;
   }
+  .sponsor-title.empty {
+    display: none;
+  }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
     left: 1rem;
