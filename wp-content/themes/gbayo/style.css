@@ -782,6 +782,11 @@ textarea {
   top: 9px;
 }
 
+.page-videos h3 {
+  position: relative;
+  top: 9px;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
