@@ -43,8 +43,10 @@ get_header(); ?>
             <div>
                 <h3 class="bold orange">Founding Patron</h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect"
-                    style="background:url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png);"></a>
+                <a href="javascript:void(0);" class="sponsor-rect">
+
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png" alt="">
+                </a>
 
             </div>
         </div>
