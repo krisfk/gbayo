@@ -34,7 +34,7 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container mt-5">
+<div class="container mt-5 content-fsize">
 
     <div>
         Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
