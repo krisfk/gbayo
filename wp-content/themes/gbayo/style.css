@@ -414,6 +414,11 @@ h2.subtitle {
   top: 50%;
   text-decoration: none;
   left: -4.4vh;
+  transition: 0.2s all;
+}
+
+.fix-back-to-top:hover {
+  opacity: 0.85;
 }
 
 .fix-back-to-top:hover {
