@@ -824,6 +824,17 @@ textarea {
   height: 400px;
 }
 
+img {
+  opacity: 0 !important;
+}
+
+img.lazyloaded {
+  -webkit-transition: opacity 0.5s linear 0.2s;
+  -moz-transition: opacity 0.5s linear 0.2s;
+  transition: opacity 0.5s linear 0.2s;
+  opacity: 1 !important;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
