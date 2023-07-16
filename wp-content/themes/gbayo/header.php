@@ -229,7 +229,7 @@ echo'</li>';
                 <main id="main" class="site-main">
 
 
-                    <div class="container mt-3">
+                    <div class="container">
 
                         <div class="top-div">
 
