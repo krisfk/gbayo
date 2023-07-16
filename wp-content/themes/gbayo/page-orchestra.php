@@ -73,7 +73,8 @@ get_header(); ?>
         <div class="col-8 position-relative">
 
 
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+            <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt=""> -->
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
 
         </div>
     </div>
