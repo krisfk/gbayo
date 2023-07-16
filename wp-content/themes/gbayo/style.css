@@ -835,6 +835,13 @@ img.lazyloaded {
   opacity: 1 !important;
 }
 
+.camp a {
+}
+
+.camp a:hover img {
+  transform: scale(1.2);
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
