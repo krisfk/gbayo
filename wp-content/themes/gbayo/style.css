@@ -903,6 +903,11 @@ iframe {
   height: 100%;
 }
 
+.concert-a {
+  display: block;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
