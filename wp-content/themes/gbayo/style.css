@@ -920,6 +920,32 @@ iframe {
   opacity: 0.85;
 }
 
+.terms-yellow-bg-div {
+  max-height: 80%;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.photo-yellow-bg-div {
+  max-height: 80%;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  max-width: 70%;
+}
+
+.photo-yellow-bg-div img {
+  border-radius: 0 !important;
+  max-height: 70vh;
+  display: block;
+  width: auto !important;
+  /* text-align: center; */
+  margin: 0 auto;
+  max-width: 90%;
+  /* width: auto; */
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
