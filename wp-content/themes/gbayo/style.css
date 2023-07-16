@@ -1020,6 +1020,10 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+  .bottom-main-content .top-presenter-logos-a img {
+    height: 26px;
+    width: auto;
+  }
   .sponsor-footer-table {
     width: 100%;
   }
