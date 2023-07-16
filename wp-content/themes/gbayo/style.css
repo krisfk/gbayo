@@ -716,7 +716,11 @@ h3 {
   overflow: hidden;
 }
 
-.camp-cate:hover {
+.camp-cate img {
+}
+
+.camp-cate:hover img {
+  transform: scale(1.2);
   /* background-size: 200% 200% !important; */
 }
 
