@@ -64,7 +64,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-4">
+    <div class="row mt-4 gx-lg-5 gx-md-4 gx-sm-4 gx-4 ">
 
         <div class="col-4">
 
@@ -80,7 +80,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4">
+    <div class="row mt-4 gx-lg-5 gx-md-4 gx-sm-4 gx-4 ">
 
         <div class="col-8">
 
@@ -97,7 +97,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-4 ">
+    <div class="row mt-4 gx-lg-5 gx-md-4 gx-sm-4 gx-4 ">
 
         <div class="col-4">
 
@@ -113,7 +113,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4 ">
+    <div class="row mt-4 gx-lg-5 gx-md-4 gx-sm-4 gx-4 ">
 
 
         <div class="col-8">
