@@ -50,7 +50,7 @@ get_header(); ?>
     </div>
     <div class="text-end mt-3">
 
-        <a href="javascript:void(0);" class="more-btn">
+        <a href="<?php echo get_site_url();?>/about-gbayo" class="more-btn">
 
             <span>more</span>
             <div class="five-lines-grid">
