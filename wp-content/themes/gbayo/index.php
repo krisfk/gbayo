@@ -77,7 +77,13 @@ get_header(); ?>
 </div>
 
 <div class="video-div mt-lg-5 mt-md-4 mt-sm-4 mt-4">
-    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fake-video-scaled.jpg" alt="">
+
+    <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fake-video-scaled.jpg" alt=""> -->
+    <!-- width="560" height="315" -->
+    <iframe class="w-100" src="https://www.youtube.com/embed/Z-zy_ZSoFi4" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
 </div>
 
 
