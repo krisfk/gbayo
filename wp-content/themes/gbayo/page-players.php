@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="container">
 
-    <div class="row mt-lg-5 mt-md-4 mt-sm-4 mt-4  content-fsize">
+    <div class="row mt-5 content-fsize">
 
 
 
