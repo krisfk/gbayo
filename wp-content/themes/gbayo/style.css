@@ -977,9 +977,9 @@ textarea {
     height: 22px;
   }
   .present-by-div table {
-    margin: 0 3rem 0 0;
+    margin: 0 1rem 0 0;
     position: relative;
-    top: 4px;
+    top: 1px;
   }
   .fix-back-to-top {
     left: -8vh;
