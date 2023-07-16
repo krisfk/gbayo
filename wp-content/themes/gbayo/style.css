@@ -715,18 +715,12 @@ h3 {
 }
 
 .camp-cate img {
-  /* background-size: 100% 100%; */
   transition: 0.2s all;
-  /* overflow: hidden; */
   transform: scale(1);
-}
-
-.camp-cate img {
 }
 
 .camp-cate:hover img {
   transform: scale(1.2);
-  /* background-size: 200% 200% !important; */
 }
 
 .camp-cate-title.camp-cate-title-1 {
