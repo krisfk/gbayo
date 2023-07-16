@@ -856,6 +856,14 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .more-btn {
+    font-size: 18px;
+    color: #f47421;
+    text-decoration: none;
+    transition: 0.2s all;
+    display: inline-flex;
+    align-items: center;
+  }
   .sponsor-title {
     display: block;
     min-height: 32px;
