@@ -1005,15 +1005,6 @@ textarea {
   .logo-a img {
     height: 20px;
   }
-  .hamburger-menu-btn {
-    display: block;
-    position: fixed;
-    top: 0.7rem;
-    right: 1rem;
-    width: 28px;
-    height: 23px;
-    z-index: 100;
-  }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
     left: 1rem;
