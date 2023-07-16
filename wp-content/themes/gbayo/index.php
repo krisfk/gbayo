@@ -85,7 +85,7 @@ get_header(); ?>
 
     <h2 class="subtitle text-center mt-5">Concert</h2>
 
-    <div class="row mt-4">
+    <div class="row mt-4 gx-3">
         <div class="col-6">
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
                 alt="">
