@@ -853,6 +853,15 @@ textarea {
 }
 
 @media only screen and (max-width: 1200px) {
+  .hamburger-menu-btn {
+    display: block;
+    position: fixed;
+    top: 1.2rem;
+    right: 1rem;
+    width: 28px;
+    height: 28px;
+    z-index: 100;
+  }
   .album-foto-div {
     height: 300px;
   }
