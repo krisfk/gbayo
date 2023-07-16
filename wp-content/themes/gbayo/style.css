@@ -891,6 +891,12 @@ img.lazyloaded.opacity-0 {
   -moz-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
 }
 
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
