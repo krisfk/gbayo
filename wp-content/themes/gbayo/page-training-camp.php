@@ -43,10 +43,8 @@ get_header(); ?>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
-            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
-                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
-                    alt="">
+            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative" style="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
 
                 <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
                 <div class="camp-cate-title camp-cate-title-2 bold">Orchestra</div>
@@ -57,10 +55,9 @@ get_header(); ?>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
-            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
-                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
-                    alt="">
+            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative" style="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
+
 
                 <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
                 <div class="camp-cate-title camp-cate-title-2 bold">Chamber <br>
@@ -71,10 +68,9 @@ get_header(); ?>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
-            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
-                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
-                    alt="">
+            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative" style="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+
 
                 <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
                 <div class="camp-cate-title camp-cate-title-2 bold">Masterclass <br>
@@ -85,10 +81,9 @@ get_header(); ?>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
-            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
-                style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
-                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/camp-img-1.jpg"
-                    alt="">
+            <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative" style="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
+
 
                 <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
                 <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
