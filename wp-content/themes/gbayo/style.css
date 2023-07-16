@@ -930,7 +930,7 @@ iframe {
 .yellow-bg-div {
   display: block;
   background: rgb(0 0 0 / 70%);
-  padding: 1.5rem;
+  padding: 4.5rem;
   position: relative;
   z-index: 100;
   /* opacity: 0.8; */
