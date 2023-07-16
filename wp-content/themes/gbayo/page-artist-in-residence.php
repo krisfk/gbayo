@@ -18,6 +18,71 @@ get_header(); ?>
 
 
 
+<div class="lightbox-layer">
+
+    <div class="lightbox-press-area"></div>
+    <div class="lightbox-content">
+
+        <a href="javascript:void(0);" class="close-btn"></a>
+
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/musician.jpg" alt="">
+
+                </div>
+                <div class="col-9 content-fsize">
+
+
+                    <h1 class="bold">Thomas Hung</h1>
+                    <h3 class="bold orange">Cello</h3>
+
+
+                    <div>
+
+
+                        Thomas Hung began his early cello lessons with his parents. Under the tutelage of Ray Wang and
+                        Paul
+                        Watkins, he graduated from the Hong Kong Academy of Performing Arts (HKAPA) and Yale School of
+                        Music
+                        with distinctions. His other mentors included Yo-Yo Ma, Jian Wang, David Finckel, amongst other
+                        renowned cellists. <br><br>
+
+                        Thomas is expanding his presence on the global stage as a soloist and chamber musician. In July
+                        2022, Thomas was invited to perform a recital for the Opening Concert of the Academy Cello
+                        Festival,
+                        the first ever since the inception of the Hong Kong Academy for Performing Arts. His other
+                        featured
+                        performances included the Hong Kong Philharmonic Orchestra Gala Finale concert and the debut
+                        recital
+                        in HKSAR presentation of “Our Music Talents” series in 2021.
+                        <br><br>
+                        His other solo performance experiences included concerts with orchestras in Latvia, Hong Kong,
+                        Macao
+                        and Taiwan. In addition, his recital and chamber music concert appearances had taken him to
+                        audience
+                        across Asia, America, and Europe. In recognition of his musical achievements, Thomas was awarded
+                        the
+                        Home Affairs Bureau’s Commendation by the Hong Kong government.
+                        Laureate of many competitions in Asia and Europe, such as the Karl Davidov Cello Competition and
+                        the
+                        National Youth Cello Competition in China. Thomas was also a fellow of the Norfolk Chamber Music
+                        Festival and the Aspen Music Festival and
+                        School. He participated in the “Orchestra of the Future” under the baton of Gustavo Dudamel with
+                        performances for the Nobel Prize Award Ceremony in 2017.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- http://64.227.13.14/gbayo/wp-content/uploads/2023/07/musician.jpg -->
+</div>
+
+
+
 <div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
@@ -59,7 +124,7 @@ get_header(); ?>
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn">
-                        <h3 class="orange bold d-inline-block">Professor Michael MA</h3>
+                        <h3 class="orange bold d-inline-block musician-more-btn">Professor Michael MA</h3>
 
 
                         <div class="five-lines-grid">
@@ -94,7 +159,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Gian Paolo Peloso
                         </h3>
 
                         <div class="five-lines-grid">
@@ -132,7 +197,7 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn">
 
 
-                        <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Hou Donglei 侯東蕾
 
                         </h3>
 
@@ -274,7 +339,7 @@ get_header(); ?>
                     </div> <a href="javascript:void(0);" class="more-btn">
 
 
-                        <h3 class="orange bold d-inline-block">Professor Yan Qi
+                        <h3 class="orange bold d-inline-block musician-more-btn">Professor Yan Qi
                         </h3>
 
 
@@ -314,7 +379,7 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn">
 
 
-                        <h3 class="orange bold d-inline-block">Professor XXX
+                        <h3 class="orange bold d-inline-block musician-more-btn">Professor XXX
 
                         </h3>
 
@@ -361,7 +426,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
+                        <h3 class="orange bold d-inline-block musician-more-btn">Professor Yiu Song Lam
 
 
                         </h3>
@@ -410,7 +475,7 @@ get_header(); ?>
                     </div>
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Benjamin Moermond
 
 
 
@@ -465,7 +530,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Wu Tianxia
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Wu Tianxia
 
 
 
@@ -516,7 +581,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Christopher Moyse
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Christopher Moyse
 
 
 
@@ -572,7 +637,7 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn">
 
 
-                        <h3 class="orange bold d-inline-block">Mr. Zachary Wyatt Bond
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Zachary Wyatt Bond
 
 
 
@@ -628,7 +693,7 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Guo Zheng 郭錚
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Guo Zheng 郭錚
 
 
 
@@ -684,7 +749,7 @@ get_header(); ?>
                     </div>
                     <a href="javascript:void(0);" class="more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Wang Xiaojing 王曉菁
+                        <h3 class="orange bold d-inline-block musician-more-btn">Mr. Wang Xiaojing 王曉菁
 
 
 
@@ -747,6 +812,19 @@ get_header(); ?>
 <div class="mt-5">
     <div class="five-lines-sep"></div>
 </div>
+
+
+<script type="text/javascript">
+$(function() {
+
+    $('.musician-more-btn').click(function() {
+
+        $('.lightbox-layer').fadeIn(200);
+    })
+
+})
+</script>
+
 
 <?php
 
