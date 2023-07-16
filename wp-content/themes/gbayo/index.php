@@ -106,12 +106,16 @@ get_header(); ?>
 
     <div class="row mt-4 gx-3">
         <div class="col-6">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
-                alt="">
+
+            <a href="<?php echo get_site_url();?>/concert">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
+                    alt=""></a>
         </div>
         <div class="col-6">
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
-                alt="">
+            <a href="<?php echo get_site_url();?>/concert">
+
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
+                    alt=""></a>
         </div>
     </div>
 
