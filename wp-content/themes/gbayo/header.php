@@ -43,6 +43,8 @@
     $(function() {
 
 
+        $('.fix-back-to-top').click(function() {});
+
         $('.hamburger-menu-btn').click(function() {
 
             $('.menu-layer').fadeIn(200);
@@ -68,6 +70,16 @@
         $('.lightbox-content .close-btn,.lightbox-layer').click(function() {
 
             $('.lightbox-layer').fadeOut(0);
+
+        })
+
+        $('.fix-back-to-top').click(function() {
+
+            $("html, body").animate({
+                scrollTop: 0
+            }, 500);
+
+
 
         })
 
