@@ -835,6 +835,10 @@ img.lazyloaded {
   opacity: 1 !important;
 }
 
+img.lazyloaded.opacity-0 {
+  opacity: 0 !important;
+}
+
 .camp a {
 }
 
