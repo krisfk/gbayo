@@ -105,8 +105,10 @@
                     class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
                     <tr>
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
-                            <div class="footer-logos-subtitle text-start">Co-organiser <br>
-                                for the Macau Concert</div>
+                            <div class="footer-logos-subtitle text-start">Co-organiser
+                                <!-- <br> -->
+                                for the Macau Concert
+                            </div>
                             <table class="d-inline-block">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
@@ -120,8 +122,10 @@
                         </td>
 
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
-                            <div class="footer-logos-subtitle text-start">Shenzhen Concert <br>
-                                Supporting Unit</div>
+                            <div class="footer-logos-subtitle text-start">Shenzhen Concert
+                                <!-- <br> -->
+                                Supporting Unit
+                            </div>
                             <table class="d-inline-block">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
@@ -134,8 +138,10 @@
                             </table>
                         </td>
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
-                            <div class="footer-logos-subtitle text-start">Guangzhou Concert <br>
-                                Supporting Unit</div>
+                            <div class="footer-logos-subtitle text-start">Guangzhou Concert
+                                <!-- <br> -->
+                                Supporting Unit
+                            </div>
                             <table class="d-inline-block">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
@@ -148,8 +154,10 @@
                             </table>
                         </td>
                         <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
-                            <div class="footer-logos-subtitle text-start">Macau Venue <br>
-                                Sponsor</div>
+                            <div class="footer-logos-subtitle text-start">Macau Venue
+                                <!-- <br> -->
+                                Sponsor
+                            </div>
                             <table class="d-inline-block">
                                 <tr>
                                     <td> <a href="javascript:void(0);" class="other-logos-a">
