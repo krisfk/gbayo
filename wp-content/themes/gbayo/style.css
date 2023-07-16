@@ -838,10 +838,10 @@ textarea {
   .hamburger-menu-btn {
     display: block;
     position: fixed;
-    top: 0.7rem;
+    top: 1.7rem;
     right: 1rem;
     width: 28px;
-    height: 23px;
+    height: 28px;
     z-index: 100;
   }
   .present-by-div table {
