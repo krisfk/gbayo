@@ -68,97 +68,99 @@ get_header(); ?>
 
         <div class="col-4 position-relative">
 
-            <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" </a>
-        </div>
-        <div class="col-8 position-relative">
-
-
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-
-        </div>
-    </div>
-
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
-
-        <div class="col-8">
 
             <a href="javascript:void(0);">
+                <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" </a>
+            </a>
+            <div class="col-8 position-relative">
+
+
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-4">
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
+            </div>
         </div>
+
+        <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+
+            <div class="col-8">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-4">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+
+            <div class="col-4">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-8">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+
+
+            <div class="col-8">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-4">
+
+                <a href="javascript:void(0);">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
 
     </div>
 
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
-
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-    </div>
-
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
 
 
-        <div class="col-8">
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-4">
+    <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
+
+    <div class="mt-5">
+        <div class="five-lines-sep"></div>
     </div>
 
 
+    <script type="text/javascript">
+    $(function() {
 
+        $('.musician-more-btn').click(function() {
 
+            $('.lightbox-layer').fadeIn(200);
+        })
 
-
-
-
-
-</div>
-
-
-
-
-<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
-
-
-<div class="mt-5">
-    <div class="five-lines-sep"></div>
-</div>
-
-
-<script type="text/javascript">
-$(function() {
-
-    $('.musician-more-btn').click(function() {
-
-        $('.lightbox-layer').fadeIn(200);
     })
-
-})
-</script>
-<?php
+    </script>
+    <?php
 
 get_footer();
