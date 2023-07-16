@@ -68,7 +68,7 @@ get_header(); ?>
 
         <div class="col-4 position-relative">
 
-            <div>
+            <div class="position-absolute ">
                 <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg">
             </div>
         </div>
