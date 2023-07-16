@@ -715,7 +715,7 @@ h3 {
 }
 
 .camp-cate img {
-  transition: 0.2s all;
+  transition: 0.2s all !important;
   transform: scale(1);
 }
 
