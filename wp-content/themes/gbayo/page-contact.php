@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 
-<div class="full-width-img-div position-relative mt-3">
+<div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
 

@@ -80,7 +80,7 @@ get_header(); ?>
     <!-- http://64.227.13.14/gbayo/wp-content/uploads/2023/07/musician.jpg -->
 </div>
 
-<div class="full-width-img-div position-relative mt-3">
+<div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
 
