@@ -955,6 +955,17 @@ iframe {
   /* width: auto; */
 }
 
+.lightbox-close-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(./assets/images/close-cross-btn.png) no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 5px;
+  margin: 0.3rem 0 0.3rem 0;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
