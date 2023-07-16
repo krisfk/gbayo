@@ -58,7 +58,7 @@ get_header(); ?>
                     <div class="bold">Violin
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
                         <h3 class="orange bold d-inline-block">Professor Michael MA</h3>
 
 
@@ -92,7 +92,7 @@ get_header(); ?>
                     <div class="bold">Violin
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
                         </h3>
@@ -129,7 +129,7 @@ get_header(); ?>
 
                     <div class="bold">Viola
                     </div>
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
 
                         <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
@@ -172,7 +172,7 @@ get_header(); ?>
                     <div class="bold">Cello
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold  d-inline-block">Professor Ray Wang
 
@@ -215,7 +215,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold  d-inline-block">Mr. 谷欣
 
@@ -271,7 +271,7 @@ get_header(); ?>
 
 
                     <div class="bold">Flute
-                    </div> <a href="javascript:void(0);" class="more-btn">
+                    </div> <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
 
                         <h3 class="orange bold d-inline-block">Professor Yan Qi
@@ -311,7 +311,7 @@ get_header(); ?>
                     <div class="bold">Clarinet
 
                     </div>
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
 
                         <h3 class="orange bold d-inline-block">Professor XXX
@@ -359,7 +359,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
 
@@ -408,7 +408,7 @@ get_header(); ?>
 
 
                     </div>
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
 
@@ -463,7 +463,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Wu Tianxia
 
@@ -514,7 +514,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Christopher Moyse
 
@@ -569,7 +569,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
 
                         <h3 class="orange bold d-inline-block">Mr. Zachary Wyatt Bond
@@ -626,7 +626,7 @@ get_header(); ?>
 
                     </div>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Guo Zheng 郭錚
 
@@ -682,7 +682,7 @@ get_header(); ?>
 
 
                     </div>
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold d-inline-block">Mr. Wang Xiaojing 王曉菁
 
