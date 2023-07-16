@@ -77,7 +77,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="d-inline-block">
+                <div class="d-inline-block mb-3">
                     <div class="footer-logos-subtitle">Sponsored by</div>
                     <table class="d-inline-block">
                         <tr>
