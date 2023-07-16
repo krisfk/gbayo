@@ -47,7 +47,7 @@ get_header(); ?>
 
             <div class="faculty-group">
 
-                <h2 class="bold mt-5 mb-4">Strings
+                <h2 class="bold mt-lg-5 mt-md-4 mt-sm-4 mt-4  mb-4">Strings
                 </h2>
 
 
@@ -262,7 +262,7 @@ get_header(); ?>
             <div class="faculty-group">
 
 
-                <h2 class="bold mt-5 mb-4">Woodwind
+                <h2 class="bold mt-lg-5 mt-md-4 mt-sm-4 mt-4  mb-4">Woodwind
                 </h2>
 
 
@@ -448,7 +448,7 @@ get_header(); ?>
             <div class="faculty-group">
 
 
-                <h2 class="bold mt-5 mb-4">Brass
+                <h2 class="bold mt-lg-5 mt-md-4 mt-sm-4 mt-4  mb-4">Brass
 
                 </h2>
 
