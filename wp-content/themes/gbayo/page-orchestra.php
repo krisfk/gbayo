@@ -40,8 +40,8 @@ get_header(); ?>
 
     <div class="row">
 
-        <div class="col-4"></div>
-        <div class="col-8 content-fsize">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 "></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  content-fsize">
 
 
 
