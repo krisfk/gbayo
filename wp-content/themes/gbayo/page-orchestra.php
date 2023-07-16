@@ -91,57 +91,31 @@ get_header(); ?>
         </div>
     </div>
 
+
     <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
 
-        <div class="col-8">
+                <a href="javascript:void(0);"
+                    style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
+            </div>
+
+
+
         </div>
-        <div class="col-4">
+        <div class="col-4 position-relative">
 
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
+            <div class="album-foto-div position-relative">
+
+                <a href="javascript:void(0);"
+                    style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+
+            </div>
+
         </div>
 
     </div>
-
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
-
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-    </div>
-
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
-
-
-        <div class="col-8">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-4">
-
-            <a href="javascript:void(0);">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" alt="">
-            </a>
-        </div>
-    </div>
-
-
 
 
 
