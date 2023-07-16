@@ -84,7 +84,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+    <!-- <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
 
         <div class="col-8 position-relative">
 
@@ -147,7 +147,7 @@ get_header(); ?>
             </a>
         </div>
     </div>
-
+ -->
 
 
 
