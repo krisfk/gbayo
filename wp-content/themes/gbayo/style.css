@@ -897,6 +897,12 @@ iframe {
   height: 100%;
 }
 
+.video-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
