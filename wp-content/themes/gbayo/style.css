@@ -107,6 +107,10 @@ body {
   height: 50px;
 }
 
+footer .top-presenter-logos-a {
+  margin: 0;
+}
+
 .top-presenter-logos-a {
   display: inline-block;
   margin: 0 0 0 2rem;
