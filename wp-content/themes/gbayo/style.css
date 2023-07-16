@@ -968,6 +968,29 @@ iframe {
   position: absolute;
 }
 
+.photo-album-arrow-l {
+  display: block;
+  width: 38px;
+  height: 28px;
+  background: url(./assets/images/arrow_L.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.photo-album-arrow-r {
+  display: block;
+  width: 38px;
+  height: 28px;
+  background: url(./assets/images/arrow_R.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
