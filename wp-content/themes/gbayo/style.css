@@ -853,6 +853,9 @@ textarea {
 }
 
 @media only screen and (max-width: 1200px) {
+  .album-foto-div {
+    height: 300px;
+  }
   .gbayo-big-txt {
     position: relative;
     top: -11px;
@@ -874,6 +877,9 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .album-foto-div {
+    height: 220px;
+  }
   .more-btn {
     font-size: 18px;
     color: #f47421;
@@ -1038,6 +1044,9 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+  .album-foto-div {
+    height: 140px;
+  }
   .present-by-div table {
     margin: 0 3rem 0 0;
     position: relative;
@@ -1084,6 +1093,9 @@ textarea {
 }
 
 @media only screen and (max-width: 375px) {
+  .album-foto-div {
+    height: 100px;
+  }
   .top-presenter-logos-a {
   }
   .present-by-div table {
