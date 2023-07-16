@@ -1030,6 +1030,11 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+  .present-by-div table {
+    margin: 0 3rem 0 0;
+    position: relative;
+    top: 1px;
+  }
   .bottom-main-content .top-presenter-logos-a img {
     height: 26px;
     width: auto;
