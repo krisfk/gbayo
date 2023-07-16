@@ -820,6 +820,10 @@ textarea {
   height: 490px;
 }
 
+.album-foto-div {
+  height: 490px;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;

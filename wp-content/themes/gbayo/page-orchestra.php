@@ -64,13 +64,16 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 album-row">
+    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
 
         <div class="col-4 position-relative">
+
+            <div class="album-foto-div"></div>
 
             <!-- <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"> -->
         </div>
         <div class="col-8 position-relative">
+            <div class="album-foto-div"></div>
 
 
             <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt=""> -->
