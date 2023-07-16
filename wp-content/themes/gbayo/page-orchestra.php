@@ -66,15 +66,16 @@ get_header(); ?>
 
     <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
 
-        <a href="javascript:void(0);" class="col-4 position-relative"
-            style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg) no-repeat; background-size: cover; overflow: hidden;">
+        <div class="col-4 position-relative">
 
-            <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg">
-        </a>
-        <a href="javascript:void(0);" class="col-8 position-relative"
-            style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg) no-repeat; background-size: cover; overflow: hidden;">
-            <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
-        </a>
+            <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" </a>
+        </div>
+        <div class="col-8 position-relative">
+
+
+            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg" alt="">
+
+        </div>
     </div>
 
     <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
