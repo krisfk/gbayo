@@ -851,6 +851,7 @@ img.lazyloaded.opacity-0 {
 }
 
 .concert-img-a {
+  display: block;
 }
 
 .concert-img-a:hover {
