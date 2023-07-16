@@ -85,9 +85,7 @@
 
         <a href="javascript:void(0);" class="close-btn"></a>
 
-        <div class="menu-top-div pt-lg-3 pt-lg-3 
-        
-        pb-lg-3 ">
+        <div class="menu-top-div pt-3 pb-3">
 
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
                 <img class="gbayo-logo-white"
