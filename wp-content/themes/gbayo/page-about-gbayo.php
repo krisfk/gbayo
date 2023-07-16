@@ -83,7 +83,7 @@ get_header(); ?>
 
     <div class="row mt-4">
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
 
             <h3 class="orange bold">Project Director</h3>
             <div class="bold">Dr. Iñaki Sandoval</div>
@@ -93,7 +93,7 @@ get_header(); ?>
 
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize  mb-4">
 
             <h3 class="orange bold">Artistic Coordinator</h3>
             <div class="bold">Professor Yiu Song Lam</div>
@@ -101,7 +101,7 @@ get_header(); ?>
             Head of Woodwind, Brass and Percussion, <br> Hong Kong Academy For Performing Arts
 
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize  mb-4">
             <h3 class="orange bold">Programme Manager</h3>
             <div class="bold">Samantha Li</div>
 
