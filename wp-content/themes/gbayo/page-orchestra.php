@@ -64,7 +64,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
+    <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 album-row">
 
         <div class="col-4 position-relative">
 
