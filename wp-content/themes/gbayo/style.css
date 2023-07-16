@@ -970,25 +970,27 @@ iframe {
 
 .photo-album-arrow-l {
   display: block;
-  width: 14px;
-  height: 25px;
-  background: url(./assets/images/arrow-left.png) no-repeat;
-  background-size: 100% 100%;
+  width: 28px;
+  height: 50px;
+  background: url(./assets/images/arrow-left.png) no-repeat #fff;
+  background-size: 70% 70%;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  background-position: center;
 }
 
 .photo-album-arrow-r {
   display: block;
-  width: 14px;
-  height: 25px;
-  background: url(./assets/images/arrow-right.png) no-repeat;
-  background-size: 100% 100%;
+  width: 28px;
+  height: 50px;
+  background: url(./assets/images/arrow-right.png) no-repeat rgb(255 255 255);
+  background-size: 80% 80%;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
+  background-position: center;
 }
 
 @media only screen and (max-width: 1400px) {
