@@ -1005,6 +1005,9 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
+  .sponsor-footer-table {
+    width: 100%;
+  }
   .logo-a img {
     height: 20px;
   }
