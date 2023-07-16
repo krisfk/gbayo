@@ -33,7 +33,7 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container mt-5 content-fsize">
+<div class="container mt-lg-5 mt-md-4 mt-sm-4 mt-4  content-fsize">
 
 
     <div class="row">
@@ -182,7 +182,7 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<div class="mt-5">
+<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4 ">
     <div class="five-lines-sep"></div>
 </div>
 
