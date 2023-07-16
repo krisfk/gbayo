@@ -115,6 +115,87 @@
 
 
 
+
+
+
+        var photo_arr = [];
+        var current_index;
+
+        for (i = 0; i < $('.album-a').length; i++) {
+            photo_arr.push($('.album-a').eq(i).attr('rel'));
+        }
+        console.log(photo_arr);
+
+        $('.album-a').click(function() {
+            var select_url = $(this).attr('rel');
+            console.log(photo_arr);
+            console.log(select_url);
+
+            var index = photo_arr.indexOf(select_url);
+            current_index = index;
+
+            if ($(this).attr('rel')) {
+                // alert(6);
+                $('.lightbox-layer.photo-layer').fadeIn(200);
+                var photo_url = $(this).attr('rel');
+                $('.lightbox-enlarge-photo').attr('src', '');
+                $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+                $('.lightbox-enlarge-photo').addClass('lazyloaded');
+            }
+
+
+        })
+
+        $('.m-album-a').click(function() {
+
+            $(this).prev('.album-a').click();
+
+            if (!$(this).prev('.album-a').length) {
+
+                // alert(6);
+                var enlarge_foto = $(this).attr('rel');
+                // alert(enlarge_foto);
+                $('.album-a[rel="' + enlarge_foto + '"]').click();
+            }
+
+        })
+        $('.photo-album-arrow.photo-album-arrow-r').click(function() {
+
+            current_index++;
+
+            if (current_index >= photo_arr.length) {
+                current_index = 0;
+            }
+
+            $('.lightbox-enlarge-photo').attr('src', '');
+            $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+            $('.lightbox-enlarge-photo').removeClass('lazyloaded');
+
+            $('.lightbox-enlarge-photo').addClass('lazyloaded');
+
+
+        });
+
+        $('.photo-album-arrow.photo-album-arrow-l').click(function() {
+
+
+            current_index--;
+
+            if (current_index < 0) {
+                current_index = photo_arr.length - 1;
+            }
+
+            $('.lightbox-enlarge-photo').attr('src', '');
+            $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+            $('.lightbox-enlarge-photo').removeClass('lazyloaded');
+
+            $('.lightbox-enlarge-photo').addClass('lazyloaded');
+
+
+
+        });
+
+
     })
     </script>
 </head>
