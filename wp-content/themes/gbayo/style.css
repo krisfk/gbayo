@@ -710,6 +710,14 @@ h3 {
   position: absolute;
 }
 
+.camp-cate {
+  background-size: 100% 100%;
+}
+
+.camp-cate:hover {
+  background-size: 200% 200%;
+}
+
 .camp-cate-title.camp-cate-title-1 {
   top: 2rem;
   left: 2rem;
