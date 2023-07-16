@@ -823,6 +823,10 @@ textarea {
   height: 45%;
 }
 
+.sponsor-rect:hover img {
+  zoom: 1.2;
+}
+
 .sponsor-title {
   display: block;
   min-height: 32px;
