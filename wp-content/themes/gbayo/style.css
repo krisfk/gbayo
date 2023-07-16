@@ -1024,6 +1024,9 @@ textarea {
   }
   .fix-social-elements {
   }
+  .top-presenter-logos-a img {
+    height: 14px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
