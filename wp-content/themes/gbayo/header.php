@@ -99,7 +99,7 @@
 
         $('.lightbox-content .close-btn').click(function() {
 
-            // $('.lightbox-layer').fadeOut(0);
+            $('.lightbox-layer').fadeOut(0);
 
         })
 
