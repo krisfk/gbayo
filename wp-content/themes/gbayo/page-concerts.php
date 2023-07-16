@@ -40,7 +40,7 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
 
-            <a href="<?php echo get_site_url();?>/concert">
+            <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
                 <img class="w-100 concert-img"
                     src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
@@ -70,7 +70,7 @@ get_header(); ?>
 
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
-            <a href="<?php echo get_site_url();?>/concert">
+            <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
                 <img class="w-100 concert-img"
                     src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2.jpg" alt="">
@@ -102,7 +102,7 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
 
-            <a href="<?php echo get_site_url();?>/concert">
+            <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
                 <img class="w-100 concert-img"
                     src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-3.jpg" alt="">
@@ -136,7 +136,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
 
 
-            <a href="<?php echo get_site_url();?>/concert">
+            <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
                 <img class="w-100 concert-img"
                     src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-4.jpg" alt="">
             </a>

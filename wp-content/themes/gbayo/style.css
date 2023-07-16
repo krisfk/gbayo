@@ -850,6 +850,12 @@ img.lazyloaded.opacity-0 {
   transform: scale(1.2);
 }
 
+.concert-img-a {
+}
+
+.concert-img-a:hover {
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
