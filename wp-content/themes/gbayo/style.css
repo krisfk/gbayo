@@ -418,10 +418,10 @@ h2.subtitle {
 .hamburger-menu-btn {
   display: block;
   position: fixed;
-  top: 2rem;
+  top: 2.4rem;
   right: 2rem;
   width: 28px;
-  height: 23px;
+  height: 28px;
   z-index: 100;
 }
 
