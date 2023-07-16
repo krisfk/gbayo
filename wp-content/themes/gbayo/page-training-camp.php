@@ -41,7 +41,7 @@ get_header(); ?>
     <div class="row gx-3">
 
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
             <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
                 style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
@@ -55,7 +55,7 @@ get_header(); ?>
 
 
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
             <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
                 style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
@@ -69,7 +69,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
             <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
                 style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg');background-size:contain;">
@@ -83,7 +83,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
 
             <a href="javascript:void(0);" class="camp-cate mb-3 d-block position-relative"
                 style="background:url('http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg');background-size:contain;">
