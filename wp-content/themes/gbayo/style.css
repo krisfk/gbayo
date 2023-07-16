@@ -813,6 +813,7 @@ textarea {
   height: 230px;
   border: 1px solid #231f20;
   position: relative;
+  transition: 0.2s all;
 }
 
 .sponsor-rect img {
@@ -823,8 +824,10 @@ textarea {
   height: 45%;
 }
 
-.sponsor-rect:hover img {
-  zoom: 1.2;
+.sponsor-rect:hover {
+  box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
 }
 
 .sponsor-title {
