@@ -953,6 +953,9 @@ textarea {
   .top-presenter-logos-a {
     margin: 0 0 0 0.5rem;
   }
+  footer .top-presenter-logos-a {
+    margin: 0 0 0 0rem;
+  }
   .presenter-logos-a img {
     height: 20px;
   }
@@ -1029,6 +1032,9 @@ textarea {
   }
   .top-presenter-logos-a img {
     height: 12px;
+  }
+  footer .top-presenter-logos-a img {
+    height: 30px;
   }
 }
 
