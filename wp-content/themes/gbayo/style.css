@@ -962,8 +962,10 @@ iframe {
   background: url(./assets/images/close-cross-btn.png) no-repeat;
   background-size: contain;
   position: relative;
-  left: 5px;
-  margin: 0.3rem 0 0.3rem 0;
+  right: 2rem;
+  margin: auto;
+  top: 2rem;
+  position: absolute;
 }
 
 @media only screen and (max-width: 1400px) {
