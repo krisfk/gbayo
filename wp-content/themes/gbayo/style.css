@@ -863,7 +863,7 @@ img.lazyloaded.opacity-0 {
 
 .camp a img {
   transition: 0.2s all;
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 .camp a:hover img {
