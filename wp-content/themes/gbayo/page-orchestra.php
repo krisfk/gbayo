@@ -68,11 +68,7 @@ get_header(); ?>
 
         <div class="col-4 position-relative">
 
-            <a href="javascript:void(0);"
-                style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg) no-repeat; background-size: contain; width: 100%; position: absolute; height: 100%;">
-                <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                    alt="">
-            </a>
+            <img class="w-100 opacity-0" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" </a>
         </div>
         <div class="col-8 position-relative">
 
