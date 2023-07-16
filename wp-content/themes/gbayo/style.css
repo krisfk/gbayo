@@ -906,6 +906,13 @@ iframe {
 .concert-a {
   display: block;
   overflow: hidden;
+  transition: 0.2s all;
+}
+
+.concert-a:hover {
+  display: block;
+  overflow: hidden;
+  opacity: 0.85;
 }
 
 @media only screen and (max-width: 1400px) {
