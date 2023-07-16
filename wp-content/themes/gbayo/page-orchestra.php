@@ -66,10 +66,10 @@ get_header(); ?>
 
     <div class="row mt-4 gx-lg-5 gx-md-3 gx-sm-3 gx-3 ">
 
-        <div class="col-4 position-relative">
+        <a href="javascript:void(0);" class="col-4 position-relative">
 
             <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg" </a>
-        </div>
+        </a>
         <div class="col-8 position-relative">
 
             <a href="javascript:void(0);" style="">
