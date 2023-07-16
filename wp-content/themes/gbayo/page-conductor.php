@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="container">
 
-    <div class="row mt-5">
+    <div class="row mt-lg-5 mt-md-4 mt-sm-4 mt-4">
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 "></div>
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  content-fsize">
@@ -44,7 +44,7 @@ get_header(); ?>
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/conductor-img.jpg" alt="">
 
 
-            <h2 class="subtitle text-start mt-5">Sharon Andrea Choa</h2>
+            <h2 class="subtitle text-start mt-lg-5 mt-md-4 mt-sm-4 mt-4">Sharon Andrea Choa</h2>
 
             <h3 class="orange bold">Sharon Andrea Choa</h3>
 
@@ -93,7 +93,7 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<div class="mt-5">
+<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">
     <div class="five-lines-sep"></div>
 </div>
 
