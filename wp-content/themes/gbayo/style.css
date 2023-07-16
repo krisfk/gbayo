@@ -961,6 +961,9 @@ textarea {
   .top-presenter-logos-a {
     margin: 0 0 0 0.5rem;
   }
+  .bottom-main-content .top-presenter-logos-a {
+    margin: 0;
+  }
   footer .top-presenter-logos-a {
     margin: 0 0 0 0rem;
   }
@@ -975,6 +978,10 @@ textarea {
   }
   .top-presenter-logos-a img {
     height: 22px;
+  }
+  .bottom-main-content .top-presenter-logos-a img {
+    height: 30px;
+    width: auto;
   }
   .present-by-div table {
     margin: 0 1rem 0 0;
