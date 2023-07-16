@@ -64,7 +64,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
 
         <div class="col-4 position-relative">
 
@@ -92,7 +92,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
         <div class="col-8 position-relative">
             <div class="album-foto-div position-relative">
 
@@ -120,7 +120,7 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
 
         <div class="col-4 position-relative">
 
@@ -147,7 +147,7 @@ get_header(); ?>
 
         </div>
     </div>
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
         <div class="col-8 position-relative">
             <div class="album-foto-div position-relative">
 
