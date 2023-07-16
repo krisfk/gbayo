@@ -70,9 +70,10 @@ get_header(); ?>
 
             <div class="album-foto-div position-relative">
 
-                <a href="javascript:void(0);"
-                    style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-
+                <div>
+                    <a href="javascript:void(0);"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
             </div>
 
             <!-- <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"> -->
