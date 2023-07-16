@@ -816,6 +816,10 @@ textarea {
   margin: 0 0 1rem 0;
 }
 
+.album-row {
+  height: 490px;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
