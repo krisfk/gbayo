@@ -120,6 +120,60 @@ get_header(); ?>
 
     </div>
 
+    <div class="row mt-4 gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mt-4 gx-lg-4 gx-md-3 gx-sm-3 gx-3 ">
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 
 
