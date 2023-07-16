@@ -68,7 +68,11 @@ get_header(); ?>
 
         <div class="col-4 position-relative">
 
-            <div class="album-foto-div"></div>
+            <div class="album-foto-div position-relative">
+
+                <a href="javascript:void(0);"></a>
+
+            </div>
 
             <!-- <img class="w-100 " src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"> -->
         </div>
