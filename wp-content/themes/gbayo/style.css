@@ -820,7 +820,7 @@ textarea {
   .hamburger-menu-btn {
     display: block;
     position: fixed;
-    top: 1rem;
+    top: 0.7rem;
     right: 1rem;
     width: 28px;
     height: 23px;
