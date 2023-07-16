@@ -188,13 +188,7 @@ echo'</li>';
     </div>
 
 
-    <a href="javascript:void(0);" class="hamburger-menu-btn">
 
-
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </a>
 
     <div class="fix-social-elements">
         <ul class="">
@@ -229,6 +223,15 @@ echo'</li>';
                 <main id="main" class="site-main">
 
                     <div class="top-div-outer position-relative pt-3 pb-3">
+
+
+                        <a href="javascript:void(0);" class="hamburger-menu-btn">
+
+
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </a>
 
                         <div class="container">
 
