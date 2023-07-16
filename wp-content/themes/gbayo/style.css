@@ -852,9 +852,13 @@ img.lazyloaded.opacity-0 {
 
 .concert-img-a {
   display: block;
+  transition: 0.2s all;
 }
 
 .concert-img-a:hover {
+  box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.75);
 }
 
 @media only screen and (max-width: 1400px) {
