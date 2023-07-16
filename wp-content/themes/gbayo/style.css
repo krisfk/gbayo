@@ -168,6 +168,16 @@ body {
   color: #000;
 }
 
+.page-artist-in-residence .more-btn .five-lines-grid {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 0 0.5rem;
+  position: relative;
+  top: -7px;
+}
+
 .more-btn .five-lines-grid {
   width: 25px;
   height: 25px;
