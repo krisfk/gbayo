@@ -41,19 +41,19 @@ get_header(); ?>
     <div class="text-center">
         <ul class="news-ul mb-5">
             <li>
-                <a href="javascript:void(0);" class="">All</a>
+                <a href="<?php echo get_site_url();?>/media">All</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="">News</a>
+                <a href="<?php echo get_site_url();?>/news">News</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="">Press Releases</a>
+                <a href="<?php echo get_site_url();?>/press-releases">Press Releases</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="active">Videos</a>
+                <a href="<?php echo get_site_url();?>/videos" class="active">Videos</a>
             </li>
             <li>
-                <a href="javascript:void(0);">Photos</a>
+                <a href="<?php echo get_site_url();?>/photos">Photos</a>
             </li>
         </ul>
     </div>
