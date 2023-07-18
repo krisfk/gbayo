@@ -85,7 +85,7 @@
             <div class="col-lg-10 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
                 <table
-                    class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
+                    class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table mb-4">
                     <tr>
                         <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
 
