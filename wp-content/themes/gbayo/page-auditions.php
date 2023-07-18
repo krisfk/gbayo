@@ -111,6 +111,12 @@ get_header(); ?>
             </li>
             <li>
 
+
+                <a href="javascript:void(0);">Audition Requirements</a>
+
+            </li>
+            <li>
+
             <li>
                 <a href="#">Orchestra excerpts - sheet music - Strings</a>
             </li>
