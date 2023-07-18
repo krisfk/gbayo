@@ -924,9 +924,9 @@ iframe {
 }
 
 .concert-a:hover {
-  display: block;
-  overflow: hidden;
-  opacity: 0.85;
+  box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 13px 32px -11px rgba(0, 0, 0, 0.25);
 }
 
 .terms-yellow-bg-div {
