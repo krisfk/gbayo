@@ -226,7 +226,11 @@
         <div class="lang-div pt-2 pb-2">
 
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
-                EN | 繁 | 簡</div>
+
+                <a href="javascript:void(0);">EN</a> | <a href="javascript:void(0);">繁</a> | <a
+                    href="javascript:void(0);">簡</a>
+
+            </div>
 
 
         </div>
