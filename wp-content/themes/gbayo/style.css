@@ -1064,6 +1064,11 @@ iframe {
   font-size: 36px;
 }
 
+a {
+  color: #776b62 !important;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
