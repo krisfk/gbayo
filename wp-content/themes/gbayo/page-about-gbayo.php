@@ -34,7 +34,7 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container mt-lg-5 mt-md-4 mt-sm-4 mt-4 content-fsize">
+<div class="container mt-100 content-fsize">
 
     <div>
         Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
@@ -72,14 +72,14 @@ get_header(); ?>
 
 </div>
 
-<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+<div class="mt-100">
     <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg" alt="">
 </div>
 
 
 <div class="container ">
 
-    <h2 class="subtitle text-start mt-lg-5 mt-md-4 mt-sm-4 mt-4">Management team</h2>
+    <h2 class="subtitle text-start mt-100">Management team</h2>
 
     <div class="row mt-4">
 
@@ -111,7 +111,7 @@ get_header(); ?>
 
 </div>
 
-<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+<div class="mt-100">
     <div class="five-lines-sep"></div>
 </div>
 

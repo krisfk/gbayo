@@ -37,7 +37,7 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container mt-lg-5 mt-md-4 mt-sm-4 mt-4 content-fsize">
+<div class="container mt-100 content-fsize">
 
     <div>
         Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
@@ -76,7 +76,7 @@ get_header(); ?>
 
 </div>
 
-<div class="video-div mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+<div class="video-div mt-100">
 
 
 
@@ -102,7 +102,7 @@ get_header(); ?>
 
 <div class="container ">
 
-    <h2 class="subtitle text-center mt-lg-5 mt-md-4 mt-sm-4 mt-4">Concert</h2>
+    <h2 class="subtitle text-center mt-100">Concert</h2>
 
     <div class="row mt-4 gx-3">
         <div class="col-6">
@@ -119,7 +119,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <h2 class="subtitle  text-center mt-lg-5 mt-md-4 mt-sm-4 mt-4">Training Camp</h2>
+    <h2 class="subtitle  text-center mt-100">Training Camp</h2>
 
     <div class="camp-slick-wrapper position-relative">
         <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-left"></a>
@@ -178,7 +178,7 @@ get_header(); ?>
 
 </div>
 
-<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+<div class="mt-100">
     <div class="five-lines-sep"></div>
 </div>
 

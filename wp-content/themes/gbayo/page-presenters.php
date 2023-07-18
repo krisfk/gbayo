@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="container bottom-main-content">
 
-    <div class="row mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+    <div class="row mt-100">
         <div class="col-4 ">
 
             <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
@@ -146,7 +146,7 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">
+<div class="mt-100">
     <div class="five-lines-sep"></div>
 </div>
 
