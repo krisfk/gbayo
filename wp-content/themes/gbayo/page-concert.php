@@ -110,7 +110,8 @@ get_header(); ?>
 
 
             <div class="mt-4">
-                <a href="javascript:void(0);" class="more-btn ticket-here">
+                <!-- ticket-here -->
+                <a href="javascript:void(0);" class="more-btn ">
 
 
                     <div class="d-inline-block">Ticket here</div>
