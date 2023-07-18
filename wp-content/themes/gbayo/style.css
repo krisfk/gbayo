@@ -496,6 +496,7 @@ h2.subtitle {
   border-bottom: 1px solid #f47421;
   /* padding: 0 0 0.5rem 0; */
   position: relative;
+  margin: 0 3rem;
 }
 
 .top-menu-ul li a {
