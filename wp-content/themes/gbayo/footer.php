@@ -68,7 +68,8 @@
                     <div class="footer-logos-subtitle">Founding Patron</div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="javascript:void(0);" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                            <td> <a href="javascript:void(0);" style="top:10px"
+                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                     <img class=""
                                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
