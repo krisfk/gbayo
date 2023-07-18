@@ -62,8 +62,8 @@
         </div>
 
         <div class="row mt-4">
-
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-lg-4 mb-md-3 mb-sm-0 mb-0  ">
+            <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
+            <div class="col-lg-2 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-lg-4 mb-md-3 mb-sm-0 mb-0  ">
                 <div class="d-inline-block mb-2">
                     <div class="footer-logos-subtitle">Founding Patron</div>
                     <table class="d-inline-block">
@@ -80,7 +80,8 @@
 
 
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
+            <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
+            <div class="col-lg-10 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
                 <table
                     class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
