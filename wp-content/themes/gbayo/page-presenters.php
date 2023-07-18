@@ -34,7 +34,7 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container bottom-main-content">
+<div class="container bottom-main-content mt-100">
 
     <div class="row mt-100">
         <div class="col-4 ">
