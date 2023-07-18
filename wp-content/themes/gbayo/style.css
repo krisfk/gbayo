@@ -362,6 +362,10 @@ h2.subtitle {
   transform: rotate(90deg);
 }
 
+.fix-icon-a:hover {
+  filter: brightness(0);
+}
+
 .fix-icon-a.fix-icon-a-1 {
   background: url(./assets/images/fix-icon-1.png) no-repeat;
   background-size: 100% 100%;
