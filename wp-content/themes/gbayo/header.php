@@ -350,7 +350,8 @@ echo'</li>';
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
 
-                    <div class="top-div-outer position-relative pt-3 pb-3">
+                    <!-- <div class="top-div-outer position-relative pt-3 pb-3"> -->
+                    <div class="top-div-outer position-relative ">
 
 
                         <a href="javascript:void(0);" class="hamburger-menu-btn">

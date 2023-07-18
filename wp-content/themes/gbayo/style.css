@@ -1037,6 +1037,10 @@ iframe {
   --bs-gutter-x: 1.875rem !important;
 }
 
+.top-div-outer {
+  height: 140px;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
