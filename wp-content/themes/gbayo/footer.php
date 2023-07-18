@@ -65,7 +65,7 @@
             <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
             <div class="col-lg-2 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-lg-4 mb-md-3 mb-sm-0 mb-0  ">
                 <div class="d-inline-block mb-4">
-                    <div class="footer-logos-subtitle">Founding Patron</div>
+                    <div class="footer-logos-subtitle" style="position:relative;top:7px">Founding Patron</div>
                     <table class="d-inline-block">
                         <tr>
                             <td> <a href="javascript:void(0);" style="top:13px"
@@ -90,7 +90,8 @@
                         <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
 
                             <div class="d-inline-block mb-2">
-                                <div class="footer-logos-subtitle" style="position:relative;top:2px">Sponsored by</div>
+
+                                <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored by</div>
                                 <table class="d-inline-block">
                                     <tr>
                                         <td> <a href="javascript:void(0);" style="top:15px"
