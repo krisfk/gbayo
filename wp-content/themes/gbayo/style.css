@@ -532,7 +532,7 @@ h2.subtitle {
   background: url(./assets/images/white-down-arrow.png);
   background-size: 100% 100%;
   position: absolute;
-  top: 1.3rem;
+  top: 1.8rem;
   /* transform: translate(0, -50%); */
   right: 2rem;
 }
