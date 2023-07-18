@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="container bottom-main-content mt-100">
 
-    <div class="row mt-100">
+    <div class="row mt-100 gx-3">
         <div class="col-4 ">
 
             <a href="javascript:void(0);" class="w-100">
