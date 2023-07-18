@@ -338,6 +338,7 @@ h2.subtitle {
   display: block;
   width: 35px;
   height: 35px;
+  transition: 0.2s all;
   filter: brightness(0) !important;
 }
 
