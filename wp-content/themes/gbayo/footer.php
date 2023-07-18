@@ -63,7 +63,7 @@
 
         <div class="row mt-4">
             <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-lg-4 mb-md-3 mb-sm-0 mb-0  ">
+            <div class="col-lg-2 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-lg-4 mb-md-3 mb-sm-0 mb-0  ">
                 <div class="d-inline-block mb-2">
                     <div class="footer-logos-subtitle">Founding Patron</div>
                     <table class="d-inline-block">
@@ -75,32 +75,6 @@
                                         src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
                                         alt="">
                                 </a></td>
-                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
-
-                                <div class="d-inline-block mb-2">
-                                    <div class="footer-logos-subtitle">Sponsored by</div>
-                                    <table class="d-inline-block">
-                                        <tr>
-                                            <td> <a href="javascript:void(0);" style="top:15px"
-                                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                                    <img class=""
-                                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
-                                                        alt="">
-                                                </a></td>
-
-                                            <td> <a href="javascript:void(0);" style="top:15px"
-                                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                                    <img class=""
-                                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
-                                                        alt="">
-                                                </a></td>
-                                        </tr>
-                                    </table>
-                                </div>
-
-                            </td>
                         </tr>
                     </table>
                 </div>
@@ -108,13 +82,38 @@
 
             </div>
             <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
+            <div class="col-lg-10 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
                 <table
                     class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
                     <tr>
 
+                        <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
 
+                            <div class="d-inline-block mb-2">
+                                <div class="footer-logos-subtitle">Sponsored by</div>
+                                <table class="d-inline-block">
+                                    <tr>
+                                        <td> <a href="javascript:void(0);" style="top:15px"
+                                                class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
+                                                    alt="">
+                                            </a></td>
+
+                                        <td> <a href="javascript:void(0);" style="top:15px"
+                                                class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
+                                                    alt="">
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </td>
                         <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Co-organiser
                                 <!-- <br> -->
