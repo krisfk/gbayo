@@ -434,6 +434,10 @@ h2.subtitle {
   color: #000;
 }
 
+.fix-back-to-top:hover .back-to-top-arrow {
+  filter: brightness(0);
+}
+
 .fix-back-to-top span {
   display: table-cell;
 }
