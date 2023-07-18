@@ -155,6 +155,10 @@ footer .top-presenter-logos-a {
   align-items: center;
 }
 
+.more-btn:hover h3.orange {
+  color: #000;
+}
+
 .more-btn.ticket-here {
 }
 
