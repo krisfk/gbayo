@@ -99,9 +99,9 @@ get_header(); ?>
 
 <div class="five-lines-sep"></div>
 
-<div class="container">
+<div class="container mt-100">
 
-    <div class="row mt-5 content-fsize">
+    <div class="row  content-fsize">
 
         <div class="col-12">
             <h2 class="orange bold">GBAYO 2023 Faculty</h2>
