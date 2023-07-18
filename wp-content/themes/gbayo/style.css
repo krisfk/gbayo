@@ -1099,6 +1099,15 @@ iframe {
 }
 
 @media only screen and (max-width: 991px) {
+  .mt-100 {
+    margin: 50px 0 0 0;
+  }
+  .mt-30 {
+    margin: 15px 0 0 0;
+  }
+  .mb-30 {
+    margin: 0px 0 15px 0;
+  }
   .g-3,
   .gx-3 {
     --bs-gutter-x: 0.95rem !important;
