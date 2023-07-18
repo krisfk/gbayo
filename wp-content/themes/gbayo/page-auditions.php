@@ -85,6 +85,18 @@ get_header(); ?>
         <span class="bold">Macau – 10 Feb 2023</span><br>
         Macao Youth Symphony Orchestra: mysoa@macau.ctm.net
 
+        <br><br>
+
+        (Application email subject format: <span class="bold">Instrument + Name + Age + School / Company Name)</span>
+        <br><br>
+         
+        <span class="bold">Second Round</span> – Applicants should send the link of audition video to the designated
+        institutes or organisation by
+        email before <span class="bold">Mar 31, 2023</spn>.The audition video must follow the audition requirements and
+            be uploaded to Youtube
+            or Youku. The GBAYO finalist and waiting list will be decided by the audition panel.
+
+
 
     </div>
 
