@@ -117,7 +117,7 @@ get_header(); ?>
                     <div class="d-inline-block">Ticket here</div>
 
 
-                    <div class="five-lines-grid">
+                    <div class="five-lines-grid" style="transform: rotate(90deg);">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
                         </div>
