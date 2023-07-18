@@ -107,27 +107,27 @@ get_header(); ?>
         </h3>
         <ul class="download-pdf-list">
             <li>
-                <a href="javascript:void(0);"> Application Form (doc) / Application Form (pdf)</a>
+                <a href="javascript:void(0);" class="pdf"> Application Form (doc) / Application Form (pdf)</a>
             </li>
             <li>
 
 
-                <a href="javascript:void(0);">Audition Requirements</a>
+                <a href="javascript:void(0);" class="pdf">Audition Requirements</a>
 
             </li>
             <li>
 
             <li>
-                <a href="#">Orchestra excerpts - sheet music - Strings</a>
+                <a href="#" class="music">Orchestra excerpts - sheet music - Strings</a>
             </li>
             <li>
-                <a href="#">Orchestra excerpts - sheet music - Woodwind</a>
+                <a href="#" class="music">Orchestra excerpts - sheet music - Woodwind</a>
             </li>
             <li>
-                <a href="#">Orchestra excerpts - sheet music - Brass</a>
+                <a href="#" class="music">Orchestra excerpts - sheet music - Brass</a>
             </li>
             <li>
-                <a href="#">Orchestra excerpts - sheet music - Percussion</a>
+                <a href="#" class="music">Orchestra excerpts - sheet music - Percussion</a>
             </li>
         </ul>
     </div>
