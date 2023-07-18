@@ -366,6 +366,7 @@ h2.subtitle {
   width: 25px;
   height: 25px;
   transform: rotate(90deg);
+  transition: 0.2s all;
 }
 
 .fix-icon-a:hover {
