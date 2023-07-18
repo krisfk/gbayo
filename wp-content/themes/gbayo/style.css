@@ -338,6 +338,11 @@ h2.subtitle {
   display: block;
   width: 35px;
   height: 35px;
+  filter: brightness(0) !important;
+}
+
+.footer-sns-icon:hover {
+  filter: brightness(1) !important;
 }
 
 .footer-sns-icon.footer-sns-icon-1 {
