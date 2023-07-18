@@ -39,9 +39,9 @@ get_header(); ?>
     <div class="row mt-100">
         <div class="col-4 ">
 
-            <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
+            <a href="javascript:void(0);" class="w-100">
 
-                <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
             </a>
 
             <h3 class="orange bold mt-4">The Hong Kong Academy for Performing Arts</h3>
@@ -69,9 +69,9 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
+        <div class="col-4"> <a href="javascript:void(0);" class="w-100">
 
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
             </a>
             <h3 class="orange bold mt-4">Xinghai Conservatory of Music
             </h3>
@@ -102,9 +102,9 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="col-4"> <a href="javascript:void(0);" class="top-presenter-logos-a orange bold">
+        <div class="col-4"> <a href="javascript:void(0);" class="w-100">
 
-                <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
             </a>
 
             <h3 class="orange bold mt-4">Macao Youth Symphony Orchestra
