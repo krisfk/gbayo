@@ -90,7 +90,7 @@
                         <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
 
                             <div class="d-inline-block mb-2">
-                                <div class="footer-logos-subtitle">Sponsored by</div>
+                                <div class="footer-logos-subtitle" style="position:relative;top:2px">Sponsored by</div>
                                 <table class="d-inline-block">
                                     <tr>
                                         <td> <a href="javascript:void(0);" style="top:15px"
