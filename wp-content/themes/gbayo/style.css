@@ -510,7 +510,7 @@ h2.subtitle {
 
 .mobile-menu-submenu li a {
   color: #fff;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .mobile-menu-submenu li a:hover {
@@ -520,10 +520,12 @@ h2.subtitle {
 .mobile-menu-submenu {
   display: none;
   margin: -1rem 0 1rem 0;
+  padding: 0;
 }
 
 .mobile-menu-submenu li {
   border: none;
+  margin: 0;
 }
 
 .top-menu-ul li a.menu-arrow {
@@ -570,7 +572,7 @@ h2.subtitle {
   /* top: 50%; */
   top: 1.3rem;
   /* transform: translate(0, -50%); */
-  right: 2rem;
+  right: 0;
 }
 
 .top-menu-ul li.active a.level-1 {
