@@ -118,6 +118,7 @@ footer .top-presenter-logos-a {
 
 .other-logos-a {
   display: inline-block;
+  position: relative;
 }
 
 .other-logos-a img {
