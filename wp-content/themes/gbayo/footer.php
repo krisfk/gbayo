@@ -93,7 +93,7 @@
                                 <div class="footer-logos-subtitle">Sponsored by</div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="javascript:void(0);" style="top:14px"
+                                        <td> <a href="javascript:void(0);" style="top:15px"
                                                 class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                                 <img class=""
@@ -101,7 +101,7 @@
                                                     alt="">
                                             </a></td>
 
-                                        <td> <a href="javascript:void(0);" style="top:14px"
+                                        <td> <a href="javascript:void(0);" style="top:15px"
                                                 class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                                 <img class=""
