@@ -535,7 +535,7 @@ h2.subtitle {
   position: absolute;
   top: 1.8rem;
   /* transform: translate(0, -50%); */
-  right: 2rem;
+  right: 0;
 }
 
 .top-menu-ul li a.menu-arrow:hover {
@@ -547,7 +547,7 @@ h2.subtitle {
   position: absolute;
   top: 1.8rem;
   /* transform: translate(0, -50%); */
-  right: 2rem;
+  right: 0;
 }
 
 .top-menu-ul li a.level-1 {
