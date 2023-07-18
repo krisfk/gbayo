@@ -1166,6 +1166,9 @@ a.mail-link {
     display: inline-flex;
     align-items: center;
   }
+  .more-btn:hover h3 {
+    color: #000;
+  }
   .sponsor-title {
     display: block;
     min-height: 32px;
