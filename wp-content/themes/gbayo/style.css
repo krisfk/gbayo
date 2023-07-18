@@ -427,6 +427,10 @@ h2.subtitle {
 }
 
 .fix-back-to-top:hover {
+  color: #000;
+}
+
+.fix-back-to-top:hover {
   opacity: 0.85;
 }
 
