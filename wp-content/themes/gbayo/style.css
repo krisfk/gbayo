@@ -427,16 +427,11 @@ h2.subtitle {
 }
 
 .fix-back-to-top:hover {
-  color: #000;
-}
-
-.fix-back-to-top:hover {
-  opacity: 0.85;
 }
 
 .fix-back-to-top:hover {
   text-decoration: none;
-  color: #f47421;
+  color: #000;
 }
 
 .fix-back-to-top span {
