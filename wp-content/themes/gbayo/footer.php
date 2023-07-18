@@ -87,7 +87,7 @@
                     class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
                     <tr>
 
-                        <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                        <td class="ps-lg-3 ps-md-0 ps-sm-0 ps-0">
 
                             <div class="d-inline-block mb-2">
                                 <div class="footer-logos-subtitle">Sponsored by</div>
@@ -113,7 +113,7 @@
                             </div>
 
                         </td>
-                        <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                        <td class="ps-lg-3 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Co-organiser
                                 <!-- <br> -->
                                 for the Macau Concert
@@ -130,7 +130,7 @@
                             </table>
                         </td>
 
-                        <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                        <td class="ps-lg-3 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Shenzhen Concert
                                 <!-- <br> -->
                                 Supporting Unit
@@ -146,7 +146,7 @@
                                 </tr>
                             </table>
                         </td>
-                        <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                        <td class="ps-lg-3 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Guangzhou Concert
                                 <!-- <br> -->
                                 Supporting Unit
@@ -162,7 +162,7 @@
                                 </tr>
                             </table>
                         </td>
-                        <td class="ps-lg-5 ps-md-0 ps-sm-0 ps-0">
+                        <td class="ps-lg-3 ps-md-0 ps-sm-0 ps-0">
                             <div class="footer-logos-subtitle text-start">Macau Venue
                                 <!-- <br> -->
                                 Sponsor
