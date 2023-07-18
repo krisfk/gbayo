@@ -272,13 +272,13 @@ h2.subtitle {
 /* the slides */
 
 .slick-slide {
-  margin: 0 8px !important;
+  margin: 0 15px !important;
 }
 
 /* the parent */
 
 .slick-list {
-  margin: 0 -8px !important;
+  margin: 0 -15px !important;
 }
 
 .slick-arrow {
