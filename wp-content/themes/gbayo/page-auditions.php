@@ -42,7 +42,7 @@ get_header(); ?>
 
     <div class="mb-4 audition-content">
         <h3 class="bold orange">Training Camp & Concert Tour Period</h3>
-        <div>Jul 31 - Aug 16, 2023</div>
+        <div>Jul 31 – Aug 16, 2023</div>
     </div>
 
     <div class="mb-4 audition-content">
