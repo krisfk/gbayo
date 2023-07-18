@@ -144,7 +144,7 @@
                             </div>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td> <a href="javascript:void(0);" class="other-logos-a">
+                                    <td> <a href="javascript:void(0);" class="other-logos-a" style="top:1px">
 
                                             <img class=""
                                                 src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png"
