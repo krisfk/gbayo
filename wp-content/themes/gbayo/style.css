@@ -1024,6 +1024,10 @@ iframe {
   margin: 100px 0 0 0;
 }
 
+.mt-30 {
+  margin: 30px 0 0 0;
+}
+
 .g-3,
 .gx-3 {
   --bs-gutter-x: 1.875rem !important;
