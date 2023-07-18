@@ -1072,7 +1072,7 @@ iframe {
   font-size: 36px;
 }
 
-a {
+a.mail-link {
   color: #776b62 !important;
   text-decoration: underline;
 }
