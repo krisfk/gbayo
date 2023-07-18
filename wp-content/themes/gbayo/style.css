@@ -464,6 +464,10 @@ h2.subtitle {
   z-index: 100;
 }
 
+.hamburger-menu-btn:hover .line {
+  background: #000;
+}
+
 .hamburger-menu-btn .line {
   display: block;
   width: 100%;
