@@ -63,68 +63,8 @@ get_header(); ?>
 
 
     </div>
-
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
+    <!-- gx-lg-4 gx-md-3 gx-sm-2 gx-2 -->
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-3 gx-md-3 gx-sm-2 gx-2 ">
 
         <div class="col-4 position-relative">
 
@@ -153,7 +93,67 @@ get_header(); ?>
 
         </div>
     </div>
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
+
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-3 gx-md-3 gx-sm-2 gx-2 ">
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-3 gx-md-3 gx-sm-2 gx-2 ">
+
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-3 gx-md-3 gx-sm-2 gx-2 ">
         <div class="col-8 position-relative">
             <div class="album-foto-div position-relative">
 
