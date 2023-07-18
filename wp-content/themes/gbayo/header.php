@@ -227,8 +227,9 @@
 
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
 
-                <a href="javascript:void(0);" class="d-inline-block">EN</a> | <a class="d-inline-block"
-                    href="javascript:void(0);">繁</a> | <a href="javascript:void(0);" class="d-inline-block">簡</a>
+                <a href="javascript:void(0);" class="d-inline-block lang-a">EN</a> | <a class="  lang-a d-inline-block"
+                    href="javascript:void(0);">繁</a> | <a href="javascript:void(0);"
+                    class=" lang-a d-inline-block">簡</a>
 
             </div>
 

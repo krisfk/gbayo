@@ -1048,6 +1048,15 @@ iframe {
   padding: 30px 0 0 0;
 }
 
+.lang-a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lang-a:hover {
+  color: #000;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
