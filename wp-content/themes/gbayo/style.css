@@ -1041,6 +1041,9 @@ iframe {
   height: 140px;
 }
 
+.top-div-outer-container {
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;

@@ -362,7 +362,7 @@ echo'</li>';
                             <div class="line"></div>
                         </a>
 
-                        <div class="container">
+                        <div class="container top-div-outer-container">
 
                             <div class="top-div">
 
