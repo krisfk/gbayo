@@ -77,13 +77,14 @@ get_header(); ?>
         institutes or organisation in your region by below deadlines:<br><br>
 
         <span class="bold"> Hong Kong – 17 Mar 2023</span> <br>
-        Hong Kong Academy for Performing Arts: GBAYO@hkapa.edu<br><br>
+        Hong Kong Academy for Performing Arts: <a href="mailto:GBAYO@hkapa.edu"
+            target="_blank">GBAYO@hkapa.edu</a><br><br>
 
         <span class="bold">Guangdong – 10 Feb 2023</span><br>
-        Xinghai Conservatory of Music: gbayo@xhcom.edu.cn<br><br>
+        Xinghai Conservatory of Music: <a href="gbayo@xhcom.edu.cn" target="_blank">gbayo@xhcom.edu.cn</a><br><br>
 
         <span class="bold">Macau – 10 Feb 2023</span><br>
-        Macao Youth Symphony Orchestra: mysoa@macau.ctm.net
+        Macao Youth Symphony Orchestra: <a href="mailto:mysoa@macau.ctm.net" target="_blank">mysoa@macau.ctm.net</a>
 
         <br><br>
 
