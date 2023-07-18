@@ -437,7 +437,7 @@ h2.subtitle {
 .hamburger-menu-btn {
   display: block;
   position: fixed;
-  top: 2.4rem;
+  top: 3rem;
   right: 2rem;
   width: 28px;
   height: 28px;
@@ -1042,6 +1042,8 @@ iframe {
 }
 
 .top-div-outer-container {
+  display: block;
+  padding: 30px 0 0 0;
 }
 
 @media only screen and (max-width: 1400px) {
