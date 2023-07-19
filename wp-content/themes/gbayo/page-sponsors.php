@@ -45,7 +45,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-18.png" alt="">
                 </a>
 
             </div>
@@ -58,7 +58,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-19.png" alt="">
                 </a>
 
             </div>
@@ -72,7 +72,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-20.png" alt="">
                 </a>
 
             </div>
@@ -86,7 +86,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-21.png" alt="">
                 </a>
 
             </div>
@@ -100,7 +100,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-22.png" alt="">
                 </a>
 
             </div>
@@ -114,7 +114,7 @@ get_header(); ?>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-23.png" alt="">
                 </a>
 
             </div>
@@ -130,7 +130,7 @@ get_header(); ?>
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png" alt="">
+                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-24.png" alt="">
                 </a>
 
             </div>
