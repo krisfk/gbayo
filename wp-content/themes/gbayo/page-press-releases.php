@@ -191,7 +191,9 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<div class="mt-5">
+<!-- <div class="mt-5"> -->
+<div class="mt-100">
+
     <div class="five-lines-sep"></div>
 </div>
 
