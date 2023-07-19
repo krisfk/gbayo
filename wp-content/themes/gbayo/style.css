@@ -871,7 +871,7 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 45%;
+  height: 100%;
 }
 
 .sponsor-rect:hover {
