@@ -41,7 +41,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Founding Patron</h3>
+                <h3 class="bold orange sponsor-title text-start">Founding Patron</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
@@ -54,7 +54,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Sponsored by</h3>
+                <h3 class="bold orange sponsor-title text-start">Sponsored by</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
@@ -68,7 +68,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center empty"></h3>
+                <h3 class="bold orange sponsor-title text-start empty"></h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
@@ -81,7 +81,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Co-organiser <br>
+                <h3 class="bold orange sponsor-title text-start">Co-organiser <br>
                     for the Macau Concert</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
@@ -95,7 +95,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Shenzhen Concert <br>
+                <h3 class="bold orange sponsor-title text-start">Shenzhen Concert <br>
                     Supporting Unit</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
@@ -109,7 +109,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Guangzhou Concert <br>
+                <h3 class="bold orange sponsor-title text-start">Guangzhou Concert <br>
                     Supporting Unit</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
@@ -124,7 +124,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
 
             <div>
-                <h3 class="bold orange sponsor-title text-center">Co-organiser <br>
+                <h3 class="bold orange sponsor-title text-start">Co-organiser <br>
                     for the Macau Concert</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
