@@ -38,7 +38,7 @@ get_header(); ?>
 
     <div class="row gx-3">
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
@@ -69,7 +69,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
                 <img class="w-100 concert-img"
@@ -100,7 +100,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
@@ -133,7 +133,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
 
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
