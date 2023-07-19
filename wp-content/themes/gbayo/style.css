@@ -1101,6 +1101,10 @@ a.mail-link {
   text-decoration: underline;
 }
 
+a.mail-link:hover {
+  color: #f47421;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
