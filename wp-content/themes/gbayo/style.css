@@ -854,11 +854,12 @@ textarea {
 
 .sponsor-rect {
   display: block;
-  width: 395px;
+  /* width: 395px; */
   height: 230px;
   border: 1px solid #231f20;
   position: relative;
   transition: 0.2s all;
+  width: 100%;
 }
 
 .sponsor-rect img {
