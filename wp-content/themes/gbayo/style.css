@@ -675,6 +675,10 @@ h3 {
   margin: 0 0 0.3rem 0;
 }
 
+.download-pdf-list li a:hover {
+  color: #f47421 !important;
+}
+
 .download-pdf-list li a.pdf {
   text-decoration: underline;
   color: #776b62;
