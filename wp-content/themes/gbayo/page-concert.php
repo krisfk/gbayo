@@ -117,7 +117,7 @@ get_header(); ?>
                     <div class="d-inline-block">Ticket here</div>
 
 
-                    <div class="five-lines-grid" style="transform: rotate(0deg);top:-3px;">
+                    <div class="five-lines-grid" style="top:-3px;">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
                         </div>
@@ -207,7 +207,7 @@ get_header(); ?>
                     </h3><span class="ms-2 content-fsize text-dark">Guangzhou</span>
 
 
-                    <div class="five-lines-grid">
+                    <div class="five-lines-grid" style="top:-3px">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
                         </div>
@@ -239,7 +239,7 @@ get_header(); ?>
                     <h3 class="bold orange d-inline-block m-0">Cheong Hoi Leong</h3>
                     <span class="ms-2 content-fsize text-dark">Macau</span>
 
-                    <div class="five-lines-grid">
+                    <div class="five-lines-grid" style="top:-3px">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
                         </div>
@@ -269,7 +269,7 @@ get_header(); ?>
                     <h3 class="bold orange d-inline-block m-0">Thomas Hung</h3>
                     <span class="ms-2 content-fsize text-dark">Hong Kong</span>
 
-                    <div class="five-lines-grid">
+                    <div class="five-lines-grid" style="top:-3px">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
                         </div>
