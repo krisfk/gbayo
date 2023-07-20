@@ -101,7 +101,6 @@
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">Co-organiser
-                                    <!-- <br> -->
                                     for the Macau Concert
                                 </div>
                                 <table class="d-inline-block">
@@ -299,6 +298,86 @@
 
 
 
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <table
+                        class="mb-4 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
+                        <tr>
+
+
+                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
+                                <div class="footer-logos-subtitle text-start">Co-organiser
+                                    for the Macau Concert
+                                </div>
+                                <table class="d-inline-block">
+                                    <tr>
+                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:11px">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png"
+                                                    alt="">
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
+                                <div class="footer-logos-subtitle text-start">Shenzhen Concert
+                                    <!-- <br> -->
+                                    Supporting Unit
+                                </div>
+                                <table class="d-inline-block">
+                                    <tr>
+                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:5px">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png"
+                                                    alt="">
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
+                                <div class="footer-logos-subtitle text-start">Guangzhou Concert
+                                    <!-- <br> -->
+                                    Supporting Unit
+                                </div>
+                                <table class="d-inline-block">
+                                    <tr>
+                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:9px">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png"
+                                                    alt="">
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
+                                <div class="footer-logos-subtitle text-start">Macau Venue
+                                    <!-- <br> -->
+                                    Sponsor
+                                </div>
+                                <table class="d-inline-block">
+                                    <tr>
+                                        <td> <a href="javascript:void(0);" class="other-logos-a">
+
+                                                <img class=""
+                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png"
+                                                    alt="">
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </div>
             </div>
 
 
