@@ -227,7 +227,7 @@
 
         <div class="container">
             <div class="row mb-3">
-                <div class="col-12 ">
+                <div class="col-12  gx-0">
 
                     <div class="footer-logos-subtitle">Presented by</div>
                     <table class="d-inline-block">
@@ -258,7 +258,7 @@
 
             <div class="row mb-4">
 
-                <div class="col-12">
+                <div class="col-12  gx-0">
                     <div class="d-inline-block">
                         <div class="footer-logos-subtitle" style="position:relative;top:7px">Founding Patron</div>
                         <table class="d-inline-block">
@@ -308,7 +308,7 @@
 
             <div class="row mb-3">
 
-                <div class="col-12">
+                <div class="col-12 gx-0">
 
                     <table
                         class="mb-4 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
