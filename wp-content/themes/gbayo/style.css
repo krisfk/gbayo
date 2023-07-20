@@ -1183,6 +1183,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .top-div-outer-container .present-by-div {
+    text-align: left !important;
+  }
   .home .full-width-img-div.mobile .gbayo-big-txt {
     position: relative;
     top: -2px;
