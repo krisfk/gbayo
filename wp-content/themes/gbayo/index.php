@@ -198,8 +198,6 @@ $(function() {
             settings: "unslick"
         }]
 
-
-
     });
 
     $('.home-slick-arrow.home-slick-arrow-left').click(function() {
