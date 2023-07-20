@@ -382,9 +382,9 @@ echo'</li>';
                                     <div class="col-9 text-end  present-by-div">
 
 
-                                        <table class="d-inline-block">
+                                        <table class="d-inline-block position-relative present-by-table">
                                             <tr>
-                                                <td class="align-top">Presented by</td>
+                                                <td class="align-top txt">Presented by</td>
                                                 <td>
                                                     <a href="javascript:void(0);" class="top-presenter-logos-a  ">
 
