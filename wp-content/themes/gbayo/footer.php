@@ -286,40 +286,44 @@
             <div class="row">
 
                 <div class="col-12">
-                    <div class="footer-logos-subtitle" style="position:relative;top:7px">Founding Patron</div>
-                    <table class="d-inline-block">
-                        <tr>
-                            <td> <a href="javascript:void(0);" style="top:13px"
-                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                    <div class="d-inline-block">
+                        <div class="footer-logos-subtitle" style="position:relative;top:7px">Founding Patron</div>
+                        <table class="d-inline-block">
+                            <tr>
+                                <td> <a href="javascript:void(0);" style="top:13px"
+                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img class=""
-                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
-                                        alt="">
-                                </a></td>
-                        </tr>
-                    </table>
-
-                    <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored by
+                                        <img class=""
+                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-16@2x.png"
+                                            alt="">
+                                    </a></td>
+                            </tr>
+                        </table>
                     </div>
-                    <table class="d-inline-block">
-                        <tr>
-                            <td> <a href="javascript:void(0);" style="top:15px"
-                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img class=""
-                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
-                                        alt="">
-                                </a></td>
+                    <div class="d-inline-block">
+                        <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored by
+                        </div>
+                        <table class="d-inline-block">
+                            <tr>
+                                <td> <a href="javascript:void(0);" style="top:15px"
+                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                            <td> <a href="javascript:void(0);" style="top:15px"
-                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                        <img class=""
+                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
+                                            alt="">
+                                    </a></td>
 
-                                    <img class=""
-                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
-                                        alt="">
-                                </a></td>
-                        </tr>
-                    </table>
+                                <td> <a href="javascript:void(0);" style="top:15px"
+                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                        <img class=""
+                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
+                                            alt="">
+                                    </a></td>
+                            </tr>
+                        </table>
+                    </div>
 
                 </div>
 
