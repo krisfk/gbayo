@@ -160,7 +160,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="mobile-training-camp-container">
+    <div class="mobile-training-camp-container mt-4">
 
         <div class="row gx-3">
             <div class="col-6 mb-30"> <a href="<?php echo get_site_url();?>/training-camp" class="">
