@@ -1175,6 +1175,19 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .mobile-training-camp-container {
     display: block;
   }
@@ -1277,6 +1290,19 @@ a.mail-link:hover {
   }
   .content-fsize {
     font-size: 14px;
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x, 0.75rem);
+      padding-left: var(--bs-gutter-x, 0.75rem);
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
   h3 {
     font-size: 16px !important;
