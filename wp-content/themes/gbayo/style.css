@@ -1183,6 +1183,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .home .full-width-img-div.mobile .gbayo-big-txt {
+    position: relative;
+    top: -2px;
+    height: auto;
+    width: 65vw;
+  }
   .home .full-width-img-div.mobile {
     display: block;
   }
