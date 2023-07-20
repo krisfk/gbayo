@@ -386,7 +386,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row gx-0">
 
                 <div class="col-9">
                     <div class="reserve-txt ">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
