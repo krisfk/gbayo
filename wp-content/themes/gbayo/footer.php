@@ -388,10 +388,10 @@
 
             <div class="row gx-0">
 
-                <div class="col-9 gx-0">
+                <div class="col-9 gx-0 position-relative" style="left:-10px;">
                     <div class="reserve-txt ">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
                 </div>
-                <div class="col-3 gx-0 text-end">
+                <div class="col-3 gx-0 text-end position-relative" style="right:-10px;">
                     <table class="d-inline-block">
                         <tr>
                             <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
