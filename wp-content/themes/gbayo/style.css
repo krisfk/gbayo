@@ -1171,6 +1171,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .top-div-outer {
+    height: 72px;
+  }
   .font-36 {
     font-size: 18px;
   }
