@@ -1175,6 +1175,36 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .fix-icon-a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+    transition: 0.2s all;
+  }
+  .fix-social-elements ul {
+    font-size: 18px;
+  }
+  .back-to-top-arrow {
+    display: block;
+    width: 93px;
+    height: 25px;
+    background: url(./assets/images/btt-arrow.png) no-repeat;
+    background-size: 100% 100%;
+    transition: 0.2s all;
+  }
+  .fix-back-to-top {
+    font-size: 18px;
+    display: table;
+    color: #f47421;
+    position: fixed;
+    z-index: 200;
+    transform: rotate(-90deg);
+    top: 50%;
+    text-decoration: none;
+    left: -4.4vh;
+    transition: 0.2s all;
+  }
   .container,
   .container-fluid,
   .container-lg,
@@ -1390,10 +1420,10 @@ a.mail-link:hover {
     top: 1px;
   }
   .fix-back-to-top {
-    left: -11vh;
+    left: -9vh;
   }
   .fix-social-elements {
-    right: -10vh;
+    right: -9vh;
   }
 }
 
