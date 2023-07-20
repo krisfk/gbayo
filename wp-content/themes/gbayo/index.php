@@ -121,7 +121,7 @@ get_header(); ?>
 
     <h2 class="subtitle  text-center mt-100">Training Camp</h2>
 
-    <div class="camp-slick-wrapper position-relative">
+    <div class="camp-slick-wrapper position-relative mt-4">
         <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-left"></a>
         <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-right"></a>
 
