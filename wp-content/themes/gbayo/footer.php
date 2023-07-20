@@ -203,7 +203,7 @@
     <div class="mobile-footer">
 
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-3">
                 <div class="col-12 ">
 
                     <div class="footer-logos-subtitle">Presented by</div>
