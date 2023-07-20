@@ -1179,7 +1179,7 @@ a.mail-link:hover {
     display: block;
   }
   .camp-slick {
-    display: none;
+    display: none !important;
   }
   .camp-slick .camp {
     width: 46%;
