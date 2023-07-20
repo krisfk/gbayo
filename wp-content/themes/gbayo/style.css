@@ -1171,6 +1171,15 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .hamburger-menu-btn {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 28px;
+    height: 28px;
+    z-index: 100;
+  }
   .top-div-outer-container {
     display: block;
     padding: 22px 0 0 0;
