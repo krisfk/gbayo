@@ -386,7 +386,7 @@
                 </div>
             </div>
 
-            <div class="row ">
+            <div class="row gx-1">
 
                 <table>
                     <tr>
