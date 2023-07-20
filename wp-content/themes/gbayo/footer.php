@@ -92,7 +92,7 @@
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="javascript:void(0);" style="top:15px"
+                                <td> <a href="javascript:void(0);" style="top:25px"
                                         class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -100,7 +100,7 @@
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="javascript:void(0);" style="top:15px"
+                                <td> <a href="javascript:void(0);" style="top:25px"
                                         class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
