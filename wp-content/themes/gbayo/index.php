@@ -193,10 +193,10 @@ $(function() {
         slidesToShow: 4,
         slidesToScroll: 4,
         useTransform: false,
-        responsive: [{
-            breakpoint: 991,
-            settings: "unslick"
-        }]
+        // responsive: [{
+        //     breakpoint: 991,
+        //     settings: "unslick"
+        // }]
 
     });
 
