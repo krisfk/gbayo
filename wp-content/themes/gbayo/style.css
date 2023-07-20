@@ -1171,8 +1171,17 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
-  .camp-slick {
-    width: 50%;
+  .camp-slick .camp {
+    width: 46%;
+    display: inline-block;
+    /* float: left; */
+    margin: 0 0 25px 0;
+  }
+  .camp-slick .camp img {
+    display: block;
+  }
+  .camp-slick .camp:nth-child(2n-1) {
+    margin: 0 30px 25px 0;
   }
   .hamburger-menu-btn {
     display: block;
