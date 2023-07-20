@@ -86,6 +86,40 @@
                                     </a></td>
                             </tr>
                         </table>
+                        <table
+                            class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table mb-4">
+                            <tr>
+                                <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
+
+                                    <div class="d-inline-block mb-2">
+
+                                        <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored
+                                            by
+                                        </div>
+                                        <table class="d-inline-block">
+                                            <tr>
+                                                <td> <a href="javascript:void(0);" style="top:15px"
+                                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                                        <img class=""
+                                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
+                                                            alt="">
+                                                    </a></td>
+
+                                                <td> <a href="javascript:void(0);" style="top:15px"
+                                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                                        <img class=""
+                                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
+                                                            alt="">
+                                                    </a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
                     </div>
 
 
@@ -93,39 +127,7 @@
                 <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
                 <div class="col-lg-10 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
-                    <table
-                        class="d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table mb-4">
-                        <tr>
-                            <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
 
-                                <div class="d-inline-block mb-2">
-
-                                    <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored by
-                                    </div>
-                                    <table class="d-inline-block">
-                                        <tr>
-                                            <td> <a href="javascript:void(0);" style="top:15px"
-                                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                                    <img class=""
-                                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
-                                                        alt="">
-                                                </a></td>
-
-                                            <td> <a href="javascript:void(0);" style="top:15px"
-                                                    class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                                    <img class=""
-                                                        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
-                                                        alt="">
-                                                </a></td>
-                                        </tr>
-                                    </table>
-                                </div>
-
-                            </td>
-                        </tr>
-                    </table>
                     <table
                         class="mb-4 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
                         <tr>
