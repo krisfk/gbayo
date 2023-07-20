@@ -1185,6 +1185,8 @@ a.mail-link:hover {
 @media only screen and (max-width: 991px) {
   .top-div-outer-container .present-by-div {
     text-align: left !important;
+    position: relative;
+    left: 1rem;
   }
   .home .full-width-img-div.mobile .gbayo-big-txt {
     position: relative;
@@ -1526,7 +1528,7 @@ a.mail-link:hover {
     width: 100%;
   }
   .logo-a img {
-    height: 19px;
+    height: 26px;
   }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
@@ -1551,7 +1553,7 @@ a.mail-link:hover {
   .fix-social-elements {
   }
   .top-presenter-logos-a img {
-    height: 21px;
+    height: 26px;
   }
   footer .top-presenter-logos-a img {
     height: 30px;
