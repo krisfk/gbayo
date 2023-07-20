@@ -1175,6 +1175,10 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-footer .footer-sns-icon {
+    width: 18px;
+    height: 18px;
+  }
   .hamburger-menu-btn .line {
     display: block;
     width: 100%;
