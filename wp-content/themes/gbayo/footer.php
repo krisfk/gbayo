@@ -365,10 +365,10 @@
 
             <div class="row">
 
-                <div class="col-6">
+                <div class="col-9">
                     <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
                 </div>
-                <div class="col-6 text-end">
+                <div class="col-3 text-end">
                     <table class="d-inline-block">
                         <tr>
                             <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
