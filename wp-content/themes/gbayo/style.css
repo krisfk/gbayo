@@ -1242,10 +1242,10 @@ a.mail-link:hover {
   .hamburger-menu-btn {
     display: block;
     position: fixed;
-    top: 1rem;
-    right: 1rem;
-    width: 28px;
-    height: 28px;
+    top: 0.5rem;
+    right: 0.8rem;
+    width: 20px;
+    height: 15px;
     z-index: 100;
   }
   .top-div-outer-container {
