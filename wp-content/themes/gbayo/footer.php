@@ -203,7 +203,7 @@
     <div class="mobile-footer">
 
         <div class="container">
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-12 ">
 
                     <div class="footer-logos-subtitle">Presented by</div>
@@ -233,7 +233,7 @@
             </div>
 
 
-            <div class="row mb-3">
+            <div class="row mb-4">
 
                 <div class="col-12">
                     <div class="d-inline-block">
@@ -283,7 +283,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="row mb-4">
 
                 <div class="col-12">
 
