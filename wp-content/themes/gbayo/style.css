@@ -1183,6 +1183,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .reserve-txt {
+    font-size: 9px;
+  }
   .footer-logos-subtitle {
     display: block;
     font-size: 8px;

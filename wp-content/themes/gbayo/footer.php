@@ -400,10 +400,10 @@
                                             class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
                                     </td>
                                     <td><a href="javascript:void(0);"
-                                            class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
+                                            class="footer-sns-icon footer-sns-icon-2 ms-0"></a>
                                     </td>
                                     <td><a href="javascript:void(0);"
-                                            class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
+                                            class="footer-sns-icon footer-sns-icon-3 ms-0"></a>
                                     </td>
                                 </tr>
                             </table>
