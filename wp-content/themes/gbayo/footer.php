@@ -306,7 +306,7 @@
 
             </div>
 
-            <div class="row mb-3">
+            <div class="row mb-2">
 
                 <div class="col-12 gx-0">
 
