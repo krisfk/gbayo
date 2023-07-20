@@ -1265,8 +1265,8 @@ a.mail-link:hover {
   .container-xl,
   .container-xxl {
     width: 100%;
-    padding-right: 40px !important;
-    padding-left: 40px !important;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1568,10 +1568,10 @@ a.mail-link:hover {
 
 @media only screen and (max-width: 400px) {
   .top-presenter-logos-a img {
-    height: 19px;
+    height: 20px;
   }
   .logo-a img {
-    height: 19px;
+    height: 20px;
   }
 }
 
