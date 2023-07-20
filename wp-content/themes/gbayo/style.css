@@ -1113,6 +1113,10 @@ a.mail-link:hover {
   display: none;
 }
 
+.mobile-footer {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
@@ -1175,6 +1179,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-footer {
+    display: block;
+  }
+  .desktop-footer {
+    display: none;
+  }
   .mobile-footer .footer-sns-icon {
     width: 18px;
     height: 18px;

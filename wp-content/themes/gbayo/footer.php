@@ -90,7 +90,6 @@
 
 
                 </div>
-                <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
                 <div class="col-lg-10 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
 
 
@@ -230,23 +229,7 @@
                         </tr>
                     </table>
                 </div>
-                <!-- <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
 
-                    <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
-
-                    <div class="text-end mt-2">
-                        <table class="d-inline-block">
-                            <tr>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
-                                </td>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
-                                </td>
-                                <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div> -->
             </div>
 
 
