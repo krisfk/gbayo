@@ -156,24 +156,27 @@ get_header(); ?>
                     <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
                 </a>
             </div>
-            <div class="camp overflow-hidden">
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg"
-                        alt="">
-                </a>
-
-            </div>
-            <div class="camp overflow-hidden">
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-                </a>
-            </div>
-
-
 
         </div>
+    </div>
+
+    <div class="mobile-training-camp-container">
+
+        <div class="row">
+            <div class="col-6"> <a href="<?php echo get_site_url();?>/training-camp" class="">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+                </a></div>
+            <div class="col-6"> <a href="<?php echo get_site_url();?>/training-camp" class="">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+                </a></div>
+            <div class="col-6"> <a href="<?php echo get_site_url();?>/training-camp" class="">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+                </a></div>
+            <div class="col-6"> <a href="<?php echo get_site_url();?>/training-camp" class="">
+                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+                </a></div>
+        </div>
+
     </div>
 
 </div>
