@@ -388,21 +388,29 @@
 
             <div class="row ">
 
-                <div class="col-9 gx-0 position-relative" style="left:-10px;">
-                    <div class="reserve-txt ">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
-                </div>
-                <div class="col-3 gx-0 text-end position-relative" style="right:-10px;">
-                    <table class="d-inline-block">
-                        <tr>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
-                            </td>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
-                            </td>
-                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="reserve-txt ">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
+                        </td>
+                        <td>
+                            <table class="d-inline-block">
+                                <tr>
+                                    <td><a href="javascript:void(0);"
+                                            class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
+                                    </td>
+                                    <td><a href="javascript:void(0);"
+                                            class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
+                                    </td>
+                                    <td><a href="javascript:void(0);"
+                                            class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
 
 
 
