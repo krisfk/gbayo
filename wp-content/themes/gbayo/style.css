@@ -1175,6 +1175,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .camp-slick-wrapper {
+    display: none;
+  }
   .fix-icon-a {
     display: block;
     width: 20px;
