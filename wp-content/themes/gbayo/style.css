@@ -1360,9 +1360,15 @@ a.mail-link:hover {
   .other-logos-a img {
     height: 40px;
   }
-  .top-presenter-logos-a {
+  .top-presenter-logos-a:first-child {
+    margin: 0;
   }
   .present-by-div table {
+    top: 3px;
+  }
+  .present-by-div table .txt {
+    position: absolute;
+    top: -15px;
   }
   .fix-back-to-top {
   }
@@ -1427,7 +1433,7 @@ a.mail-link:hover {
   .present-by-div table {
     margin: 0 3rem 0 0;
     position: relative;
-    top: 1px;
+    /* top: 1px; */
   }
   .fix-back-to-top {
     left: -9vh;
@@ -1468,9 +1474,9 @@ a.mail-link:hover {
     height: 140px;
   }
   .present-by-div table {
-    margin: 0 3rem 0 0;
+    margin: 0 0rem 0 0;
     position: relative;
-    top: 1px;
+    top: 2px;
   }
   .bottom-main-content .top-presenter-logos-a img {
     height: 26px;
@@ -1480,7 +1486,7 @@ a.mail-link:hover {
     width: 100%;
   }
   .logo-a img {
-    height: 20px;
+    height: 19px;
   }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
@@ -1505,7 +1511,7 @@ a.mail-link:hover {
   .fix-social-elements {
   }
   .top-presenter-logos-a img {
-    height: 3.3vw;
+    height: 21px;
   }
   footer .top-presenter-logos-a img {
     height: 30px;
