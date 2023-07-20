@@ -1478,10 +1478,10 @@ a.mail-link:hover {
     /* top: 1px; */
   }
   .fix-back-to-top {
-    left: -9vh;
+    left: -22vw;
   }
   .fix-social-elements {
-    right: -8.5vh;
+    right: -20vw;
   }
 }
 
@@ -1509,6 +1509,11 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  .top-div-outer-container .present-by-div {
+    text-align: left !important;
+    position: relative;
+    left: 0.5rem;
+  }
   .top-div-outer {
     height: 62px;
   }
@@ -1545,6 +1550,7 @@ a.mail-link:hover {
     color: #fff;
   }
   .top-presenter-logos-a {
+    margin: 0 0 0 0.2rem;
   }
   .present-by-div table {
   }
@@ -1562,10 +1568,10 @@ a.mail-link:hover {
 
 @media only screen and (max-width: 400px) {
   .top-presenter-logos-a img {
-    height: 17px;
+    height: 19px;
   }
   .logo-a img {
-    height: 17px;
+    height: 19px;
   }
 }
 
