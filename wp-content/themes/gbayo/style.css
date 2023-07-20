@@ -1109,6 +1109,10 @@ a.mail-link:hover {
   color: #f47421 !important;
 }
 
+.mobile-training-camp-container {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
@@ -1171,6 +1175,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-training-camp-container {
+    display: block;
+  }
+  .camp-slick {
+    display: none;
+  }
   .camp-slick .camp {
     width: 46%;
     display: inline-block;
