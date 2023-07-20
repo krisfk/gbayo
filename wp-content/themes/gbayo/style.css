@@ -1175,6 +1175,13 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .hamburger-menu-btn .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #f47421;
+    margin: 4px 0 0 0;
+  }
   .five-lines-sep {
     display: block;
     width: 100%;
