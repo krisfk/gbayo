@@ -1171,6 +1171,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .camp-slick {
+    width: 50%;
+  }
   .hamburger-menu-btn {
     display: block;
     position: fixed;
