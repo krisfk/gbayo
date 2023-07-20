@@ -380,6 +380,28 @@
                 </div>
             </div>
 
+            <div class="row">
+
+                <div class="col-6">
+                    <div class="reserve-txt text-end">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
+                </div>
+                <div class="col-6">
+                    <table class="d-inline-block">
+                        <tr>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
+                            </td>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
+                            </td>
+                            <td><a href="javascript:void(0);" class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+            </div>
+
 
         </div>
     </div>
