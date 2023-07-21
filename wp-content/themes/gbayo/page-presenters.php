@@ -166,7 +166,7 @@ $(function() {
 
         var idx = $(this).parent('div').index();
         // alert(idx);
-        alert($('.sponsor-para-txt-' + idx).html())
+        // alert($('.sponsor-para-txt-' + idx).html())
         $('.lightbox-layer.txt-layer .sponsor-para-txt').html($('.sponsor-para-txt-' + idx).html());
 
 
