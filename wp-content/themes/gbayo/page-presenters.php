@@ -29,6 +29,10 @@ get_header(); ?>
     </div>
     <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-banner-1-scaled.jpg"
         alt="">
+
+    <img class="top-banner w-100 mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-2@2x-50.jpg"
+        alt="">
+
 </div>
 
 
