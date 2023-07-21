@@ -1125,6 +1125,10 @@ a.mail-link:hover {
   display: none;
 }
 
+.about-big-img.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
@@ -1187,6 +1191,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .about-big-img {
+    display: none;
+  }
+  .about-big-img.mobile {
+    display: block;
+  }
   .top-banner {
     display: none;
   }

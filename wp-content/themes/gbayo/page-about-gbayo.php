@@ -76,7 +76,13 @@ get_header(); ?>
 </div>
 
 <div class="mt-100">
-    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg" alt="">
+    <img class="w-100 about-big-img" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg"
+        alt="">
+
+    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x-50.jpg"
+        alt="">
+
+    <!-- http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x-50.jpg -->
 </div>
 
 
