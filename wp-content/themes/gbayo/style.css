@@ -1205,6 +1205,9 @@ a.mail-link:hover {
   .sponsor-para-txt {
     display: none;
   }
+  .lightbox-layer.txt-layer .sponsor-para-txt {
+    display: block;
+  }
   .about-big-img {
     display: none;
   }
