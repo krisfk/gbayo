@@ -1191,6 +1191,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .sponsor-para-txt {
+    display: none;
+  }
   .about-big-img {
     display: none;
   }
