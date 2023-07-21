@@ -48,7 +48,7 @@ get_header(); ?>
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
             </a>
 
-            <h3 class="orange bold mt-4">The Hong Kong Academy for Performing Arts</h3>
+            <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">The Hong Kong Academy for Performing Arts</h3>
 
             <div class="content-fsize mt-4 sponsor-para-txt">
 
@@ -78,7 +78,7 @@ get_header(); ?>
 
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
             </a>
-            <h3 class="orange bold mt-4">Xinghai Conservatory of Music
+            <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">Xinghai Conservatory of Music
             </h3>
 
             <div class="content-fsize mt-4  sponsor-para-txt">
@@ -113,7 +113,7 @@ get_header(); ?>
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
             </a>
 
-            <h3 class="orange bold mt-4">Macao Youth Symphony Orchestra
+            <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">Macao Youth Symphony Orchestra
 
             </h3>
 
