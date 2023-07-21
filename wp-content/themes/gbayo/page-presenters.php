@@ -41,7 +41,7 @@ get_header(); ?>
 <div class="container bottom-main-content mt-100">
 
     <div class="row mt-100 gx-3">
-        <div class="col-4 ">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12  ">
 
             <a href="javascript:void(0);" class="w-75">
 
@@ -73,7 +73,8 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="col-4"> <a href="javascript:void(0);" class="w-75">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12  ">
+            <a href="javascript:void(0);" class="w-75">
 
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
             </a>
@@ -106,7 +107,8 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="col-4"> <a href="javascript:void(0);" class="w-75">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12  ">
+            <a href="javascript:void(0);" class="w-75">
 
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
             </a>
