@@ -1188,7 +1188,7 @@ a.mail-link:hover {
     border-bottom: 1px solid #f47421;
     /* padding: 0 0 0.5rem 0; */
     position: relative;
-    margin: 0 0;
+    margin: 0 1.5rem;
   }
   .reserve-txt {
     font-size: 9px;
@@ -1446,7 +1446,7 @@ a.mail-link:hover {
   .mobile-menu-submenu {
     display: none;
     margin: -0.5rem 0 0.5rem 0px;
-    padding: 0 0 0 0rem;
+    padding: 0 0 0 0.5rem;
   }
   .menu-layer .close-btn {
     display: block;
@@ -1454,8 +1454,8 @@ a.mail-link:hover {
     height: 20px;
     background: url(./assets/images/close-cross-btn.png) no-repeat;
     background-size: 100% 100%;
-    top: 0.5rem;
-    right: 0.8rem;
+    top: 1.5rem;
+    right: 2rem;
     position: absolute;
   }
   .menu-layer {
@@ -1477,7 +1477,7 @@ a.mail-link:hover {
     height: 26px;
   }
   .gbayo-logo-white {
-    height: 30px;
+    height: 26px;
   }
   .top-presenter-logos-a img {
     height: 22px;
