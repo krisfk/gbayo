@@ -213,7 +213,7 @@
 
         <div class="menu-top-div pt-4 pb-4">
             <!-- mx-lg-5 mx-md-4 mx-sm-4 mx-4 -->
-            <div class="container ">
+            <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
 
                 <a href="<?php echo get_site_url();?>"> <img class="gbayo-logo-white"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt=""></a>
@@ -225,8 +225,9 @@
 
         <div class="lang-div pt-3 pb-3">
 
-            <div class="container ">
-
+            <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
+                <!--  -->
+                <!--  -->
                 <a href="javascript:void(0);" class="d-inline-block lang-a">EN</a> | <a class="  lang-a d-inline-block"
                     href="javascript:void(0);">繁</a> | <a href="javascript:void(0);"
                     class=" lang-a d-inline-block">簡</a>
@@ -246,7 +247,7 @@
                 <li></li>
             </ul> -->
 
-            <div class="top-menu-ul-wrapper container">
+            <div class="top-menu-ul-wrapper">
                 <ul class=" top-menu-ul">
 
 
