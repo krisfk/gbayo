@@ -1183,6 +1183,13 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .top-menu-ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #f47421;
+    /* padding: 0 0 0.5rem 0; */
+    position: relative;
+    margin: 0 1.5rem;
+  }
   .reserve-txt {
     font-size: 9px;
   }
