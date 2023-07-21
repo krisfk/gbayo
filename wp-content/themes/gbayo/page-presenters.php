@@ -162,6 +162,11 @@ $(function() {
 
         $('.lightbox-layer.txt-layer').fadeIn(200);
 
+        $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
+        $('.lightbox-layer.txt-layer .sponsor-para-txt').html($(this).next('h3').next(
+            'sponsor-para-txt').html());
+
+
 
     })
 })
