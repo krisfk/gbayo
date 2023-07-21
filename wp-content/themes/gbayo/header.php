@@ -84,7 +84,13 @@
                     <div class="lightbox-enlarge-photo-div position-relative">
 
 
-                        hello
+                        <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">
+                        </h3>
+
+                        <div class="content-fsize mt-4  sponsor-para-txt">
+
+                        </div>
+
                     </div>
                 </div>
             </div>
