@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="row mt-100 gx-3">
         <div class="col-lg-4 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-4 ">
 
-            <a href="javascript:void(0);" class="w-75">
+            <a href="javascript:void(0);" class="w-75 presenter-a">
 
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
             </a>
@@ -74,7 +74,7 @@ get_header(); ?>
 
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-4  ">
-            <a href="javascript:void(0);" class="w-75">
+            <a href="javascript:void(0);" class="w-75  presenter-a">
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
             </a>
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">Xinghai Conservatory of Music
@@ -107,7 +107,7 @@ get_header(); ?>
 
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12  ">
-            <a href="javascript:void(0);" class="w-75">
+            <a href="javascript:void(0);" class="w-75  presenter-a">
 
                 <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
             </a>
@@ -155,6 +155,17 @@ get_header(); ?>
     <div class="five-lines-sep"></div>
 </div>
 
+<script type="text/javascript">
+$(function() {
+
+    $('.presenter-a').click(function() {
+
+        $('.lightbox-layer.txt-layer').fadeIn(200);
+
+
+    })
+})
+</script>
 <?php
 
 get_footer();

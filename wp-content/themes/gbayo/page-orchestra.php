@@ -211,7 +211,7 @@ $(function() {
 
     $('.musician-more-btn').click(function() {
 
-        $('.lightbox-layer').fadeIn(200);
+        $('.lightbox-layer.photo').fadeIn(200);
     })
 
 })
