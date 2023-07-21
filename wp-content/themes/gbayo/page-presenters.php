@@ -50,7 +50,7 @@ get_header(); ?>
 
             <h3 class="orange bold mt-4">The Hong Kong Academy for Performing Arts</h3>
 
-            <div class="content-fsize mt-4">
+            <div class="content-fsize mt-4 sponsor-para-txt">
 
                 The Hong Kong Academy for Performing Arts (HKAPA), established by The Hong Kong Academy for Performing
                 Arts Ordinance in 1984, is a leading tertiary institution in the performing arts in Asia. It provides
@@ -81,7 +81,7 @@ get_header(); ?>
             <h3 class="orange bold mt-4">Xinghai Conservatory of Music
             </h3>
 
-            <div class="content-fsize mt-4">
+            <div class="content-fsize mt-4  sponsor-para-txt">
                 Located in Guangzhou, the centre of Lingnan Culture, Xinghai Conservatory of Music is the only higher
                 music education institution in South China. Deeply rooted and immersed in Lingnan music and culture, the
                 Conservatory has witnessed the formation of excellent education traditions with the spirit of
@@ -118,7 +118,7 @@ get_header(); ?>
             </h3>
 
 
-            <div class="content-fsize mt-4">
+            <div class="content-fsize mt-4  sponsor-para-txt">
                 <div class="bold">
                     People-oriented
                     Nurturing Talents
