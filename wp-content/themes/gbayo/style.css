@@ -717,6 +717,9 @@ h3 {
   display: none;
 }
 
+.lightbox-layer.txt-layer {
+}
+
 .lightbox-content {
   display: block;
   background: #fff;
@@ -979,6 +982,14 @@ iframe {
   position: relative;
   z-index: 100;
   /* opacity: 0.8; */
+}
+
+.lightbox-layer.txt-layer .yellow-bg-div {
+  display: block;
+  background: rgb(255 255 255 / 100%);
+  padding: 4.5rem;
+  position: relative;
+  z-index: 100;
 }
 
 .photo-yellow-bg-div {
