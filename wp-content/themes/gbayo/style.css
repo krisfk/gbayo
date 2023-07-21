@@ -1439,13 +1439,17 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .mobile-menu-submenu li:first-child {
+    border: none;
+    margin: 0rem 0 0.5rem 0;
+  }
   .mobile-menu-submenu li {
     border: none;
     margin: 0.5rem 0 0.5rem 0;
   }
   .mobile-menu-submenu {
     display: none;
-    margin: -0.5rem 0 0.5rem 0px;
+    margin: -0.5rem 0 1rem 0px;
     padding: 0 0 0 0rem;
   }
   .menu-layer .close-btn {
