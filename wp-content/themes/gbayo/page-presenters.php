@@ -50,7 +50,7 @@ get_header(); ?>
 
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">The Hong Kong Academy for Performing Arts</h3>
 
-            <div class="content-fsize mt-4 sponsor-para-txt sponsor-para-txt-1">
+            <div class="content-fsize mt-4 sponsor-para-txt sponsor-para-txt-0">
 
                 The Hong Kong Academy for Performing Arts (HKAPA), established by The Hong Kong Academy for Performing
                 Arts Ordinance in 1984, is a leading tertiary institution in the performing arts in Asia. It provides
@@ -80,7 +80,7 @@ get_header(); ?>
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">Xinghai Conservatory of Music
             </h3>
 
-            <div class="content-fsize mt-4  sponsor-para-txt  sponsor-para-txt-2">
+            <div class="content-fsize mt-4  sponsor-para-txt  sponsor-para-txt-1">
                 Located in Guangzhou, the centre of Lingnan Culture, Xinghai Conservatory of Music is the only higher
                 music education institution in South China. Deeply rooted and immersed in Lingnan music and culture, the
                 Conservatory has witnessed the formation of excellent education traditions with the spirit of
@@ -117,7 +117,7 @@ get_header(); ?>
             </h3>
 
 
-            <div class="content-fsize mt-4  sponsor-para-txt  sponsor-para-txt-3">
+            <div class="content-fsize mt-4  sponsor-para-txt  sponsor-para-txt-2">
                 <div class="bold">
                     People-oriented
                     Nurturing Talents
@@ -165,9 +165,8 @@ $(function() {
         $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
 
         var idx = $(this).parent('div').index();
-        alert(idx);
-        $('.lightbox-layer.txt-layer .sponsor-para-txt').html($(this).next('h3').next(
-            'sponsor-para-txt').html());
+        // alert(idx);
+        $('.lightbox-layer.txt-layer .sponsor-para-txt').html($('sponsor-para-txt-' + idx).html());
 
 
 
