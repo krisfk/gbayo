@@ -1446,7 +1446,7 @@ a.mail-link:hover {
   .mobile-menu-submenu {
     display: none;
     margin: -0.5rem 0 0.5rem 0px;
-    padding: 0 0 0 0.5rem;
+    padding: 0 0 0 0rem;
   }
   .menu-layer .close-btn {
     display: block;
