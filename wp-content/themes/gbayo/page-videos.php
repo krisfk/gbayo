@@ -30,6 +30,9 @@ get_header(); ?>
     </div>
     <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/media-banner-scaled.jpg"
         alt="">
+    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-8@2x-50.jpg"
+        alt="">
+
 </div>
 
 
@@ -39,7 +42,7 @@ get_header(); ?>
 
 
     <div class="text-center">
-        <ul class="news-ul mb-5">
+        <ul class="news-ul mb-30">
             <li>
                 <a href="<?php echo get_site_url();?>/media">All</a>
             </li>
@@ -58,7 +61,7 @@ get_header(); ?>
         </ul>
     </div>
 
-    <div class="row mt-5">
+    <div class="row ">
 
 
         <div class="col-12">
