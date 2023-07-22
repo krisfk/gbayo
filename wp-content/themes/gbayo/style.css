@@ -1026,6 +1026,19 @@ iframe {
   position: absolute;
 }
 
+.lightbox-layer.lightbox-layer.txt-layer .lightbox-close-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
+  background-size: contain;
+  position: relative;
+  right: 2rem;
+  margin: auto;
+  top: 2rem;
+  position: absolute;
+}
+
 .lightbox-close-btn:hover {
   display: inline-block;
   width: 20px;
