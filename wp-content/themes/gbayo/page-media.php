@@ -44,7 +44,7 @@ get_header(); ?>
 
 
     <div class="text-center">
-        <ul class="news-ul mb-5">
+        <ul class="news-ul ">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="active">All</a>
             </li>

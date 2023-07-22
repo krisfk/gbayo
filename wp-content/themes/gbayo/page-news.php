@@ -41,7 +41,7 @@ get_header(); ?>
 
 
     <div class="text-center">
-        <ul class="news-ul mb-5">
+        <ul class="news-ul ">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
@@ -60,7 +60,7 @@ get_header(); ?>
         </ul>
     </div>
 
-    <div class="row mt-5">
+    <div class="row mt-30">
 
 
         <div class="col-12">
