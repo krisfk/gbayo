@@ -427,20 +427,20 @@ echo'</li>';
                                             <tr>
                                                 <td class="align-top txt"><?php echo get_field('subtitle_1',165);?></td>
                                                 <td>
-                                                    <a href="<?php echo get_field('logo_1_link');?>"
+                                                    <a href="<?php echo get_field('logo_1_link',165);?>"
                                                         class="top-presenter-logos-a  ">
 
                                                         <img class=""
                                                             src="<?php echo wp_get_attachment_image_src(get_field('logo_1',165),'full')[0];?>"
                                                             alt="">
                                                     </a>
-                                                    <a href="<?php echo get_field('logo_2_link');?>"
+                                                    <a href="<?php echo get_field('logo_2_link',165);?>"
                                                         class="top-presenter-logos-a  ">
 
                                                         <img src="<?php echo wp_get_attachment_image_src(get_field('logo_2',165),'full')[0];?>"
                                                             alt="">
                                                     </a>
-                                                    <a href="<?php echo get_field('logo_3_link');?>"
+                                                    <a href="<?php echo get_field('logo_3_link',165);?>"
                                                         class="top-presenter-logos-a  ">
 
                                                         <img src="<?php echo wp_get_attachment_image_src(get_field('logo_3',165),'full')[0];?>"
