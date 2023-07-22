@@ -110,28 +110,28 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn">
 
                         <h3 class="orange bold d-inline-block">TOA Masterclass Throwback
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
+
+                            </div>
 
 
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
-
-                        </div>
 
                     </a>
 
@@ -144,27 +144,27 @@ get_header(); ?>
 
                         <h3 class="orange bold d-inline-block">TOA Mock Audition Revisited
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
 
                     </a>
 
