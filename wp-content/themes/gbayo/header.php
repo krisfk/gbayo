@@ -234,6 +234,11 @@
 
         });
 
+        $('.lightbox-press-area').click(function() {
+            $(".lightbox-layer").fadeOut(0);
+
+        })
+
 
         // $("body").click(
         //     function(e) {
