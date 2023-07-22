@@ -141,27 +141,28 @@ get_header(); ?>
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
-                        <h3 class="orange bold d-inline-block">Professor Michael MA</h3>
+                        <h3 class="orange bold d-inline-block">Professor Michael MA <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
+
+                            </div>
+                        </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
                     </a>
 
                     <div>Professor of Music (Strings), <br>
@@ -176,27 +177,28 @@ get_header(); ?>
 
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
-                        <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso
+                        <h3 class="orange bold d-inline-block">Mr. Gian Paolo Peloso <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
+
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
 
                     </a>
 
@@ -215,27 +217,28 @@ get_header(); ?>
 
 
                         <h3 class="orange bold d-inline-block">Mr. Hou Donglei 侯東蕾
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
 
                     </a>
 
@@ -257,27 +260,28 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold  d-inline-block">Professor Ray Wang
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
 
                     </a>
 
@@ -300,27 +304,28 @@ get_header(); ?>
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
                         <h3 class="orange bold  d-inline-block">Mr. 谷欣
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
 
                     </a>
 
@@ -397,28 +402,29 @@ get_header(); ?>
 
 
                         <h3 class="orange bold d-inline-block">Professor XXX
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>Xinghai XXXXXXXXXXXXXXXX XXXXXXXX
@@ -445,27 +451,28 @@ get_header(); ?>
 
                         <h3 class="orange bold d-inline-block">Professor Yiu Song Lam
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -495,28 +502,29 @@ get_header(); ?>
                         <h3 class="orange bold d-inline-block">Mr. Benjamin Moermond
 
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -550,29 +558,30 @@ get_header(); ?>
                         <h3 class="orange bold d-inline-block">Mr. Wu Tianxia
 
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
 
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -602,29 +611,30 @@ get_header(); ?>
 
 
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
 
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -660,28 +670,29 @@ get_header(); ?>
 
 
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -712,7 +723,24 @@ get_header(); ?>
 
                         <h3 class="orange bold d-inline-block">Mr. Guo Zheng 郭錚
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
 
 
 
@@ -721,24 +749,8 @@ get_header(); ?>
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
@@ -772,30 +784,31 @@ get_header(); ?>
 
 
 
+                            <div class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
 
+                            </div>
 
 
                         </h3>
 
 
-                        <div class="five-lines-grid">
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-1"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-2"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-3"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-4"></div>
-                            </div>
-                            <div class="text-center d-block line-wrapper">
-                                <div class="line line-5"></div>
-                            </div>
 
-                        </div>
+
                     </a>
 
                     <div>
