@@ -71,171 +71,170 @@
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
 
-            <div>
-                <div class="row">
+            <div class="row">
 
 
-                    <div class="col-12">
+                <div class="col-12">
 
-                        <a href="javascript:void(0);" class="lightbox-close-btn"></a>
+                    <a href="javascript:void(0);" class="lightbox-close-btn"></a>
 
-                    </div>
-                    <div class="col-12">
+                </div>
+                <div class="col-12">
 
-                        <div class="lightbox-enlarge-photo-div position-relative">
+                    <div class="lightbox-enlarge-photo-div position-relative">
 
 
-                            <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">
-                            </h3>
+                        <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">
+                        </h3>
 
-                            <div class="content-fsize mt-4  sponsor-para-txt">
-
-                            </div>
+                        <div class="content-fsize mt-4  sponsor-para-txt">
 
                         </div>
+
                     </div>
                 </div>
             </div>
-
-
-
         </div>
 
 
 
-        <!-- <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script> -->
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css"> -->
-
-
-        <script type="text/javascript">
-        $(function() {
-
-
-            $('.fix-back-to-top').click(function() {});
-
-            $('.hamburger-menu-btn').click(function() {
-
-                $('.menu-layer').fadeIn(200);
-
-            })
-            $('.top-menu-ul li a.menu-arrow').click(function() {
-                // alert(3);
-                $('.top-menu-ul li').removeClass('active');
-                $('.mobile-menu-submenu').fadeOut(0);
-                $(this).closest('li').toggleClass('active');
-
-                if ($(this).closest('li').hasClass('active')) {
-
-                    $(this).closest('li').find('ul').slideDown(200);
-                }
-            })
-
-            $('.menu-layer .close-btn').click(function() {
-
-                $('.menu-layer').fadeOut(200);
-            })
-
-            $('.lightbox-content .close-btn,.lightbox-close-btn').click(function() {
-
-                $('.lightbox-layer').fadeOut(0);
-
-            })
-
-            $('.fix-back-to-top').click(function() {
-
-                $("html, body").animate({
-                    scrollTop: 0
-                }, 200);
+    </div>
 
 
 
-            })
+    <!-- <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css"> -->
 
 
+    <script type="text/javascript">
+    $(function() {
 
 
+        $('.fix-back-to-top').click(function() {});
 
+        $('.hamburger-menu-btn').click(function() {
 
-            var photo_arr = [];
-            var current_index;
+            $('.menu-layer').fadeIn(200);
 
-            for (i = 0; i < $('.album-a').length; i++) {
-                photo_arr.push($('.album-a').eq(i).attr('rel'));
+        })
+        $('.top-menu-ul li a.menu-arrow').click(function() {
+            // alert(3);
+            $('.top-menu-ul li').removeClass('active');
+            $('.mobile-menu-submenu').fadeOut(0);
+            $(this).closest('li').toggleClass('active');
+
+            if ($(this).closest('li').hasClass('active')) {
+
+                $(this).closest('li').find('ul').slideDown(200);
             }
-            console.log(photo_arr);
+        })
 
-            $('.album-a').click(function() {
-                var select_url = $(this).attr('rel');
-                console.log(photo_arr);
-                console.log(select_url);
+        $('.menu-layer .close-btn').click(function() {
 
-                var index = photo_arr.indexOf(select_url);
-                current_index = index;
+            $('.menu-layer').fadeOut(200);
+        })
 
-                if ($(this).attr('rel')) {
-                    // alert(6);
-                    $('.lightbox-layer.photo-layer').fadeIn(200);
-                    var photo_url = $(this).attr('rel');
-                    $('.lightbox-enlarge-photo').attr('src', '');
-                    $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
-                    $('.lightbox-enlarge-photo').addClass('lazyloaded');
-                }
+        $('.lightbox-content .close-btn,.lightbox-close-btn').click(function() {
 
+            $('.lightbox-layer').fadeOut(0);
 
-            })
+        })
 
-            $('.m-album-a').click(function() {
+        $('.fix-back-to-top').click(function() {
 
-                $(this).prev('.album-a').click();
+            $("html, body").animate({
+                scrollTop: 0
+            }, 200);
 
-                if (!$(this).prev('.album-a').length) {
-
-                    // alert(6);
-                    var enlarge_foto = $(this).attr('rel');
-                    // alert(enlarge_foto);
-                    $('.album-a[rel="' + enlarge_foto + '"]').click();
-                }
-
-            })
-            $('.photo-album-arrow.photo-album-arrow-r').click(function() {
-
-                current_index++;
-
-                if (current_index >= photo_arr.length) {
-                    current_index = 0;
-                }
-
-                $('.lightbox-enlarge-photo').attr('src', '');
-                $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
-                $('.lightbox-enlarge-photo').removeClass('lazyloaded');
-
-                $('.lightbox-enlarge-photo').addClass('lazyloaded');
-
-
-            });
-
-            $('.photo-album-arrow.photo-album-arrow-l').click(function() {
-
-
-                current_index--;
-
-                if (current_index < 0) {
-                    current_index = photo_arr.length - 1;
-                }
-
-                $('.lightbox-enlarge-photo').attr('src', '');
-                $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
-                $('.lightbox-enlarge-photo').removeClass('lazyloaded');
-
-                $('.lightbox-enlarge-photo').addClass('lazyloaded');
-
-
-
-            });
 
 
         })
-        </script>
+
+
+
+
+
+
+        var photo_arr = [];
+        var current_index;
+
+        for (i = 0; i < $('.album-a').length; i++) {
+            photo_arr.push($('.album-a').eq(i).attr('rel'));
+        }
+        console.log(photo_arr);
+
+        $('.album-a').click(function() {
+            var select_url = $(this).attr('rel');
+            console.log(photo_arr);
+            console.log(select_url);
+
+            var index = photo_arr.indexOf(select_url);
+            current_index = index;
+
+            if ($(this).attr('rel')) {
+                // alert(6);
+                $('.lightbox-layer.photo-layer').fadeIn(200);
+                var photo_url = $(this).attr('rel');
+                $('.lightbox-enlarge-photo').attr('src', '');
+                $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+                $('.lightbox-enlarge-photo').addClass('lazyloaded');
+            }
+
+
+        })
+
+        $('.m-album-a').click(function() {
+
+            $(this).prev('.album-a').click();
+
+            if (!$(this).prev('.album-a').length) {
+
+                // alert(6);
+                var enlarge_foto = $(this).attr('rel');
+                // alert(enlarge_foto);
+                $('.album-a[rel="' + enlarge_foto + '"]').click();
+            }
+
+        })
+        $('.photo-album-arrow.photo-album-arrow-r').click(function() {
+
+            current_index++;
+
+            if (current_index >= photo_arr.length) {
+                current_index = 0;
+            }
+
+            $('.lightbox-enlarge-photo').attr('src', '');
+            $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+            $('.lightbox-enlarge-photo').removeClass('lazyloaded');
+
+            $('.lightbox-enlarge-photo').addClass('lazyloaded');
+
+
+        });
+
+        $('.photo-album-arrow.photo-album-arrow-l').click(function() {
+
+
+            current_index--;
+
+            if (current_index < 0) {
+                current_index = photo_arr.length - 1;
+            }
+
+            $('.lightbox-enlarge-photo').attr('src', '');
+            $('.lightbox-enlarge-photo').attr('src', photo_arr[current_index]);
+            $('.lightbox-enlarge-photo').removeClass('lazyloaded');
+
+            $('.lightbox-enlarge-photo').addClass('lazyloaded');
+
+
+
+        });
+
+
+    })
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
