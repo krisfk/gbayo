@@ -71,31 +71,32 @@
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
 
-            <div class="row">
+            <div class="inner-container">
+                <div class="row">
 
 
-                <div class="col-12">
+                    <div class="col-12">
 
-                    <a href="javascript:void(0);" class="lightbox-close-btn"></a>
+                        <a href="javascript:void(0);" class="lightbox-close-btn"></a>
 
-                </div>
-                <div class="col-12">
+                    </div>
+                    <div class="col-12">
 
-                    <div class="lightbox-enlarge-photo-div position-relative">
+                        <div class="lightbox-enlarge-photo-div position-relative">
 
 
-                        <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">
-                        </h3>
+                            <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2">
+                            </h3>
 
-                        <div class="content-fsize mt-4  sponsor-para-txt">
+                            <div class="content-fsize mt-4  sponsor-para-txt">
+
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-
 
 
     </div>

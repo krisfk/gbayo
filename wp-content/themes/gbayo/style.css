@@ -717,7 +717,12 @@ h3 {
   display: none;
 }
 
-.lightbox-layer.txt-layer {
+.lightbox-layer.txt-layer .inner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .lightbox-content {
