@@ -49,7 +49,7 @@ get_header(); ?>
             <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/conductor-img.jpg" alt="">
 
 
-            <h2 class="subtitle text-start mt-100">Sharon Andrea Choa</h2>
+            <h2 class="subtitle text-start mt-30">Sharon Andrea Choa</h2>
 
             <h3 class="orange bold">Sharon Andrea Choa</h3>
 
