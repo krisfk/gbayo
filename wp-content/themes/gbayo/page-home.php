@@ -67,6 +67,7 @@ get_header(); ?>
     </div>
     <div class="text-end mt-3">
 
+        <?php echo get_field('more_button_link');?>
         <a href="<?php echo get_site_url();?>/about-gbayo" class="more-btn">
 
             <span>more</span>
