@@ -1654,14 +1654,14 @@ a.mail-link:hover {
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
     left: 1rem;
-    font-size: 16px;
+    font-size: 32px;
     color: #000;
     line-height: 1.2;
   }
   .camp-cate-title.camp-cate-title-2 {
     bottom: 1rem;
     left: 1rem;
-    font-size: 13px;
+    font-size: 26px;
     line-height: 1.2;
     color: #fff;
   }
