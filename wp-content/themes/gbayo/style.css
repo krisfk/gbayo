@@ -1003,7 +1003,7 @@ iframe {
 }
 
 .lightbox-container-inner-wrapper {
-  height: 95%;
+  height: auto;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 0 1rem 0 0;
@@ -1233,6 +1233,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .lightbox-container-inner-wrapper {
+    height: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 1rem 0 0;
+  }
   .news-ul {
   }
   .news-ul li a {
