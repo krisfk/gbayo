@@ -67,10 +67,10 @@ get_header(); ?>
     </div>
     <div class="text-end mt-3">
 
-        <?php echo get_field('more_button_link');?>
-        <a href="<?php echo get_site_url();?>/about-gbayo" class="more-btn">
 
-            <span>more</span>
+        <a href="<?php echo get_field('more_button_link');?>" class="more-btn">
+
+            <span><?php echo get_field('more_button_txt');?></span>
             <div class="five-lines-grid">
                 <div class="text-center d-block line-wrapper">
                     <div class="line line-1"></div>
@@ -120,7 +120,7 @@ get_header(); ?>
 
 <div class="container ">
 
-    <h2 class="subtitle text-center mt-100">Concert</h2>
+    <h2 class="subtitle text-center mt-100"><?php echo get_field('concert_subtitle_txt');?></h2>
 
     <div class="row mt-4 gx-3">
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
@@ -137,7 +137,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <h2 class="subtitle  text-center mt-100">Training Camp</h2>
+    <h2 class="subtitle  text-center mt-100"><?php echo get_field('training_camp_subtitle_txt');?></h2>
 
     <div class="camp-slick-wrapper position-relative mt-4">
         <a href="javascript:void(0);" class="home-slick-arrow home-slick-arrow-left"></a>
@@ -145,42 +145,31 @@ get_header(); ?>
 
         <div class="camp-slick mt-4">
 
+
+            <?php 
+        
+        if( have_rows('training_camps') )
+        {
+
+            while( have_rows('training_camps') ) { 
+                the_row();
+                ?>
             <div class="camp overflow-hidden">
-
-
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
+                <a href="<?php echo get_sub_field('camp_img_link');?>" class="">
+                    <img class="w-100"
+                        src="<?php echo wp_get_attachment_image_src(get_sub_field('camp_img'),'full')[0];?>" alt="">
                 </a>
             </div>
-            <div class="camp overflow-hidden">
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg"
-                        alt="">
-                </a>
-
-            </div>
-            <div class="camp overflow-hidden">
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="camp overflow-hidden">
+            <?php
+        
+                // $sub_value = get_sub_field('sub_field');
+        
+            }
+        
+        }
+        ?>
 
 
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsaf@2x-50.jpg"
-                        alt="">
-                </a>
-            </div>
-            <!-- <div class="camp overflow-hidden">
-                <a href="<?php echo get_site_url();?>/training-camp" class="">
-
-                    <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/fdsa@2x-50.jpg" alt="">
-                </a>
-            </div> -->
 
 
         </div>
