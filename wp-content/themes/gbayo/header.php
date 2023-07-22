@@ -413,9 +413,8 @@ echo'</li>';
 
 
                                 <div class="row align-items-center gx-0">
-                                    <div class="col-3"> <a href="<?php echo get_site_url();?>" class="logo-a"><img
-                                                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-5@2x.png"
-                                                alt=""></a>
+                                    <div class="col-3"> <a href="<?php echo get_site_url();?>" class="logo-a"><img src="<?php echo wp_get_attachment_image_src(get_sub_field('gbayo_logo
+'),'full')[0];?>" alt=""></a>
 
                                     </div>
 
