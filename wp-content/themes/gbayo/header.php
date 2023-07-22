@@ -68,10 +68,10 @@
 
     <div class="lightbox-layer txt-layer">
 
-        <div class="wrapper">
-            <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
+        <!-- <div class="wrapper"> -->
+        <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
-
+            <div>
                 <div class="row">
 
 
@@ -97,6 +97,7 @@
                 </div>
             </div>
         </div>
+        <!-- </div> -->
 
 
     </div>
