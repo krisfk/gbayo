@@ -255,7 +255,8 @@
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
 
                 <a href="<?php echo get_site_url();?>"> <img class="gbayo-logo-white"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/images/gbayo-logo-white.png" alt=""></a>
+                        src="<?php echo wp_get_attachment_image_src(get_field('menu_white_gbayo_logo',165),'full')[0];?>"
+                        alt=""></a>
 
             </div>
 
