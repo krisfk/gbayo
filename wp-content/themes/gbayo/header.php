@@ -37,6 +37,9 @@
 
     <div class="lightbox-layer photo-layer">
 
+        <div class="lightbox-press-area"></div>
+
+
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
 
@@ -67,6 +70,9 @@
 
 
     <div class="lightbox-layer txt-layer">
+
+        <div class="lightbox-press-area"></div>
+
 
         <!-- <div class="wrapper"> -->
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
