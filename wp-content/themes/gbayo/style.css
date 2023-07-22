@@ -1404,7 +1404,7 @@ a.mail-link:hover {
     display: block;
     position: fixed;
     top: 0.5rem;
-    right: 0.8rem;
+    right: 0.5rem;
     width: 20px;
     height: 15px;
     z-index: 100;
@@ -1628,7 +1628,7 @@ a.mail-link:hover {
   .top-div-outer-container .present-by-div {
     text-align: left !important;
     position: relative;
-    left: 0.5rem;
+    left: 1rem;
   }
   .top-div-outer {
     height: 62px;
@@ -1649,7 +1649,7 @@ a.mail-link:hover {
     width: 100%;
   }
   .logo-a img {
-    height: 26px;
+    height: 24px;
   }
   .camp-cate-title.camp-cate-title-1 {
     top: 1rem;
@@ -1675,7 +1675,7 @@ a.mail-link:hover {
   .fix-social-elements {
   }
   .top-presenter-logos-a img {
-    height: 26px;
+    height: 23px;
   }
   footer .top-presenter-logos-a img {
     height: 27px;
