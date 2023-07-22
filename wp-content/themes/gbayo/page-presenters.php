@@ -160,7 +160,7 @@ $(function() {
 
     $('.presenter-a').click(function() {
 
-        if (window.width() <= 991) {
+        if ($(window).width() <= 991) {
             $('.lightbox-layer.txt-layer').fadeIn(200);
 
             $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
