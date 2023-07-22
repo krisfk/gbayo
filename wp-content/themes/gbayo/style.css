@@ -998,6 +998,7 @@ iframe {
   z-index: 100;
   max-width: 90%;
   overflow: auto;
+  height: 80%;
 }
 
 .photo-yellow-bg-div {
