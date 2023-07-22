@@ -235,13 +235,13 @@
         });
 
 
-        $("body").click(
-            function(e) {
-                if (e.target.className !== "lightbox-content") {
-                    $(".lightbox-layer").fadeOut(0);
-                }
-            }
-        );
+        // $("body").click(
+        //     function(e) {
+        //         if (e.target.className !== "lightbox-content") {
+        //             $(".lightbox-layer").fadeOut(0);
+        //         }
+        //     }
+        // );
 
 
     })
