@@ -71,7 +71,7 @@
         <!-- <div class="wrapper"> -->
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
-            <div>
+            <div class="lightbox-container-inner-wrapper">
                 <div class="row">
 
 
