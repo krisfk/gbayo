@@ -25,13 +25,13 @@ get_header(); ?>
     <div class="position-absolute top left w-100 z-1">
 
         <div class="container">
-            <img class="gbayo-big-txt" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/gbayo-big-txt.png"
+            <img class="gbayo-big-txt" src="<?php echo wp_get_attachment_image_src(get_field('gbayo_png'),'full')[0];?>"
                 alt="">
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/main-banner-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('home_banner_desktop'),'full')[0];?>" alt="">
 </div>
 
 
@@ -40,12 +40,13 @@ get_header(); ?>
     <div class="position-absolute top left w-100 z-1">
 
         <div class="container">
-            <img class="gbayo-big-txt" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/gbayo-big-txt.png"
+            <img class="gbayo-big-txt" src="<?php echo wp_get_attachment_image_src(get_field('gbayo_png'),'full')[0];?>"
                 alt="">
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-1@2x-50-1.jpg" alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('home_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
@@ -55,13 +56,14 @@ get_header(); ?>
 <div class="container mt-100 content-fsize">
 
     <div class="font-36">
-        Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
+        <?php echo get_field('home_about_txt');?>
+        <!-- Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
         Group as
         Founding Patron, the Greater Bay Area Youth Orchestra (GBAYO) aspires to be one of the finest youth orchestras
         in
         the world. It aims to provide a platform for the highest standard of classical orchestral performance in the
         Greater Bay Area (GBA) by offering professional training and coaching by world-class musicians to talented young
-        musicians across the region.
+        musicians across the region. -->
     </div>
     <div class="text-end mt-3">
 
