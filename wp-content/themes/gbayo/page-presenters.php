@@ -160,14 +160,16 @@ $(function() {
 
     $('.presenter-a').click(function() {
 
-        $('.lightbox-layer.txt-layer').fadeIn(200);
+        if (window.width() <= 991) {
+            $('.lightbox-layer.txt-layer').fadeIn(200);
 
-        $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
+            $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
 
-        var idx = $(this).parent('div').index();
-        // alert(idx);
-        // alert($('.sponsor-para-txt-' + idx).html())
-        $('.lightbox-layer.txt-layer .sponsor-para-txt').html($('.sponsor-para-txt-' + idx).html());
+            var idx = $(this).parent('div').index();
+            $('.lightbox-layer.txt-layer .sponsor-para-txt').html($('.sponsor-para-txt-' + idx).html());
+
+        }
+
 
 
 
