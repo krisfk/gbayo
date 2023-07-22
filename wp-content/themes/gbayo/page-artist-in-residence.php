@@ -21,14 +21,14 @@ get_header(); ?>
 
     <div class="lightbox-press-area"></div>
 
-    <div class="lightbox-container-inner-wrapper">
+    <div class="">
         <div class="lightbox-content">
 
             <a href="javascript:void(0);" class="close-btn"></a>
 
 
 
-            <div class="container">
+            <div class="container lightbox-container-inner-wrapper">
                 <div class="row">
 
                     <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-30">
