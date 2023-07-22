@@ -1378,10 +1378,10 @@ a.mail-link:hover {
     margin: 70px 0 0 0;
   }
   .mt-30 {
-    margin: 15px 0 0 0;
+    /* margin: 15px 0 0 0; */
   }
   .mb-30 {
-    margin: 0px 0 15px 0;
+    /* margin: 0px 0 15px 0; */
   }
   .g-3,
   .gx-3 {
