@@ -429,17 +429,17 @@ echo'</li>';
                                                     <a href="javascript:void(0);" class="top-presenter-logos-a  ">
 
                                                         <img class=""
-                                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
+                                                            src="<?php echo wp_get_attachment_image_src(get_field('logo_1',165),'full')[0];?>"
                                                             alt="">
                                                     </a>
                                                     <a href="javascript:void(0);" class="top-presenter-logos-a  ">
 
-                                                        <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png"
+                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_2',165),'full')[0];?>"
                                                             alt="">
                                                     </a>
                                                     <a href="javascript:void(0);" class="top-presenter-logos-a  ">
 
-                                                        <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png"
+                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_3',165),'full')[0];?>"
                                                             alt="">
                                                     </a>
                                                 </td>
