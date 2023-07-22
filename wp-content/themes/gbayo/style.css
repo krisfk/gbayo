@@ -1290,6 +1290,9 @@ a.mail-link:hover {
   .top-banner {
     display: none;
   }
+  .home .full-width-img-div.mobile .top-banner {
+    display: block;
+  }
   .top-banner.mobile {
     display: block;
   }
