@@ -68,6 +68,10 @@
 
     <div class="lightbox-layer txt-layer">
 
+
+        <a href="javascript:void(0);" class="lightbox-close-btn"></a>
+
+
         <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
 
 
@@ -76,7 +80,6 @@
 
                 <div class="col-12">
 
-                    <a href="javascript:void(0);" class="lightbox-close-btn"></a>
 
                 </div>
                 <div class="col-12">
