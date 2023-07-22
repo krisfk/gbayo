@@ -993,12 +993,19 @@ iframe {
 .lightbox-layer.txt-layer .yellow-bg-div {
   display: block;
   background: rgb(255 255 255 / 100%);
-  padding: 1.5rem !important;
+  padding: 2.5rem 1.3rem 1.5rem 1.5rem !important;
   position: relative;
   z-index: 100;
   max-width: 90%;
-  overflow: auto;
+  /* overflow: auto; */
   height: 80%;
+}
+
+.lightbox-container-inner-wrapper {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 1rem 0 0;
 }
 
 .photo-yellow-bg-div {
