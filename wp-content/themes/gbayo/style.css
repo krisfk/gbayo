@@ -1233,6 +1233,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .album-content .mb-30 {
+    margin-bottom: 15px;
+  }
   .sponsor-rect img {
     position: absolute;
     top: 50%;
