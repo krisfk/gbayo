@@ -1233,6 +1233,17 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .lightbox-content {
+    display: block;
+    background: #fff;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding: 3rem 0 0rem 0;
+    height: 80%;
+  }
   .lightbox-content .close-btn {
     display: block;
     width: 20px;
