@@ -68,10 +68,12 @@
 
     <div class="lightbox-layer txt-layer">
 
-        <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
+        <div class="txt-layer-wrapper">
 
 
-            <div class="inner-container">
+            <div class="container yellow-bg-div gx-0 photo-yellow-bg-div position-relative">
+
+
                 <div class="row">
 
 
