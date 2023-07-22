@@ -1033,10 +1033,11 @@ iframe {
   background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
   background-size: contain;
   position: relative;
-  right: 2rem;
+  right: 1rem;
   margin: auto;
-  top: 2rem;
+  top: 1rem;
   position: absolute;
+  z-index: 100;
 }
 
 .lightbox-close-btn:hover {
