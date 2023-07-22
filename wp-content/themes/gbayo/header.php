@@ -235,6 +235,15 @@
         });
 
 
+        $("body").click(
+            function(e) {
+                if (e.target.className !== "lightbox-content") {
+                    $(".lightbox-layer").fadeOut(0);
+                }
+            }
+        );
+
+
     })
     </script>
 </head>
