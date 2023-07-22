@@ -424,7 +424,7 @@ echo'</li>';
 
                                         <table class="d-inline-block position-relative present-by-table">
                                             <tr>
-                                                <td class="align-top txt">Presented by</td>
+                                                <td class="align-top txt"><?php echo get_field('subtitle_1');?></td>
                                                 <td>
                                                     <a href="javascript:void(0);" class="top-presenter-logos-a  ">
 
