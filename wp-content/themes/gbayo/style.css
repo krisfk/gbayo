@@ -1233,6 +1233,17 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .lightbox-content .close-btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./assets/images/close-cross-btn-hover.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+  }
   .sponsor-para-txt {
     display: none;
   }
