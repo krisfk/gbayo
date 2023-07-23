@@ -224,7 +224,7 @@ if( have_rows('right_col_content') )
 {
 while( have_rows('right_col_content') ) { 
 the_row();
-echo 1;
+// echo 1;
 $faculty_id = get_sub_field('faculty');
 
 $term = get_term($faculty_id); 
