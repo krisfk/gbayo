@@ -297,23 +297,24 @@
                     </div>
 
                     <div class="d-inline-block">
-                        <div class="footer-logos-subtitle" style="position:relative;top:7px">Sponsored by
+                        <div class="footer-logos-subtitle" style="position:relative;top:7px">
+                            <?php echo get_field('group_3_subtitle',207);?>
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="javascript:void(0);" style="top:15px"
+                                <td> <a href="<?php echo get_field('group_3_logo_1_link',207);?>" style="top:15px"
                                         class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-12@2x.png"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',207),'full')[0];?>"
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="javascript:void(0);" style="top:15px"
+                                <td> <a href="<?php echo get_field('group_3_logo_2_link',207);?>" style="top:15px"
                                         class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-13@2x.png"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',207),'full')[0];?>"
                                             alt="">
                                     </a></td>
                             </tr>
@@ -336,15 +337,17 @@
 
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
-                                <div class="footer-logos-subtitle text-start">Co-organiser
-                                    for the Macau Concert
+                                <div class="footer-logos-subtitle text-start">
+                                    <?php
+                                echo get_field('group_4_subtitle',207);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:11px">
+                                        <td> <a href="<?php echo get_field('group_4_logo_1_link');?>"
+                                                class="other-logos-a" style="top:11px">
 
                                                 <img class=""
-                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-11@2x.png"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',207),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -352,48 +355,48 @@
                             </td>
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
-                                <div class="footer-logos-subtitle text-start">Shenzhen Concert
-                                    <!-- <br> -->
-                                    Supporting Unit
+                                <div class="footer-logos-subtitle text-start"><?php
+                                echo get_field('group_5_subtitle',207);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:5px">
+                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',207);?>"
+                                                class="other-logos-a" style="top:5px">
 
                                                 <img class=""
-                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-10@2x.png"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',207),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
                                 </table>
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
-                                <div class="footer-logos-subtitle text-start">Guangzhou Concert
-                                    <!-- <br> -->
-                                    Supporting Unit
+                                <div class="footer-logos-subtitle text-start"><?php
+                                echo get_field('group_6_subtitle',207);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="javascript:void(0);" class="other-logos-a" style="top:9px">
+                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',207);?>"
+                                                class="other-logos-a" style="top:9px">
 
                                                 <img class=""
-                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-14@2x.png"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_6_logo_1',207),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
                                 </table>
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
-                                <div class="footer-logos-subtitle text-start">Macau Venue
-                                    <!-- <br> -->
-                                    Sponsor
+                                <div class="footer-logos-subtitle text-start">
+                                    <?php echo get_field('group_7_subtitle',207);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="javascript:void(0);" class="other-logos-a">
+                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',207);?>"
+                                                class="other-logos-a">
 
                                                 <img class=""
-                                                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-15@2x.png"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_7_logo_1',207),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -411,18 +414,18 @@
                 <table>
                     <tr>
                         <td>
-                            <div class="reserve-txt ">All Right Reserved. The Greater Bay Area Youth Orchestra.</div>
+                            <div class="reserve-txt "><?php echo get_field('all_right_reserve_txt',207);?></div>
                         </td>
                         <td>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td><a href="javascript:void(0);"
+                                    <td><a href="<?php echo get_field('ig_link',207);?>"
                                             class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
                                     </td>
-                                    <td><a href="javascript:void(0);"
+                                    <td><a href="<?php echo get_field('fb_link',207);?>"
                                             class="footer-sns-icon footer-sns-icon-2 ms-0"></a>
                                     </td>
-                                    <td><a href="javascript:void(0);"
+                                    <td><a href="<?php echo get_field('youtube_link',207);?>"
                                             class="footer-sns-icon footer-sns-icon-3 ms-0"></a>
                                     </td>
                                 </tr>
