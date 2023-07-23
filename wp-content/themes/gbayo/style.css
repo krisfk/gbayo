@@ -653,6 +653,10 @@ h2.subtitle {
   margin: 0;
 }
 
+.name-ul p {
+  display: inline-block;
+}
+
 .name-ul li {
   list-style-type: none;
 }
