@@ -222,6 +222,7 @@ get_header(); ?>
             wp_reset_query();
 if( have_rows('right_col_content') )
 {
+    reset_rows('right_col_content');
 while( have_rows('right_col_content') ) { 
 the_row();
 // echo 1;
