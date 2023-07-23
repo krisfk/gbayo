@@ -1233,6 +1233,15 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .sponsor-rect {
+    display: block;
+    /* width: 395px; */
+    height: 130px;
+    border: 1px solid #231f20;
+    position: relative;
+    transition: 0.2s all;
+    width: 100%;
+  }
   .lightbox-container-inner-wrapper {
     height: 95%;
     overflow-y: auto;
@@ -1646,6 +1655,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  .sponsor-title {
+    display: block;
+    min-height: 32px;
+    margin: 0 0 0.5rem 0;
+    font-size: 12px !important;
+  }
   .top-div-outer-container .present-by-div {
     text-align: left !important;
     position: relative;
