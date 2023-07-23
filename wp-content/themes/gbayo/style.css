@@ -1200,6 +1200,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 1200px) {
+  .sponsor-title {
+    display: block;
+    min-height: 32px;
+    margin: 0 0 1rem 0;
+    font-size: 25px !important;
+  }
   .hamburger-menu-btn {
     display: block;
     position: fixed;
@@ -1233,6 +1239,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .sponsor-title {
+    display: block;
+    min-height: 32px;
+    margin: 0 0 1rem 0;
+    font-size: 16px !important;
+  }
   .sponsor-rect {
     display: block;
     /* width: 395px; */
@@ -1266,7 +1278,7 @@ a.mail-link:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     height: auto;
-    width: 100%;
+    width: 95%;
   }
   .lightbox-content {
     display: block;
