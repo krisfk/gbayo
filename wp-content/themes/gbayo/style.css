@@ -1707,14 +1707,25 @@ a.mail-link:hover {
   .present-by-div table {
   }
   .fix-back-to-top {
+    left: -21vw;
   }
   .fix-social-elements {
+    right: -19vw;
   }
   .top-presenter-logos-a img {
     height: 23px;
   }
   footer .top-presenter-logos-a img {
     height: 27px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .fix-back-to-top {
+    left: -19vw;
+  }
+  .fix-social-elements {
+    right: -18vw;
   }
 }
 
@@ -1739,7 +1750,9 @@ a.mail-link:hover {
   .present-by-div table {
   }
   .fix-back-to-top {
+    left: -21vw;
   }
   .fix-social-elements {
+    right: -20vw;
   }
 }
