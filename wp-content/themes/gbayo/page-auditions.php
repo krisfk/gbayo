@@ -51,10 +51,13 @@ if( have_rows('audition_contents') )
     ?>
     <div class="mb-4 audition-content">
         <?php
-     echo get_sub_field('audition_content');   
+     echo get_sub_field('audition_content');  
+     ?>
+    </div>
+    <?php 
     }
     ?>
-    </div>
+
     <?php
 }
 ?>
