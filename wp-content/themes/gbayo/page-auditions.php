@@ -144,7 +144,7 @@ if( have_rows('files_download') )
         ?>
 
             <li>
-                <a href="<?php echo get_sub_field('file_document');?>"
+                <a href="<?php echo get_sub_field('file_document');?>" target="_blank"
                     class="<?php echo get_sub_field('file_type');?>"><?php echo get_sub_field('file_name');?></a>
             </li>
             <?php
