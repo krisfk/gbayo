@@ -180,7 +180,7 @@ get_header(); ?>
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
-                        <h3 class="orange bold d-inline-block"><?php echo get_field('musician_name');?> <div
+                        <h3 class="orange bold d-inline-block"><?php echo $musician->musician_name;?> <div
                                 class="five-lines-grid">
                                 <div class="text-center d-block line-wrapper">
                                     <div class="line line-1"></div>
