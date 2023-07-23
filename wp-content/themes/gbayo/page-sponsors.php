@@ -45,7 +45,7 @@ get_header(); ?>
 
     <div class="row ">
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Founding<br>Patron</h3>
@@ -58,7 +58,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Sponsored<br>by</h3>
@@ -72,7 +72,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Sponsored<br>by</h3>
@@ -85,7 +85,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Co-organiser <br>
@@ -99,7 +99,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Shenzhen Concert <br>
@@ -113,7 +113,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Guangzhou Concert <br>
@@ -128,7 +128,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Co-organiser <br>
