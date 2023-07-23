@@ -55,7 +55,8 @@ get_header(); ?>
 
             <a href="javascript:void(0);" class="w-75 presenter-a">
 
-                <img class="w-75" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png" alt="">
+                <img class="w-75" src="<?php echo wp_get_attachment_image_src(get_field('presenter_logo'),'full')[0];?>"
+                    alt="">
             </a>
 
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2"><?php echo get_sub_field('presenter_name');?></h3>
