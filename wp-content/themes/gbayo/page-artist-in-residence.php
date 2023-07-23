@@ -96,7 +96,7 @@ get_header(); ?>
 
 
 
-<div class="full-width-img-div position-relative mt-3">
+<div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
 
@@ -105,12 +105,11 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/conductor-banner-scaled.jpg"
-        alt="">
-    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-4@2x-50.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
@@ -121,11 +120,29 @@ get_header(); ?>
     <div class="row  content-fsize">
 
         <div class="col-12">
-            <h2 class="orange bold">GBAYO 2023 Faculty</h2>
+            <h2 class="orange bold"><?php echo get_field('gbayo_year_faculty_title');?></h2>
 
 
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+
+            <?php
+    if( have_rows('left_col_content') )
+    {
+    
+        while( have_rows('left_col_content') ) { 
+            the_row();
+            echo get_sub_field('faculty');
+            ?>
+
+
+            <?php
+        }
+    
+    }
+            ?>
+
+
 
             <div class="faculty-group">
 
