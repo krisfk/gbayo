@@ -47,6 +47,7 @@ get_header(); ?>
     
         while( have_rows('sponsors') ) { 
             the_row();
+            echo 1;
             ?>
 
         <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-30">
