@@ -42,10 +42,10 @@ get_header(); ?>
     <div class="row ">
 
         <?php
-    if( have_rows('staffs') )
+    if( have_rows('sponsors') )
     {
     
-        while( have_rows('staffs') ) { 
+        while( have_rows('sponsors') ) { 
             the_row();
             ?>
 
