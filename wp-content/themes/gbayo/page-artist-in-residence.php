@@ -164,13 +164,15 @@ get_header(); ?>
                      )
                   )
                 );
-                $query2 = new WP_Query( $args ); 
+                $musicians = get_posts($args);
 
-                if ( $query2->have_posts() ) {
-                    // Start looping over the query results. 
-                    while ( $query2->have_posts() ) {
-                        $query2->the_post();
-                        ?>
+
+                // $query2 = new WP_Query( $args ); 
+                if ( $musicians ) {
+                
+                    foreach ( $musicians as $musician ) 
+                    {
+?>
                 <div class="mb-4">
 
 
@@ -211,6 +213,7 @@ get_header(); ?>
                 <?php
                     }
                 }
+              
 
                 
             ?>
