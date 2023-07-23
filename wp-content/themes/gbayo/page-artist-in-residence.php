@@ -216,7 +216,7 @@ get_header(); ?>
 
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-
+            dd
             <?php
 if( have_rows('right_col_content') )
 {
