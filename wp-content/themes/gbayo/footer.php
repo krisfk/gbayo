@@ -27,14 +27,14 @@
             <div class="row">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
-                    <div class="footer-logos-subtitle"><?php echo get_the_field('group_1_subtitle',207);?></div>
+                    <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
                     <table class="d-inline-block">
                         <tr>
                             <td> <a href="javascript:void(0);"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
-                                        src="<?php //echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
+                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
                                         alt="">
                                 </a>
                             <td> <a href="javascript:void(0);"
