@@ -130,8 +130,31 @@ if( have_rows('audition_contents') )
         <h3 class="bold orange"><?php echo get_field('download_title');?>
 
         </h3>
+
+
         <ul class="download-pdf-list">
+
+            <?php
+
+if( have_rows('files_download') )
+{
+
+    while( have_rows('files_download') ) { 
+        the_row();
+        ?>
+
             <li>
+                <a href="<?php echo get_sub_field('file_document');?>"
+                    class="<?php echo get_sub_field('file_type');?>"><?php echo get_sub_field('file_name');?></a>
+            </li>
+            <?php
+    }
+}
+
+        ?>
+
+
+            <!-- <li>
                 <a href="javascript:void(0);" class="pdf"> Application Form (doc) / Application Form (pdf)</a>
             </li>
             <li>
@@ -153,7 +176,7 @@ if( have_rows('audition_contents') )
             </li>
             <li>
                 <a href="#" class="music">Orchestra excerpts - sheet music - Percussion</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 
