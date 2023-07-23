@@ -17,7 +17,6 @@
 get_header(); ?>
 
 
-
 <div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
@@ -27,15 +26,11 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/audition-banner-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-5@2x-50.jpg"
-        alt="">
-
-
-
-
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
@@ -44,10 +39,22 @@ get_header(); ?>
 <div class="container mt-100  content-fsize">
 
 
-    <h2 class="bold mb-4">2023 Auditions</h2>
+    <h2 class="bold mb-4"><?php echo get_field('year_auditions_title');?></h2>
+
+    <?php
+
+if( have_rows('audition_contents') )
+{
+
+    while( have_rows('audition_contents') ) { 
+        the_row();
+     echo get_sub_field('audition_content');   
+    }
+}
+?>
 
 
-    <div class="mb-4 audition-content">
+    <!-- <div class="mb-4 audition-content">
         <h3 class="bold orange">Training Camp & Concert Tour Period</h3>
         <div>Jul 31 – Aug 16, 2023</div>
     </div>
@@ -107,7 +114,7 @@ get_header(); ?>
 
 
 
-    </div>
+    </div> -->
 
 
     <div class="mb-4 audition-content">
