@@ -132,7 +132,29 @@ get_header(); ?>
     
         while( have_rows('left_col_content') ) { 
             the_row();
-            echo get_sub_field('faculty');
+            // echo get_sub_field('faculty');
+         $faculty_id = get_sub_field('faculty');
+            $args = array(
+                'post_type' => 'gbayo_musician',
+                'tax_query' => array(
+                    array(
+                    'taxonomy' => 'faculty',
+                    'field' => 'term_id',
+                    'terms' => $faculty_id
+                     )
+                  )
+                );
+                $query = new WP_Query( $args ); 
+
+                if ( $query->have_posts() ) {
+                    // Start looping over the query results. 
+                    while ( $query->have_posts() ) {
+                        $query->the_post();
+                        echo get_the_title();
+                    }
+                }
+
+                
             ?>
 
 
