@@ -127,7 +127,7 @@ if( have_rows('audition_contents') )
 
 
     <div class="mb-4 audition-content">
-        <h3 class="bold orange">Download
+        <h3 class="bold orange"><?php echo get_field('download_title');?>
 
         </h3>
         <ul class="download-pdf-list">
