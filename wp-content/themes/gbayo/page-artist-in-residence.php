@@ -206,7 +206,7 @@ get_header(); ?>
                     </a>
 
                     <div>
-                        <?php echo get_field('musician_description');?>
+                        <?php echo $musician->musician_description;?>
                     </div>
 
                 </div>
