@@ -21,7 +21,7 @@ get_header(); ?>
 
     <div class="lightbox-press-area"></div>
 
-    <div class="">
+    <div class="musician-profile-lightbox">
         <div class="lightbox-content">
 
             <a href="javascript:void(0);" class="close-btn"></a>
