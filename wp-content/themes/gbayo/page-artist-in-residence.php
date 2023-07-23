@@ -294,7 +294,7 @@ $args = array(
                         data-musician-description="<?php echo $musician->musician_detail_description;?>"
                         data-musician-instrument="<?php echo $musician->instrument;?>"
                         data-musician-foto="<?php echo wp_get_attachment_image_src($musician->musician_photo,'full')[0];?>">
-                        >
+
                         <h3 class="orange bold d-inline-block"><?php echo $musician->musician_name;?> <div
                                 class="five-lines-grid">
                                 <div class="text-center d-block line-wrapper">
