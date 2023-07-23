@@ -43,167 +43,7 @@ get_header(); ?>
 
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <!-- <div class="mb-4 name-list-div">
 
-                <div class="bold mb-2">Violins
-                </div>
-
-
-                <ul class="name-ul">
-                    <li>
-                        <h3 class="orange bold d-inline-block">Lau Sin Yiu Danielle</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Lai Sum Yee</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Huang Zelin</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Li Shiming</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Tsui Vincent</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Chu Wan Lam Sophy</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Mak Hoi Kiu</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Shiu Sin Man</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Cheong Tin Ut</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Si Tou Pui Ieng</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Chao Hei Man</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Chan Si Cheng</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">張宗桐</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">陳天樂</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">馬竟博</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">李沐陽</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">曹宇</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">齊楊烯</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">梁凱嵐</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">劉姿君</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">董玉靈</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">陳萱</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">鍾沛然</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">胡融思</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                </ul>
-
-
-
-
-
-
-            </div>
-
-            <div class="mb-4 name-list-div">
-
-                <div class="bold mb-2">Violas
-                </div>
-
-
-                <ul class="name-ul">
-                    <li>
-                        <h3 class="orange bold d-inline-block">TBC</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">TBC</h3>
-                        <span class="ms-1">HK</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Tam Hio Lam</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">Chao Man Cheng</h3>
-                        <span class="ms-1">MO</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">蔣哲</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">張宸榮</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">李梓筠</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">管昊</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">李書杪</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                    <li>
-                        <h3 class="orange bold d-inline-block">古遠深</h3>
-                        <span class="ms-1">GZ</span>
-                    </li>
-                </ul>
-            </div> -->
 
             <?php
             echo get_field('left_col_content');
@@ -217,7 +57,9 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
 
-
+            <?php
+            echo get_field('center_col_content');
+            ?>
             <!-- <div class="mb-4 name-list-div">
 
 
@@ -384,6 +226,12 @@ get_header(); ?>
         </div>
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+
+            <?php
+        
+        echo get_field('right_col_content');
+        
+        ?>
 
             <!-- <div class="mb-4 name-list-div">
 
