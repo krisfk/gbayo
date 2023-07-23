@@ -17,7 +17,6 @@
 get_header(); ?>
 
 
-
 <div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
@@ -27,16 +26,13 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-banner-1-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-    <img class="w-100 about-big-img mobile"
-        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-2@2x-50-1.jpg" alt="">
-
-
-
-
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
+
 
 
 <div class="five-lines-sep"></div>
@@ -45,20 +41,33 @@ get_header(); ?>
 
     <div class="row ">
 
+        <?php
+    if( have_rows('staffs') )
+    {
+    
+        while( have_rows('staffs') ) { 
+            the_row();
+            ?>
+
         <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-30">
 
             <div>
-                <h3 class="bold orange sponsor-title text-start">Founding<br>Patron</h3>
+                <h3 class="bold orange sponsor-title text-start"><?php echo get_sub_field('sponsor_title');?></h3>
 
-                <a href="javascript:void(0);" class="sponsor-rect mx-auto">
+                <a href="<?php echo get_sub_field('sponsor_link');?>" target="_blank" class="sponsor-rect mx-auto">
 
-                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/sponsors_logos-18.png" alt="">
+                    <img src="<?php echo wp_get_attachment_image_src(get_field('sponsor_logo'),'full')[0];?>" alt="">
                 </a>
 
             </div>
         </div>
+        <?php
+        }
+    }
+    ?>
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-30">
+
+        <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-30">
 
             <div>
                 <h3 class="bold orange sponsor-title text-start">Sponsored<br>by</h3>
@@ -141,7 +150,7 @@ get_header(); ?>
                 </a>
 
             </div>
-        </div>
+        </div> -->
 
 
 
