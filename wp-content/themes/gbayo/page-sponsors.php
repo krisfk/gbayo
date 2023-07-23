@@ -75,7 +75,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-30">
 
             <div>
-                <h3 class="bold orange sponsor-title text-start empty"></h3>
+                <h3 class="bold orange sponsor-title text-start">Sponsored by</h3>
 
                 <a href="javascript:void(0);" class="sponsor-rect mx-auto">
 
