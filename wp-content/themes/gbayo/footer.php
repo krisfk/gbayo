@@ -34,7 +34,7 @@
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
-                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
+                                        src="<?php //echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
                                         alt="">
                                 </a>
                             <td> <a href="javascript:void(0);"
