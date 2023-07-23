@@ -219,6 +219,7 @@ get_header(); ?>
 
             <?php
             wp_reset_postdata();
+            wp_reset_query();
 if( have_rows('right_col_content') )
 {
 while( have_rows('right_col_content') ) { 
