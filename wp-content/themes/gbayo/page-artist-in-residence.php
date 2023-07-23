@@ -127,10 +127,10 @@ get_header(); ?>
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
 
             <?php
-    if( have_rows('left_col_content') )
+    if( have_rows('right_col_content') )
     {
     
-        while( have_rows('left_col_content') ) { 
+        while( have_rows('right_col_content') ) { 
             the_row();
          $faculty_id = get_sub_field('faculty');
 
