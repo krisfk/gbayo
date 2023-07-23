@@ -55,8 +55,8 @@ get_header(); ?>
 
             <a href="javascript:void(0);" class="w-75 presenter-a">
 
-                <img class="w-75" src="<?php echo wp_get_attachment_image_src(get_field('presenter_logo'),'full')[0];?>"
-                    alt="">
+                <img class="w-75"
+                    src="<?php echo wp_get_attachment_image_src(get_sub_field('presenter_logo'),'full')[0];?>" alt="">
             </a>
 
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2"><?php echo get_sub_field('presenter_name');?></h3>
