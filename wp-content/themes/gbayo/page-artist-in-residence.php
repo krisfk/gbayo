@@ -128,21 +128,20 @@ get_header(); ?>
 
             <?php
 
-if( have_rows('right_col_content') )
-{
-    while( have_rows('right_col_content') ) { 
-        the_row();
+// if( have_rows('right_col_content') )
+// {
+//     while( have_rows('right_col_content') ) { 
+//         the_row();
 
-// echo 1;
-    }
-}
+// // echo 1;
+//     }
+// }
 
     if( have_rows('right_col_content') )
     {
     
         while( have_rows('right_col_content') ) { 
             the_row();
-            echo 1;
          $faculty_id = get_sub_field('faculty');
 
          $term = get_term($faculty_id); 
@@ -165,12 +164,12 @@ if( have_rows('right_col_content') )
                      )
                   )
                 );
-                $query = new WP_Query( $args ); 
+                $query2 = new WP_Query( $args ); 
 
-                if ( $query->have_posts() ) {
+                if ( $query2->have_posts() ) {
                     // Start looping over the query results. 
-                    while ( $query->have_posts() ) {
-                        $query->the_post();
+                    while ( $query2->have_posts() ) {
+                        $query2->the_post();
                         ?>
                 <div class="mb-4">
 
