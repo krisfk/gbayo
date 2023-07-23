@@ -131,6 +131,8 @@ get_header(); ?>
 if( have_rows('right_col_content') )
 {
     while( have_rows('right_col_content') ) { 
+        the_row();
+
 echo 1;
     }
 }
