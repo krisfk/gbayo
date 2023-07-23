@@ -127,6 +127,14 @@ get_header(); ?>
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
 
             <?php
+
+if( have_rows('right_col_content') )
+{
+    while( have_rows('right_col_content') ) { 
+echo 1;
+    }
+}
+
     if( have_rows('right_col_content') )
     {
     
