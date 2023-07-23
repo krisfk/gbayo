@@ -43,7 +43,7 @@ get_header(); ?>
 
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div class="mb-4 name-list-div">
+            <!-- <div class="mb-4 name-list-div">
 
                 <div class="bold mb-2">Violins
                 </div>
@@ -203,7 +203,11 @@ get_header(); ?>
                         <span class="ms-1">GZ</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
+
+            <?php
+            echo get_field('left_col_content');
+            ?>
 
 
 
@@ -214,7 +218,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
 
 
-            <div class="mb-4 name-list-div">
+            <!-- <div class="mb-4 name-list-div">
 
 
                 <div class="bold mb-2">Cellos
@@ -373,7 +377,7 @@ get_header(); ?>
                     </li>
                 </ul>
             </div>
-
+ -->
 
 
 
@@ -381,7 +385,7 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12">
 
-            <div class="mb-4 name-list-div">
+            <!-- <div class="mb-4 name-list-div">
 
 
                 <div class="bold mb-2">Bassoons
@@ -549,7 +553,7 @@ get_header(); ?>
                         <span class="ms-1">GZ</span>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
 
 
