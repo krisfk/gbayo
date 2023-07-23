@@ -134,6 +134,12 @@ get_header(); ?>
             the_row();
             // echo get_sub_field('faculty');
          $faculty_id = get_sub_field('faculty');
+
+         $term = get_term($faculty_id); //Example term ID
+       $faculty_name= $term->name; //gets term name
+            echo $faculty_name;
+
+         
             $args = array(
                 'post_type' => 'gbayo_musician',
                 'tax_query' => array(
@@ -150,7 +156,10 @@ get_header(); ?>
                     // Start looping over the query results. 
                     while ( $query->have_posts() ) {
                         $query->the_post();
-                        echo get_the_title();
+                        ?>
+
+            <?php
+                        // echo get_the_title();
                     }
                 }
 
@@ -377,6 +386,7 @@ get_header(); ?>
                     </div>
 
                 </div>
+
             </div>
 
 
