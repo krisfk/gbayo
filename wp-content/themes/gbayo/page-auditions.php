@@ -48,8 +48,14 @@ if( have_rows('audition_contents') )
 
     while( have_rows('audition_contents') ) { 
         the_row();
+    ?>
+    <div class="mb-4 audition-content">
+        <?php
      echo get_sub_field('audition_content');   
     }
+    ?>
+    </div>
+    <?php
 }
 ?>
 
