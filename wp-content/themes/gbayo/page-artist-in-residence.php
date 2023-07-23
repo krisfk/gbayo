@@ -221,7 +221,6 @@ get_header(); ?>
             wp_reset_postdata();
 if( have_rows('right_col_content') )
 {
-echo 11;
 while( have_rows('right_col_content') ) { 
 the_row();
 $faculty_id = get_sub_field('faculty');
