@@ -173,6 +173,10 @@ get_header(); ?>
                     <div class="bold"><?php echo $musician->instrument;?>
                     </div>
 
+                    <?php
+                    
+                    echo wp_get_attachment_image_src($musician->musician_photo,'full')[0];
+                    ?>
                     <a href="javascript:void(0);" class="more-btn musician-more-btn"
                         data-musician-name="<?php echo $musician->musician_name;?>"
                         data-musician-description="<?php echo $musician->musician_detail_description;?>"
