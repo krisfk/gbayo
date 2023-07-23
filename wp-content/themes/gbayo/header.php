@@ -386,7 +386,7 @@ echo'</li>';
 
     <div class="fix-social-elements">
         <ul class="">
-            <li class="follow-us"><?php //echo get_field('follow_us_txt',165);?></li>
+            <li class="follow-us"><?php echo get_field('follow_us_txt',165);?></li>
             <li class="dash"> ー </li>
             <li> <a target="_blank" href="javascript:void(0);" class="facebook fix-icon-a  fix-icon-a-1"> </a>
             </li>
