@@ -27,11 +27,11 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-banner-1-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-    <img class="top-banner w-100 mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-2@2x-50.jpg"
-        alt="">
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
@@ -40,11 +40,9 @@ get_header(); ?>
 <div class="container mt-100 content-fsize">
 
     <div class="font-36">
-        Established and directed by The Hong Kong Academy for Performing Arts (HKAPA) with the support of the Swire
-        Group as Founding Patron, the Greater Bay Area Youth Orchestra (GBAYO) aspires to be one of the finest youth
-        orchestras in the world. It aims to provide a platform for the highest standard of classical orchestral
-        performance in the Greater Bay Area (GBA) by offering professional training and coaching by world-class
-        musicians to talented young musicians across the region.
+        <?php
+       echo get_field('about_gbayo_txt');
+       ?>
 
     </div>
     <!-- <div class="text-end mt-3">
@@ -76,11 +74,12 @@ get_header(); ?>
 </div>
 
 <div class="mt-100">
-    <img class="w-100 about-big-img" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/about-img-2-scaled.jpg"
+    <img class="w-100 about-big-img"
+        src="<?php echo wp_get_attachment_image_src(get_field('about_gbayo_bottom_banner_desktop'),'full')[0];?>"
         alt="">
 
-    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x-50.jpg"
-        alt="">
+    <img class="w-100 about-big-img mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('about_gbayo_bottom_banner_mobile'),'full')[0];?>" alt="">
 
     <!-- http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x-50.jpg -->
 </div>
@@ -88,11 +87,30 @@ get_header(); ?>
 
 <div class="container ">
 
-    <h2 class="subtitle text-start mt-100">Management team</h2>
+    <h2 class="subtitle text-start mt-100"><?php echo get_field('management_team_title');?></h2>
 
     <div class="row mt-4">
+        <?php
 
+if( have_rows('staffs') )
+{
+
+    while( have_rows('staffs') ) { 
+        the_row();
+        ?>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
+
+            <h3 class="orange bold"><?php echo get_sub_field('staff_position');?></h3>
+            <div class="bold"><?php echo get_sub_field('staff_name');?></div>
+            <?php echo get_sub_field('staff_description');?>
+        </div>
+
+        <?php
+    }
+}
+        
+        ?>
+        <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
 
             <h3 class="orange bold">Project Director</h3>
             <div class="bold">Dr. Iñaki Sandoval</div>
@@ -115,7 +133,7 @@ get_header(); ?>
             <div class="bold">Samantha Li</div>
 
 
-        </div>
+        </div> -->
     </div>
 
 </div>
