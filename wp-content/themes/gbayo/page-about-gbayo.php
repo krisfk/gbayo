@@ -45,31 +45,8 @@ get_header(); ?>
        ?>
 
     </div>
-    <!-- <div class="text-end mt-3">
 
-        <a href="javascript:void(0);" class="more-btn">
 
-            <span>more</span>
-            <div class="five-lines-grid">
-                <div class="text-center d-block line-wrapper">
-                    <div class="line line-1"></div>
-                </div>
-                <div class="text-center d-block line-wrapper">
-                    <div class="line line-2"></div>
-                </div>
-                <div class="text-center d-block line-wrapper">
-                    <div class="line line-3"></div>
-                </div>
-                <div class="text-center d-block line-wrapper">
-                    <div class="line line-4"></div>
-                </div>
-                <div class="text-center d-block line-wrapper">
-                    <div class="line line-5"></div>
-                </div>
-
-            </div>
-        </a>
-    </div> -->
 
 </div>
 
@@ -81,7 +58,6 @@ get_header(); ?>
     <img class="w-100 about-big-img mobile"
         src="<?php echo wp_get_attachment_image_src(get_field('about_gbayo_bottom_banner_mobile'),'full')[0];?>" alt="">
 
-    <!-- http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-3@2x-50.jpg -->
 </div>
 
 
@@ -110,30 +86,7 @@ if( have_rows('staffs') )
 }
         
         ?>
-        <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
 
-            <h3 class="orange bold">Project Director</h3>
-            <div class="bold">Dr. Iñaki Sandoval</div>
-
-            Dean of the School of Music, <br>
-            Hong Kong Academy for Performing Arts
-
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize  mb-4">
-
-            <h3 class="orange bold">Artistic Coordinator</h3>
-            <div class="bold">Professor Yiu Song Lam</div>
-
-            Head of Woodwind, Brass and Percussion, <br> Hong Kong Academy For Performing Arts
-
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize  mb-4">
-            <h3 class="orange bold">Programme Manager</h3>
-            <div class="bold">Samantha Li</div>
-
-
-        </div> -->
     </div>
 
 </div>
