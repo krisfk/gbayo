@@ -176,7 +176,7 @@ get_header(); ?>
                 <div class="mb-4">
 
 
-                    <div class="bold"><?php echo get_field('instrument');?>
+                    <div class="bold"><?php echo $musician->instrument;?>
                     </div>
 
                     <a href="javascript:void(0);" class="more-btn musician-more-btn">
