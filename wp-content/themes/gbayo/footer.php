@@ -243,24 +243,29 @@
             <div class="row mb-3">
                 <div class="col-12  ">
 
-                    <div class="footer-logos-subtitle">Presented by</div>
+                    <div class="footer-logos-subtitle">
+                        <?php echo get_field('group_1_subtitle',207);?>
+                    </div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="javascript:void(0);"
+                            <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
-                                    <img class="" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-1.png"
+                                    <img class=""
+                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="javascript:void(0);"
+                            <td> <a href="<?php echo get_field('group_1_logo_2_link',207);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-2.png" alt="">
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',207),'full')[0];?>"
+                                        alt="">
                                 </a>
-                            <td> <a href="javascript:void(0);"
+                            <td> <a href="<?php echo get_field('group_1_logo_3_link',207);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/logo-3.png" alt="">
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',207),'full')[0];?>"
+                                        alt="">
                                 </a>
                             </td>
                         </tr>
