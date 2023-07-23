@@ -137,9 +137,16 @@ get_header(); ?>
 
          $term = get_term($faculty_id); //Example term ID
        $faculty_name= $term->name; //gets term name
-            echo $faculty_name;
+            // echo $faculty_name;
 
-         
+
+            ?>
+
+            <div class="faculty-group">
+
+                <h2 class="bold mt-5 mb-4"><?php echo $faculty_name;?>
+                </h2>
+                <?php
             $args = array(
                 'post_type' => 'gbayo_musician',
                 'tax_query' => array(
@@ -157,8 +164,46 @@ get_header(); ?>
                     while ( $query->have_posts() ) {
                         $query->the_post();
                         ?>
+                <div class="mb-4">
 
-            <?php
+
+                    <div class="bold"><?php echo get_field('instrument');?>
+                    </div>
+
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
+                        <h3 class="orange bold d-inline-block"><?php echo get_field('musician_name');?> <div
+                                class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
+
+                            </div>
+                        </h3>
+
+
+
+                    </a>
+
+                    <div>
+                        <?php echo get_field('musician_description');?>
+                        <!-- Professor of Music (Strings), <br>
+                        Hong Kong Academy For Performing Arts -->
+                    </div>
+
+                </div>
+                <?php
                         // echo get_the_title();
                     }
                 }
@@ -166,7 +211,7 @@ get_header(); ?>
                 
             ?>
 
-
+            </div>
             <?php
         }
     
@@ -175,7 +220,7 @@ get_header(); ?>
 
 
 
-            <div class="faculty-group">
+            <!-- <div class="faculty-group">
 
                 <h2 class="bold mt-5 mb-4">Strings
                 </h2>
@@ -387,7 +432,7 @@ get_header(); ?>
 
                 </div>
 
-            </div>
+            </div> -->
 
 
 
