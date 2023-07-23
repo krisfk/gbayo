@@ -124,6 +124,8 @@ get_header(); ?>
 
 
         </div>
+
+
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
 
             <?php
@@ -211,11 +213,118 @@ get_header(); ?>
             ?>
 
             </div>
+
+
+
+
+
+
             <?php
         }
     
     }
             ?>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+
+            <?php
+
+
+if( have_rows('left_col_content') )
+{
+
+while( have_rows('left_col_content') ) { 
+the_row();
+$faculty_id = get_sub_field('faculty');
+
+$term = get_term($faculty_id); 
+$faculty_name= $term->name; 
+
+?>
+
+            <div class="faculty-group">
+
+                <h2 class="bold mt-5 mb-4"><?php echo $faculty_name;?>
+                </h2>
+                <?php
+$args = array(
+    'post_type' => 'gbayo_musician',
+    'tax_query' => array(
+        array(
+        'taxonomy' => 'faculty',
+        'field' => 'term_id',
+        'terms' => $faculty_id
+         )
+      )
+    );
+    $musicians = get_posts($args);
+
+
+    // $query2 = new WP_Query( $args ); 
+    if ( $musicians ) {
+    
+        foreach ( $musicians as $musician ) 
+        {
+?>
+                <div class="mb-4">
+
+
+                    <div class="bold"><?php echo $musician->instrument;?>
+                    </div>
+
+                    <a href="javascript:void(0);" class="more-btn musician-more-btn">
+                        <h3 class="orange bold d-inline-block"><?php echo $musician->musician_name;?> <div
+                                class="five-lines-grid">
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-1"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-2"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-3"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-4"></div>
+                                </div>
+                                <div class="text-center d-block line-wrapper">
+                                    <div class="line line-5"></div>
+                                </div>
+
+                            </div>
+                        </h3>
+
+
+
+                    </a>
+
+                    <div>
+                        <?php echo $musician->musician_description;?>
+                    </div>
+
+                </div>
+                <?php
+        }
+    }
+  
+
+    
+?>
+
+            </div>
+
+
+
+
+
+
+            <?php
+}
+
+}
+?>
 
         </div>
 
