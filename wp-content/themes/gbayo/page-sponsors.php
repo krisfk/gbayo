@@ -57,7 +57,8 @@ get_header(); ?>
 
                 <a href="<?php echo get_sub_field('sponsor_link');?>" target="_blank" class="sponsor-rect mx-auto">
 
-                    <img src="<?php echo wp_get_attachment_image_src(get_field('sponsor_logo'),'full')[0];?>" alt="">
+                    <img src="<?php echo wp_get_attachment_image_src(get_sub_field('sponsor_logo'),'full')[0];?>"
+                        alt="">
                 </a>
 
             </div>
