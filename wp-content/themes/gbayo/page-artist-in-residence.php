@@ -174,6 +174,11 @@ get_header(); ?>
                 <div class="mb-4">
 
 
+
+                    <?php
+                
+                echo $musician->show_in_the_page_of_artist_in_residence;
+                ?>
                     <div class="bold"><?php echo $musician->instrument;?>
                     </div>
 
