@@ -171,20 +171,27 @@ get_header(); ?>
                     foreach ( $musicians as $musician ) 
                     {
 ?>
+
+
+
+
+                <?php
+
+if($musician->show_in_the_page_of_artist_in_residence)
+{
+    ?>
+
                 <div class="mb-4">
 
 
 
-                    <?php
-
-                ?>
                     <div class="bold"><?php echo $musician->instrument;?>
                     </div>
 
                     <?php
-                    
-                    
-                    ?>
+
+
+?>
                     <a href="javascript:void(0);" class="more-btn musician-more-btn"
                         data-musician-name="<?php echo $musician->musician_name;?>"
                         data-musician-description="<?php echo $musician->musician_detail_description;?>"
@@ -215,14 +222,16 @@ get_header(); ?>
 
                     </a>
 
-                    <!-- <div class="musician-description">
-                        <?php //echo $musician->musician_detail_description;?>
-                    </div> -->
                     <div>
                         <?php echo $musician->musician_description;?>
                     </div>
 
                 </div>
+                <?php
+}
+    ?>
+
+
                 <?php
                     }
                 }
