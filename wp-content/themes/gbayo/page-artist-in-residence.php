@@ -176,7 +176,7 @@ get_header(); ?>
 
 
                     <?php
-                echo 11;
+                // echo 11;
                 echo $musician->show_in_the_page_of_artist_in_residence;
                 ?>
                     <div class="bold"><?php echo $musician->instrument;?>
