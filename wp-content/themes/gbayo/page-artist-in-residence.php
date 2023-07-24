@@ -287,15 +287,18 @@ $args = array(
         foreach ( $musicians as $musician ) 
         {
 ?>
+
+                <?php
+
+if($musician->show_in_the_page_of_artist_in_residence)
+{
+    ?>
                 <div class="mb-4">
 
 
                     <?php
-                
-                                    // 
-                // echo 11;
-                echo $musician->show_in_the_page_of_artist_in_residence;
-                ?>
+
+?>
                     <div class="bold"><?php echo $musician->instrument;?>
                     </div>
 
@@ -335,6 +338,15 @@ $args = array(
                     </div>
 
                 </div>
+
+                <?php
+}
+
+?>
+
+
+
+
                 <?php
         }
     }
