@@ -171,16 +171,59 @@ get_header(); ?>
                 <!-- GBAYO Debut Concert 2023 (Hong Kong) -->
             </h2>
 
+
+            <?php
+            
+            
+            
+if( have_rows('detail_page_infos') )
+{
+
+    while( have_rows('detail_page_infos') ) { 
+        the_row();
+        ?>
             <div class="mb-4">
+
+                <?php
+            
+            echo get_sub_field('detail_page_info');
+            ?>
+
+                <!-- <h3 class="bold orange">Programme
+
+                </h3>
+                <table>
+
+                    <tr>
+                        <td class="bold pe-3 align-top">Beethoven</td>
+                        <td>Triple Concerto</td>
+                    </tr>
+                    <tr>
+                        <td class="bold pe-3 align-top">Dvorak</td>
+                        <td>Symphony No.9 in E minor “From the New World”</td>
+                    </tr>
+                    <tr>
+                        <td class="bold pe-3 align-top">Tan Dun</td>
+                        <td>Internet Symphony "Eroica"</td>
+                    </tr>
+
+                </table> -->
+
+
+            </div>
+
+
+            <?php
+        
+    }
+}
+?>
+            <!-- <div class="mb-4">
 
 
                 <h3 class="bold orange">Programme
 
                 </h3>
-
-
-
-
                 <table>
 
                     <tr>
@@ -199,18 +242,18 @@ get_header(); ?>
                 </table>
 
 
-            </div>
+            </div> -->
 
 
 
 
-            <div class="mb-4">
+            <!-- <div class="mb-4">
                 <div class="bold ">Conductor
                 </div>
 
                 <h3 class="bold orange">Sharon Choa
                 </h3>
-            </div>
+            </div> -->
 
             <div class="mb-4">
                 <div class="bold ">Violin
