@@ -703,6 +703,10 @@ h3 {
   border: 1px solid #000;
 }
 
+.concert-img.mobile {
+  display: none;
+}
+
 .concert-right-txt {
   display: block;
   color: #000;
@@ -1243,6 +1247,12 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+  .concert-img.mobile {
+    display: block;
+  }
+  .concert-img.desktop {
+    display: none;
+  }
   .sponsor-title {
     display: block;
     min-height: 32px;

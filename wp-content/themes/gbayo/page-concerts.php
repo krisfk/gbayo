@@ -66,7 +66,7 @@ if ( $the_query->have_posts() ) {
                     alt="">
 
 
-                <img class="w-100 concert-img desktop"
+                <img class="w-100 concert-img mobile"
                     src="<?php echo wp_get_attachment_image_src(get_field('grid_list_event_img_mobile'),'full')[0];?>"
                     alt="">
 
