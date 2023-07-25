@@ -349,7 +349,12 @@ if( have_rows('detail_page_infos') )
                 </a>
             </div>
 
-            <table class="mb-4">
+            <div class="mb-4">
+
+                <?php echo get_field('detail_page_time_info');?>
+            </div>
+
+            <!-- <table class="mb-4">
                 <tr>
                     <td class="bold pe-3 align-top">Date:</td>
                     <td>11 Aug 2023</td>
@@ -362,17 +367,22 @@ if( have_rows('detail_page_infos') )
                     <td class="bold pe-3 align-top">Venue:</td>
                     <td>The Hong Kong Jockey Club Amphitheatre, HKAPA</td>
                 </tr>
-            </table>
+            </table> -->
 
 
-            <h3 class="orange bold">Free <br>
+            <!-- <h3 class="orange bold">Free <br>
                 Admission
-            </h3>
+            </h3> -->
+
+            <?php echo get_field('detail_page_bottom_orange_txt');?>
 
 
-            <div class="concert-right-txt">Greater Bay Area Youth Orchestra reserves the right to change the programme
+            <div class="concert-right-txt">
+
+                <?php echo get_field('detail_page_concert_right_txt');?>
+                <!-- Greater Bay Area Youth Orchestra reserves the right to change the programme
                 and
-                artists
+                artists -->
             </div>
 
 
