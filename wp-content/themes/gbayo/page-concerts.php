@@ -68,7 +68,9 @@ if ( $the_query->have_posts() ) {
             <h3 class="bold orange mt-4"><?php echo get_the_title();?></h3>
 
 
-            <?php echo get_field('grid_list_information');?>
+            <div class="mt-4">
+                <?php echo get_field('grid_list_information');?>
+            </div>
             <!-- <table class=" mt-4">
                 <tr>
                     <td class="bold pe-3 align-top">Date:</td>
