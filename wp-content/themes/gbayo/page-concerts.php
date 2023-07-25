@@ -56,18 +56,10 @@ $the_query = new WP_Query( $query_args );
 if ( $the_query->have_posts() ) {
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-        echo 1;
-	}
-	/* Restore original Post Data */
-	wp_reset_postdata();
-} else {
-	// no posts found
-}
-
-?>
+        ?>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
 
-            <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
+            <a href="<?php echo get_the_permalink();?>" class="concert-img-a">
 
                 <img class="w-100 concert-img"
                     src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
@@ -94,6 +86,18 @@ if ( $the_query->have_posts() ) {
             </table>
 
         </div>
+
+        <?php
+        // echo 1;
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+}
+
+?>
+
 
 
         <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
