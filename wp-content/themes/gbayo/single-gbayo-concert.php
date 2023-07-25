@@ -118,7 +118,7 @@ get_header(); ?>
         <div class="col-lg-4 col-md-8 col-sm-8 col-8  mb-5 text-center">
 
             <img class="w-100 concert-img"
-                src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-2-1.jpg" alt="">
+                src="<?php echo wp_get_attachment_image_src(get_field('detail_page_event_img'),'full')[0];?>" alt="">
 
 
 
