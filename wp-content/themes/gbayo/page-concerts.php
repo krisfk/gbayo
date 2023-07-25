@@ -27,12 +27,11 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concerts-banner.png" alt="">
-    <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-6@2x-50.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-
-
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
@@ -43,6 +42,29 @@ get_header(); ?>
 
     <div class="row gx-3">
 
+
+        <?php
+
+$query_args = array(
+	'post_type' => 'gbayo_musician',
+);
+
+// The Query
+$the_query = new WP_Query( $query_args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+        echo 1;
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+}
+
+?>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
@@ -74,7 +96,7 @@ get_header(); ?>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-12  mb-30">
             <a href="<?php echo get_site_url();?>/concert" class="concert-img-a">
 
                 <img class="w-100 concert-img"
@@ -168,7 +190,7 @@ get_header(); ?>
                 </tr>
             </table>
 
-        </div>
+        </div> -->
 
 
     </div>
