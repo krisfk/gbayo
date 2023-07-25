@@ -186,7 +186,7 @@ if( have_rows('detail_page_infos') )
 
                 <?php
             
-            echo get_sub_field('detail_page_info');
+            // echo get_sub_field('detail_page_info');
             ?>
 
                 <!-- <h3 class="bold orange">Programme
