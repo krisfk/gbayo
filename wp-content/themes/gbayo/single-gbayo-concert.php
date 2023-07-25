@@ -126,7 +126,7 @@ get_header(); ?>
 
             <div class="mt-4">
                 <!-- ticket-here -->
-                <a href="javascript:void(0);" class="more-btn ">
+                <a href="<?php echo get_field('detail_page_ticket_here_link')?>" class="more-btn ">
 
 
                     <div class="d-inline-block">Ticket here</div>
@@ -166,7 +166,9 @@ get_header(); ?>
 
 
 
-            <h2 class="bold mb-4">GBAYO Debut Concert 2023 (Hong Kong)
+            <h2 class="bold mb-4">
+                <?php echo get_the_title();?>
+                <!-- GBAYO Debut Concert 2023 (Hong Kong) -->
             </h2>
 
             <div class="mb-4">
