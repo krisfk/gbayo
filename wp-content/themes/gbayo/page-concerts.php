@@ -46,7 +46,7 @@ get_header(); ?>
         <?php
 
 $query_args = array(
-	'post_type' => 'gbayo_concert',
+	'post_type' => 'gbayo-concert',
 );
 
 // The Query
