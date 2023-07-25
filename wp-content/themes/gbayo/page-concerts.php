@@ -61,9 +61,16 @@ if ( $the_query->have_posts() ) {
 
             <a href="<?php echo get_the_permalink();?>" class="concert-img-a">
 
-                <img class="w-100 concert-img"
+                <img class="w-100 concert-img desktop"
                     src="<?php echo wp_get_attachment_image_src(get_field('grid_list_event_img_desktop'),'full')[0];?>"
                     alt="">
+
+
+                <img class="w-100 concert-img desktop"
+                    src="<?php echo wp_get_attachment_image_src(get_field('grid_list_event_img_mobile'),'full')[0];?>"
+                    alt="">
+
+
             </a>
             <h3 class="bold orange mt-4"><?php echo get_the_title();?></h3>
 
