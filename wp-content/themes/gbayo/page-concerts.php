@@ -62,11 +62,14 @@ if ( $the_query->have_posts() ) {
             <a href="<?php echo get_the_permalink();?>" class="concert-img-a">
 
                 <img class="w-100 concert-img"
-                    src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-temp-img-1.jpg" alt="">
+                    src="<?php echo wp_get_attachment_image_src(get_field('grid_list_event_img_desktop'),'full')[0];?>"
+                    alt="">
             </a>
-            <h3 class="bold orange mt-4">GBAYO Debut Concert 2023 <br> (Hong Kong)</h3>
+            <h3 class="bold orange mt-4"><?php echo get_the_title();?></h3>
 
-            <table class=" mt-4">
+
+            <?php echo get_field('grid_list_information');?>
+            <!-- <table class=" mt-4">
                 <tr>
                     <td class="bold pe-3 align-top">Date:</td>
                     <td class="align-top">11 Aug 2023</td>
@@ -83,7 +86,7 @@ if ( $the_query->have_posts() ) {
                     <td class="bold pe-3 align-top">City:</td>
                     <td class="align-top">Hong Kong</td>
                 </tr>
-            </table>
+            </table> -->
 
         </div>
 
