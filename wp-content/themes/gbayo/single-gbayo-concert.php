@@ -133,7 +133,7 @@ get_header(); ?>
                 <a href="<?php echo get_field('detail_page_ticket_here_link')?>" class="more-btn ">
 
 
-                    <div class="d-inline-block">Ticket here</div>
+                    <div class="d-inline-block"><?php echo get_field('ticket_here_txt');?></div>
 
 
                     <div class="five-lines-grid" style="top:-3px;">
