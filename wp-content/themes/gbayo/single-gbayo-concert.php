@@ -189,25 +189,7 @@ if( have_rows('detail_page_infos') )
             echo get_sub_field('detail_page_info');
             ?>
 
-                <!-- <h3 class="bold orange">Programme
 
-                </h3>
-                <table>
-
-                    <tr>
-                        <td class="bold pe-3 align-top">Beethoven</td>
-                        <td>Triple Concerto</td>
-                    </tr>
-                    <tr>
-                        <td class="bold pe-3 align-top">Dvorak</td>
-                        <td>Symphony No.9 in E minor “From the New World”</td>
-                    </tr>
-                    <tr>
-                        <td class="bold pe-3 align-top">Tan Dun</td>
-                        <td>Internet Symphony "Eroica"</td>
-                    </tr>
-
-                </table> -->
 
 
             </div>
@@ -218,44 +200,42 @@ if( have_rows('detail_page_infos') )
     }
 }
 ?>
-            <!-- <div class="mb-4">
-
-
-                <h3 class="bold orange">Programme
-
-                </h3>
-                <table>
-
-                    <tr>
-                        <td class="bold pe-3 align-top">Beethoven</td>
-                        <td>Triple Concerto</td>
-                    </tr>
-                    <tr>
-                        <td class="bold pe-3 align-top">Dvorak</td>
-                        <td>Symphony No.9 in E minor “From the New World”</td>
-                    </tr>
-                    <tr>
-                        <td class="bold pe-3 align-top">Tan Dun</td>
-                        <td>Internet Symphony "Eroica"</td>
-                    </tr>
-
-                </table>
-
-
-            </div> -->
-
-
-
-
-            <!-- <div class="mb-4">
-                <div class="bold ">Conductor
-                </div>
-
-                <h3 class="bold orange">Sharon Choa
-                </h3>
-            </div> -->
 
             <div class="mb-4">
+                <div class="bold ">Violin
+                </div>
+
+
+                <a href="javascript:void(0);" class="more-btn musician-more-btn">
+
+                    <h3 class="bold orange d-inline-block m-0">Li Jinzhu
+
+                    </h3><span class="ms-2 content-fsize text-dark">Guangzhou</span>
+
+
+                    <div class="five-lines-grid" style="top:-3px">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- <div class="mb-4">
                 <div class="bold ">Violin
                 </div>
 
@@ -347,7 +327,7 @@ if( have_rows('detail_page_infos') )
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
             <div class="mb-4">
 
