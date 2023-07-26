@@ -210,7 +210,7 @@ if( have_rows('detail_page_musicians') )
 
     while( have_rows('detail_page_musician') ) { 
         the_row();
-
+echo 1;
         $args = array(
             'post_type' => 'gbayo_musician',
             'tax_query' => array(
