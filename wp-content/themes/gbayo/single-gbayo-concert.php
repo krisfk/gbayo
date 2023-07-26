@@ -130,7 +130,7 @@ get_header(); ?>
 
             <div class="mt-4">
                 <!-- ticket-here -->
-                <a href="<?php echo get_field('detail_page_ticket_here_link')?>" class="more-btn ">
+                <a target="_blank" href="<?php echo get_field('detail_page_ticket_here_link')?>" class="more-btn ">
 
 
                     <div class="d-inline-block"><?php echo get_field('ticket_here_txt');?></div>
