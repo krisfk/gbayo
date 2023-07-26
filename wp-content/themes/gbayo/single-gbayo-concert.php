@@ -210,8 +210,42 @@ if( have_rows('detail_page_musicians') )
 
     while( have_rows('detail_page_musicians') ) { 
         the_row();
+        echo get_sub_field('detail_page_musician');
     ?>
-            abcde
+
+            <div class="mb-4">
+                <div class="bold ">Violin
+                </div>
+
+                <a href="javascript:void(0);" class="more-btn musician-more-btn">
+
+                    <h3 class="bold orange d-inline-block m-0">Li Jinzhu
+
+                    </h3><span class="ms-2 content-fsize text-dark">Guangzhou</span>
+
+
+                    <div class="five-lines-grid" style="top:-3px">
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-1"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-2"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-3"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-4"></div>
+                        </div>
+                        <div class="text-center d-block line-wrapper">
+                            <div class="line line-5"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+            </div>
+
             <?php
        
             }
@@ -220,6 +254,7 @@ if( have_rows('detail_page_musicians') )
     
 
         ?>
+
 
 
 
