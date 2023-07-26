@@ -21,7 +21,7 @@ get_header(); ?>
 
     <div class="lightbox-press-area"></div>
 
-    <div class="">
+    <div class="musician-profile-lightbox">
         <div class="lightbox-content">
 
             <a href="javascript:void(0);" class="close-btn"></a>
@@ -39,13 +39,17 @@ get_header(); ?>
                     <div class="col-lg-9 col-md-12 col-sm-12 col-12  content-fsize">
 
 
-                        <h1 class="bold">Thomas Hung</h1>
-                        <h3 class="bold orange">Cello</h3>
+                        <h1 class="bold" id="musician-name">
+                            <!-- Thomas Hung -->
+                        </h1>
+                        <h3 class="bold orange" id="musician-instrument">
+                            <!-- Cello -->
+                        </h3>
 
 
-                        <div>
+                        <div id="musician-description">
 
-
+                            <!-- 
                             Thomas Hung began his early cello lessons with his parents. Under the tutelage of Ray Wang
                             and
                             Paul
@@ -83,7 +87,7 @@ get_header(); ?>
                             Festival and the Aspen Music Festival and
                             School. He participated in the “Orchestra of the Future” under the baton of Gustavo Dudamel
                             with
-                            performances for the Nobel Prize Award Ceremony in 2017.
+                            performances for the Nobel Prize Award Ceremony in 2017. -->
                         </div>
                     </div>
                 </div>
