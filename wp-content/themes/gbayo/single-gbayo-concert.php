@@ -434,10 +434,15 @@ $(function() {
     $('.musician-more-btn').click(function() {
 
         $('.lightbox-layer').fadeIn(200);
+        $('.lightbox-layer #musician-name').html($(this).attr('data-musician-name'));
+        $('.lightbox-layer #musician-instrument').html($(this).attr('data-musician-instrument'));
+        $('.lightbox-layer #musician-description').html($(this).attr('data-musician-description'));
+
     })
 
 })
 </script>
+
 <?php
 
 get_footer();
