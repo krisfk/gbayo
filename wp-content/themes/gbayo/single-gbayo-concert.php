@@ -208,7 +208,7 @@ if( have_rows('detail_page_infos') )
 if( have_rows('detail_page_musicians') )
 {
 
-    while( have_rows('detail_page_musician') ) { 
+    while( have_rows('detail_page_musicians') ) { 
         the_row();
     ?>
             abcde
