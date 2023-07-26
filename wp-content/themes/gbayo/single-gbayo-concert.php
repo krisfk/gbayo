@@ -201,6 +201,33 @@ if( have_rows('detail_page_infos') )
 }
 ?>
 
+            <?php
+
+
+      
+if( have_rows('detail_page_musicians') )
+{
+
+    while( have_rows('detail_page_musician') ) { 
+        the_row();
+
+        $args = array(
+            'post_type' => 'gbayo_musician',
+            'tax_query' => array(
+                array(
+                'taxonomy' => 'faculty',
+                'field' => 'term_id',
+                'terms' => $faculty_id
+                 )
+              )
+            );
+            $musicians = get_posts($args);
+
+            if ( $musicians ) {
+            
+                foreach ( $musicians as $musician ) 
+                {
+                    ?>
             <div class="mb-4">
                 <div class="bold ">Violin
                 </div>
@@ -234,6 +261,24 @@ if( have_rows('detail_page_infos') )
                 </a>
 
             </div>
+
+            <?php
+                }
+            }
+        
+    
+    
+
+        ?>
+
+
+
+            <?php
+
+    }
+}?>
+
+
 
             <!-- <div class="mb-4">
                 <div class="bold ">Violin

@@ -164,8 +164,6 @@ get_header(); ?>
                 );
                 $musicians = get_posts($args);
 
-
-                // $query2 = new WP_Query( $args ); 
                 if ( $musicians ) {
                 
                     foreach ( $musicians as $musician ) 
