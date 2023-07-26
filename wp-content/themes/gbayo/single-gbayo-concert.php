@@ -210,7 +210,7 @@ if( have_rows('detail_page_musicians') )
 
     while( have_rows('detail_page_musicians') ) { 
         the_row();
-        echo get_sub_field('detail_page_musician');
+        // echo get_sub_field('detail_page_musician');
     ?>
 
             <div class="mb-4">
