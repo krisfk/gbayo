@@ -210,18 +210,18 @@ if( have_rows('detail_page_musicians') )
 
     while( have_rows('detail_page_musicians') ) { 
         the_row();
-        echo get_sub_field('detail_page_musician');
+        $musician_id =get_sub_field('detail_page_musician'); 
     ?>
 
             <div class="mb-4">
-                <div class="bold ">Violin
+                <div class="bold "><?php get_field('instrument',$musician_id);?>
                 </div>
 
                 <a href="javascript:void(0);" class="more-btn musician-more-btn">
 
-                    <h3 class="bold orange d-inline-block m-0">Li Jinzhu
+                    <h3 class="bold orange d-inline-block m-0"><?php get_field('musician_name',$musician_id);?>
 
-                    </h3><span class="ms-2 content-fsize text-dark">Guangzhou</span>
+                    </h3><span class="ms-2 content-fsize text-dark"><?php get_field('district',$musician_id);?></span>
 
 
                     <div class="five-lines-grid" style="top:-3px">
