@@ -210,7 +210,9 @@ if( have_rows('detail_page_musicians') )
 
     while( have_rows('detail_page_musician') ) { 
         the_row();
-    echo 999;
+    ?>
+            abcde
+            <?php
        
             }
         
