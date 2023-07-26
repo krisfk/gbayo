@@ -221,7 +221,12 @@ if( have_rows('detail_page_musicians') )
                 <div class="bold "><?php  echo get_field('instrument',$musician_id);?>
                 </div>
 
-                <a href="javascript:void(0);" class="more-btn musician-more-btn">
+                <a href="javascript:void(0);" class="more-btn musician-more-btn"
+                    data-musician-name="<?php echo get_field('musician_name',$musician_id);?>"
+                    data-musician-description="<?php echo get_field('musician_detail_description',$musician_id);?>"
+                    data-musician-instrument="<?php echo get_field('instrument',$musician_id);?>"
+                    data-musician-foto="<?php echo wp_get_attachment_image_src(get_field('musician_photo',$musician_id),'full')[0];?>">
+                    >
 
                     <h3 class="bold orange d-inline-block m-0"><?php echo  get_field('musician_name',$musician_id);?>
 
