@@ -45,7 +45,7 @@ get_header(); ?>
 
     <div class="row gx-3">
 
-
+        <!-- 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
             <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
@@ -94,7 +94,7 @@ get_header(); ?>
                 <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
                     Activities</div>
             </a>
-        </div>
+        </div> -->
 
 
 
