@@ -29,12 +29,10 @@ get_header(); ?>
 
     </div>
     <img class="top-banner w-100"
-        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/training-camp-banner-scaled.jpg" alt="">
-    <img class="top-banner w-100 mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-7@2x-50.jpg"
-        alt="">
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
 
-
-
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
