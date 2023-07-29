@@ -58,7 +58,7 @@ get_header(); ?>
 
             <div>
 
-                <?php echo get_field('camp_intro');?>
+                <?php //echo get_field('camp_intro');?>
 
                 <!-- We are honoured to have Andrew Simon, Principal Clarinet of the Hong Kong Philharmonic Orchestra, to
                 share
