@@ -37,68 +37,166 @@ get_header(); ?>
 
 
 <div class="five-lines-sep"></div>
-
-<div class="container mt-100  content-fsize">
-
-
-    <div class="row gx-3">
+<!-- mt-lg-5 mt-md-4 mt-sm-4 mt-lg-4 mt-md-4 mt-sm-4 mt-4 -->
+<div class="container  mt-100   content-fsize album-content">
 
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
+    <div class="row">
 
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 "></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  content-fsize mb-4">
 
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Orchestra</div>
-            </a>
+
+
+            <h2 class="bold mb-4"><?php echo get_field('camp_name');?></h2>
+
+            <h3 class="orange bold m-0"><?php echo get_field('camp_date');?></h3>
+            <div class="mb-4">
+                <?php echo get_field('camp_guests_txt');?>
+                <!-- <span class="bold">Guest:</span> Andrew Simon | Principal Clarinet, HK Phil -->
+            </div>
+
+            <div>
+
+                <?php echo get_field('camp_intro');?>
+
+                <!-- We are honoured to have Andrew Simon, Principal Clarinet of the Hong Kong Philharmonic Orchestra, to
+                share
+                his orchestral experience and ensemble playing techniques.
+             -->
+            </div>
+
+
+
+
         </div>
-
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Chamber <br>
-                    Music</div>
-            </a>
-        </div>
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-30 ">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Masterclass <br>
-                    & Workshop</div>
-            </a>
-        </div>
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12   ">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
-                    Activities</div>
-            </a>
-        </div>
-
-
 
 
 
     </div>
+    <!-- gx-lg-4 gx-md-3 gx-sm-2 gx-2 -->
+    <!-- mt-lg-4 mt-md-3 mt-sm-2 mt-2 -->
+    <div class="row mb-30  gx-3 ">
+
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="row mb-30  gx-3 ">
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row mb-30  gx-3 ">
+
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row mb-30  gx-3 ">
+        <div class="col-8 position-relative">
+            <div class="album-foto-div position-relative">
+
+
+                <div class="position-absolute w-100 h-100">
+
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-4 position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
+                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
 
 
 
@@ -114,7 +212,7 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<div class="mt-100">
+<div class="mt-5">
     <div class="five-lines-sep"></div>
 </div>
 
@@ -124,7 +222,7 @@ $(function() {
 
     $('.musician-more-btn').click(function() {
 
-        $('.lightbox-layer').fadeIn(200);
+        $('.lightbox-layer.photo').fadeIn(200);
     })
 
 })
