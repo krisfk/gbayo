@@ -61,7 +61,9 @@ if ( $the_query->have_posts() ) {
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
             <a href="<?php echo get_permalink();?>" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+                <img class="w-100"
+                    src="<?php echo wp_get_attachment_image_src(get_field('camp_thumbnail_background'),'full')[0];?>"
+                    alt="">
 
                 <div class="camp-cate-title camp-cate-title-1 bold"><?php
                 echo get_field('camp_thumbnail_title');
