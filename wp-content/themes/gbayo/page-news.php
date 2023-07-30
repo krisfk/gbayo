@@ -94,12 +94,12 @@ get_header(); ?>
                     ?>
                 <li>
 
-                    <a href="javascript:void(0);" class="more-btn">
+                    <a href="<?php echo get_permalink();?>" class="more-btn">
 
                         <h3 class="orange bold d-inline-block">
                             <?php echo get_field('media_title');?>
 
-                            <h3 class="orange bold d-inline-block">TOA Mock Audition Revisited
+                            <h3 class="orange bold d-inline-block">
 
                                 <div class="five-lines-grid">
                                     <div class="text-center d-block line-wrapper">
