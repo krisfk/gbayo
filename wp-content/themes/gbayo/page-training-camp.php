@@ -57,7 +57,25 @@ if ( $the_query->have_posts() ) {
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
         ?>
-        123
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
+
+            <a href="<?php echo get_permalink();?>" class="camp-cate  d-block position-relative" style="">
+                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+
+                <div class="camp-cate-title camp-cate-title-1 bold"><?php
+                echo get_field('camp_thumbnail_title');
+                ?></div>
+                <div class="camp-cate-title camp-cate-title-2 bold">
+                    <?php
+                    echo get_field('camp_name');
+                    
+                    ?>
+                </div>
+            </a>
+        </div>
+
+
         <?php
 	}
 	/* Restore original Post Data */
