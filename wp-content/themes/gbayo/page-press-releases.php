@@ -28,8 +28,8 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100"
-        src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/training-camp-banner-scaled.jpg" alt="">
+    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/media-banner-scaled.jpg"
+        alt="">
     <img class="w-100 about-big-img mobile" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-8@2x-50.jpg"
         alt="">
 </div>
@@ -43,10 +43,10 @@ get_header(); ?>
     <div class="text-center">
         <ul class="news-ul mb-30">
             <li>
-                <a href="<?php echo get_site_url();?>/media">All</a>
+                <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/news">News</a>
+                <a href="<?php echo get_site_url();?>/news" class="">News</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/press-releases" class="active">Press Releases</a>
@@ -65,35 +65,92 @@ get_header(); ?>
 
         <div class="col-12">
 
-
             <ul class="media-news-data-ul">
 
+
+
+                <?php
+            
+            
+            $query_args = array(
+                'post_type' => 'media-information',
+                'orderby' => 'media_date',
+                'meta_query' => array(
+                    '0' => array(
+                        'key' => 'media_type',
+                        'value' => 'Press Releases',
+                        'compare' => '=',
+                    ),
+                ),
+            );
+            
+            // The Query
+            $the_query = new WP_Query( $query_args );
+            
+            // The Loop
+            if ( $the_query->have_posts() ) {
+                while ( $the_query->have_posts() ) {
+                    $the_query->the_post();
+                    ?>
                 <li>
+
+                    <a href="<?php echo get_field('media_press_link');?>" class="more-btn">
+
+                        <h3 class="orange bold d-inline-block">
+                            <?php echo get_field('media_title');?>
+
+                            <h3 class="orange bold d-inline-block">
+
+                                <div class="five-lines-grid">
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-1"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-2"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-3"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-4"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-5"></div>
+                                    </div>
+
+                                </div>
+                            </h3>
+
+
+
+                        </h3>
+                    </a>
+
+                    <div>
+
+                        <?php echo get_field('media_date');?>
+
+                        <!-- 16 Feb 2023 -->
+                    </div>
+                </li>
+
+                <?php
+                }
+                /* Restore original Post Data */
+                wp_reset_postdata();
+            } 
+            
+            ?>
+                <!-- <li>
 
                     <a href="javascript:void(0);" class="more-btn">
 
                         <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
                             Recruitment
                             Starts
-                            <div class="five-lines-grid">
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-1"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-2"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-3"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-4"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-5"></div>
-                                </div>
 
-                            </div>
                         </h3>
+
 
 
 
@@ -101,73 +158,9 @@ get_header(); ?>
 
                     <div>16 Feb 2023
                     </div>
-                </li>
-                <li>
-
-                    <a href="javascript:void(0);" class="more-btn">
-
-                        <h3 class="orange bold d-inline-block">TOA Masterclass Throwback
-
-                            <div class="five-lines-grid">
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-1"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-2"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-3"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-4"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-5"></div>
-                                </div>
-
-                            </div>
-                        </h3>
+                </li> -->
 
 
-
-                    </a>
-
-                    <div>16 Feb 2023
-                    </div>
-                </li>
-                <li>
-
-                    <a href="javascript:void(0);" class="more-btn">
-
-                        <h3 class="orange bold d-inline-block">TOA Mock Audition Revisited
-
-                            <div class="five-lines-grid">
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-1"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-2"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-3"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-4"></div>
-                                </div>
-                                <div class="text-center d-block line-wrapper">
-                                    <div class="line line-5"></div>
-                                </div>
-
-                            </div>
-
-                        </h3>
-
-
-                    </a>
-
-                    <div>16 Feb 2023
-                    </div>
-                </li>
             </ul>
 
             <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
@@ -193,9 +186,7 @@ get_header(); ?>
 <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-<!-- <div class="mt-5"> -->
 <div class="mt-100">
-
     <div class="five-lines-sep"></div>
 </div>
 
