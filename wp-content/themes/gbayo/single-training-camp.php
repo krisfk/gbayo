@@ -83,6 +83,7 @@ get_header(); ?>
 if( have_rows('photo_album') )
 {
     $idx = 0;
+    $row_idx=0;
 
 while( have_rows('photo_album') ) { 
     // echo 1;
@@ -99,7 +100,34 @@ if($idx%2==0)
 ?>
         <?php
 ?>
-        <div class="<?php echo ($idx%2==0) ? 'col-4':'col-8' ;?> position-relative">
+        <div class="<?php 
+        
+        
+        if($row_idx%2==0 && $idx%2==0)
+        {
+            echo 'col-4';
+        }
+
+        if($row_idx%2==0 && $idx%2==1)
+        {
+            echo 'col-8';
+        }
+
+
+        if($row_idx%2==1 && $idx%2==0)
+        {
+            echo 'col-8';
+        }
+
+        if($row_idx%2==1 && $idx%2==1)
+        {
+            echo 'col-4';
+        }
+        
+
+        // ? 'col-4':'col-8' ;
+        
+        ?> position-relative">
             <div class="album-foto-div position-relative">
                 <div class="position-absolute w-100 h-100">
                     <a href="javascript:void(0);" class="album-a"
@@ -108,12 +136,11 @@ if($idx%2==0)
                 </div>
             </div>
         </div>
-
-
         <?php
 
         if($idx%2!=0)
         {
+            $row_idx++;
         ?>
     </div>
     <?php    
