@@ -46,7 +46,8 @@ get_header(); ?>
                 <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/news" class="active">News</a>
+                <a href="<?php echo get_site_url();?>/news"
+                    class="<?php echo get_field('media_type')=='News'?'active':'';?>">News</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/press-releases">Press Releases</a>
@@ -55,7 +56,8 @@ get_header(); ?>
                 <a href="<?php echo get_site_url();?>/videos">Videos</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/photos">Photos</a>
+                <a href="<?php echo get_site_url();?>/photos"
+                    class="<?php echo get_field('media_type')=='Photos'?'active':'';?>">Photos</a>
             </li>
         </ul>
     </div>
