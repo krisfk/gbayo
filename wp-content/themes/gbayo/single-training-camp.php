@@ -87,9 +87,9 @@ while( have_rows('photo_album') ) {
     // echo 1;
 the_row();
 $idx = 0;
-if($idx%2==0)
+if($idx%2===0)
 {
-    echo $idx%2;
+    // echo $idx%2;
     ?>
     <div class="row mb-30  gx-3 ">
 
