@@ -116,23 +116,26 @@ get_header(); ?>
 
             <?php
             
-            
-
-if( have_rows('media_news_images') )
+            echo 11;
+if(get_field('media_type')=='News')
 {
 
-while( have_rows('media_news_images') ) { 
-the_row();
-?>
-            <!-- news image	 -->
+    if( have_rows('media_news_images') )
+         {
+
+            while( have_rows('media_news_images') ) { 
+            the_row();
+            ?>
             <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_sub_field('news_image'),'full')[0];?>"
                 alt="">
-
-
             <?php
 
+            }
+        }
 }
-}
+
+
+
             ?>
 
 
