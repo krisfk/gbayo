@@ -90,16 +90,13 @@ get_header(); ?>
             if ( $the_query->have_posts() ) {
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
+                    ?>
+                1
+                <?php
                 }
                 /* Restore original Post Data */
                 wp_reset_postdata();
-            } else {
-                ?>
-
-                1
-                <?php
-                // no posts found
-            }
+            } 
             
             ?>
                 <!-- <li>
@@ -124,7 +121,7 @@ get_header(); ?>
 
             </ul>
 
-            <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt="">
+            <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
         </div>
 
 
