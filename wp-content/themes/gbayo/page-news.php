@@ -67,7 +67,42 @@ get_header(); ?>
 
             <ul class="media-news-data-ul">
 
-                <li>
+
+
+                <?php
+            
+            
+            $query_args = array(
+                'post_type' => 'media-information',
+                'meta_query' => array(
+                    '0' => array(
+                        'key' => 'media_type',
+                        'value' => 'News',
+                        'compare' => '=',
+                    ),
+                ),
+            );
+            
+            // The Query
+            $the_query = new WP_Query( $query_args );
+            
+            // The Loop
+            if ( $the_query->have_posts() ) {
+                while ( $the_query->have_posts() ) {
+                    $the_query->the_post();
+                }
+                /* Restore original Post Data */
+                wp_reset_postdata();
+            } else {
+                ?>
+
+                1
+                <?php
+                // no posts found
+            }
+            
+            ?>
+                <!-- <li>
 
                     <a href="javascript:void(0);" class="more-btn">
 
@@ -84,7 +119,7 @@ get_header(); ?>
 
                     <div>16 Feb 2023
                     </div>
-                </li>
+                </li> -->
 
 
             </ul>
