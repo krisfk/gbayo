@@ -68,30 +68,6 @@ get_header(); ?>
             <ul class="media-news-data-ul">
 
 
-
-                <?php
-            
-            
-            // $query_args = array(
-            //     'post_type' => 'media-information',
-            //     'orderby' => 'media_date',
-            //     'meta_query' => array(
-            //         '0' => array(
-            //             'key' => 'media_type',
-            //             'value' => 'News',
-            //             'compare' => '=',
-            //         ),
-            //     ),
-            // );
-            
-            // The Query
-            // $the_query = new WP_Query( $query_args );
-            
-            // The Loop
-            // if ( $the_query->have_posts() ) {
-                // while ( $the_query->have_posts() ) {
-                    // $the_query->the_post();
-                    ?>
                 <li>
 
                     <!-- <a href="<?php echo get_permalink();?>" class="more-btn"> -->
@@ -129,49 +105,37 @@ get_header(); ?>
 
                         <?php echo get_field('media_date');?>
 
-                        <!-- 16 Feb 2023 -->
                     </div>
 
-                    <!-- </a> -->
 
-                    <div>
 
-                        <?php //echo get_field('media_date');?>
-
-                        <!-- 16 Feb 2023 -->
-                    </div>
                 </li>
-
-                <?php
-                // }
-                /* Restore original Post Data */
-                // wp_reset_postdata();
-            // } 
-            
-            ?>
-                <!-- <li>
-
-                    <a href="javascript:void(0);" class="more-btn">
-
-                        <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
-                            Recruitment
-                            Starts
-
-                        </h3>
-
-
-
-
-                    </a>
-
-                    <div>16 Feb 2023
-                    </div>
-                </li> -->
-
 
             </ul>
 
-            <!-- <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/news-img.jpg" alt=""> -->
+
+            <?php
+            
+            
+
+if( have_rows('media_news_images') )
+{
+
+while( have_rows('media_news_images') ) { 
+the_row();
+?>
+            <!-- news image	 -->
+            <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('news_image'),'full')[0];?>"
+                alt="">
+
+
+            <?php
+
+}
+}
+            ?>
+
+
         </div>
 
 
