@@ -124,6 +124,14 @@ get_header(); ?>
 
 
                     </h3>
+
+                    <div>
+
+                        <?php echo get_field('media_date');?>
+
+                        <!-- 16 Feb 2023 -->
+                    </div>
+
                     <!-- </a> -->
 
                     <div>
