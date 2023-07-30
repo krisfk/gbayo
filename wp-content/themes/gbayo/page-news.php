@@ -91,7 +91,24 @@ get_header(); ?>
                 while ( $the_query->have_posts() ) {
                     $the_query->the_post();
                     ?>
-                1
+                <li>
+
+                    <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold d-inline-block">
+                            <?php echo get_field('media_title');?>
+
+                        </h3>
+                    </a>
+
+                    <div>
+
+                        <?php echo get_field('media_date');?>
+
+                        <!-- 16 Feb 2023 -->
+                    </div>
+                </li>
+
                 <?php
                 }
                 /* Restore original Post Data */
