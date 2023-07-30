@@ -42,6 +42,34 @@ get_header(); ?>
 
 
 
+        <?php
+
+
+$query_args = array(
+	'post_type' => 'training-camp',
+);
+
+// The Query
+$the_query = new WP_Query( $query_args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+        ?>
+        123
+        <?php
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+}
+
+?>
+
+
+
         <!-- 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
