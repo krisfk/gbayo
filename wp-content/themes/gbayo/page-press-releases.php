@@ -94,7 +94,7 @@ get_header(); ?>
                     ?>
                 <li>
 
-                    <a href="<?php echo get_field('media_press_link');?>" class="more-btn">
+                    <a href="<?php echo get_field('media_press_link');?>" class="more-btn" target="_blank">
 
                         <h3 class="orange bold d-inline-block">
                             <?php echo get_field('media_title');?>
