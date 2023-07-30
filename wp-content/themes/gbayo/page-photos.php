@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="text-center">
         <ul class="news-ul mb-30">
             <li>
-                <a href="<?php echo get_site_url();?>/media">All</a>
+                <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/news">News</a>
@@ -65,25 +65,101 @@ get_header(); ?>
 
         <div class="col-12">
 
-
             <ul class="media-news-data-ul">
 
+
+
+                <?php
+            
+            
+            $query_args = array(
+                'post_type' => 'media-information',
+                'orderby' => 'media_date',
+                'meta_query' => array(
+                    '0' => array(
+                        'key' => 'media_type',
+                        'value' => 'News',
+                        'compare' => '=',
+                    ),
+                ),
+            );
+            
+            // The Query
+            $the_query = new WP_Query( $query_args );
+            
+            // The Loop
+            if ( $the_query->have_posts() ) {
+                while ( $the_query->have_posts() ) {
+                    $the_query->the_post();
+                    ?>
                 <li>
 
-                    <!-- <a href="javascript:void(0);" class="more-btn"> -->
+                    <a href="<?php echo get_permalink();?>" class="more-btn">
 
-                    <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
-                        Recruitment
-                        Starts
+                        <h3 class="orange bold d-inline-block">
+                            <?php echo get_field('media_title');?>
 
-                    </h3>
+                            <h3 class="orange bold d-inline-block">
+
+                                <div class="five-lines-grid">
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-1"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-2"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-3"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-4"></div>
+                                    </div>
+                                    <div class="text-center d-block line-wrapper">
+                                        <div class="line line-5"></div>
+                                    </div>
+
+                                </div>
+                            </h3>
 
 
-                    <!-- </a> -->
+
+                        </h3>
+                    </a>
+
+                    <div>
+
+                        <?php echo get_field('media_date');?>
+
+                        <!-- 16 Feb 2023 -->
+                    </div>
+                </li>
+
+                <?php
+                }
+                /* Restore original Post Data */
+                wp_reset_postdata();
+            } 
+            
+            ?>
+                <!-- <li>
+
+                    <a href="javascript:void(0);" class="more-btn">
+
+                        <h3 class="orange bold d-inline-block">Greater Bay Area Youth Orchestra (GBAYO) 2023 Season
+                            Recruitment
+                            Starts
+
+                        </h3>
+
+
+
+
+                    </a>
 
                     <div>16 Feb 2023
                     </div>
-                </li>
+                </li> -->
+
 
             </ul>
 
@@ -96,124 +172,6 @@ get_header(); ?>
 
     </div>
 
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    <div class="row mt-lg-4 mt-md-3 mt-sm-2 mt-2  gx-lg-4 gx-md-3 gx-sm-2 gx-2 ">
-        <div class="col-8 position-relative">
-            <div class="album-foto-div position-relative">
-
-
-                <div class="position-absolute w-100 h-100">
-
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-3.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="col-4 position-relative">
-
-            <div class="album-foto-div position-relative">
-
-                <div class="position-absolute w-100 h-100">
-                    <a href="javascript:void(0);" class="album-a"
-                        rel="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg"
-                        style="background: url(http://64.227.13.14/gbayo/wp-content/uploads/2023/07/album-1.jpg); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
 
 
 
@@ -238,7 +196,7 @@ $(function() {
 
     $('.musician-more-btn').click(function() {
 
-        $('.lightbox-layer.photo').fadeIn(200);
+        $('.lightbox-layer').fadeIn(200);
     })
 
 })
