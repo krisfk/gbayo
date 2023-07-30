@@ -88,26 +88,52 @@ while( have_rows('photo_album') ) {
     // echo 1;
 the_row();
 
+
+if($idx%2==0)
+{
+    ?>
+    <div class="row mb-30  gx-3 ">
+
+        <?php
+}
 ?>
-    <div class="<?php echo ($idx%2==0) ? 'col-4':'col-8' ;?> position-relative">
-        <div class="album-foto-div position-relative">
-            <div class="position-absolute w-100 h-100">
-                <a href="javascript:void(0);" class="album-a"
-                    rel="<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>"
-                    style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+        <?php
+?>
+        <div class="<?php echo ($idx%2==0) ? 'col-4':'col-8' ;?> position-relative">
+            <div class="album-foto-div position-relative">
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>"
+                        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
             </div>
         </div>
-    </div>
-    <?php
-    
-    $idx++;
 
-}
+
+        <?php
+
+        if($idx%2!=0)
+        {
+        ?>
+    </div>
+    <?php    
+        }
+    $idx++;
 }
 
 ?>
 
-    <!-- <div class="row mb-30  gx-3 ">
+
+
+</div>
+
+
+<?php
+}
+
+?>
+
+<!-- <div class="row mb-30  gx-3 ">
 
         <div class="col-4 position-relative">
 
