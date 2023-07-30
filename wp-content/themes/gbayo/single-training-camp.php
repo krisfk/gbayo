@@ -76,7 +76,62 @@ get_header(); ?>
     </div>
     <!-- gx-lg-4 gx-md-3 gx-sm-2 gx-2 -->
     <!-- mt-lg-4 mt-md-3 mt-sm-2 mt-2 -->
+    <?php
+
+
+
+if( have_rows('photo_album') )
+{
+
+while( have_rows('photo_album') ) { 
+the_row();
+$idx = 0;
+if($idx%2==0)
+{
+    ?>
     <div class="row mb-30  gx-3 ">
+
+        <?php
+}
+?>
+
+
+        <div class="<?php echo ($idx%2==0) ? 'col-4':'col-8' ;?> position-relative">
+
+            <div class="album-foto-div position-relative">
+
+                <div class="position-absolute w-100 h-100">
+                    <a href="javascript:void(0);" class="album-a"
+                        rel="<?php echo wp_get_attachment_image_src(get_sub_field('photos'),'full')[0];?>"
+                        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('photos'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <?php
+if($idx%2==1)
+{
+    ?>
+    </div>
+    <?php
+}
+
+?>
+
+
+
+    <?php
+
+$idx++;
+
+
+}
+}
+
+?>
+
+    <!-- <div class="row mb-30  gx-3 ">
 
         <div class="col-4 position-relative">
 
@@ -193,7 +248,7 @@ get_header(); ?>
 
         </div>
 
-    </div>
+    </div> -->
 
 
 
