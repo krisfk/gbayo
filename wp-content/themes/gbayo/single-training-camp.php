@@ -84,7 +84,7 @@ if( have_rows('photo_album') )
 {
 
 while( have_rows('photo_album') ) { 
-    echo 1;
+    // echo 1;
 the_row();
 $idx = 0;
 if($idx%2==0)
@@ -103,8 +103,8 @@ if($idx%2==0)
 
                 <div class="position-absolute w-100 h-100">
                     <a href="javascript:void(0);" class="album-a"
-                        rel="<?php echo wp_get_attachment_image_src(get_sub_field('photos'),'full')[0];?>"
-                        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('photos'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                        rel="<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>"
+                        style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('photo'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
                 </div>
             </div>
 
