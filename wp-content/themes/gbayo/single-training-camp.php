@@ -82,11 +82,11 @@ get_header(); ?>
 
 if( have_rows('photo_album') )
 {
+    $idx = 0;
 
 while( have_rows('photo_album') ) { 
     // echo 1;
 the_row();
-$idx = 0;
 
 ?>
     <div class="<?php echo ($idx%2==0) ? 'col-4':'col-8' ;?> position-relative">
