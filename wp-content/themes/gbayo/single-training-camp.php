@@ -84,6 +84,7 @@ if( have_rows('photo_album') )
 {
 
 while( have_rows('photo_album') ) { 
+    echo 1;
 the_row();
 $idx = 0;
 if($idx%2==0)
