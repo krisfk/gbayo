@@ -125,7 +125,7 @@ while( have_rows('media_news_images') ) {
 the_row();
 ?>
             <!-- news image	 -->
-            <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('news_image'),'full')[0];?>"
+            <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_sub_field('news_image'),'full')[0];?>"
                 alt="">
 
 
