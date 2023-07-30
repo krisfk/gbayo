@@ -130,13 +130,11 @@ get_header(); ?>
 
                         <?php echo get_field('media_date');?>
 
-                        <!-- 16 Feb 2023 -->
                     </div>
                 </li>
 
                 <?php
                 }
-                /* Restore original Post Data */
                 wp_reset_postdata();
             } 
             
