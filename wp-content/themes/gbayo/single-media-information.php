@@ -127,6 +127,8 @@ the_row();
             <!-- news image	 -->
             <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_sub_field('news_image'),'full')[0];?>"
                 alt="">
+            <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_sub_field('news_image'),'full')[0];?>"
+                alt="">
 
 
             <?php
