@@ -1179,6 +1179,10 @@ a.mail-link:hover {
   display: none;
 }
 
+.single-training-camp h2 br {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-presenter-logos-a img {
     height: 50px;
