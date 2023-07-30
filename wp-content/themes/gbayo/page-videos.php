@@ -78,7 +78,7 @@ get_header(); ?>
                 'meta_query' => array(
                     '0' => array(
                         'key' => 'media_type',
-                        'value' => 'Press Releases',
+                        'value' => 'Videos',
                         'compare' => '=',
                     ),
                 ),
