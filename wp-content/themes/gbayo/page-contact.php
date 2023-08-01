@@ -43,7 +43,7 @@ get_header(); ?>
 
 
 
-    <h2 class="bold mb-5">Get in touch!</h2>
+    <h2 class="bold mb-5"><?php echo get_field('big_txt');?></h2>
 
     <div class="row">
 
@@ -67,7 +67,7 @@ get_header(); ?>
                 <a href="javascript:void(0);" class="more-btn">
 
 
-                    <span>submit
+                    <span><?php echo get_field('submit_btn_txt');?>
 
                     </span>
 
