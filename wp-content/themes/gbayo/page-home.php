@@ -125,7 +125,32 @@ get_header(); ?>
     <div class="row mt-4 gx-3">
 
 
+
+        <?php 
+        
+        if( have_rows('concerts') )
+        {
+
+            while( have_rows('concerts') ) { 
+                the_row();
+                ?>
+
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
+            <!-- home_page_list_img -->
+            <a href="<?php echo get_permalink(get_sub_field('concert'));?>" class="concert-a">
+                <img class="w-100"
+                    src="<?php echo wp_get_attachment_image_src(get_field('home_page_list_img',get_sub_field('concert')),'full')[0];?>"
+                    alt=""></a>
+        </div>
+
+
+        <?php
+            }
+        }
+                ?>
+
+
+        <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-a">
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
@@ -136,7 +161,7 @@ get_header(); ?>
 
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
                     alt=""></a>
-        </div>
+        </div> -->
 
 
     </div>
@@ -163,6 +188,7 @@ get_header(); ?>
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_sub_field('camp_img'),'full')[0];?>" alt="">
                 </a>
+
             </div>
             <?php
         
