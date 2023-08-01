@@ -19,6 +19,7 @@ get_header(); ?>
 
 
 
+
 <div class="full-width-img-div position-relative">
 
     <div class="position-absolute top left w-100 z-1">
@@ -28,8 +29,11 @@ get_header(); ?>
         </div>
 
     </div>
-    <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/contact-banner-scaled.jpg"
-        alt="">
+    <img class="top-banner w-100"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_desktop'),'full')[0];?>" alt="">
+
+    <img class="top-banner w-100 mobile"
+        src="<?php echo wp_get_attachment_image_src(get_field('top_banner_mobile'),'full')[0];?>" alt="">
 </div>
 
 
