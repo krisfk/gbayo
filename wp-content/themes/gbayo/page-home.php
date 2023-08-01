@@ -123,6 +123,8 @@ get_header(); ?>
     <h2 class="subtitle text-center mt-100"><?php echo get_field('concert_subtitle_txt');?></h2>
 
     <div class="row mt-4 gx-3">
+
+
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
             <a href="<?php echo get_site_url();?>/concert" class="concert-a">
@@ -135,6 +137,8 @@ get_header(); ?>
                 <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/concert-preview-img.jpg"
                     alt=""></a>
         </div>
+
+
     </div>
 
     <h2 class="subtitle  text-center mt-100"><?php echo get_field('training_camp_subtitle_txt');?></h2>
