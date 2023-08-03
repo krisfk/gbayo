@@ -398,7 +398,7 @@ echo'</li>';
 
     <a class="fix-back-to-top" href="javascript:void(0);">
 
-        <span class="pe-3"><?php echo get_field('back_to_top_txt',165);?></span>
+        <span class="pe-lg-3 pe-md-1 pe-sm-1 pe-1 "><?php echo get_field('back_to_top_txt',165);?></span>
         <span class="back-to-top-arrow"></span>
     </a>
 
