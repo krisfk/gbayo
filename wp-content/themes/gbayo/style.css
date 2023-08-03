@@ -1568,6 +1568,12 @@ a.mail-link:hover {
     h2.subtitle {
         font-size: 22px;
     }
+    .page-conductor h2.subtitle {
+        font-size: 26px;
+    }
+    .page-conductor h3 {
+        font-size: 22px !important;
+    }
     .page-main-heading {
         font-size: 26px;
         margin: 1rem 0 0 0;
