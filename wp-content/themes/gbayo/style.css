@@ -1407,8 +1407,9 @@ a.mail-link:hover {
         width: 93px;
         height: 25px;
         background: url(./assets/images/btt-arrow.png) no-repeat;
-        background-size: 100% 100%;
+        background-size: 94% 80%;
         transition: 0.2s all;
+        background-position: center;
     }
     .fix-back-to-top {
         font-size: 18px;
@@ -1760,7 +1761,7 @@ a.mail-link:hover {
 
 @media only screen and (max-width: 390px) {
     .fix-back-to-top {
-        left: -21vw;
+        left: -19vw;
     }
     .fix-social-elements {
         right: -20vw;
