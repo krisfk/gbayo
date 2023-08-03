@@ -1468,7 +1468,7 @@ a.mail-link:hover {
         display: block;
         position: fixed;
         top: 0.5rem;
-        right: 1.5rem;
+        right: 0.5rem;
         width: 20px;
         height: 15px;
         z-index: 100;
@@ -1702,6 +1702,7 @@ a.mail-link:hover {
         text-align: left !important;
         position: relative;
         left: 1rem;
+        width: auto;
     }
     .top-div-outer {
         height: 62px;
@@ -1764,7 +1765,7 @@ a.mail-link:hover {
         left: -18vw;
     }
     .fix-social-elements {
-        right: -15vw;
+        right: -18vw;
     }
 }
 
@@ -1787,7 +1788,7 @@ a.mail-link:hover {
         left: -19vw;
     }
     .fix-social-elements {
-        right: -15vw;
+        right: -19vw;
     }
 }
 
@@ -1804,6 +1805,6 @@ a.mail-link:hover {
         left: -20vw;
     }
     .fix-social-elements {
-        right: -17vw;
+        right: -20vw;
     }
 }
