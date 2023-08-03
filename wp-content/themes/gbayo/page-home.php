@@ -259,8 +259,8 @@ $(function() {
 
     });
 
-    $('.training-camp').eq($('.training-camp').size() - 1).removeClass('mb-30');
-    $('.training-camp').eq($('.training-camp').size() - 2).removeClass('mb-30');
+    $('.training-camp').eq($('.training-camp').length - 1).removeClass('mb-30');
+    $('.training-camp').eq($('.training-camp').length - 2).removeClass('mb-30');
 
     $('.home-slick-arrow.home-slick-arrow-left').click(function() {
         $('.slick-prev.slick-arrow').click();
