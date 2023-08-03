@@ -220,7 +220,7 @@ get_header(); ?>
                     while( have_rows('training_camps') ) { 
                         the_row();
                         ?>
-            <div class="col-6 mb-30"> <a href="<?php echo get_sub_field('camp_img_link');?>" class="">
+            <div class="col-6 mb-30 training-camp"> <a href="<?php echo get_sub_field('camp_img_link');?>" class="">
                     <img class="w-100"
                         src="<?php echo wp_get_attachment_image_src(get_sub_field('camp_img'),'full')[0];?>" alt="">
                 </a></div>
@@ -258,6 +258,9 @@ $(function() {
         // }]
 
     });
+
+    $('.training-camp').eq($('.training-camp').size() - 1).removeClass('mb-30');
+    $('.training-camp').eq($('.training-camp').size() - 2).removeClass('mb-30');
 
     $('.home-slick-arrow.home-slick-arrow-left').click(function() {
         $('.slick-prev.slick-arrow').click();
