@@ -1032,7 +1032,7 @@ iframe {
     width: auto !important;
     /* text-align: center; */
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 95%;
     /* width: auto; */
 }
 
@@ -1255,6 +1255,49 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 991px) {
+    .photo-yellow-bg-div img {
+        border-radius: 0 !important;
+        max-height: 60vh;
+        display: block;
+        width: auto !important;
+        /* text-align: center; */
+        margin: 0 auto;
+        max-width: 98%;
+        /* width: auto; */
+    }
+    .photo-album-arrow-r {
+        display: block;
+        width: 20px;
+        height: 38px;
+        background: url(./assets/images/arrow-right.png) no-repeat rgb(255 255 255);
+        background-size: 50% 50%;
+        position: absolute;
+        top: 50%;
+        right: -8%;
+        transform: translate(0, -50%);
+        background-position: center;
+        transition: 0.2s all;
+    }
+    .photo-album-arrow-l {
+        display: block;
+        width: 20px;
+        height: 38px;
+        background: url(./assets/images/arrow-left.png) no-repeat #fff;
+        background-size: 50% 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-position: center;
+        transition: 0.2s all;
+        left: -8%;
+    }
+    .photo-yellow-bg-div {
+        max-height: 100%;
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        max-width: 95%;
+    }
     .concert-img.mobile {
         display: block;
     }
