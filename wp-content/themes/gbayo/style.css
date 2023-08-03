@@ -1184,6 +1184,13 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 1400px) {
+    .top-div-outer-container {
+        display: block;
+        padding: 25px 0 0 0;
+    }
+    .top-div-outer {
+        height: 105px;
+    }
     .top-presenter-logos-a img {
         height: 50px;
     }
@@ -1209,6 +1216,9 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 1200px) {
+    .top-div-outer {
+        height: 85px;
+    }
     .sponsor-title {
         display: block;
         min-height: 32px;
@@ -1573,6 +1583,7 @@ a.mail-link:hover {
     }
     .present-by-div table {
         top: 3px;
+        float: right;
     }
     .present-by-div table .txt {
         position: absolute;
@@ -1677,6 +1688,10 @@ a.mail-link:hover {
 }
 
 @media only screen and (max-width: 480px) {
+    .top-div-outer-container {
+        display: block;
+        padding: 0px 0 0 0 !important;
+    }
     .sponsor-title {
         display: block;
         min-height: 32px;
@@ -1697,7 +1712,7 @@ a.mail-link:hover {
     .present-by-div table {
         margin: 0 0rem 0 0;
         position: relative;
-        top: 12px;
+        top: 13px;
     }
     .bottom-main-content .top-presenter-logos-a img {
         height: 26px;
@@ -1727,7 +1742,9 @@ a.mail-link:hover {
     .top-presenter-logos-a {
         margin: 0 0 0 0.2rem;
     }
-    .present-by-div table {}
+    .present-by-div table {
+        float: none;
+    }
     .fix-back-to-top {
         left: -21vw;
     }
