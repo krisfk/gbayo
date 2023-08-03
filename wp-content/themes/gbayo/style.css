@@ -1620,7 +1620,7 @@ a.mail-link:hover {
         background: url(./assets/images/close-cross-btn.png) no-repeat;
         background-size: 100% 100%;
         top: 1.5rem;
-        right: 2rem;
+        right: 1.5rem;
         position: absolute;
     }
     .menu-layer {
