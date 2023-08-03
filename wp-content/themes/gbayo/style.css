@@ -1458,7 +1458,7 @@ a.mail-link:hover {
         display: block;
         position: fixed;
         top: 0.5rem;
-        right: 0.5rem;
+        right: 1.5rem;
         width: 20px;
         height: 15px;
         z-index: 100;
@@ -1697,7 +1697,7 @@ a.mail-link:hover {
     .present-by-div table {
         margin: 0 0rem 0 0;
         position: relative;
-        top: 2px;
+        top: 12px;
     }
     .bottom-main-content .top-presenter-logos-a img {
         height: 26px;
@@ -1708,6 +1708,7 @@ a.mail-link:hover {
     }
     .logo-a img {
         height: 24px;
+        margin: 20px 0 0 10px;
     }
     .camp-cate-title.camp-cate-title-1 {
         top: 1rem;
@@ -1746,25 +1747,30 @@ a.mail-link:hover {
         left: -18vw;
     }
     .fix-social-elements {
-        right: -18vw;
+        right: -15vw;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .top-presenter-logos-a img {
-        height: 20px;
+        height: 22px;
     }
     .logo-a img {
-        height: 20px;
+        height: 22px;
     }
 }
 
 @media only screen and (max-width: 390px) {
+    .logo-a img {
+        height: 22px;
+        margin: 20px 0 0 10px;
+        display: inline-block;
+    }
     .fix-back-to-top {
         left: -19vw;
     }
     .fix-social-elements {
-        right: -20vw;
+        right: -15vw;
     }
 }
 
@@ -1781,6 +1787,6 @@ a.mail-link:hover {
         left: -20vw;
     }
     .fix-social-elements {
-        right: -20vw;
+        right: -17vw;
     }
 }
