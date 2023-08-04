@@ -1511,7 +1511,7 @@ a.mail-link:hover {
         display: block;
         position: fixed;
         top: 0.5rem;
-        right: 0.5rem;
+        right: 13px;
         width: 20px;
         height: 15px;
         z-index: 100;
@@ -1750,11 +1750,11 @@ a.mail-link:hover {
     .top-div-outer-container .present-by-div {
         text-align: left !important;
         position: relative;
-        left: 1rem;
+        left: 1.5rem;
         width: auto;
     }
     .top-div-outer {
-        height: 62px;
+        height: 75px;
     }
     .album-foto-div {
         height: 140px;
@@ -1762,7 +1762,7 @@ a.mail-link:hover {
     .present-by-div table {
         margin: 0 0rem 0 0;
         position: relative;
-        top: 13px;
+        top: 23px;
     }
     .bottom-main-content .top-presenter-logos-a img {
         height: 26px;
@@ -1773,7 +1773,7 @@ a.mail-link:hover {
     }
     .logo-a img {
         height: 24px;
-        margin: 20px 0 0 10px;
+        margin: 40px 0 0 13px;
     }
     .camp-cate-title.camp-cate-title-1 {
         top: 1rem;
@@ -1802,7 +1802,7 @@ a.mail-link:hover {
         right: -19vw;
     }
     .top-presenter-logos-a img {
-        height: 23px;
+        height: 26px;
     }
     footer .top-presenter-logos-a img {
         height: 27px;
@@ -1820,7 +1820,7 @@ a.mail-link:hover {
 
 @media only screen and (max-width: 400px) {
     .top-presenter-logos-a img {
-        height: 22px;
+        height: 24px;
     }
     .logo-a img {
         height: 22px;
@@ -1829,8 +1829,8 @@ a.mail-link:hover {
 
 @media only screen and (max-width: 390px) {
     .logo-a img {
-        height: 22px;
-        margin: 20px 0 0 10px;
+        height: 23px;
+        margin: 40px 0 0 13px;
         display: inline-block;
     }
     .fix-back-to-top {
@@ -1849,11 +1849,18 @@ a.mail-link:hover {
         height: 100px;
     }
     .top-presenter-logos-a {}
-    .present-by-div table {}
+    .present-by-div table {
+        margin: -0.5rem 0 0 -0.5rem;
+    }
     .fix-back-to-top {
         left: -20vw;
     }
     .fix-social-elements {
         right: -20vw;
+    }
+    .logo-a img {
+        height: 23px;
+        margin: 33px 0 0 13px;
+        display: inline-block;
     }
 }
