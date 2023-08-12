@@ -388,10 +388,10 @@ echo'</li>';
         <ul class="">
             <li class="follow-us"><?php echo get_field('follow_us_txt',165);?></li>
             <li class="dash"> ー </li>
-            <li> <a target="_blank" href="<?php echo get_field('fb_link',207);?>"
+            <li> <a target="_blank" href="<?php echo get_field('ig_link',207);?>"
                     class="facebook fix-icon-a  fix-icon-a-1"> </a>
             </li>
-            <li> <a target="_blank" href="<?php echo get_field('ig_link',207);?>"
+            <li> <a target="_blank" href="<?php echo get_field('fb_link',207);?>"
                     class="instagram fix-icon-a fix-icon-a-2"> </a>
             </li>
             <li> <a target="_blank" href="<?php echo get_field('youtube_link',207);?>"
