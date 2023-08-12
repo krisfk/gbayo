@@ -245,7 +245,7 @@
     <div class="mobile-footer">
 
         <div class="container">
-            <div class="row mb-3">
+            <!-- <div class="row mb-3">
                 <div class="col-12  ">
 
                     <div class="footer-logos-subtitle">
@@ -277,7 +277,7 @@
                     </table>
                 </div>
 
-            </div>
+            </div> -->
 
 
             <div class="row mb-4">
