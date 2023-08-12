@@ -109,7 +109,7 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a target=""
+                                        <td> <a target="_blank"
                                                 href="<?php echo get_field('group_4_logo_1_link',$footer_post_id) ? get_field('group_4_logo_1_link',$footer_post_id):'javascript:void(0);';?>"
                                                 class="other-logos-a" style="top:11px">
 
