@@ -47,6 +47,7 @@ get_header(); ?>
     if( have_rows('presenters') )
 {
 
+    $p_idx=0;
     while( have_rows('presenters') ) { 
         the_row();
         ?>
@@ -61,7 +62,7 @@ get_header(); ?>
 
             <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2"><?php echo get_sub_field('presenter_name');?></h3>
 
-            <div class="content-fsize mt-4 sponsor-para-txt sponsor-para-txt-0">
+            <div class="content-fsize mt-4 sponsor-para-txt sponsor-para-txt-<?php echo $p_idx;?>">
 
                 <?php echo get_sub_field('presenter_description');?>
 
@@ -87,6 +88,9 @@ get_header(); ?>
             </div>
 
         </div><?php
+
+$p_idx++;
+
     }
 }?>
 
