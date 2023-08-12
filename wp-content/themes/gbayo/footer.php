@@ -18,6 +18,25 @@
 
 <?php //get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
+
+<?php
+            
+            if(get_language_shortcode()=='zh')
+            {
+                $footer_post_id=207;
+            }
+            if(get_language_shortcode()=='en')
+            {
+                $footer_post_id=207;
+
+            }
+            if(get_language_shortcode()=='cn')
+            {
+                $footer_post_id=207;
+   
+            }
+            ?>
+
 <footer id="colophon" class="site-footer mt-5 mb-5">
 
 
@@ -32,14 +51,14 @@
                     class="col-lg-6 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-0 mb-sm-0 mb-lg-0 mb-md-0 mb-sm-0 mb-0  ">
                     <div class="d-inline-block mb-4">
                         <div class="footer-logos-subtitle" style="position:relative;top:7px">
-                            <?php echo get_field('group_2_subtitle',207);?></div>
+                            <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_2_logo_1_link',207);?>" style="top:28px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
+                                        style="top:28px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
                             </tr>
@@ -47,24 +66,24 @@
                     </div>
                     <div class="d-inline-block">
                         <div class="footer-logos-subtitle" style="position:relative;top:7px"><?php
-                        echo get_field('group_3_subtitle',207);
+                        echo get_field('group_3_subtitle',$footer_post_id);
                         ?>
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_3_logo_1_link',207);?>" style="top:25px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
+                                        style="top:25px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="<?php echo get_field('group_3_logo_2_link',207);?>" style="top:25px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
+                                        style="top:25px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
                             </tr>
@@ -84,15 +103,15 @@
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
-                                    <?php echo get_field('group_4_subtitle',207);?>
+                                    <?php echo get_field('group_4_subtitle',$footer_post_id);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_4_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_4_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:11px">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -101,17 +120,17 @@
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
-                                    <?php echo get_field('group_5_subtitle',207);?>
+                                    <?php echo get_field('group_5_subtitle',$footer_post_id);?>
 
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:5px">
 
                                                 <img class=""
                                                     src="
-                                                    <?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',207),'full')[0];?>"
+                                                    <?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -119,16 +138,16 @@
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
-                                    <?php echo get_field('group_6_subtitle',207);?>
+                                    <?php echo get_field('group_6_subtitle',$footer_post_id);?>
 
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:9px">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_6_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_6_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -136,16 +155,16 @@
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
-                                    <?php echo get_field('group_7_subtitle',207);?>
+                                    <?php echo get_field('group_7_subtitle',$footer_post_id);?>
 
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_7_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_7_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -163,18 +182,18 @@
 
                     <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
 
-                        <div class="reserve-txt"><?php echo get_field('all_right_reserve_txt',207);?></div>
+                        <div class="reserve-txt"><?php echo get_field('all_right_reserve_txt',$footer_post_id);?></div>
 
                         <div class=" mt-2">
                             <table class="d-inline-block">
                                 <tr>
-                                    <td><a href="<?php echo get_field('ig_link',207);?>"
+                                    <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-1 me-2"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('fb_link',207);?>"
+                                    <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-2 me-2"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('youtube_link',207);?>"
+                                    <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-3 me-2"></a>
                                     </td>
                                 </tr>
@@ -188,29 +207,30 @@
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
 
-                    <div class="reserve-txt text-start"><?php echo get_field('all_right_reserve_txt',207);?></div>
+                    <div class="reserve-txt text-start"><?php echo get_field('all_right_reserve_txt',$footer_post_id);?>
+                    </div>
 
 
-                    <!-- <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
+                    <!-- <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',$footer_post_id);?></div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
-                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
+                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_2_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',207),'full')[0];?>"
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_3_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',207),'full')[0];?>"
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
                             </td>
@@ -223,13 +243,13 @@
                     <div class="text-end mt-2">
                         <table class="d-inline-block">
                             <tr>
-                                <td><a href="<?php echo get_field('ig_link',207);?>"
+                                <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
                                 </td>
-                                <td><a href="<?php echo get_field('fb_link',207);?>"
+                                <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
                                 </td>
-                                <td><a href="<?php echo get_field('youtube_link',207);?>"
+                                <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
                                 </td>
                             </tr>
@@ -249,27 +269,27 @@
                 <div class="col-12  ">
 
                     <div class="footer-logos-subtitle">
-                        <?php echo get_field('group_1_subtitle',207);?>
+                        <?php echo get_field('group_1_subtitle',$footer_post_id);?>
                     </div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
-                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
+                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_2_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',207),'full')[0];?>"
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_3_link',207);?>"
+                            <td> <a href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',207),'full')[0];?>"
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
                             </td>
@@ -285,14 +305,14 @@
                 <div class="col-12  ">
                     <div class="d-inline-block">
                         <div class="footer-logos-subtitle" style="position:relative;top:7px">
-                            <?php echo get_field('group_2_subtitle',207);?></div>
+                            <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_2_logo_1_link',207);?>" style="top:13px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
+                                        style="top:13px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
                             </tr>
@@ -303,23 +323,23 @@
 
                     <div class="d-inline-block">
                         <div class="footer-logos-subtitle" style="position:relative;top:7px">
-                            <?php echo get_field('group_3_subtitle',207);?>
+                            <?php echo get_field('group_3_subtitle',$footer_post_id);?>
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_3_logo_1_link',207);?>" style="top:15px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
+                                        style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="<?php echo get_field('group_3_logo_2_link',207);?>" style="top:15px"
-                                        class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+                                <td> <a href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
+                                        style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
-                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',207),'full')[0];?>"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',$footer_post_id),'full')[0];?>"
                                             alt="">
                                     </a></td>
                             </tr>
@@ -344,7 +364,7 @@
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
                                     <?php
-                                echo get_field('group_4_subtitle',207);?>
+                                echo get_field('group_4_subtitle',$footer_post_id);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
@@ -352,7 +372,7 @@
                                                 class="other-logos-a" style="top:11px">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -361,15 +381,15 @@
 
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start"><?php
-                                echo get_field('group_5_subtitle',207);?>
+                                echo get_field('group_5_subtitle',$footer_post_id);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:5px">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -377,15 +397,15 @@
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start"><?php
-                                echo get_field('group_6_subtitle',207);?>
+                                echo get_field('group_6_subtitle',$footer_post_id);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:9px">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_6_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_6_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -393,15 +413,15 @@
                             </td>
                             <td class="ps-lg-4 ps-md-0 ps-sm-0 ps-0">
                                 <div class="footer-logos-subtitle text-start">
-                                    <?php echo get_field('group_7_subtitle',207);?>
+                                    <?php echo get_field('group_7_subtitle',$footer_post_id);?>
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',207);?>"
+                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a">
 
                                                 <img class=""
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_7_logo_1',207),'full')[0];?>"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_7_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
                                             </a></td>
                                     </tr>
@@ -419,18 +439,19 @@
                 <table>
                     <tr>
                         <td>
-                            <div class="reserve-txt "><?php echo get_field('all_right_reserve_txt',207);?></div>
+                            <div class="reserve-txt "><?php echo get_field('all_right_reserve_txt',$footer_post_id);?>
+                            </div>
                         </td>
                         <td>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td><a href="<?php echo get_field('ig_link',207);?>"
+                                    <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('fb_link',207);?>"
+                                    <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-2 ms-0"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('youtube_link',207);?>"
+                                    <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-3 ms-0"></a>
                                     </td>
                                 </tr>
