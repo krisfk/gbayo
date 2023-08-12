@@ -76,8 +76,10 @@ if( have_rows('staffs') )
         ?>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
 
-            <h3 class="orange bold"><?php echo get_sub_field('staff_position');?></h3>
             <div class="bold"><?php echo get_sub_field('staff_name');?></div>
+
+
+            <h3 class="orange bold"><?php echo get_sub_field('staff_position');?></h3>
             <?php echo get_sub_field('staff_description');?>
         </div>
 
