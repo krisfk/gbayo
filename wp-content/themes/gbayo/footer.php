@@ -181,8 +181,8 @@
                                                     src="
                                                     <?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
-                                                </d>
-                                                <?php
+                                            </div>
+                                            <?php
                                         }
                                         ?>
 
@@ -486,8 +486,8 @@
                                         <img class=""
                                             src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
-                                        </d>
-                                        <?php
+                                    </div>
+                                    <?php
                                 }
                                 ?>
 
@@ -521,8 +521,8 @@
                                         <img class=""
                                             src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_2',$footer_post_id),'full')[0];?>"
                                             alt="">
-                                        </d>
-                                        <?php
+                                    </div>
+                                    <?php
                                 }
                                 ?>
 
@@ -555,13 +555,38 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a target="_blank" href="<?php echo get_field('group_4_logo_1_link');?>"
+                                        <td>
+
+                                            <?php
+                                        
+                                        
+                                        if(get_field('group_4_logo_1_link'))
+                                        {
+?>
+                                            <a target="_blank" href="<?php echo get_field('group_4_logo_1_link');?>"
                                                 class="other-logos-a" style="top:11px">
 
                                                 <img class=""
                                                     src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
-                                            </a></td>
+                                            </a>
+                                            <?php
+                                        }else{
+                                            ?>
+                                            <div class="other-logos-a" style="top:11px">
+
+                                                <img class=""
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',$footer_post_id),'full')[0];?>"
+                                                    alt="">
+                                            </div>
+                                            <?php
+                                        }
+                                        ?>
+
+
+
+
+                                        </td>
                                     </tr>
                                 </table>
                             </td>
@@ -572,14 +597,39 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a target="_blank"
+                                        <td>
+
+                                            <?php
+                                        
+                                        if(get_field('group_5_logo_1_link',$footer_post_id))
+                                        {
+?>
+                                            <a target="_blank"
                                                 href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:5px">
 
                                                 <img class=""
                                                     src="<?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
-                                            </a></td>
+                                            </a>
+                                            <?php
+                                        }else{
+
+                                            ?>
+                                            <div class="other-logos-a" style="top:5px">
+
+                                                <img class=""
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('group_5_logo_1',$footer_post_id),'full')[0];?>"
+                                                    alt="">
+                                            </div>
+                                            <?php
+
+                                        }
+                                        ?>
+
+
+
+                                        </td>
                                     </tr>
                                 </table>
                             </td>
