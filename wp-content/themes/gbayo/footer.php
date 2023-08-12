@@ -50,8 +50,7 @@
                 <div
                     class="col-lg-6 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-0 mb-sm-0 mb-lg-0 mb-md-0 mb-sm-0 mb-0  ">
                     <div class="d-inline-block mb-4">
-                        <!-- position:relative;top:7px -->
-                        <div class="footer-logos-subtitle" style="">
+                        <div class="footer-logos-subtitle" style="position:relative;top:7px">
                             <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
@@ -97,8 +96,8 @@
 
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start "
-                    style="position:relative;right:-1.9rem;">
-
+                    style="">
+                    <!-- position:relative;right:-1.9rem; -->
 
                     <table
                         class="mb-0 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
