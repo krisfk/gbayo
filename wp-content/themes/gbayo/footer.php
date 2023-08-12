@@ -186,6 +186,10 @@
             <div class="row">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
+
+                    <div class="reserve-txt text-end"><?php echo get_field('all_right_reserve_txt',207);?></div>
+
+
                     <!-- <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
                     <table class="d-inline-block">
                         <tr>
@@ -214,7 +218,6 @@
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
 
-                    <div class="reserve-txt text-end"><?php echo get_field('all_right_reserve_txt',207);?></div>
 
                     <div class="text-end mt-2">
                         <table class="d-inline-block">
