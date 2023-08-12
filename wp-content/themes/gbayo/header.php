@@ -296,9 +296,9 @@
                 $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
 
 
-                 echo $langs['en']['url'];
-                 echo $langs['zh']['url'];
-                 echo $langs['cn']['url'];
+                //  echo $langs['en']['url'];
+                //  echo $langs['zh']['url'];
+                //  echo $langs['cn']['url'];
 
 
                 // if($current_language_code=='zh-hant')
@@ -309,9 +309,9 @@
                 <!-- <li><a href="<?php echo $langs['en']['url'];?>">EN</a></li> -->
 
                 <!-- ?> -->
-                <a href="javascript:void(0);" class="d-inline-block lang-a">EN</a> | <a class="  lang-a d-inline-block"
-                    href="javascript:void(0);">繁</a> | <a href="javascript:void(0);"
-                    class=" lang-a d-inline-block">簡</a>
+                <a href="<?php echo $langs['en']['url'];?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'];?>">繁</a> | <a
+                    href="<?php echo $langs['cn']['url'];?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
