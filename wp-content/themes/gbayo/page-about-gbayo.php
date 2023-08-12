@@ -60,7 +60,7 @@ get_header(); ?>
 
 </div>
 
-<!-- 
+
 <div class="container ">
 
     <h2 class="subtitle text-start mt-100"><?php echo get_field('management_team_title');?></h2>
@@ -89,7 +89,7 @@ if( have_rows('staffs') )
 
     </div>
 
-</div> -->
+</div>
 
 <div class="mt-100">
     <div class="five-lines-sep"></div>
