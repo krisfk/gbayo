@@ -73,7 +73,8 @@
 
 
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start ">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start "
+                    style="position:relative;">
 
 
                     <table
