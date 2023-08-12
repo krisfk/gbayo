@@ -54,7 +54,8 @@
                             <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
                                         style="top:28px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -71,7 +72,8 @@
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
                                         style="top:25px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -79,7 +81,8 @@
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
                                         style="top:25px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -107,7 +110,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_4_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_4_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:11px">
 
                                                 <img class=""
@@ -125,7 +129,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:5px">
 
                                                 <img class=""
@@ -143,7 +148,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:9px">
 
                                                 <img class=""
@@ -160,7 +166,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a">
 
                                                 <img class=""
@@ -187,13 +194,14 @@
                         <div class=" mt-2">
                             <table class="d-inline-block">
                                 <tr>
-                                    <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
+                                    <td><a target="_blank" href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-1 me-2"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
+                                    <td><a target="_blank" href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-2 me-2"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
+                                    <td><a target="_blank"
+                                            href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-3 me-2"></a>
                                     </td>
                                 </tr>
@@ -214,20 +222,20 @@
                     <!-- <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',$footer_post_id);?></div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
                                         src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                     <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                     <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',$footer_post_id),'full')[0];?>"
@@ -243,13 +251,13 @@
                     <div class="text-end mt-2">
                         <table class="d-inline-block">
                             <tr>
-                                <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
+                                <td><a target="_blank" href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
                                 </td>
-                                <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
+                                <td><a target="_blank" href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
                                 </td>
-                                <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
+                                <td><a target="_blank" href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                         class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
                                 </td>
                             </tr>
@@ -273,20 +281,20 @@
                     </div>
                     <table class="d-inline-block">
                         <tr>
-                            <td> <a href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_1_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
 
                                     <img class=""
                                         src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_2_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                     <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',$footer_post_id),'full')[0];?>"
                                         alt="">
                                 </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
+                            <td> <a target="_blank" href="<?php echo get_field('group_1_logo_3_link',$footer_post_id);?>"
                                     class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                     <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',$footer_post_id),'full')[0];?>"
@@ -308,7 +316,8 @@
                             <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
                                         style="top:13px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -327,7 +336,8 @@
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
                                         style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -335,7 +345,8 @@
                                             alt="">
                                     </a></td>
 
-                                <td> <a href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
+                                <td> <a target="_blank"
+                                        href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
                                         style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
@@ -368,7 +379,7 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_4_logo_1_link');?>"
+                                        <td> <a target="_blank" href="<?php echo get_field('group_4_logo_1_link');?>"
                                                 class="other-logos-a" style="top:11px">
 
                                                 <img class=""
@@ -385,7 +396,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_5_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:5px">
 
                                                 <img class=""
@@ -401,7 +413,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_6_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a" style="top:9px">
 
                                                 <img class=""
@@ -417,7 +430,8 @@
                                 </div>
                                 <table class="d-inline-block">
                                     <tr>
-                                        <td> <a href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
+                                        <td> <a target="_blank"
+                                                href="<?php echo get_field('group_7_logo_1_link',$footer_post_id);?>"
                                                 class="other-logos-a">
 
                                                 <img class=""
@@ -445,13 +459,14 @@
                         <td>
                             <table class="d-inline-block">
                                 <tr>
-                                    <td><a href="<?php echo get_field('ig_link',$footer_post_id);?>"
+                                    <td><a target="_blank" href="<?php echo get_field('ig_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-1 ms-0"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('fb_link',$footer_post_id);?>"
+                                    <td><a target="_blank" href="<?php echo get_field('fb_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-2 ms-0"></a>
                                     </td>
-                                    <td><a href="<?php echo get_field('youtube_link',$footer_post_id);?>"
+                                    <td><a target="_blank"
+                                            href="<?php echo get_field('youtube_link',$footer_post_id);?>"
                                             class="footer-sns-icon footer-sns-icon-3 ms-0"></a>
                                     </td>
                                 </tr>
