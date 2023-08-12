@@ -297,6 +297,9 @@
 
 
                  echo $langs['en']['url'];
+                 echo $langs['zh']['url'];
+                 echo $langs['cn']['url'];
+
 
                 // if($current_language_code=='zh-hant')
                 // {
