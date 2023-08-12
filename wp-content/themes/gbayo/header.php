@@ -288,6 +288,24 @@
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
                 <!--  -->
                 <!--  -->
+
+
+                <?php
+                
+                
+                $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
+
+
+                 echo $langs['en']['url'];
+
+                // if($current_language_code=='zh-hant')
+                // {
+                // }
+                ?>
+                <!-- <li class="me-3"><a class="active" href="<?php echo $langs['zh-hant']['url'];?>">中</a></li> -->
+                <!-- <li><a href="<?php echo $langs['en']['url'];?>">EN</a></li> -->
+
+                <!-- ?> -->
                 <a href="javascript:void(0);" class="d-inline-block lang-a">EN</a> | <a class="  lang-a d-inline-block"
                     href="javascript:void(0);">繁</a> | <a href="javascript:void(0);"
                     class=" lang-a d-inline-block">簡</a>
