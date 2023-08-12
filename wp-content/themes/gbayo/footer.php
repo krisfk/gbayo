@@ -460,14 +460,41 @@
                         </div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a target="_blank"
+                                <td>
+
+
+                                    <?php
+                                
+                                
+                                if(get_field('group_3_logo_1_link',$footer_post_id))
+                                {
+?>
+                                    <a target="_blank"
                                         href="<?php echo get_field('group_3_logo_1_link',$footer_post_id);?>"
                                         style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
                                             src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
-                                    </a></td>
+                                    </a>
+                                    <?php
+                                }
+                                else{
+                                    ?>
+                                    <div style="top:15px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                        <img class=""
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_3_logo_1',$footer_post_id),'full')[0];?>"
+                                            alt="">
+                                        </d>
+                                        <?php
+                                }
+                                ?>
+
+
+
+
+                                </td>
 
                                 <td> <a target="_blank"
                                         href="<?php echo get_field('group_3_logo_2_link',$footer_post_id);?>"
