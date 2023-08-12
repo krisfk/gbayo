@@ -24,7 +24,7 @@
     <div class="desktop-footer">
         <div class="container">
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
                     <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
@@ -73,7 +73,7 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row mt-4">
                 <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
