@@ -412,14 +412,42 @@
                             <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
-                                <td> <a target="_blank"
+                                <td>
+
+
+
+                                    <?php
+                                
+                                if(get_field('group_2_logo_1_link',$footer_post_id))
+                                {
+                                    ?>
+                                    <a target="_blank"
                                         href="<?php echo get_field('group_2_logo_1_link',$footer_post_id);?>"
                                         style="top:13px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
 
                                         <img class=""
                                             src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',$footer_post_id),'full')[0];?>"
                                             alt="">
-                                    </a></td>
+                                    </a>
+
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                    <div style="top:13px" class="other-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                        <img class=""
+                                            src="<?php echo wp_get_attachment_image_src(get_field('group_2_logo_1',$footer_post_id),'full')[0];?>"
+                                            alt="">
+                                    </div>
+
+                                    <?php
+                                }
+
+                                ?>
+
+
+                                </td>
                             </tr>
                         </table>
 
