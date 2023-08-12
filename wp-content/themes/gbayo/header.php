@@ -293,6 +293,7 @@
                 <?php
                 
                 
+                echo get_language_shortcode();
                 $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
 
 
