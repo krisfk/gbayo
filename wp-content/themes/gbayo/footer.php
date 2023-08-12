@@ -77,7 +77,7 @@
 
 
                     <table
-                        class="mb-4 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
+                        class="mb-0 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
                         <tr>
 
 
