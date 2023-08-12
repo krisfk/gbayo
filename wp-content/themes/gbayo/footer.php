@@ -24,56 +24,7 @@
     <div class="desktop-footer">
         <div class="container">
 
-            <!-- <div class="row">
-                <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
-                    <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
-                    <table class="d-inline-block">
-                        <tr>
-                            <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
-                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
-
-                                    <img class=""
-                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
-                                        alt="">
-                                </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_2_link',207);?>"
-                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',207),'full')[0];?>"
-                                        alt="">
-                                </a>
-                            <td> <a href="<?php echo get_field('group_1_logo_3_link',207);?>"
-                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
-
-                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',207),'full')[0];?>"
-                                        alt="">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
-
-                    <div class="reserve-txt text-end"><?php echo get_field('all_right_reserve_txt',207);?></div>
-
-                    <div class="text-end mt-2">
-                        <table class="d-inline-block">
-                            <tr>
-                                <td><a href="<?php echo get_field('ig_link',207);?>"
-                                        class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
-                                </td>
-                                <td><a href="<?php echo get_field('fb_link',207);?>"
-                                        class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
-                                </td>
-                                <td><a href="<?php echo get_field('youtube_link',207);?>"
-                                        class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div> -->
 
             <div class="row mt-4">
                 <!-- col-lg-6 col-md-12 col-sm-12 col-12 -->
@@ -230,6 +181,56 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
+
+                    <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
+                    <table class="d-inline-block">
+                        <tr>
+                            <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
+                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2 ">
+
+                                    <img class=""
+                                        src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_1',207),'full')[0];?>"
+                                        alt="">
+                                </a>
+                            <td> <a href="<?php echo get_field('group_1_logo_2_link',207);?>"
+                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_2',207),'full')[0];?>"
+                                        alt="">
+                                </a>
+                            <td> <a href="<?php echo get_field('group_1_logo_3_link',207);?>"
+                                    class="top-presenter-logos-a me-lg-4 me-md-2 me-sm-2 me-2">
+
+                                    <img src="<?php echo wp_get_attachment_image_src(get_field('group_1_logo_3',207),'full')[0];?>"
+                                        alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
+
+                    <div class="reserve-txt text-end"><?php echo get_field('all_right_reserve_txt',207);?></div>
+
+                    <div class="text-end mt-2">
+                        <table class="d-inline-block">
+                            <tr>
+                                <td><a href="<?php echo get_field('ig_link',207);?>"
+                                        class="footer-sns-icon footer-sns-icon-1 ms-2"></a>
+                                </td>
+                                <td><a href="<?php echo get_field('fb_link',207);?>"
+                                        class="footer-sns-icon footer-sns-icon-2 ms-2"></a>
+                                </td>
+                                <td><a href="<?php echo get_field('youtube_link',207);?>"
+                                        class="footer-sns-icon footer-sns-icon-3 ms-2"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
 
