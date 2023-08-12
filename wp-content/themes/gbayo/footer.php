@@ -183,7 +183,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
 
