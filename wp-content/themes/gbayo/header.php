@@ -272,12 +272,12 @@
 
         <div class="menu-top-div pt-4 pb-4">
             <!-- mx-lg-5 mx-md-4 mx-sm-4 mx-4 -->
+
+
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
-
                 <a href="<?php echo get_site_url();?>"> <img class="gbayo-logo-white"
-                        src="<?php echo wp_get_attachment_image_src(get_field('menu_white_gbayo_logo',165),'full')[0];?>"
+                        src="<?php echo wp_get_attachment_image_src(get_field('menu_white_gbayo_logo',$head_post_id),'full')[0];?>"
                         alt=""></a>
-
             </div>
 
         </div>
@@ -292,8 +292,8 @@
 
                 <?php
                 
-                echo 11;
-                echo get_language_shortcode();
+                // echo 11;
+                // echo get_language_shortcode();
                 $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
 
 
@@ -404,11 +404,27 @@ echo'</li>';
     </div>
 
 
+    <?php
+            
+            if(get_language_shortcode()=='zh')
+            {
+                $head_post_id=717;
+            }
+            if(get_language_shortcode()=='en')
+            {
+                $head_post_id=165;
 
+            }
+            if(get_language_shortcode()=='cn')
+            {
+                $head_post_id=717;
+   
+            }
+            ?>
 
     <div class="fix-social-elements">
         <ul class="">
-            <li class="follow-us"><?php echo get_field('follow_us_txt',165);?></li>
+            <li class="follow-us"><?php echo get_field('follow_us_txt',$head_post_id);?></li>
             <li class="dash"> ー </li>
             <li> <a target="_blank" href="<?php echo get_field('ig_link',207);?>"
                     class="facebook fix-icon-a  fix-icon-a-1"> </a>
@@ -423,7 +439,7 @@ echo'</li>';
 
     <a class="fix-back-to-top" href="javascript:void(0);">
 
-        <span class="pe-lg-3 pe-md-1 pe-sm-1 pe-1 "><?php echo get_field('back_to_top_txt',165);?></span>
+        <span class="pe-lg-3 pe-md-1 pe-sm-1 pe-1 "><?php echo get_field('back_to_top_txt',$head_post_id);?></span>
         <span class="back-to-top-arrow"></span>
     </a>
 
@@ -460,7 +476,7 @@ echo'</li>';
 
                                 <div class="row align-items-center gx-0">
                                     <div class="col-3"> <a href="<?php echo get_site_url();?>" class="logo-a"><img
-                                                src="<?php echo wp_get_attachment_image_src(get_field('gbayo_logo',165),'full')[0];?>"
+                                                src="<?php echo wp_get_attachment_image_src(get_field('gbayo_logo',$head_post_id),'full')[0];?>"
                                                 alt=""></a>
 
                                     </div>
@@ -470,25 +486,26 @@ echo'</li>';
 
                                         <table class="d-inline-block position-relative present-by-table">
                                             <tr>
-                                                <td class="align-top txt"><?php echo get_field('subtitle_1',165);?></td>
+                                                <td class="align-top txt">
+                                                    <?php echo get_field('subtitle_1',$head_post_id);?></td>
                                                 <td>
-                                                    <a href="<?php echo get_field('logo_1_link',165);?>" target="_blank"
-                                                        class="top-presenter-logos-a  ">
+                                                    <a href="<?php echo get_field('logo_1_link',$head_post_id);?>"
+                                                        target="_blank" class="top-presenter-logos-a  ">
 
                                                         <img class=""
-                                                            src="<?php echo wp_get_attachment_image_src(get_field('logo_1',165),'full')[0];?>"
+                                                            src="<?php echo wp_get_attachment_image_src(get_field('logo_1',$head_post_id),'full')[0];?>"
                                                             alt="">
                                                     </a>
-                                                    <a href="<?php echo get_field('logo_2_link',165);?>" target="_blank"
-                                                        class="top-presenter-logos-a  ">
+                                                    <a href="<?php echo get_field('logo_2_link',$head_post_id);?>"
+                                                        target="_blank" class="top-presenter-logos-a  ">
 
-                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_2',165),'full')[0];?>"
+                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_2',$head_post_id),'full')[0];?>"
                                                             alt="">
                                                     </a>
-                                                    <a href="<?php echo get_field('logo_3_link',165);?>" target="_blank"
-                                                        class="top-presenter-logos-a  ">
+                                                    <a href="<?php echo get_field('logo_3_link',$head_post_id);?>"
+                                                        target="_blank" class="top-presenter-logos-a  ">
 
-                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_3',165),'full')[0];?>"
+                                                        <img src="<?php echo wp_get_attachment_image_src(get_field('logo_3',$head_post_id),'full')[0];?>"
                                                             alt="">
                                                     </a>
                                                 </td>
