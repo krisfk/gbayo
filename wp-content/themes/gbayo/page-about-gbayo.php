@@ -74,7 +74,7 @@ if( have_rows('staffs') )
     while( have_rows('staffs') ) { 
         the_row();
         ?>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 content-fsize mb-4">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 content-fsize mb-4">
 
             <div class="bold"><?php echo get_sub_field('staff_name');?></div>
 
