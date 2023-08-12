@@ -186,7 +186,7 @@
             <div class="row">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 ">
 
-                    <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
+                    <!-- <div class="footer-logos-subtitle"><?php echo get_field('group_1_subtitle',207);?></div>
                     <table class="d-inline-block">
                         <tr>
                             <td> <a href="<?php echo get_field('group_1_logo_1_link',207);?>"
@@ -210,7 +210,7 @@
                                 </a>
                             </td>
                         </tr>
-                    </table>
+                    </table> -->
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 reserve-txt-div">
 
