@@ -55,12 +55,12 @@ get_header(); ?>
 
 
 
-
-            <?php
+            <div class="mt-4">
+                <?php
 
 echo get_field('conductor_text_content');
 ?>
-
+            </div>
 
         </div>
 
