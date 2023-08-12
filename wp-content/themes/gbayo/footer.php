@@ -23,7 +23,7 @@
             
             if(get_language_shortcode()=='zh')
             {
-                $footer_post_id=207;
+                $footer_post_id=274;
             }
             if(get_language_shortcode()=='en')
             {
