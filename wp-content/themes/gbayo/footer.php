@@ -97,7 +97,6 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-end text-md-start text-sm-start text-start "
                     style="">
-                    <!-- position:relative;right:-1.9rem; -->
 
                     <table
                         class="mb-0 d-lg-inline-block d-md-inline-block d-sm-table d-table w-lg-auto w-md-auto w-sm-100 sponsor-footer-table ">
