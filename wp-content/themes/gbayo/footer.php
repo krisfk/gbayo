@@ -50,7 +50,8 @@
                 <div
                     class="col-lg-6 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-0 mb-sm-0 mb-lg-0 mb-md-0 mb-sm-0 mb-0  ">
                     <div class="d-inline-block mb-4">
-                        <div class="footer-logos-subtitle" style="position:relative;top:7px">
+                        <!-- position:relative;top:7px -->
+                        <div class="footer-logos-subtitle" style="">
                             <?php echo get_field('group_2_subtitle',$footer_post_id);?></div>
                         <table class="d-inline-block">
                             <tr>
