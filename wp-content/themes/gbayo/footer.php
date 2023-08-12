@@ -134,9 +134,9 @@
                                                 <img class=""
                                                     src="<?php echo wp_get_attachment_image_src(get_field('group_4_logo_1',$footer_post_id),'full')[0];?>"
                                                     alt="">
-                                                </d>
+                                            </div>
 
-                                                <?php
+                                            <?php
                                         }
                                         
                                         ?>
