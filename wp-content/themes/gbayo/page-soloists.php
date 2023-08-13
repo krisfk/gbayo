@@ -138,7 +138,7 @@ get_header(); ?>
                 'tax_query' => array(
                     array(
                         'key' => 'show_in_soloists',
-                        'value' => '1',
+                        'value' => 'TRUE',
                         'compare' => '=',
                     )
                   )
