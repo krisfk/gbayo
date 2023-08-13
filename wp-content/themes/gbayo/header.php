@@ -293,7 +293,7 @@
                 <?php
                 
                 // echo 11;
-                // echo get_language_shortcode();
+            $current_language_code= get_language_shortcode();
                 $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
 
 
@@ -314,9 +314,9 @@
                   $post_slug = $post->post_name;
                   
                 ?>
-                <a href="<?php echo $langs['en']['url'].$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
-                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'].$post_slug;?>">繁</a> | <a
-                    href="<?php echo $langs['cn']['url'].$post_slug;?>" class=" lang-a d-inline-block">簡</a>
+                <a href="<?php echo get_site_url().'/en/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$post_slug;?>">繁</a> | <a
+                    href="<?php echo get_site_url().'/cn/'.$post_slug;?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
