@@ -492,7 +492,8 @@ $(function() {
         $('.lightbox-layer #musician-instrument').html($(this).attr('data-musician-instrument'));
         $('.lightbox-layer #musician-description').html($(this).attr('data-musician-description'));
         $('.lightbox-layer').find('img').attr('src',
-            'http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-1@2x-50-3.jpg');
+            'http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-1@2x-50-3.jpg').addClass(
+            'lazyloaded');
 
 
     })
