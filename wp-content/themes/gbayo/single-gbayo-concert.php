@@ -131,6 +131,12 @@ get_header(); ?>
 
             <div class="mt-4">
                 <!-- ticket-here -->
+                <?php
+                if(get_field('detail_page_ticket_here_link'))
+                {
+                    ?>
+
+
                 <a target="_blank" href="<?php echo get_field('detail_page_ticket_here_link')?>" class="more-btn ">
 
 
@@ -156,6 +162,9 @@ get_header(); ?>
 
                     </div>
                 </a>
+                <?php
+                }
+                ?>
             </div>
 
 
