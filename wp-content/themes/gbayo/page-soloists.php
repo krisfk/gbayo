@@ -187,7 +187,7 @@ get_header(); ?>
                     </div>
                 </h3>
 
-                <div class="orange bold">fdsf</div>
+                <div class="orange bold"><?php  echo get_field('instrument');?></div>
 
 
 
