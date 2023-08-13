@@ -638,6 +638,7 @@ h2.subtitle {
 
 .bold {
   font-family: 'FuturaBold' !important;
+  font-weight: bold;
 }
 
 .content-fsize {
