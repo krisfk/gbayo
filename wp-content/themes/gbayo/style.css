@@ -1613,7 +1613,8 @@ a.mail-link:hover {
     }
   }
   h3 {
-    font-size: 26px !important;
+    /* font-size: 26px !important; */
+    font-size: 19px !important;
   }
   h2.subtitle {
     font-size: 22px;
