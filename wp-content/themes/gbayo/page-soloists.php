@@ -129,6 +129,32 @@ get_header(); ?>
 
         </div>
 
+
+        <?php
+        
+        
+        $args = array(
+            'post_type' => 'gbayo_musician',
+            'tax_query' => array(
+                array(
+                'taxonomy' => 'faculty',
+                'field' => 'term_id',
+                'terms' => $faculty_id
+                 )
+              )
+            );
+            $musicians = get_posts($args);
+
+            if ( $musicians ) {
+            
+                foreach ( $musicians as $musician )     
+                {
+
+                }
+            }
+            
+            
+            ?>
         <div class="col-4">2</div>
         <div class="col-4">2</div>
         <div class="col-4">2</div>
@@ -160,10 +186,10 @@ get_header(); ?>
                 'post_type' => 'gbayo_musician',
                 'tax_query' => array(
                     array(
-                    'taxonomy' => 'faculty',
-                    'field' => 'term_id',
-                    'terms' => $faculty_id
-                     )
+                        'key' => 'show_in_soloists',
+                        'value' => '1',
+                        'compare' => '=',
+                    )
                   )
                 );
                 $musicians = get_posts($args);
@@ -172,6 +198,9 @@ get_header(); ?>
                 
                     foreach ( $musicians as $musician ) 
                     {
+                        echo 1;
+                    }
+                }
 ?>
 
 
