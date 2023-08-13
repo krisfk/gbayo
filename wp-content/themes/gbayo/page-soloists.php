@@ -164,7 +164,8 @@ get_header(); ?>
                 data-musician-instrument="<?php  echo get_field('instrument');?>"
                 data-musician-foto="<?php echo wp_get_attachment_image_src( get_field('musician_photo'),'full')[0];?>">
 
-                <img src="<?php echo wp_get_attachment_image_src( get_field('musician_photo'),'full')[0];?>" alt="">
+                <img class="w-100"
+                    src="<?php echo wp_get_attachment_image_src( get_field('musician_photo'),'full')[0];?>" alt="">
                 <h3 class="orange bold d-inline-block"><?php echo get_field('musician_name');?> <div
                         class="five-lines-grid">
                         <div class="text-center d-block line-wrapper">
