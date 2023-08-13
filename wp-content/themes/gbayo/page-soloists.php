@@ -155,7 +155,7 @@ get_header(); ?>
                 ?>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
 
             <a href="javascript:void(0);" class="content-fsize more-btn musician-more-btn d-block"
                 data-musician-name="<?php echo get_field('musician_name');?>"
