@@ -40,7 +40,7 @@ get_header(); ?>
 
 
 
-    <div class="orange"><?php echo get_field('message');?></div>
+    <div class="orange mb-4"><?php echo get_field('message');?></div>
 
 
     <h2 class="bold mb-4"><?php echo get_field('year_auditions_title');?></h2>
