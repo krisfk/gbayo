@@ -166,7 +166,7 @@ get_header(); ?>
 
                 <img class="w-100"
                     src="<?php echo wp_get_attachment_image_src( get_field('musician_photo'),'full')[0];?>" alt="">
-                <h3 class="mt-2 orange bold d-block text-dark"><?php echo get_field('musician_name');?> <div
+                <h3 class="mt-2 orange bold d-block text-dark mb-1"><?php echo get_field('musician_name');?> <div
                         class="five-lines-grid">
                         <div class="text-center d-block line-wrapper">
                             <div class="line line-1"></div>
