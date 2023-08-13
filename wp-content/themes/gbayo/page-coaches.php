@@ -51,8 +51,14 @@ get_header(); ?>
         echo get_field('column_1_content');
         ?>
         </div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
+        <div class="col-4"> <?php
+        
+        echo get_field('column_2_content');
+        ?></div>
+        <div class="col-4"> <?php
+        
+        echo get_field('column_3_content');
+        ?></div>
 
 
 
