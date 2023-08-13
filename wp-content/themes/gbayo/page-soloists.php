@@ -133,27 +133,33 @@ get_header(); ?>
         <?php
         
         
-          $args = array(
-                'post_type' => 'gbayo_musician',
-                'tax_query' => array(
-                    array(
-                        'key' => 'show_in_soloists',
-                        'value' => 1,
-                        'compare' => '=',
-                    )
-                  )
-                );
-                $musicians = get_posts($args);
-
-                if ( $musicians ) {
-
-                
-                    foreach ( $musicians as $musician ) 
-                    {
-                        echo 1;
-
-                    }
-                }
+        $query_args = array(
+            'post_type' => 'gbayo_musician',
+            'orderby' => 'relevance',
+            'meta_query' => array(
+                '0' => array(
+                    'key' => 'show_in_soloists',
+                    'value' => '1',
+                    'compare' => '=',
+                ),
+                'relation' => 'AND',
+            ),
+        );
+        
+        // The Query
+        $the_query = new WP_Query( $query_args );
+        
+        // The Loop
+        if ( $the_query->have_posts() ) {
+            while ( $the_query->have_posts() ) {
+                $the_query->the_post();
+                echo 1;
+            }
+            /* Restore original Post Data */
+            wp_reset_postdata();
+        } else {
+            // no posts found
+        }
                 ?>
         <!-- <div class="col-4">2</div>
         <div class="col-4">2</div>
