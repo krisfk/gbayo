@@ -309,10 +309,14 @@
                 <!-- <li class="me-3"><a class="active" href="<?php echo $langs['zh-hant']['url'];?>">中</a></li> -->
                 <!-- <li><a href="<?php echo $langs['en']['url'];?>">EN</a></li> -->
 
-                <!-- ?> -->
-                <a href="<?php echo $langs['en']['url'];?>" class="d-inline-block lang-a">EN</a> | <a
-                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'];?>">繁</a> | <a
-                    href="<?php echo $langs['cn']['url'];?>" class=" lang-a d-inline-block">簡</a>
+                <!-- ?> --><?php
+                  global $post;
+                  $post_slug = $post->post_name;
+                  
+                ?>
+                <a href="<?php echo $langs['en']['url'].'/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'].'/'.$post_slug;?>">繁</a> | <a
+                    href="<?php echo $langs['cn']['url'].'/'.$post_slug;?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
