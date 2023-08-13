@@ -129,8 +129,9 @@ get_header(); ?>
 
         </div>
 
-        <div class="col-6">2</div>
-        <div class="col-6">2</div>
+        <div class="col-4">2</div>
+        <div class="col-4">2</div>
+        <div class="col-4">2</div>
 
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
