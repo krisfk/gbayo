@@ -446,6 +446,9 @@ $(function() {
         $('.lightbox-layer #musician-name').html($(this).attr('data-musician-name'));
         $('.lightbox-layer #musician-instrument').html($(this).attr('data-musician-instrument'));
         $('.lightbox-layer #musician-description').html($(this).attr('data-musician-description'));
+        $('.lightbox-layer').find('img').attr('src',
+            $(this).attr('data-musician-foto')).addClass(
+            'lazyloaded');
 
     })
 
