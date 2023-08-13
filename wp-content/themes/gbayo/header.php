@@ -314,9 +314,9 @@
                   $post_slug = $post->post_name;
                   
                 ?>
-                <a href="<?php echo $langs['en']['url'].'/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
-                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'].'/'.$post_slug;?>">繁</a> | <a
-                    href="<?php echo $langs['cn']['url'].'/'.$post_slug;?>" class=" lang-a d-inline-block">簡</a>
+                <a href="<?php echo $langs['en']['url'].$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo $langs['zh']['url'].$post_slug;?>">繁</a> | <a
+                    href="<?php echo $langs['cn']['url'].$post_slug;?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
