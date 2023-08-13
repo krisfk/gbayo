@@ -491,7 +491,8 @@ $(function() {
         $('.lightbox-layer #musician-name').html($(this).attr('data-musician-name'));
         $('.lightbox-layer #musician-instrument').html($(this).attr('data-musician-instrument'));
         $('.lightbox-layer #musician-description').html($(this).attr('data-musician-description'));
-        $('.detail-musician-img').attr('src', $(this).find('img').attr('src'));
+        $('.detail-musician-img').attr('src',
+            'http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-1@2x-50-3.jpg');
 
 
     })
