@@ -39,6 +39,10 @@ get_header(); ?>
 <div class="container mt-100  content-fsize">
 
 
+
+    <div class="orange"><?php echo get_field('message');?></div>
+
+
     <h2 class="bold mb-4"><?php echo get_field('year_auditions_title');?></h2>
 
     <?php
