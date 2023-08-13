@@ -26,29 +26,30 @@ get_header(); ?>
 
             <a href="javascript:void(0);" class="close-btn"></a>
 
+            <div class="lightbox-content-inner-con">
 
 
-            <div class="container lightbox-container-inner-wrapper">
-                <div class="row">
+                <div class="container lightbox-container-inner-wrapper">
+                    <div class="row">
 
-                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-30">
-                        <img class="w-100" src="" alt="">
+                        <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-30">
+                            <img class="w-100" src="" alt="">
 
-                    </div>
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-12  content-fsize">
-
-
-                        <h1 class="bold" id="musician-name">
-                            <!-- Thomas Hung -->
-                        </h1>
-                        <h3 class="bold orange" id="musician-instrument">
-                            <!-- Cello -->
-                        </h3>
+                        </div>
+                        <div class="col-lg-9 col-md-12 col-sm-12 col-12  content-fsize">
 
 
-                        <div id="musician-description">
+                            <h1 class="bold" id="musician-name">
+                                <!-- Thomas Hung -->
+                            </h1>
+                            <h3 class="bold orange" id="musician-instrument">
+                                <!-- Cello -->
+                            </h3>
 
-                            <!-- 
+
+                            <div id="musician-description">
+
+                                <!-- 
                             Thomas Hung began his early cello lessons with his parents. Under the tutelage of Ray Wang
                             and
                             Paul
@@ -87,6 +88,7 @@ get_header(); ?>
                             School. He participated in the “Orchestra of the Future” under the baton of Gustavo Dudamel
                             with
                             performances for the Nobel Prize Award Ceremony in 2017. -->
+                            </div>
                         </div>
                     </div>
                 </div>
