@@ -65,11 +65,13 @@ if ( $the_query->have_posts() ) {
                     src="<?php echo wp_get_attachment_image_src(get_field('camp_thumbnail_background'),'full')[0];?>"
                     alt="">
 
-                <div class="camp-cate-title camp-cate-title-1 bold"
-                    style="color:<?php echo get_field('camp_thumbnail_title_color');?>"><?php
+                <div class="camp-cate-title camp-cate-title-1 bold"><?php
                 echo get_field('camp_thumbnail_title');
                 ?></div>
-                <div class="camp-cate-title camp-cate-title-2 bold" style="color:<?php echo get_field('camp_name_color');?>>
+                <!-- style="color:<?php echo get_field('camp_thumbnail_title_color');?>" -->
+
+                <!-- style="color:<?php echo get_field('camp_name_color');?> -->
+                <div class="camp-cate-title camp-cate-title-2 bold">
                     <?php
                     echo get_field('camp_name');
                     
@@ -150,37 +152,37 @@ if ( $the_query->have_posts() ) {
 
 
 
-        </div>
-
-
-
-
-
-
-
     </div>
 
 
 
 
-    <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-    <div class="mt-100">
-        <div class="five-lines-sep"></div>
-    </div>
+
+</div>
 
 
-    <script type="text/javascript">
-    $(function() {
 
-        $('.musician-more-btn').click(function() {
 
-            $('.lightbox-layer').fadeIn(200);
-        })
+<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
+
+<div class="mt-100">
+    <div class="five-lines-sep"></div>
+</div>
+
+
+<script type="text/javascript">
+$(function() {
+
+    $('.musician-more-btn').click(function() {
+
+        $('.lightbox-layer').fadeIn(200);
     })
-    </script>
-    <?php
+
+})
+</script>
+<?php
 
 get_footer();
