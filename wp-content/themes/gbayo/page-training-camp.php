@@ -65,10 +65,11 @@ if ( $the_query->have_posts() ) {
                     src="<?php echo wp_get_attachment_image_src(get_field('camp_thumbnail_background'),'full')[0];?>"
                     alt="">
 
-                <div class="camp-cate-title camp-cate-title-1 bold"><?php
+                <div class="camp-cate-title camp-cate-title-1 bold"
+                    style="color:<?php echo get_field('camp_thumbnail_title_color');?>"><?php
                 echo get_field('camp_thumbnail_title');
                 ?></div>
-                <?php echo get_field('camp_thumbnail_title_color');?>
+                <?php //echo get_field('camp_thumbnail_title_color');?>
                 <!-- style="color:<?php echo get_field('camp_thumbnail_title_color');?>" -->
 
                 <!-- style="color:<?php echo get_field('camp_name_color');?> -->
