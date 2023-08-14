@@ -33,7 +33,7 @@ get_header(); ?>
     <img class="top-banner w-100"
         src="<?php echo wp_get_attachment_image_src(get_field('home_banner_desktop'),'full')[0];?>" alt="">
 </div>
-
+<!-- 
 
 <div class="full-width-img-div position-relative mobile">
 
@@ -47,7 +47,7 @@ get_header(); ?>
     </div>
     <img class="top-banner w-100"
         src="<?php echo wp_get_attachment_image_src(get_field('home_banner_mobile'),'full')[0];?>" alt="">
-</div>
+</div> -->
 
 
 
