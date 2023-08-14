@@ -18,8 +18,6 @@ get_header(); ?>
 
 
 
-hello
-
 <div class="full-width-img-div position-relative desktop">
 
     <div class="position-absolute top left w-100 z-1">
