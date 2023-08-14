@@ -33,7 +33,7 @@ get_header(); ?>
 </div>
 
 
-<!-- <div class="full-width-img-div position-relative mobile">
+<div class="full-width-img-div position-relative mobile">
 
     <div class="position-absolute top left w-100 z-1">
 
@@ -44,7 +44,7 @@ get_header(); ?>
 
     </div>
     <img class="top-banner w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/Asset-1@2x-50-1.jpg" alt="">
-</div> -->
+</div>
 
 
 
