@@ -65,10 +65,11 @@ if ( $the_query->have_posts() ) {
                     src="<?php echo wp_get_attachment_image_src(get_field('camp_thumbnail_background'),'full')[0];?>"
                     alt="">
 
-                <div class="camp-cate-title camp-cate-title-1 bold"><?php
+                <div class="camp-cate-title camp-cate-title-1 bold"
+                    style="color:<?php echo get_field('camp_thumbnail_title_color');?>"><?php
                 echo get_field('camp_thumbnail_title');
                 ?></div>
-                <div class="camp-cate-title camp-cate-title-2 bold">
+                <div class="camp-cate-title camp-cate-title-2 bold" style="color:<?php echo get_field('camp_name_color');?>>
                     <?php
                     echo get_field('camp_name');
                     
@@ -91,55 +92,67 @@ if ( $the_query->have_posts() ) {
 
 
         <!-- 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
+        <div class=" col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
 
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+                    <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative"
+                        style="">
+                        <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
 
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Orchestra</div>
-            </a>
+                        <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                        <div class="camp-cate-title camp-cate-title-2 bold">Orchestra</div>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
+
+                    <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative"
+                        style="">
+                        <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
+
+
+                        <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                        <div class="camp-cate-title camp-cate-title-2 bold">Chamber <br>
+                            Music</div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-30 ">
+
+                    <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative"
+                        style="">
+                        <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
+
+
+                        <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                        <div class="camp-cate-title camp-cate-title-2 bold">Masterclass <br>
+                            & Workshop</div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12   ">
+
+                    <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative"
+                        style="">
+                        <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
+
+
+                        <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
+                        <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
+                            Activities</div>
+                    </a>
+                </div> -->
+
+
+
+
+
         </div>
 
 
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-30">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Chamber <br>
-                    Music</div>
-            </a>
-        </div>
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  mb-30 ">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-2.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Masterclass <br>
-                    & Workshop</div>
-            </a>
-        </div>
-
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12   ">
-
-            <a href="<?php echo get_site_url();?>/orchestra" class="camp-cate  d-block position-relative" style="">
-                <img class="w-100" src="http://64.227.13.14/gbayo/wp-content/uploads/2023/07/bg-1.jpg" alt="">
-
-
-                <div class="camp-cate-title camp-cate-title-1 bold">Coming <br> Soon</div>
-                <div class="camp-cate-title camp-cate-title-2 bold">Leisure <br>
-                    Activities</div>
-            </a>
-        </div> -->
 
 
 
@@ -150,32 +163,24 @@ if ( $the_query->have_posts() ) {
 
 
 
+    <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
 
 
-
-</div>
-
-
-
-
-<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-lines-sep.png" alt=""> -->
+    <div class="mt-100">
+        <div class="five-lines-sep"></div>
+    </div>
 
 
-<div class="mt-100">
-    <div class="five-lines-sep"></div>
-</div>
+    <script type="text/javascript">
+    $(function() {
 
+        $('.musician-more-btn').click(function() {
 
-<script type="text/javascript">
-$(function() {
+            $('.lightbox-layer').fadeIn(200);
+        })
 
-    $('.musician-more-btn').click(function() {
-
-        $('.lightbox-layer').fadeIn(200);
     })
-
-})
-</script>
-<?php
+    </script>
+    <?php
 
 get_footer();
