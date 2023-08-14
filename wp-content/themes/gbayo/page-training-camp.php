@@ -68,6 +68,7 @@ if ( $the_query->have_posts() ) {
                 <div class="camp-cate-title camp-cate-title-1 bold"><?php
                 echo get_field('camp_thumbnail_title');
                 ?></div>
+                <?php echo get_field('camp_thumbnail_title_color');?>
                 <!-- style="color:<?php echo get_field('camp_thumbnail_title_color');?>" -->
 
                 <!-- style="color:<?php echo get_field('camp_name_color');?> -->
