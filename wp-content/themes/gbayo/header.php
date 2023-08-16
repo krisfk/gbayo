@@ -314,10 +314,12 @@
                   $post_slug = $post->post_name;
 
                   
+                  $path = get_page_uri($post_or_id);
+
+                  echo $path;
                 //   global $wp;
                 //   $full_url = home_url( $wp->request );
                 //   $arr = explode(get_site_url(),$full_url);
-
 
     
                 ?>
