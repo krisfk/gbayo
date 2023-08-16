@@ -322,7 +322,7 @@
 
     
                 ?>
-                <a href="<?php echo get_site_url().'/en/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
+                <a href="<?php echo get_site_url().$path;?>" class="d-inline-block lang-a">EN</a> | <a
                     class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$path;?>">繁</a> | <a
                     href="<?php echo get_site_url().'/cn/'.$path;?>" class=" lang-a d-inline-block">簡</a>
 
