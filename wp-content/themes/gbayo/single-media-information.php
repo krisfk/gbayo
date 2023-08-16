@@ -136,7 +136,7 @@ if(get_field('media_type')=='News')
 
 
         }
-
+// 
     echo get_field('media_news_content');
 }
 
