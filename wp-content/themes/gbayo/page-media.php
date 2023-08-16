@@ -119,7 +119,7 @@ get_header(); ?>
                         <h3 class="orange bold d-inline-block">
                             <?php echo get_field('media_title');?>
 
-                            <h3 class="orange bold d-inline-block">
+                            <span class="orange bold d-inline-block">
 
                                 <div class="five-lines-grid">
                                     <div class="text-center d-block line-wrapper">
@@ -139,7 +139,7 @@ get_header(); ?>
                                     </div>
 
                                 </div>
-                            </h3>
+                            </span>
 
 
 
