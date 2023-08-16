@@ -309,12 +309,14 @@
                 <!-- <li class="me-3"><a class="active" href="<?php echo $langs['zh-hant']['url'];?>">中</a></li> -->
                 <!-- <li><a href="<?php echo $langs['en']['url'];?>">EN</a></li> -->
 
-                <!-- ?> --><?php
+                <?php
                   global $post;
                   $post_slug = $post->post_name;
-                //   $arr = explode(get_site_url(),$str);
-                global $wp;
-                echo home_url( $wp->request );
+                  global $wp;
+                  $full_url = home_url( $wp->request );
+                  $arr = explode(get_site_url(),$full_url);
+
+                 echo $arr[1];
     
                 ?>
                 <a href="<?php echo get_site_url().'/en/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
