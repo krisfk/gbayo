@@ -316,12 +316,12 @@
                   $full_url = home_url( $wp->request );
                   $arr = explode(get_site_url(),$full_url);
 
-                 echo $arr[1];
+                //  echo $arr[1];
     
                 ?>
-                <a href="<?php echo get_site_url().'/en/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
-                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$post_slug;?>">繁</a> | <a
-                    href="<?php echo get_site_url().'/cn/'.$post_slug;?>" class=" lang-a d-inline-block">簡</a>
+                <a href="<?php echo get_site_url().'/en/'.$arr[1];?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$arr[1];?>">繁</a> | <a
+                    href="<?php echo get_site_url().'/cn/'.$arr[1];?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
