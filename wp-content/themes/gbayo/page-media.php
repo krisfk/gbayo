@@ -73,7 +73,9 @@ get_header(); ?>
             
             $query_args = array(
                 'post_type' => 'media-information',
-                'orderby' => 'media_date'
+                'orderby' => 'media_date',
+                'order' => 'DESC'
+
             );
             
             // The Query
