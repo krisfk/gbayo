@@ -1201,11 +1201,11 @@ a.mail-link:hover {
   overflow-y: scroll;
 }
 
-.content-fsize a {
+.single-media-information a {
   color: #776b62;
 }
 
-.content-fsize a:hover {
+.single-media-information .content-fsize a:hover {
   color: #f47421;
 }
 
