@@ -1201,6 +1201,14 @@ a.mail-link:hover {
   overflow-y: scroll;
 }
 
+.content-fsize a {
+  color: #776b62;
+}
+
+.content-fsize a:hover {
+  color: #f47421;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-div-outer-container {
     display: block;
