@@ -315,16 +315,16 @@
 
                    $path = str_replace(home_url(),'',get_permalink());
 
-                  echo $path;
+                //   echo $path;
                 //   global $wp;
                 //   $full_url = home_url( $wp->request );
                 //   $arr = explode(get_site_url(),$full_url);
 
     
                 ?>
-                <a href="<?php echo get_site_url().'/en/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
-                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$post_slug;?>">繁</a> | <a
-                    href="<?php echo get_site_url().'/cn/'.$post_slug;?>" class=" lang-a d-inline-block">簡</a>
+                <a href="<?php echo get_site_url().'/en/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$path;?>">繁</a> | <a
+                    href="<?php echo get_site_url().'/cn/'.$path;?>" class=" lang-a d-inline-block">簡</a>
 
             </div>
 
