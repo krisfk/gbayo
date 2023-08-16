@@ -132,7 +132,12 @@ if(get_field('media_type')=='News')
             <?php
 
             }
+
+
+
         }
+
+    echo get_field('media_news_content');
 }
 
 
