@@ -145,7 +145,9 @@ if(get_field('media_type')=='News')
 if(get_field('media_type')=='Photos')
 {
 
-
+?>
+            <div class="mt-5">
+                <?php
     if( have_rows('media_photos') )
     {
             $idx = 0;
@@ -159,14 +161,14 @@ if(get_field('media_type')=='Photos')
         if($idx%2==0)
         {
             ?>
-            <div class="row mb-30 gx-3 ">
+                <div class="row mb-30 gx-3 ">
 
-                <?php
+                    <?php
         }
         ?>
-                <?php
+                    <?php
         ?>
-                <div class="<?php 
+                    <div class="<?php 
                 
                 
                 if($row_idx%2==0 && $idx%2==0)
@@ -194,26 +196,29 @@ if(get_field('media_type')=='Photos')
                 // ? 'col-4':'col-8' ;
                 
                 ?> position-relative">
-                    <div class="album-foto-div position-relative">
-                        <div class="position-absolute w-100 h-100">
-                            <a href="javascript:void(0);" class="album-a"
-                                rel="<?php echo wp_get_attachment_image_src(get_sub_field('media_photo'),'full')[0];?>"
-                                style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('media_photo'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                        <div class="album-foto-div position-relative">
+                            <div class="position-absolute w-100 h-100">
+                                <a href="javascript:void(0);" class="album-a"
+                                    rel="<?php echo wp_get_attachment_image_src(get_sub_field('media_photo'),'full')[0];?>"
+                                    style="background: url(<?php echo wp_get_attachment_image_src(get_sub_field('media_photo'),'full')[0];?>); position: absolute; width: 100%; height: 100%; background-size: cover;"></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <?php
+                    <?php
 
                 if($idx%2!=0)
                 {
                     $row_idx++;
                 ?>
-            </div>
-            <?php    
+                </div>
+                <?php    
                 }
             $idx++;
         }
     }
+    ?>
+            </div>
+            <?php
 }
 ?>
 
