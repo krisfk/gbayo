@@ -312,7 +312,10 @@
                 <!-- ?> --><?php
                   global $post;
                   $post_slug = $post->post_name;
-                  
+                //   $arr = explode(get_site_url(),$str);
+                global $wp;
+                echo home_url( $wp->request );
+    
                 ?>
                 <a href="<?php echo get_site_url().'/en/'.$post_slug;?>" class="d-inline-block lang-a">EN</a> | <a
                     class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$post_slug;?>">繁</a> | <a
