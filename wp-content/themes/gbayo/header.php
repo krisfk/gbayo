@@ -313,8 +313,7 @@
                   global $post;
                   $post_slug = $post->post_name;
 
-                  
-                  $path = get_page_uri($post_or_id);
+                   $path = str_replace(home_url(),'',get_permalink());
 
                   echo $path;
                 //   global $wp;
