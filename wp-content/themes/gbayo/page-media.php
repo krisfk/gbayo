@@ -49,7 +49,7 @@ get_header(); ?>
 
     // echo $current_language_code;
 
-    if($current_language_code='en')
+    if($current_language_code=='en')
     {
         ?>
         <ul class="news-ul mb-30">
@@ -81,7 +81,7 @@ get_header(); ?>
 
         <?php
 
-if($current_language_code='zh')
+if($current_language_code=='zh')
 {
 ?>
         <ul class="news-ul mb-30">
@@ -112,7 +112,7 @@ if($current_language_code='zh')
 
         <?php
 
-if($current_language_code='cn')
+if($current_language_code=='cn')
 {
 ?>
 
