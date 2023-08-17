@@ -49,7 +49,7 @@
             }
             if(get_language_shortcode()=='cn')
             {
-                $head_post_id=717;
+                $head_post_id=1127;
    
             }
             ?>
