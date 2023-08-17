@@ -223,11 +223,14 @@ if($current_language_code=='cn')
                         <?php 
 
                         // Load field value.
-                        $date_string = get_field( 'media_date' );
+                        // $date_string = get_field( 'media_date' );
 
-                        // Create DateTime object from value (formats must match).
-                        $date = DateTime::createFromFormat( 'Ymd', $date_string );
+                        // // Create DateTime object from value (formats must match).
+                        // $date = DateTime::createFromFormat( 'Ymd', $date_string );
 
+                        $date = get_field('media_date');
+                        $date2 = date("F j, Y", strtotime($date));
+                        echo $date2;
                         // echo $date->format( 'Ymd' );
 
 
