@@ -222,7 +222,8 @@ if($current_language_code=='cn')
 
                         <?php 
                         // j M Y
-                        echo get_field( 'media_date' ).'<br>';
+                        echo get_field( 'media_date' );
+                        // .'<br>';
                         // echo get_field('media_date');
                         
                         // $date2 = date("F j, Y", strtotime(get_field('media_date')));
@@ -230,10 +231,11 @@ if($current_language_code=='cn')
                         // echo $date2;
 
                         // Load field value and convert to numeric timestamp.
-                        $unixtimestamp = strtotime( get_field( 'media_date' ) );
+                        // $unixtimestamp = strtotime( get_field( 'media_date' ) );
 
                         // Display date in the format "l d F, Y".
-                        echo date_i18n( 'yy'.'年'.'m'.'月'.'d'.'日', $unixtimestamp );
+
+                        // echo date_i18n( 'yy'.'年'.'m'.'月'.'d'.'日', $unixtimestamp );
 
                         // echo date('yy'.'年'.'m'.'月'.'d'.'日');
 
