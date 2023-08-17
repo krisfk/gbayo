@@ -51,6 +51,7 @@ $current_language_code= get_language_shortcode();
 
 if($current_language_code=='en')
 {
+    echo get_field('media_type');
 ?>
         <ul class="news-ul mb-30">
             <li>
