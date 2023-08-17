@@ -118,7 +118,7 @@ if($current_language_code=='cn')
 
         <ul class="news-ul mb-30">
             <li>
-                <a href="<?php echo get_site_url().'/'.$current_language_code;?>media" class="active">媒体</a>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/media" class="active">媒体</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news" class="">最新消息</a>
