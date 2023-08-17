@@ -522,9 +522,37 @@ echo'</li>';
 
 
                                 <div class="row align-items-center gx-0">
-                                    <div class="col-3"> <a href="<?php echo get_site_url();?>" class="logo-a"><img
+
+
+
+                                    <div class="col-3">
+
+
+
+                                        <?php
+if($current_language_code=='en')
+{
+    ?>
+                                        <a href="<?php echo get_site_url();?>" class="logo-a"><img
                                                 src="<?php echo wp_get_attachment_image_src(get_field('gbayo_logo',$head_post_id),'full')[0];?>"
                                                 alt=""></a>
+
+                                        <?php
+}
+else
+{
+    ?>
+                                        <a href="<?php echo get_site_url().'/'.$current_language_code;?>"
+                                            class="logo-a"><img
+                                                src="<?php echo wp_get_attachment_image_src(get_field('gbayo_logo',$head_post_id),'full')[0];?>"
+                                                alt=""></a>
+
+                                        <?php
+
+}
+?>
+
+
 
                                     </div>
 
