@@ -220,13 +220,22 @@ if($current_language_code=='cn')
 
                     <div>
 
+
+
                         <?php 
                         // j M Y
-                        echo get_field( 'media_date' );
+                        // echo get_field( 'media_date' );
                         // .'<br>';
                         // echo get_field('media_date');
-                        
-                        // $date2 = date("F j, Y", strtotime(get_field('media_date')));
+                        // Load field value.
+$date_string = get_field( 'media_date' );
+
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat( 'Ymd', $date_string );
+echo $date->format( 'j M Y' );
+// Output current date in custom format.
+?>
+                        <!-- // $date2 = date("F j, Y", strtotime(get_field('media_date')));
 
                         // echo $date2;
 
@@ -242,7 +251,7 @@ if($current_language_code=='cn')
                         // http://64.227.13.14/gbayo/media/
 
 
-                        ?>
+                        ?> -->
 
                         <!-- 16 Feb 2023 -->
                     </div>
