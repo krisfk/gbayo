@@ -45,7 +45,16 @@ get_header(); ?>
 
     <h2 class="bold mb-5"><?php echo get_field('big_txt');?></h2>
 
-    <div class="row">
+
+
+    <!-- [contact-form-7 id="e0e19e8" title="Contact form 1"] -->
+
+    <?php
+    
+    
+    echo do_shortcode( '[contact-form-7 id="e0e19e8" title="Contact form 1"]' );
+?>
+    <!-- <div class="row">
 
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
             <label for="name" class="mb-1">Name:</label>
@@ -94,8 +103,12 @@ get_header(); ?>
             </div>
         </div>
 
-    </div>
+    </div> -->
 
+
+
+
+    <?php ?>
 
 
 
