@@ -221,6 +221,7 @@ if($current_language_code=='cn')
                     <div>
 
                         <?php 
+                        // j M Y
                         echo get_field( 'media_date' ).'<br>';
                         // echo get_field('media_date');
                         
