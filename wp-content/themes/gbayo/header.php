@@ -12,6 +12,25 @@
  */
 
 ?>
+
+<?php
+            
+            if(get_language_shortcode()=='zh')
+            {
+                $head_post_id=717;
+            }
+            if(get_language_shortcode()=='en')
+            {
+                $head_post_id=165;
+
+            }
+            if(get_language_shortcode()=='cn')
+            {
+                $head_post_id=717;
+   
+            }
+            ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
 
@@ -416,23 +435,7 @@ echo'</li>';
     </div>
 
 
-    <?php
-            
-            if(get_language_shortcode()=='zh')
-            {
-                $head_post_id=717;
-            }
-            if(get_language_shortcode()=='en')
-            {
-                $head_post_id=165;
 
-            }
-            if(get_language_shortcode()=='cn')
-            {
-                $head_post_id=717;
-   
-            }
-            ?>
 
     <div class="fix-social-elements">
         <ul class="">
