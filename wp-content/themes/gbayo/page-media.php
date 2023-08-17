@@ -232,9 +232,10 @@ if($current_language_code=='cn')
                         $unixtimestamp = strtotime( get_field( 'media_date' ) );
 
                         // Display date in the format "l d F, Y".
-                        echo date_i18n( "l d F, Y", $unixtimestamp );
+                        echo date_i18n( 'yy'.'年'.'m'.'月'.'d'.'日', $unixtimestamp );
 
-                        
+                        // echo date('yy'.'年'.'m'.'月'.'d'.'日');
+
                         // http://64.227.13.14/gbayo/media/
 
 
