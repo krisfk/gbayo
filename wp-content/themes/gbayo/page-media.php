@@ -222,23 +222,11 @@ if($current_language_code=='cn')
 
                         <?php 
                         
-                        if($current_language_code=='en')
-                        {
-                            echo get_field('media_date');
-                        }
+                        // echo get_field('media_date');
                         
-                        
-                        if($current_language_code=='zh')
-                        {
-                            echo date("Y年F月j日", strtotime(get_field('media_date')));
-                        }
-                        if($current_language_code=='cn')
-                        {
-                            echo date("Y年F月j日", strtotime(get_field('media_date')));
-                        }
-                        
+                        $date2 = date("F j, Y", strtotime(get_field('media_date')));
 
-                        // echo $date2;
+                        echo $date2;
 
                         
                         // http://64.227.13.14/gbayo/media/
