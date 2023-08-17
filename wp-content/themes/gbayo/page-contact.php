@@ -142,6 +142,11 @@ $(function() {
         $('.lightbox-layer').fadeIn(200);
     })
 
+    $('.more-btn').click(function() {
+        $('.wpcf7-submit').click();
+    })
+
+    // wpcf7-submit
 })
 </script>
 <?php
