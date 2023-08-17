@@ -51,7 +51,7 @@ $current_language_code= get_language_shortcode();
 
 if($current_language_code=='en')
 {
-    echo get_field('media_type');
+    // echo get_field('media_type');
 ?>
         <ul class="news-ul mb-30">
             <li>
@@ -59,19 +59,19 @@ if($current_language_code=='en')
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/news"
-                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">News</a>
+                    class="<?php echo get_field('media_type')=='News'?'active':'';?>">News</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/press-releases"
-                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">Press Releases</a>
+                    class="<?php echo get_field('media_type')=='Press Releases'?'active':'';?>">Press Releases</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/videos"
-                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">Videos</a>
+                    class="<?php echo get_field('media_type')=='Videos'?'active':'';?>">Videos</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/photos"
-                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">Photos</a>
+                    class="<?php echo get_field('media_type')=='Photos'?'active':'';?>">Photos</a>
             </li>
         </ul>
         <?php
@@ -91,19 +91,19 @@ if($current_language_code=='zh')
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news"
-                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">最新消息</a>
+                    class="<?php echo get_field('media_type')=='News'?'active':'';?>">最新消息</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases"
-                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">新聞稿</a>
+                    class="<?php echo get_field('media_type')=='Press Releases'?'active':'';?>">新聞稿</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos"
-                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">影片</a>
+                    class="<?php echo get_field('media_type')=='Videos'?'active':'';?>">影片</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos"
-                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">相片</a>
+                    class="<?php echo get_field('media_type')=='Photos'?'active':'';?>">相片</a>
             </li>
         </ul>
         <?php
@@ -122,19 +122,19 @@ if($current_language_code=='cn')
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news"
-                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">最新消息</a>
+                    class="<?php echo get_field('media_type')=='News'?'active':'';?>">最新消息</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases"
-                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">新闻稿</a>
+                    class="<?php echo get_field('media_type')=='Press Releases'?'active':'';?>">新闻稿</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos"
-                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">影片</a>
+                    class="<?php echo get_field('media_type')=='Videos'?'active':'';?>">影片</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos"
-                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">相片</a>
+                    class="<?php echo get_field('media_type')=='Photos'?'active':'';?>">相片</a>
             </li>
         </ul>
         <?php
