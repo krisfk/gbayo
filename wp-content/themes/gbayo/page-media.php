@@ -220,7 +220,19 @@ if($current_language_code=='cn')
 
                     <div>
 
-                        <?php //echo get_field('media_date');?>
+                        <?php 
+                        
+                        // echo get_field('media_date');
+                        
+                        $date2 = date("F j, Y", strtotime(get_field('media_date')));
+
+                        echo $date2;
+
+                        
+                        // http://64.227.13.14/gbayo/media/
+
+
+                        ?>
 
                         <!-- 16 Feb 2023 -->
                     </div>
