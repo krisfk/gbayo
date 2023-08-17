@@ -44,10 +44,8 @@ get_header(); ?>
         <?php
     
     
-    
     $current_language_code= get_language_shortcode();
 
-    // echo $current_language_code;
 
     if($current_language_code=='en')
     {
@@ -72,13 +70,6 @@ get_header(); ?>
         <?php
     }
     ?>
-
-
-
-
-
-
-
         <?php
 
 if($current_language_code=='zh')
@@ -108,8 +99,6 @@ if($current_language_code=='zh')
 }
 
 ?>
-
-
         <?php
 
 if($current_language_code=='cn')
@@ -139,6 +128,8 @@ if($current_language_code=='cn')
 ?>
 
     </div>
+
+
 
     <div class="row ">
 
