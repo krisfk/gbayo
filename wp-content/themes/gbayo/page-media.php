@@ -230,10 +230,10 @@ if($current_language_code=='cn')
 
                         $date = get_field('media_date');
                         // $date2 = date("F j, Y", strtotime($date));
-                        // echo $date;
+                        echo $date;
 
-                        $date2 = DateTime::createFromFormat( 'Ymd', $date );
-                        echo $date2;
+                        // $date2 = DateTime::createFromFormat( 'Ymd', $date );
+                        // echo $date2;
 
                         // echo $date->format( 'Ymd' );
 
