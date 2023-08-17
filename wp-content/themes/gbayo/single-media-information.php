@@ -40,6 +40,112 @@ get_header(); ?>
 <div class="container mt-100  content-fsize">
 
 
+
+    <div class="text-center">
+
+        <?php
+
+
+$current_language_code= get_language_shortcode();
+
+
+if($current_language_code=='en')
+{
+?>
+        <ul class="news-ul mb-30">
+            <li>
+                <a href="<?php echo get_site_url();?>/media" class="">All</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/news"
+                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">News</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/press-releases"
+                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">Press Releases</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/videos"
+                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">Videos</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/photos"
+                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">Photos</a>
+            </li>
+        </ul>
+        <?php
+}
+?>
+        <?php
+
+if($current_language_code=='zh')
+{
+?>
+        <ul class="news-ul mb-30">
+            <li>
+
+
+
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/media" class="">媒體</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news"
+                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases"
+                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">新聞稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos"
+                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos"
+                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+        <?php
+
+if($current_language_code=='cn')
+{
+?>
+
+        <ul class="news-ul mb-30">
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/media" class="">媒体</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news"
+                    class="<?php echo get_field('media_type')=='news'?'active':'';?>">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases"
+                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">新闻稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos"
+                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos"
+                    class="<?php echo get_field('media_type')=='photos'?'active':'';?>">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+
+    </div>
+
+
+
+    <!-- 
     <div class="text-center">
         <ul class="news-ul mb-30">
             <li>
@@ -50,17 +156,19 @@ get_header(); ?>
                     class="<?php echo get_field('media_type')=='News'?'active':'';?>">News</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/press-releases">Press Releases</a>
+                <a href="<?php echo get_site_url();?>/press-releases"
+                    class="<?php echo get_field('media_type')=='press_releases'?'active':'';?>">Press Releases</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/videos">Videos</a>
+                <a href="<?php echo get_site_url();?>/videos"
+                    class="<?php echo get_field('media_type')=='videos'?'active':'';?>">Videos</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/photos"
                     class="<?php echo get_field('media_type')=='Photos'?'active':'';?>">Photos</a>
             </li>
         </ul>
-    </div>
+    </div> -->
 
     <div class="row ">
 
