@@ -228,7 +228,7 @@ if($current_language_code=='cn')
                         // Create DateTime object from value (formats must match).
                         $date = DateTime::createFromFormat( 'Ymd', $date_string );
 
-                        // echo $date->format( 'j M Y' );
+                        echo $date->format( 'Ymd' );
 
 
                         
