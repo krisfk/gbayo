@@ -1205,6 +1205,14 @@ a.mail-link:hover {
   color: #776b62;
 }
 
+.single-media-information .lang-div a {
+  color: #fff;
+}
+
+.single-media-information .lang-div a:hover {
+  color: #fff;
+}
+
 .single-media-information .content-fsize a:hover {
   color: #f47421;
 }
