@@ -720,7 +720,7 @@
                 </div>
             </div>
 
-            <div class="row gx-1">
+            <div class="row gx-1 ">
 
                 <table>
                     <tr>
@@ -728,7 +728,7 @@
                             <div class="reserve-txt "><?php echo get_field('all_right_reserve_txt',$footer_post_id);?>
                             </div>
                         </td>
-                        <td>
+                        <td class="text-end">
                             <table class="d-inline-block">
                                 <tr>
                                     <td><a target="_blank" href="<?php echo get_field('ig_link',$footer_post_id);?>"
