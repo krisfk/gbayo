@@ -229,8 +229,12 @@ if($current_language_code=='cn')
                         // $date = DateTime::createFromFormat( 'Ymd', $date_string );
 
                         $date = get_field('media_date');
-                        $date2 = date("F j, Y", strtotime($date));
+                        // $date2 = date("F j, Y", strtotime($date));
+                        // echo $date2;
+
+                        $date2 = date_create_from_format( 'Ymd', $date );
                         echo $date2;
+
                         // echo $date->format( 'Ymd' );
 
 
