@@ -15,6 +15,7 @@
 
 <?php
             
+            
             if(get_language_shortcode()=='zh')
             {
                 $head_post_id=717;
@@ -340,6 +341,10 @@
                 //   $arr = explode(get_site_url(),$full_url);
 
     
+                if(is_home())
+                {
+                    echo 1;
+                }
                 ?>
                 <a href="<?php echo get_site_url().'/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
                     class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$path;?>">繁</a> | <a
