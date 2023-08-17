@@ -40,6 +40,15 @@ get_header(); ?>
 
 
     <div class="text-center">
+
+        <?php
+    
+    
+    
+    $current_language_code= get_language_shortcode();
+
+    echo $current_language_code;
+    ?>
         <ul class="news-ul mb-30">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="active">All</a>

@@ -41,6 +41,7 @@ get_header(); ?>
 
 
     <div class="text-center">
+
         <ul class="news-ul mb-30">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="">All</a>
@@ -58,6 +59,8 @@ get_header(); ?>
                 <a href="<?php echo get_site_url();?>/photos">Photos</a>
             </li>
         </ul>
+
+
     </div>
 
     <div class="row ">
