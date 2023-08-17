@@ -222,7 +222,7 @@ if($current_language_code=='cn')
 
                         <?php 
                         
-                        // echo get_field('media_date');
+                         echo get_field('media_date');
                         
                         $date2 = date("F j, Y", strtotime(get_field('media_date')));
 
