@@ -224,9 +224,15 @@ if($current_language_code=='cn')
                         
                         // echo get_field('media_date');
                         
-                        $date2 = date("F j, Y", strtotime(get_field('media_date')));
+                        // $date2 = date("F j, Y", strtotime(get_field('media_date')));
 
-                        echo $date2;
+                        // echo $date2;
+
+                        // Load field value and convert to numeric timestamp.
+                        $unixtimestamp = strtotime( get_field( 'media_date' ) );
+
+                        // Display date in the format "l d F, Y".
+                        echo date_i18n( "l d F, Y", $unixtimestamp );
 
                         
                         // http://64.227.13.14/gbayo/media/
