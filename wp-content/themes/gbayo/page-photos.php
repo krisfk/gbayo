@@ -42,15 +42,25 @@ get_header(); ?>
 
 
     <div class="text-center">
+
+        <?php
+
+
+$current_language_code= get_language_shortcode();
+
+
+if($current_language_code=='en')
+{
+?>
         <ul class="news-ul mb-30">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/news">News</a>
+                <a href="<?php echo get_site_url();?>/news" class="">News</a>
             </li>
             <li>
-                <a href="<?php echo get_site_url();?>/press-releases">Press Releases</a>
+                <a href="<?php echo get_site_url();?>/press-releases" class="">Press Releases</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/videos">Videos</a>
@@ -59,6 +69,66 @@ get_header(); ?>
                 <a href="<?php echo get_site_url();?>/photos" class="active">Photos</a>
             </li>
         </ul>
+        <?php
+}
+?>
+        <?php
+
+if($current_language_code=='zh')
+{
+?>
+        <ul class="news-ul mb-30">
+            <li>
+
+
+
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/media" class="active">媒體</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news" class="">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases" class="">新聞稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos" class="active">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+        <?php
+
+if($current_language_code=='cn')
+{
+?>
+
+        <ul class="news-ul mb-30">
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/media" class="active">媒体</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/news" class="">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/press-releases" class="">新闻稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/videos">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>/photos" class="active">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+
     </div>
 
     <div class="row ">
