@@ -222,14 +222,7 @@ if($current_language_code=='cn')
 
                         <?php 
 
-                        // Load field value.
-                        // $date_string = get_field( 'media_date' );
-
-                        // // Create DateTime object from value (formats must match).
-                        // $date = DateTime::createFromFormat( 'Ymd', $date_string );
-
-                        // $date = get_field('media_date');
-                        // $date2 = date("F j, Y", strtotime($date));
+                      
                         if($current_language_code=='en')
                         {
                             echo  date("F j, Y", strtotime(get_field('media_date')));
@@ -240,33 +233,14 @@ if($current_language_code=='cn')
                             echo  date("Y年m月d日", strtotime(get_field('media_date')));
                         }
 
-                        
-                        // $date2 = date("F j, Y", strtotime(get_field('media_date')));
-
-                        echo $date2;
-
-                        // $date2 = DateTime::createFromFormat( 'Ymd', $date );
-                        // echo $date2;
-
-                        // echo $date->format( 'Ymd' );
-
+                        if($current_language_code=='cn')
+                        {
+                            echo  date("Y年m月d日", strtotime(get_field('media_date')));
+                        }
 
                         
-                        // echo get_field( 'media_date' ).'<br>';
-                        // // echo get_field('media_date');
+                    
                         
-                        // // $date2 = date("F j, Y", strtotime(get_field('media_date')));
-
-                        // // echo $date2;
-
-                        // // Load field value and convert to numeric timestamp.
-                        // $unixtimestamp = strtotime( get_field( 'media_date' ) );
-
-                        // // Display date in the format "l d F, Y".
-                        // echo date_i18n( "l d F, Y年 ", $unixtimestamp );
-
-                        
-                        // http://64.227.13.14/gbayo/media/
 
 
                         ?>
