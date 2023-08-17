@@ -324,7 +324,7 @@
                     href="<?php echo get_site_url().'/cn/'.$path;?>" class=" lang-a d-inline-block">簡</a>
                      -->
 
-                <a href="<?php echo get_site_url().$current_language_code;?>"> <img class="gbayo-logo-white"
+                <a href="<?php echo get_site_url().'/'.$current_language_code;?>"> <img class="gbayo-logo-white"
                         src="<?php echo wp_get_attachment_image_src(get_field('menu_white_gbayo_logo',$head_post_id),'full')[0];?>"
                         alt=""></a>
             </div>
