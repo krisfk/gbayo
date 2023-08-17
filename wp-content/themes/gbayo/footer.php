@@ -32,7 +32,7 @@
             }
             if(get_language_shortcode()=='cn')
             {
-                $footer_post_id=207;
+                $footer_post_id=1224;
    
             }
             ?>
