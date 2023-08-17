@@ -1209,6 +1209,10 @@ a.mail-link:hover {
   color: #f47421;
 }
 
+.wpcf7-submit {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-div-outer-container {
     display: block;
