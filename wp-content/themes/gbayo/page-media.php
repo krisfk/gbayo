@@ -226,7 +226,7 @@ if($current_language_code=='cn')
                         $date_string = get_field( 'media_date' );
 
                         // Create DateTime object from value (formats must match).
-                        // $date = DateTime::createFromFormat( 'Ymd', $date_string );
+                        $date = DateTime::createFromFormat( 'Ymd', $date_string );
 
                         // echo $date->format( 'j M Y' );
 
