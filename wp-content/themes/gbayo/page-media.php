@@ -220,7 +220,7 @@ if($current_language_code=='cn')
 
                     <div>
 
-                        <?php echo get_field('media_date');?>
+                        <?php //echo get_field('media_date');?>
 
                         <!-- 16 Feb 2023 -->
                     </div>
