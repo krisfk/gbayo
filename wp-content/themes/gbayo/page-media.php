@@ -47,8 +47,11 @@ get_header(); ?>
     
     $current_language_code= get_language_shortcode();
 
-    echo $current_language_code;
-    ?>
+    // echo $current_language_code;
+
+    if($current_language_code='en')
+    {
+        ?>
         <ul class="news-ul mb-30">
             <li>
                 <a href="<?php echo get_site_url();?>/media" class="active">All</a>
@@ -66,6 +69,75 @@ get_header(); ?>
                 <a href="<?php echo get_site_url();?>/photos">Photos</a>
             </li>
         </ul>
+        <?php
+    }
+    ?>
+
+
+
+
+
+
+
+        <?php
+
+if($current_language_code='zh')
+{
+?>
+        <ul class="news-ul mb-30">
+            <li>
+
+
+
+                <a href="<?php echo get_site_url();?>/media" class="active">媒體</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/news" class="">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/press-releases" class="">新聞稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/videos">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/photos">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+
+
+        <?php
+
+if($current_language_code='cn')
+{
+?>
+
+        <ul class="news-ul mb-30">
+            <li>
+                <a href="<?php echo get_site_url();?>/media" class="active">媒体</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/news" class="">最新消息</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/press-releases" class="">新闻稿</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/videos">影片</a>
+            </li>
+            <li>
+                <a href="<?php echo get_site_url();?>/photos">相片</a>
+            </li>
+        </ul>
+        <?php
+}
+
+?>
+
     </div>
 
     <div class="row ">
