@@ -230,7 +230,18 @@ if($current_language_code=='cn')
 
                         // $date = get_field('media_date');
                         // $date2 = date("F j, Y", strtotime($date));
-                        $date2 = date("F j, Y", strtotime(get_field('media_date')));
+                        if($current_language_code=='en')
+                        {
+                            echo  date("F j, Y", strtotime(get_field('media_date')));
+                        }
+
+                        if($current_language_code=='zh')
+                        {
+                            echo  date("Y年m月d日", strtotime(get_field('media_date')));
+                        }
+
+                        
+                        // $date2 = date("F j, Y", strtotime(get_field('media_date')));
 
                         echo $date2;
 
