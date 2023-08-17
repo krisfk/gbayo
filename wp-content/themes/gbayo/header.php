@@ -14,6 +14,28 @@
 ?>
 
 <?php
+                  global $post;
+                  $post_slug = $post->post_name;
+
+                   $path = str_replace(home_url(),'',get_permalink());
+
+                   $current_language_code= get_language_shortcode();
+
+
+                //   echo $path;
+                //   global $wp;
+                //   $full_url = home_url( $wp->request );
+                //   $arr = explode(get_site_url(),$full_url);
+
+    
+                if(is_home())
+                {
+                    $path='';
+                }
+                ?>
+
+
+<?php
             
             
             if(get_language_shortcode()=='zh')
@@ -295,7 +317,14 @@
 
 
             <div class="mx-lg-5 mx-md-4 mx-sm-4 mx-4 ">
-                <a href="<?php echo get_site_url();?>"> <img class="gbayo-logo-white"
+
+
+                <!-- <a href="<?php echo get_site_url().'/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
+                    class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$path;?>">繁</a> | <a
+                    href="<?php echo get_site_url().'/cn/'.$path;?>" class=" lang-a d-inline-block">簡</a>
+                     -->
+
+                <a href="<?php echo get_site_url().$current_language_code;?>"> <img class="gbayo-logo-white"
                         src="<?php echo wp_get_attachment_image_src(get_field('menu_white_gbayo_logo',$head_post_id),'full')[0];?>"
                         alt=""></a>
             </div>
@@ -313,7 +342,6 @@
                 <?php
                 
                 // echo 11;
-            $current_language_code= get_language_shortcode();
                 $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
 
 
@@ -329,23 +357,7 @@
                 <!-- <li class="me-3"><a class="active" href="<?php echo $langs['zh-hant']['url'];?>">中</a></li> -->
                 <!-- <li><a href="<?php echo $langs['en']['url'];?>">EN</a></li> -->
 
-                <?php
-                  global $post;
-                  $post_slug = $post->post_name;
 
-                   $path = str_replace(home_url(),'',get_permalink());
-
-                //   echo $path;
-                //   global $wp;
-                //   $full_url = home_url( $wp->request );
-                //   $arr = explode(get_site_url(),$full_url);
-
-    
-                if(is_home())
-                {
-                    $path='';
-                }
-                ?>
                 <a href="<?php echo get_site_url().'/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
                     class="  lang-a d-inline-block" href="<?php echo get_site_url().'/zh/'.$path;?>">繁</a> | <a
                     href="<?php echo get_site_url().'/cn/'.$path;?>" class=" lang-a d-inline-block">簡</a>
