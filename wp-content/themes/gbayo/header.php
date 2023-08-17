@@ -343,7 +343,7 @@
     
                 if(is_home())
                 {
-                    echo 1;
+                    $path='';
                 }
                 ?>
                 <a href="<?php echo get_site_url().'/'.$path;?>" class="d-inline-block lang-a">EN</a> | <a
