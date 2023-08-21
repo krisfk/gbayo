@@ -54,7 +54,7 @@ get_header(); ?>
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-12  mb-lg-0 mb-md-4 mb-sm-4 mb-4 ">
 
-            <a href="javascript:void(0);" class="w-75 presenter-a">
+            <a target="_blank" href="<?php echo get_sub_field('presenter_link');?>" class="w-75 presenter-a">
 
                 <img class="w-75"
                     src="<?php echo wp_get_attachment_image_src(get_sub_field('presenter_logo'),'full')[0];?>" alt="">
