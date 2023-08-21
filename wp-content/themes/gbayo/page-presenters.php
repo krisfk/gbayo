@@ -212,9 +212,18 @@ $p_idx++;
 <script type="text/javascript">
 $(function() {
 
-    $('.presenter-a').click(function() {
 
-        if ($(window).width() <= 991) {
+
+
+    $('.presenter-a').click(function(e) {
+
+        if ($(window).width() > 991) {
+
+
+        } else {
+
+            e.preventDefault();
+
             $('.lightbox-layer.txt-layer').fadeIn(200);
 
             $('.lightbox-layer.txt-layer h3').html($(this).next('h3').html());
@@ -223,6 +232,10 @@ $(function() {
             $('.lightbox-layer.txt-layer .sponsor-para-txt').html($('.sponsor-para-txt-' + idx).html());
 
         }
+
+        // if ($(window).width() <= 991) {
+
+        // }
 
 
 
