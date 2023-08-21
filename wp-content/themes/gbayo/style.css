@@ -1221,6 +1221,10 @@ a.mail-link:hover {
   display: none;
 }
 
+.h3-a:hover {
+  cursor: default;
+}
+
 @media only screen and (max-width: 1400px) {
   .top-div-outer-container {
     display: block;
