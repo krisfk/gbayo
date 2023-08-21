@@ -462,6 +462,12 @@ $(function() {
 
     })
 
+    $('.conductor-a').append(
+        '<div class="five-lines-grid" style="top:-3px"> <div class="text-center d-block line-wrapper"> <div class="line line-1"></div> </div> <div class="text-center d-block line-wrapper"> <div class="line line-2"></div> </div> <div class="text-center d-block line-wrapper"> <div class="line line-3"></div> </div> <div class="text-center d-block line-wrapper"> <div class="line line-4"></div> </div> <div class="text-center d-block line-wrapper"> <div class="line line-5"></div> </div> </div>'
+        );
+
+
+
 })
 </script>
 
