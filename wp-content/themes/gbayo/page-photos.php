@@ -203,6 +203,7 @@ if($current_language_code=='cn')
 
                         <?php //echo get_field('media_date');
                         
+                   
                         if($current_language_code=='en')
                         {
                             echo  date("F j, Y", strtotime(get_field('media_date')));
@@ -210,12 +211,12 @@ if($current_language_code=='cn')
 
                         if($current_language_code=='zh')
                         {
-                            echo  date("Y年m月d日", strtotime(get_field('media_date')));
+                            echo  date("Y年n月j日", strtotime(get_field('media_date')));
                         }
 
                         if($current_language_code=='cn')
                         {
-                            echo  date("Y年m月d日", strtotime(get_field('media_date')));
+                            echo  date("Y年n月j日", strtotime(get_field('media_date')));
                         }
 
 ?>
