@@ -60,7 +60,7 @@ get_header(); ?>
                     src="<?php echo wp_get_attachment_image_src(get_sub_field('presenter_logo'),'full')[0];?>" alt="">
             </a>
 
-            <a href="<?php echo get_sub_field('presenter_link');?>" target="_blank" class="h3-a">
+            <a href="<?php echo get_sub_field('presenter_link');?>" target="_blank" class="h3-a text-decoration-none">
                 <h3 class="orange bold mt-lg-4  mt-md-2  mt-sm-2  mt-2"><?php echo get_sub_field('presenter_name');?>
                 </h3>
             </a>
