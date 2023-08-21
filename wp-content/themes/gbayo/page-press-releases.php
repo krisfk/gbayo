@@ -53,7 +53,7 @@ if($current_language_code=='en')
 ?>
         <ul class="news-ul mb-30">
             <li>
-                <a href="<?php echo get_site_url();?>/media" class="active">All</a>
+                <a href="<?php echo get_site_url();?>/media" class="">All</a>
             </li>
             <li>
                 <a href="<?php echo get_site_url();?>/news" class="">News</a>
